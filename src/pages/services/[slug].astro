@@ -1,0 +1,304 @@
+---
+// /services/{slug} — one page per job in the services catalogue.
+//
+// Nothing here is written per page. Every word comes from src/data/services.json
+// through the helpers in src/lib/services.ts, so adding an entry to the JSON
+// adds a page, a sitemap entry, an llms.txt line and a site-map link. The page
+// says what the job is, when it is needed, the standard behind it, what to ask
+// for, and — where one was researched — a national price range. It recommends
+// nobody, and nothing on it is a quote or a state's law.
+import Base from '../../layouts/Base.astro';
+import Chip from '../../components/Chip.astro';
+import PriceBlock from '../../components/PriceBlock.astro';
+import BeforeYouRely from '../../components/BeforeYouRely.astro';
+import {
+  getServices,
+  serviceGroup,
+  servicePath,
+  serviceAnswer,
+  serviceDescription,
+  serviceH1,
+  serviceTitle,
+  relatedServices,
+  standardParts,
+  STANDARD_NOTES,
+  stateSentences,
+  serviceFaq,
+  serviceTags,
+  learnName,
+  SERVICES_UPDATED,
+  type ServiceEntry,
+} from '../../lib/services';
+import { ORG_NAME, SITE_URL, abs, monthYear, DISCLAIMER } from '../../lib/site';
+
+export function getStaticPaths() {
+  return getServices().map((service) => ({ params: { slug: service.slug }, props: { service } }));
+}
+
+interface Props { service: ServiceEntry }
+const { service: s } = Astro.props;
+const path = servicePath(s);
+const group = serviceGroup(s);
+const title = serviceTitle(s);
+const description = serviceDescription(s);
+const h1 = serviceH1(s);
+const { answer, rest } = serviceAnswer(s);
+const related = relatedServices(s);
+const faq = serviceFaq(s);
+const stateText = stateSentences(s);
+const parts = standardParts(s);
+const nationalTags = serviceTags(s).filter((t) => t.startsWith('NATIONAL'));
+const updatedLabel = monthYear(SERVICES_UPDATED) ?? SERVICES_UPDATED;
+const listHref = `/services#${s.slug}`;
+const groupHref = `/services#group-${group.id}`;
+const cap = (t: string) => t.charAt(0).toUpperCase() + t.slice(1);
+
+// ---- JSON-LD: where the page sits, what it is about, and its questions.
+// No Service, Offer or price markup: nobody here sells the work, and a
+// researched national range is not an offer.
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: ORG_NAME, item: SITE_URL },
+    { '@type': 'ListItem', position: 2, name: 'Chimney and fireplace services', item: abs('/services') },
+    { '@type': 'ListItem', position: 3, name: group.label, item: abs(groupHref) },
+    { '@type': 'ListItem', position: 4, name: s.name, item: abs(path) },
+  ],
+};
+const webPageLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': `${abs(path)}#page`,
+  url: abs(path),
+  name: h1,
+  description,
+  inLanguage: 'en-US',
+  dateModified: SERVICES_UPDATED,
+  isPartOf: { '@id': `${abs('/services')}#services-list` },
+  publisher: { '@id': `${SITE_URL}/#organization` },
+  about: { '@type': 'Thing', name: s.name, description: answer },
+};
+const faqLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+};
+const jsonLd = [breadcrumbLd, webPageLd, faqLd];
+---
+<Base
+  title={title}
+  description={description}
+  path={path}
+  jsonLd={jsonLd}
+  modified={SERVICES_UPDATED}
+  citedAs={updatedLabel}
+  section="services"
+>
+  <nav class="crumb" aria-label="Breadcrumb">
+    <a href="/services">SERVICES</a> / <a href={groupHref}>{group.label.toUpperCase()}</a> / {s.name.toUpperCase()}
+  </nav>
+
+  <div class="layout">
+    <div class="svc-main">
+      <header>
+        <h1>{h1}</h1>
+        <p class="badge-date">Updated {updatedLabel}<span class="dot">·</span>National<span class="dot">·</span>{group.label}</p>
+      </header>
+
+      <section class="svc-sec svc-sec--first" aria-labelledby="what">
+        <h2 id="what">What is {s.noun}?</h2>
+        <p class="lede svc-answer" id="answer">{answer}</p>
+        {rest && <p>{rest}</p>}
+        <p class="read__meta">
+          <a class="anchor-mark" href={listHref}>#{s.slug}</a>
+          <span>ON THE LIST OF ALL SERVICES</span>
+        </p>
+        {s.learn && (
+          <p class="service__learn" id="guide">
+            <a href={s.learn}>Read the guide: {learnName(s.learn).toLowerCase()} →</a>
+          </p>
+        )}
+      </section>
+
+      <section class="svc-sec" aria-labelledby="when">
+        <h2 id="when">When is it actually needed?</h2>
+        <p>{s.when}</p>
+      </section>
+
+      <section class="svc-sec" aria-labelledby="standard">
+        <h2 id="standard">What standard does it answer to?</h2>
+        {nationalTags.length > 0 && (
+          <p class="chips">{nationalTags.map((t) => <Chip glyph="globe">{t}</Chip>)}</p>
+        )}
+        {parts.length > 0 ? (
+          <ul class="svc-standards">
+            {parts.map((p) => <li>{STANDARD_NOTES[p]}</li>)}
+          </ul>
+        ) : (
+          <p>No national chimney standard covers this one.</p>
+        )}
+      </section>
+
+      <section class="svc-sec" aria-labelledby="ask-for">
+        <h2 id="ask-for">What should the invoice or report show?</h2>
+        <p>{s.askFor}</p>
+      </section>
+
+      <section class="svc-sec" aria-labelledby="cost">
+        <h2 id="cost">What does it cost?</h2>
+        {s.priceSlug ? (
+          <div class="price-blocks">
+            <PriceBlock slug={s.priceSlug} id={`price-${s.priceSlug}`} />
+          </div>
+        ) : (
+          <p>
+            Quote after inspection. We have no researched national range for {s.noun}, so expect a written quote once
+            someone has looked at the job — with the work named on its own line.
+          </p>
+        )}
+      </section>
+
+      {s.upsellNote && (
+        <section class="svc-sec svc-upsell" aria-labelledby="upsell">
+          <h2 id="upsell">The upsell to watch for</h2>
+          <p>{s.upsellNote}</p>
+        </section>
+      )}
+
+      <section class="svc-sec" aria-labelledby="state">
+        <h2 id="state">Does your state regulate this?</h2>
+        {s.variesByState && <p class="chips"><Chip glyph="landmark">VARIES BY STATE</Chip></p>}
+        <p class="state-line">
+          {stateText.join(' ')} Our <a href="/rights">50-state laws table</a> and{' '}
+          <a href="/licensing">licensing by state</a> set out what each state requires.
+        </p>
+      </section>
+
+      <section class="svc-sec" aria-labelledby="related">
+        <h2 id="related">Related services</h2>
+        <ul class="svc-related">
+          {related.map(({ service: r, sibling }) => (
+            <li>
+              <span class="kicker">{sibling ? `Also in ${serviceGroup(r).label}` : serviceGroup(r).label}</span>
+              <a href={servicePath(r)}>{r.name}</a>
+            </li>
+          ))}
+        </ul>
+        <p class="service__learn"><a href={listHref}>See it on the list of all {getServices().length} services →</a></p>
+      </section>
+
+      <section aria-labelledby="faq" class="faq-section">
+        <h2 id="faq">Questions about {s.noun}</h2>
+        <div class="faq">
+          {faq.map((f, i) => (
+            <details id={f.id} open={i === 0}>
+              <summary><h3>{f.q}</h3></summary>
+              <div class="prose">
+                {f.id === 'faq-law' ? (
+                  <p>
+                    {stateText.join(' ')} Our <a href="/rights">50-state laws table</a> and{' '}
+                    <a href="/licensing">licensing by state</a> set out what each state requires.
+                  </p>
+                ) : (
+                  <p>{f.a}</p>
+                )}
+              </div>
+              <p class="fineprint"><a class="anchor-mark" href={`#${f.id}`}>#{f.id}</a></p>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      <BeforeYouRely dateLabel={updatedLabel} variant="guide" />
+    </div>
+
+    <aside class="rail" aria-label="About this page">
+      <div class="rail-card">
+        <p class="kicker">Every service</p>
+        <h2>{getServices().length} jobs, one list</h2>
+        <p>{cap(group.blurb)}</p>
+        <p><a class="button button--ghost" href={listHref}>Back to the full list</a></p>
+      </div>
+      <div class="rail-card">
+        <p class="kicker">State law</p>
+        <h2>Read the law in your state</h2>
+        <p>This page covers national standards. Licensing, permits and home-sale rules differ by state — the 50-state table compares them.</p>
+        <p><a class="button button--ghost" href="/rights">Chimney laws by state</a></p>
+      </div>
+      <div class="rail-card">
+        <p class="kicker">Disclaimer</p>
+        <p>{DISCLAIMER} We recommend no one and take no fees.</p>
+      </div>
+    </aside>
+  </div>
+</Base>
+
+<style>
+  .svc-sec {
+    border-top: 1px solid var(--rule);
+    padding-top: 14px;
+    margin-top: 26px;
+    max-width: var(--measure);
+  }
+  .svc-sec--first {
+    border-top: 1px solid var(--ink);
+    margin-top: 8px;
+  }
+  .svc-sec > h2 {
+    font-size: clamp(1.3rem, 2.2vw, 1.6rem);
+    margin: 0 0 10px;
+  }
+  .svc-answer {
+    border-left: 1px solid var(--ember);
+    padding-left: 14px;
+  }
+  .svc-sec .chips {
+    margin: 0 0 10px;
+  }
+  .svc-standards {
+    padding-left: 1.1em;
+    margin: 0;
+  }
+  .svc-standards li + li {
+    margin-top: 6px;
+  }
+  .svc-upsell > p {
+    border-left: 1px solid var(--ember);
+    padding-left: 12px;
+  }
+  .svc-sec .state-line {
+    margin: 0;
+    font-size: 1rem;
+    color: inherit;
+  }
+  .svc-related {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid var(--ink);
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+  @media (min-width: 640px) {
+    .svc-related {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      column-gap: 24px;
+    }
+  }
+  .svc-related li {
+    border-bottom: 1px solid var(--rule);
+    padding: 8px 0;
+  }
+  .svc-related .kicker {
+    display: block;
+    margin: 0;
+  }
+  .svc-main .faq-section {
+    max-width: var(--measure);
+    margin-top: 40px;
+  }
+  .svc-sec .service__learn:last-child {
+    margin-top: 12px;
+  }
+</style>

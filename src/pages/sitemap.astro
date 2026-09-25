@@ -10,6 +10,7 @@
 import Base from '../layouts/Base.astro';
 import { getStates, getLicensing } from '../lib/content';
 import { getLearnHubs } from '../lib/learn';
+import { getServiceGroups, servicePath } from '../lib/services';
 import { getCompanies, companyPath } from '../lib/companies';
 import { getRecords, recordPath, recordJsonPath } from '../lib/registry';
 import { ORG_NAME, SITE_URL, abs, RIGHTS_CSV, monthYear, latest } from '../lib/site';
@@ -25,6 +26,8 @@ for (const s of states) {
   if (!licensingSlugs.has(s.slug)) throw new Error(`[sitemap] ${s.name} has a rights page but no licensing page — the site map would list 101 state links, not 102.`);
 }
 const hubs = getLearnHubs();
+const serviceGroups = getServiceGroups();
+const serviceCount = serviceGroups.reduce((n, g) => n + g.services.length, 0);
 const companies = getCompanies();
 const records = getRecords();
 const lastVerified = latest(states.map((s) => s.lastVerified));
@@ -55,7 +58,7 @@ const jsonLd = [
   <nav class="crumb" aria-label="Breadcrumb">CHIMNEY.SERVICES / SITE MAP</nav>
   <h1>Site map — every page on Chimney.Services</h1>
   <p class="lede">
-    Every page on this site, in one list. State law pages first, then the guides, the company and registry pages, and the files built for machines to read.
+    Every page on this site, in one list. State law pages first, then the services, the guides, the company and registry pages, and the files built for machines to read.
   </p>
 
   <section class="sm-section" aria-labelledby="start-h">
@@ -77,6 +80,18 @@ const jsonLd = [
           {s.publishVerdict === 'DO NOT PUBLISH' && <span class="sm-flag">RIGHTS PAGE UNDER REVIEW</span>}
         </li>
       ))}
+    </ul>
+  </section>
+
+  <section class="sm-section" aria-labelledby="services-h">
+    <h2 id="services-h">Services explained</h2>
+    <p class="sm-lede">One page for each of the {serviceCount} jobs a chimney or hearth company sells — what it is, when it is needed, and what to ask for.</p>
+    <ul class="sm-list sm-list--cols sm-list--services" aria-labelledby="services-h">
+      {serviceGroups.flatMap((g) =>
+        g.services.map((s) => (
+          <li><a href={servicePath(s)}>{s.name}</a> <span class="sm-note">{g.group.label}</span></li>
+        )),
+      )}
     </ul>
   </section>
 
@@ -184,8 +199,12 @@ const jsonLd = [
     letter-spacing: 0.06em;
     color: var(--flag);
   }
+  .sm-list--services {
+    columns: 3;
+  }
   @media (max-width: 1000px) {
     .sm-list--cols { columns: 3; }
+    .sm-list--services { columns: 2; }
   }
   @media (max-width: 720px) {
     .sm-list--cols { columns: 2; }

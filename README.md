@@ -1,6 +1,8 @@
 # Chimney.Services laws site
 
-A static Astro site: `/`, `/rights`, `/{state}/rights`, `/licensing`, `/{state}/licensing`, `/about`, `/learn`, `/chicago`, `/pro/{slug}`, `/companies`, `/professionals`, `/sitemap`, plus `llms.txt`, segmented sitemaps (rights / states / licensing / learn / pro / pages) and CSV downloads.
+A static Astro site: `/`, `/rights`, `/{state}/rights`, `/licensing`, `/{state}/licensing`, `/about`, `/services`, `/services/{slug}`, `/learn`, `/chicago`, `/pro/{slug}`, `/companies`, `/professionals`, `/sitemap`, plus `llms.txt`, segmented sitemaps (rights / states / licensing / learn / pro / services / pages) and CSV downloads.
+
+The 55 service pages (`/services/{slug}`) have no per-page files: `src/pages/services/[slug].astro` renders each entry in `src/data/services.json` through the helpers in `src/lib/services.ts`. Add or edit an entry there and its page, sitemap entry, `llms.txt` line and site-map link follow.
 
 ## Sitemaps
 

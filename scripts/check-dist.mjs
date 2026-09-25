@@ -659,6 +659,103 @@ for (const rel of ['/rights.html', '/licensing.html']) {
   }
 }
 
+// ---- Service pages (/services/{slug}): one per entry in services.json, each
+// indexable, one H1, canonical to itself, FAQ in the DOM and in FAQPage
+// JSON-LD, at most one price range, a link back to its own entry on
+// /services — and every /services entry linking forward to its page. The same
+// three words are banned here as on /services, with the price block stripped
+// first because its shared wording mentions listings.
+{
+  const servicesJson = JSON.parse(fs.readFileSync(path.join(SITE, 'src', 'data', 'services.json'), 'utf8'));
+  const slugs = servicesJson.services.map((x) => x.slug);
+  const servicePages = htmlFiles.filter((f) => /^services\/[a-z0-9-]+\.html$/.test(path.relative(DIST, f).split(path.sep).join('/')));
+  if (servicePages.length !== slugs.length) {
+    errors.push(`services/: ${servicePages.length} service pages in dist, but services.json has ${slugs.length} entries`);
+  }
+  const listHtml = fs.existsSync(path.join(DIST, 'services.html')) ? fs.readFileSync(path.join(DIST, 'services.html'), 'utf8') : '';
+  const servicesXml = files
+    .filter((x) => /sitemap-[a-z]+-\d+\.xml$/.test(x))
+    .map((x) => fs.readFileSync(x, 'utf8'))
+    .join('\n');
+  const servicesSitemapFile = files.find((x) => /sitemap-services-\d+\.xml$/.test(x));
+  if (!servicesSitemapFile) errors.push('sitemaps: no sitemap-services-*.xml segment for the service pages');
+  const llmsServices = llmsRaw.split(/^## /m).find((sec) => sec.startsWith('Services\n')) ?? '';
+  const llmsServiceLines = llmsServices.split('\n').filter((l) => /^- \[.+\]\(https:\/\/www\.chimney\.services\/services\/[a-z0-9-]+\)/.test(l));
+  if (llmsServiceLines.length !== slugs.length) errors.push(`llms.txt: the Services section has ${llmsServiceLines.length} page lines, expected ${slugs.length}`);
+
+  for (const slug of slugs) {
+    const f = path.join(DIST, 'services', `${slug}.html`);
+    const url = `${SITE_ORIGIN}/services/${slug}`;
+    if (!fs.existsSync(f)) {
+      errors.push(`services/${slug}.html: service page is missing from dist`);
+      continue;
+    }
+    const html = fs.readFileSync(f, 'utf8');
+    if ((html.match(/<h1[\s>]/g) ?? []).length !== 1) err(f, 'service page: expected exactly 1 <h1>');
+    const h1 = stripTags(html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1] ?? '').replace(/&#39;/g, "'").trim();
+    if (h1.length > 90) err(f, `service page: H1 is ${h1.length} chars`);
+    if (/noindex/.test(html)) err(f, 'service page must be indexable');
+    if (!html.includes(`<link rel="canonical" href="${url}"`)) err(f, `service page: canonical is not ${url}`);
+    const title = (html.match(/<title>([^<]*)<\/title>/)?.[1] ?? '').replace(/&amp;/g, '&').replace(/&#39;/g, "'");
+    const titleBase = title.replace(/ \| Chimney\.Services$/, '');
+    if (titleBase === title) err(f, 'service page: title does not end with "| Chimney.Services"');
+    if (titleBase.length > 60) err(f, `service page: title is ${titleBase.length} chars before the suffix (max 60)`);
+    if (!html.includes(`<meta property="og:image" content="${SITE_ORIGIN}/chimney-services-logo.png"`)) err(f, 'service page: og:image is not the site logo');
+    if (!html.includes('id="answer"')) err(f, 'service page: no answer block (#answer)');
+
+    const types = [];
+    let faqLd = null;
+    for (const m of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
+      let obj;
+      try {
+        obj = JSON.parse(m[1]);
+      } catch {
+        continue; // parse errors already reported above
+      }
+      types.push(obj['@type']);
+      if (obj['@type'] === 'FAQPage') faqLd = obj;
+      if (obj['@type'] === 'Service' || obj['@type'] === 'Offer' || obj.offers || obj.priceRange) err(f, 'service page: price, offer or Service markup is forbidden');
+      if (obj['@type'] === 'BreadcrumbList') {
+        const items = obj.itemListElement ?? [];
+        if (items.length !== 4) err(f, `service page: BreadcrumbList has ${items.length} items, expected 4`);
+        if (items.at(-1)?.item !== url) err(f, 'service page: BreadcrumbList does not end at this page');
+      }
+      if (obj['@type'] === 'WebPage' && obj.isPartOf?.['@id'] !== `${SITE_ORIGIN}/services#services-list`) {
+        err(f, 'service page: WebPage is not isPartOf the /services ItemList');
+      }
+    }
+    for (const t of ['BreadcrumbList', 'WebPage', 'FAQPage']) if (!types.includes(t)) err(f, `service page: missing ${t} JSON-LD`);
+    const decoded = stripTags(html).replace(/&#39;|&rsquo;/g, "'").replace(/&quot;/g, '"');
+    if (faqLd) {
+      const qs = faqLd.mainEntity ?? [];
+      if (qs.length < 2 || qs.length > 3) err(f, `service page: FAQPage has ${qs.length} questions, expected 3 (2 where a field is too thin)`);
+      for (const q of qs) {
+        if (!q.name || !q.acceptedAnswer?.text) err(f, 'service page: FAQPage question missing name or answer text');
+        else if (!decoded.includes(q.name)) err(f, `service page: FAQ question is not in the DOM: ${q.name}`);
+      }
+    }
+    const blocks = html.match(/<figure class="price-block"/g) ?? [];
+    if (blocks.length > 1) err(f, `service page: ${blocks.length} price blocks, expected at most 1`);
+    if (!html.includes(`href="/services#${slug}"`)) err(f, `service page: no link back to /services#${slug}`);
+    const outsidePrices = stripTags(html.replace(/<figure class="price-block"[\s\S]*?<\/figure>/g, ''));
+    for (const [label, re] of [
+      ['directory', /\bdirector(y|ies)\b/i],
+      ['listing', /\blistings?\b/i],
+      ['verified professional', /verified\s+professional/i],
+    ]) {
+      if (re.test(outsidePrices)) err(f, `service page contains the banned word "${label}"`);
+    }
+    if (/\$/.test(outsidePrices)) err(f, 'service page: a dollar sign appears outside a price block');
+
+    if (!servicesXml.includes(`<loc>${url}</loc>`)) errors.push(`sitemaps: missing ${url}`);
+    if (!llmsRaw.includes(`](${url})`)) errors.push(`llms.txt: missing ${url}`);
+    if (listHtml && !new RegExp(`<h3 id="${slug}"[^>]*><a href="/services/${slug}"`).test(listHtml)) {
+      errors.push(`services.html: the "${slug}" heading does not link to /services/${slug}`);
+    }
+  }
+  console.log(`Checked ${servicePages.length} service page(s).`);
+}
+
 const learnIndex = path.join(DIST, 'learn.html');
 if (fs.existsSync(learnIndex)) {
   const idx = fs.readFileSync(learnIndex, 'utf8');

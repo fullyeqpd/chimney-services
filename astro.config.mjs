@@ -56,7 +56,8 @@ export default defineConfig({
     sitemap({
       // Every entry carries a lastmod. The chunks below overwrite it with the
       // date that actually governs the page (verified / checked / updated);
-      // everything else — the home page, /about, /services, the waiting lists,
+      // everything else — the home page, /about, /services and its per-service
+      // pages, the waiting lists,
       // the company pages and /sitemap — keeps this build date, which is the
       // honest answer for a page with no dated content of its own.
       lastmod: new Date(),
@@ -69,6 +70,8 @@ export default defineConfig({
           /^https:\/\/www\.chimney\.services\/pro\/[a-z0-9-]+$/.test(strip(item.url))
             ? withLastmod(item, proLastmod[strip(item.url)])
             : undefined,
+        // One page per service (/services/{slug}): the build date, like /services itself.
+        services: (item) => (/^https:\/\/www\.chimney\.services\/services\/[a-z0-9-]+$/.test(strip(item.url)) ? item : undefined),
         rights: (item) => (strip(item.url) === `${SITE}/rights` ? withLastmod(item, rightsLastmod) : undefined),
         states: (item) => (/\/[a-z-]+\/rights$/.test(strip(item.url)) ? withLastmod(item, stateLastmod[strip(item.url)]) : undefined),
         licensing: (item) => {

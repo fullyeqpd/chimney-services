@@ -4,6 +4,7 @@ import { getStates, getLicensing } from '../lib/content';
 import { getLearnHubs } from '../lib/learn';
 import { getRecords } from '../lib/registry';
 import { getCompanies } from '../lib/companies';
+import { getServiceGroups, servicePath, serviceDescription } from '../lib/services';
 import { SITE_URL, monthYear, latest } from '../lib/site';
 
 export const GET: APIRoute = async () => {
@@ -62,6 +63,17 @@ export const GET: APIRoute = async () => {
     }
     lines.push('');
   }
+  const serviceGroups = getServiceGroups();
+  lines.push('## Services');
+  lines.push(
+    '> One page per job a chimney or hearth company sells: what it is, when it is needed, the standard behind it, what to ask for, and a researched national price range where one exists. No page recommends anyone or quotes a price.',
+  );
+  for (const g of serviceGroups) {
+    for (const s of g.services) {
+      lines.push(`- [${s.name}](${SITE_URL}${servicePath(s)}): ${serviceDescription(s)} (${g.group.label})`);
+    }
+  }
+  lines.push('');
   if (hubs.length) {
     lines.push('## Learn guides');
     for (const h of hubs) {

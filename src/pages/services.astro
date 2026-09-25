@@ -10,7 +10,7 @@ import Base from '../layouts/Base.astro';
 import Chip from '../components/Chip.astro';
 import PriceBlock from '../components/PriceBlock.astro';
 import BeforeYouRely from '../components/BeforeYouRely.astro';
-import { getServices, getServiceGroups, serviceTags, learnName, SERVICES_UPDATED } from '../lib/services';
+import { getServices, getServiceGroups, serviceTags, learnName, servicePath, SERVICES_UPDATED } from '../lib/services';
 import { ORG_NAME, SITE_URL, abs, monthYear } from '../lib/site';
 
 const path = '/services';
@@ -84,6 +84,7 @@ const webPageLd = {
 const itemListLd = {
   '@context': 'https://schema.org',
   '@type': 'ItemList',
+  '@id': `${abs(path)}#services-list`,
   name: 'Chimney and fireplace services, explained',
   numberOfItems: services.length,
   itemListOrder: 'https://schema.org/ItemListUnordered',
@@ -138,7 +139,7 @@ const jsonLd = [breadcrumbLd, webPageLd, itemListLd, faqLd];
 
       {g.services.map((s) => (
         <article class="service">
-          <h3 id={s.slug}>{s.name}</h3>
+          <h3 id={s.slug}><a href={servicePath(s)}>{s.name}</a></h3>
           <p class="read__meta">
             <a class="anchor-mark" href={`#${s.slug}`} aria-label={`Link to ${s.name}`}>#{s.slug}</a>
             <span>UPDATED {updatedUpper}</span>
@@ -177,6 +178,9 @@ const jsonLd = [breadcrumbLd, webPageLd, itemListLd, faqLd];
               <a href={s.learn}>Read the guide: {learnName(s.learn).toLowerCase()} →</a>
             </p>
           )}
+          <p class="service__learn service__page">
+            <a href={servicePath(s)} aria-label={`Full page: ${s.name}`}>Full page →</a>
+          </p>
         </article>
       ))}
     </section>

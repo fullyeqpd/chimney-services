@@ -1,416 +1,582 @@
 {
   "updated": "2026-09-19",
-  "note": "Every job a chimney and hearth company sells, defined. Plain descriptions only: no prices in prose (priceSlug points at the researched national range), no state law (variesByState links to /rights and /licensing), and upsellNote is filled only where a scare-sell is a known, named pattern in the trade.",
+  "note": "Every job a chimney and hearth company sells, defined. Plain descriptions only: no prices in prose (priceSlug points at the researched national range), no state law (variesByState links to /rights and /licensing), and upsellNote is filled only where a scare-sell is a known, named pattern in the trade. Each entry is also its own page at /services/{slug}: noun is the phrase the page's questions use, shortName (optional) shortens the title and H1, h1 (optional) hand-tunes an H1 the template phrases badly, credential says which trade credential usually applies (general findings from the licensing research, never one state's law), and related cross-links other entries (made two-way at build).",
   "services": [
     {
       "slug": "level-1-inspection",
       "name": "Level 1 chimney inspection",
+      "noun": "a Level 1 chimney inspection",
       "group": "inspection",
-      "what": "The annual visual check of a chimney and appliance that have not changed since the last one. The technician looks at the readily accessible parts — the firebox, the visible flue, the connection to the appliance and the outside of the stack — for sound structure, correct clearances, and anything blocking the flue or building up inside it. Nothing is dismantled and no panels come off.",
+      "what": "A Level 1 inspection is the annual visual check of a chimney and appliance that have not changed since the last one. The technician looks at the readily accessible parts — the firebox, the visible flue, the connection to the appliance and the outside of the stack — for sound structure, correct clearances, and anything blocking the flue or building up inside it. Nothing is dismantled and no panels come off.",
       "when": "Once a year for a system in continuous use with no changes to it, before the burning season starts. NFPA 211 asks for a yearly inspection whether or not the chimney needs sweeping.",
       "standard": "NFPA 211",
       "askFor": "Ask for the inspection level you are buying to be named on the invoice, with photographs of anything the technician says is wrong.",
       "priceSlug": "level-1-inspection",
       "learn": "/learn/chimney-inspection",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "level-2-inspection",
+        "chimney-sweep"
+      ]
     },
     {
       "slug": "level-2-inspection",
       "name": "Level 2 chimney inspection",
+      "noun": "a Level 2 chimney inspection",
       "group": "inspection",
-      "what": "Everything in a Level 1, plus the parts nobody looks at in an ordinary year: accessible attics, crawl spaces and basements where the chimney passes through, and an internal look at the full length of the flue, normally with a camera. It exists to find damage that a visual check from the hearth cannot see.",
+      "what": "A Level 2 inspection is everything in a Level 1, plus the parts nobody looks at in an ordinary year: accessible attics, crawl spaces and basements where the chimney passes through, and an internal look at the full length of the flue, normally with a camera. It exists to find damage that a visual check from the hearth cannot see.",
       "when": "NFPA 211 puts three triggers on a Level 2: the sale or transfer of the property, a change to the system — a different fuel, a different flue size or material, a new or different appliance — and any event that could have damaged the chimney, such as a chimney fire, an earthquake or a severe storm.",
       "standard": "NFPA 211",
       "askFor": "Ask for the video or the stills from inside the flue, not just the conclusion drawn from them.",
       "priceSlug": "level-2-inspection",
       "learn": "/learn/chimney-inspection",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "camera-scan",
+        "real-estate-inspection",
+        "level-3-inspection"
+      ]
     },
     {
       "slug": "level-3-inspection",
       "name": "Level 3 chimney inspection",
+      "noun": "a Level 3 chimney inspection",
       "group": "inspection",
-      "what": "The inspection that opens things up. When a Level 1 or Level 2 points at a hazard that cannot be confirmed any other way, a Level 3 removes or takes apart permanently attached parts of the chimney or the building — a crown, a chase wall, interior finish — to reach the concealed area.",
+      "what": "A Level 3 inspection takes apart permanently attached parts of a chimney or building — a crown, a chase wall, interior finish — to reach a concealed area. It is the inspection that opens things up, used when a Level 1 or Level 2 points at a hazard that cannot be confirmed any other way.",
       "when": "Only after a lower-level inspection has found reason to suspect concealed damage that cannot be evaluated without that access. It is never a starting point, and nobody should sell one as a routine first visit.",
       "standard": "NFPA 211",
       "askFor": "Ask what the Level 1 or Level 2 found that makes demolition necessary, and get that finding in writing before anything is opened up.",
       "priceSlug": "level-3-inspection",
       "learn": "/learn/chimney-inspection",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": []
     },
     {
       "slug": "camera-scan",
       "name": "Internal camera scan of the flue",
+      "shortName": "Chimney camera scan",
+      "noun": "a flue camera scan",
       "group": "inspection",
-      "what": "A camera on a rod or a pole sent up the flue so the inside of the liner can be seen on a screen. It is a tool used inside an inspection rather than a product of its own, and it is the usual way the internal part of a Level 2 is carried out. What you are shown afterwards is evidence; what you are only told about is not.",
+      "what": "A camera scan sends a camera on a rod or a pole up the flue so the inside of the liner can be seen on a screen. It is a tool used inside an inspection rather than a product of its own, and it is the usual way the internal part of a Level 2 is carried out. What you are shown afterwards is evidence; what you are only told about is not.",
       "when": "Whenever the inside of the flue is in question — at a sale, after a chimney fire, before relining, or when damage is claimed that you cannot see for yourself.",
       "standard": "NFPA 211",
       "askFor": "Ask for a copy of the footage or the stills, dated, before agreeing to any repair based on them.",
       "priceSlug": null,
       "learn": "/learn/chimney-inspection",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": []
     },
     {
       "slug": "real-estate-inspection",
       "name": "Pre-purchase (real-estate) chimney inspection",
+      "shortName": "Pre-purchase chimney inspection",
+      "noun": "a pre-purchase chimney inspection",
       "group": "inspection",
-      "what": "A chimney inspection carried out for a sale or transfer and reported in a form a buyer, a seller or an agent can act on. NFPA 211 puts a sale in the Level 2 category, so this is a Level 2 by another name: the flue is scanned internally and the concealed runs are checked. A general home inspection is usually not this, and usually says so in its own limitations.",
+      "what": "A pre-purchase chimney inspection is one carried out for a sale or transfer and reported in a form a buyer, a seller or an agent can act on. NFPA 211 puts a sale in the Level 2 category, so this is a Level 2 by another name: the flue is scanned internally and the concealed runs are checked. A general home inspection is usually not this, and usually says so in its own limitations.",
       "when": "When a home with any chimney, fireplace or fuel-burning appliance changes hands — inside the inspection period, not after closing.",
       "standard": "NFPA 211",
       "askFor": "Ask for a dated written report that names the inspection level, carries photographs, and is addressed to whoever paid for it.",
       "priceSlug": null,
       "learn": "/learn/chimney-inspection",
       "upsellNote": null,
-      "variesByState": true
+      "variesByState": true,
+      "credential": "Seller disclosure rules differ by state — some states' forms carry a chimney item and others do not — and several states tie a carbon monoxide alarm requirement to a sale. The 50-state table compares them.",
+      "related": []
     },
     {
       "slug": "post-fire-inspection",
       "name": "Post-chimney-fire inspection",
+      "shortName": "Inspection after a chimney fire",
+      "noun": "a post-chimney-fire inspection",
       "group": "inspection",
-      "what": "After a chimney fire, the inspection that establishes whether the flue can still be used. NFPA 211 puts it at Level 2 — a chimney fire is exactly the kind of event likely to have caused damage — and it becomes a Level 3 where concealed damage is suspected and cannot be reached any other way. A chimney fire can crack clay tiles, warp a metal liner and damage the structure around the flue while leaving little sign in the room.",
+      "what": "A post-fire inspection establishes whether a flue can still be used after a chimney fire. NFPA 211 puts it at Level 2 — a chimney fire is exactly the kind of event likely to have caused damage — and it becomes a Level 3 where concealed damage is suspected and cannot be reached any other way. A chimney fire can crack clay tiles, warp a metal liner and damage the structure around the flue while leaving little sign in the room.",
       "when": "After any chimney fire, including a small one that went out on its own, and after a house fire, a lightning strike, an earthquake or a storm that could have moved the stack.",
       "standard": "NFPA 211",
       "askFor": "Ask for the findings in writing before the next fire is lit, and tell your insurer — a chimney fire is normally a claimable event.",
       "priceSlug": null,
       "learn": "/learn/chimney-inspection",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "level-2-inspection",
+        "creosote-removal"
+      ]
     },
-
     {
       "slug": "chimney-sweep",
       "name": "Chimney sweep (standard flue)",
+      "shortName": "Chimney sweep",
+      "noun": "a chimney sweep",
       "group": "cleaning",
-      "what": "The mechanical cleaning of the flue: brushes or rotary heads run through the chimney to bring down soot and creosote, with a vacuum and drop cloths holding the dust. A sweep removes deposits; it does not by itself tell you the chimney is sound. Most companies do a Level 1 inspection on the same visit, but the two are separate jobs and belong on the invoice separately.",
+      "what": "A chimney sweep is the mechanical cleaning of the flue: brushes or rotary heads run through the chimney to bring down soot and creosote, with a vacuum and drop cloths holding the dust. A sweep removes deposits; it does not by itself tell you the chimney is sound. Most companies do a Level 1 inspection on the same visit, but the two are separate jobs and belong on the invoice separately.",
       "when": "When deposits build to a depth worth removing — the trade's working rule is about an eighth of an inch of creosote — or when the yearly inspection says so.",
       "standard": "NFPA 211",
       "askFor": "Ask to be shown the flue before and after, and ask whether an inspection was included or only the cleaning.",
       "priceSlug": "chimney-sweep-flat",
       "learn": "/learn/chimney-sweeping",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": "In 50 of 51 jurisdictions no state credential is written for chimney sweeping. Vermont's sweep certificate is the exception, and on our reading of its rules it covers public buildings and rentals, not an owner-occupied single-family home.",
+      "related": [
+        "creosote-removal",
+        "fireplace-cleaning"
+      ]
     },
     {
       "slug": "fireplace-cleaning",
       "name": "Fireplace and firebox cleaning",
+      "noun": "fireplace cleaning",
       "group": "cleaning",
-      "what": "The hearth end of the same visit: ash taken out, the firebox brushed down, the damper and smoke shelf cleared, and the surround cleaned. It is cosmetic and functional at once — a clogged smoke shelf and a seized damper both start as dirt.",
+      "what": "Fireplace cleaning takes out the ash, brushes down the firebox, clears the damper and smoke shelf, and cleans the surround — the hearth end of a sweep visit. It is cosmetic and functional at once: a clogged smoke shelf and a seized damper both start as dirt.",
       "when": "At the annual sweep, and any time ash has built up past the grate or the damper has stopped moving freely.",
       "standard": "Manufacturer instructions",
       "askFor": "Ask what was found behind the ash — a cracked panel or a failed damper shows up best in an empty firebox.",
       "priceSlug": null,
       "learn": "/learn/chimney-sweeping",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": []
     },
     {
       "slug": "creosote-removal",
       "name": "Creosote removal and deglazing",
+      "noun": "creosote removal",
       "group": "cleaning",
-      "what": "Creosote comes off in stages. Loose soot and flaky deposits come down with a brush; hardened, shiny third-stage glaze does not, and needs rotary tools or a chemical treatment applied across one or more visits to break it down first. Glaze is the form that burns hardest and longest in a chimney fire, which is why it is treated as a different job from sweeping.",
+      "what": "Creosote is the combustible residue that condenses inside a chimney when wood smoke cools, and it comes off in stages. Loose soot and flaky deposits come down with a brush; hardened, shiny third-stage glaze does not, and needs rotary tools or a chemical treatment applied across one or more visits to break it down first. Glaze is the form that burns hardest and longest in a chimney fire, which is why it is treated as a different job from sweeping.",
       "when": "When an inspection finds hard, tar-like deposits rather than powder — typically after a season of slow, smoldering fires or unseasoned wood.",
       "standard": "NFPA 211",
       "askFor": "Ask for photographs of the deposit before and after, and ask which stage the technician says it is.",
       "priceSlug": "creosote-deglazing",
       "learn": "/learn/creosote",
       "upsellNote": "Glaze is a real hazard and a favorite upsell at once — ask to be shown it, ask which stage it is, and remember that a powdery black flue is not glaze.",
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "odor-diagnosis"
+      ]
     },
     {
       "slug": "wood-stove-cleaning",
       "name": "Wood stove and insert cleaning",
+      "noun": "wood stove cleaning",
       "group": "cleaning",
-      "what": "A stove or an insert is cleaned through its own connector pipe and baffles, not only down the flue. Baffles and secondary air tubes come out, the firebox and connector are brushed, and on an insert the surround is often pulled so the liner and the space behind the unit can be reached. It takes longer than an open-fireplace sweep and is priced accordingly.",
+      "what": "Wood stove and insert cleaning works through the appliance's own connector pipe and baffles, not only down the flue. Baffles and secondary air tubes come out, the firebox and connector are brushed, and on an insert the surround is often pulled so the liner and the space behind the unit can be reached. It takes longer than an open-fireplace sweep and is priced accordingly.",
       "when": "Once a season for regular burning, and more often for a stove run slow or on softwood.",
       "standard": "NFPA 211 · manufacturer instructions",
       "askFor": "Ask whether the insert was pulled or only swept from the top — behind an insert is where deposits hide.",
       "priceSlug": null,
       "learn": "/learn/chimney-sweeping",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "wood-stove-install",
+        "insert-install"
+      ]
     },
     {
       "slug": "pellet-stove-cleaning",
       "name": "Pellet stove cleaning",
+      "noun": "pellet stove cleaning",
       "group": "cleaning",
-      "what": "Pellet appliances burn with a blower, so they foul differently: fly ash coats the heat exchanger, the burn pot crusts over, and the vent pipe and exhaust blower collect ash rather than creosote. A full service strips and vacuums those parts and checks the gaskets and the venting.",
+      "what": "Pellet stove cleaning strips and vacuums the parts a pellet appliance fouls, which are not the ones a wood stove fouls. Pellet appliances burn with a blower: fly ash coats the heat exchanger, the burn pot crusts over, and the vent pipe and exhaust blower collect ash rather than creosote. A full service cleans those parts and checks the gaskets and the venting.",
       "when": "Once a season at minimum for regular use, and at whatever interval the manufacturer states for the model — pellet makers usually give one in tons burned.",
       "standard": "Manufacturer instructions · NFPA 211",
       "askFor": "Ask for the manufacturer's service interval for your model, and whether the vent pipe was cleaned or only the stove.",
       "priceSlug": "pellet-stove-cleaning",
       "learn": "/learn/chimney-sweeping",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "pellet-stove-install"
+      ]
     },
     {
       "slug": "gas-fireplace-service",
       "name": "Gas fireplace annual service",
+      "noun": "a gas fireplace service",
       "group": "cleaning",
-      "what": "A gas hearth still needs a yearly visit: burner, pilot and thermocouple or thermopile cleaned and tested, the glass pulled and resealed on a direct-vent unit, the logs put back in the positions the maker specifies, and the venting and gaskets checked. Soot on the glass or logs out of position is a combustion fault, not a cleaning problem.",
+      "what": "A gas fireplace still needs a yearly service visit: burner, pilot and thermocouple or thermopile cleaned and tested, the glass pulled and resealed on a direct-vent unit, the logs put back in the positions the maker specifies, and the venting and gaskets checked. Soot on the glass or logs out of position is a combustion fault, not a cleaning problem.",
       "when": "Once a year before the heating season, and straight away if you smell gas, see sooting, or the unit will not stay lit.",
       "standard": "Manufacturer instructions · NFPA 211",
       "askFor": "Ask which gas credential the technician holds — NFI Gas is the common hearth one — and for the log placement to be photographed after it is reset.",
       "priceSlug": "gas-fireplace-annual-service",
       "learn": null,
       "upsellNote": null,
-      "variesByState": true
+      "variesByState": true,
+      "credential": "Gas hearth work is often licensed more tightly than chimney work. Where a state credential applies it is usually a gas fitter's or plumber's license, or for propane a separate LP permit, and a few states write a hearth-specific license that builds on NFI certification. NFI Gas is an industry certification, not a state license.",
+      "related": [
+        "gas-fireplace-install",
+        "gas-line-hookup",
+        "co-investigation"
+      ]
     },
     {
       "slug": "dryer-vent-cleaning",
       "name": "Dryer vent cleaning",
+      "noun": "dryer vent cleaning",
       "group": "cleaning",
-      "what": "Lint pulled out of the dryer duct from the appliance to the outside hood, with the hood flap checked afterwards. Chimney companies sell it because it is the same trade — a duct, a brush, a vacuum — and because a blocked dryer duct is a fire risk in its own right. It is not chimney work and belongs on its own line of the invoice.",
+      "what": "Dryer vent cleaning pulls lint out of the duct from the dryer to the outside hood, and checks the hood flap afterwards. Chimney companies sell it because it is the same trade — a duct, a brush, a vacuum — and because a blocked dryer duct is a fire risk in its own right. It is not chimney work and belongs on its own line of the invoice.",
       "when": "Yearly for a household dryer, sooner if clothes take two cycles to dry or the outside flap no longer opens.",
       "standard": "IRC · manufacturer instructions",
       "askFor": "Ask to see the lint that came out and the outside hood opening, and ask about the duct's length and bends if the dryer has never dried well.",
       "priceSlug": "dryer-vent-cleaning",
       "learn": null,
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "dryer-vent-install"
+      ]
     },
     {
       "slug": "furnace-flue-cleaning",
       "name": "Furnace and boiler flue cleaning",
+      "noun": "furnace flue cleaning",
       "group": "cleaning",
-      "what": "The flue serving a gas or oil furnace or boiler is swept and checked like any other. Oil leaves heavy soot; gas leaves less but corrodes and scales a flue, and a water heater left alone on an oversized flue after a furnace upgrade is a classic venting fault found on this visit.",
+      "what": "Furnace flue cleaning sweeps and checks the flue serving a gas or oil furnace or boiler, like any other flue. Oil leaves heavy soot; gas leaves less but corrodes and scales a flue, and a water heater left alone on an oversized flue after a furnace upgrade is a classic venting fault found on this visit.",
       "when": "Yearly alongside the heating service, and whenever an appliance on that flue is replaced — a new appliance on an old flue is a Level 2 trigger.",
       "standard": "NFPA 211 · IRC",
       "askFor": "Ask, in writing, whether the flue is correctly sized for the appliance now connected to it.",
       "priceSlug": null,
       "learn": "/learn/flue-liners",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "liner-stainless-install",
+        "co-investigation"
+      ]
     },
-
     {
       "slug": "tuckpointing",
       "name": "Tuckpointing (repointing) the stack",
+      "shortName": "Chimney tuckpointing",
+      "noun": "chimney tuckpointing",
       "group": "masonry",
-      "what": "Old mortar is ground or raked out of the joints to a depth and refilled with new mortar matched to the brick. On a chimney it is done above the roofline, where weather hits hardest. Cut out and refilled properly it is structural; smeared over the face without cutting the joint out, it fails within a season or two.",
+      "what": "Tuckpointing, or repointing, grinds or rakes old mortar out of the joints to a set depth and refills them with new mortar matched to the brick. On a chimney it is done above the roofline, where weather hits hardest. Cut out and refilled properly it is structural; smeared over the face without cutting the joint out, it fails within a season or two.",
       "when": "When joints are recessed, crumbling or washing out and water is getting in. Freeze-thaw climates bring it round faster.",
       "standard": "IRC",
       "askFor": "Ask how deep the joints will be cut and which mortar type is being matched to your brick, and for photographs of the joints before the work starts.",
       "priceSlug": "tuckpointing",
       "learn": null,
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "brick-replacement",
+        "waterproofing-application"
+      ]
     },
     {
       "slug": "brick-replacement",
       "name": "Brick replacement",
+      "noun": "chimney brick replacement",
       "group": "masonry",
-      "what": "Individual bricks that have failed — cracked through, broken or missing — are cut out and replaced and the surrounding joints repointed. Replacements are matched on size and, as closely as can be managed, on color and texture. An exact match on an old chimney is rarely possible, and an honest contractor says so before starting rather than after.",
+      "what": "Chimney brick replacement cuts out failed bricks — cracked through, broken or missing — replaces them, and repoints the joints around them. Replacements are matched on size and, as closely as can be managed, on color and texture. An exact match on an old chimney is rarely possible, and an honest contractor says so before starting rather than after.",
       "when": "When bricks are broken, displaced or missing, usually alongside repointing rather than on its own.",
       "standard": "IRC",
       "askFor": "Ask for a photograph of each brick being replaced and the reason it failed.",
       "priceSlug": null,
       "learn": null,
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": []
     },
     {
       "slug": "spalling-repair",
       "name": "Spalling brick repair",
+      "noun": "spalling brick repair",
       "group": "masonry",
-      "what": "Spalling is brick face popping off in flakes or chunks, caused by water soaking in and freezing, or by a hard sealer or hard mortar trapping moisture inside a soft brick. The repair replaces the spalled units and then deals with the water source — a failed crown, a missing cap, open joints, or masonry never made to shed water. Replacing brick without finding the water does the same thing again.",
+      "what": "Spalling repair replaces brick whose face is popping off in flakes or chunks, and deals with the water that caused it. Spalling comes from water soaking in and freezing, or from a hard sealer or hard mortar trapping moisture inside a soft brick. The water source is usually a failed crown, a missing cap, open joints, or masonry never made to shed water — and replacing brick without finding it does the same thing again.",
       "when": "When faces are flaking or crumbling, and always together with an answer to where the water is coming from.",
       "standard": "IRC",
       "askFor": "Ask what is letting the water in, not only what is being replaced.",
       "priceSlug": null,
       "learn": "/learn/chimney-crown",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "waterproofing-application",
+        "ice-and-snow-damage"
+      ]
     },
     {
       "slug": "crown-repair",
       "name": "Chimney crown repair",
+      "noun": "chimney crown repair",
       "group": "masonry",
-      "what": "The crown is the slab across the top of a masonry chimney that sheds water off the stack — the chimney's roof. Repair means filling and sealing cracks, or coating the crown with a flexible crown sealer, where the slab itself is sound but weathered.",
+      "what": "Chimney crown repair fills and seals the cracks in a crown that is weathered but still sound, usually with a flexible sealant made for crowns. The crown is the slab across the top of a masonry chimney that sheds water off the stack — the chimney's roof. Repair means cleaning it, filling the cracks, and coating it with that sealant. Sealant makers require a surface that is structurally sound and not loose, so a crown that is breaking apart, or a thin mortar wash where a real crown belongs, is a rebuild rather than a repair.",
       "when": "When cracking is hairline to moderate and the slab has not broken up or lost its overhang.",
       "standard": "NFPA 211 · IRC",
       "askFor": "Ask for a photograph of your crown taken from the roof, with something in the frame for scale.",
       "priceSlug": "crown-repair",
       "learn": "/learn/chimney-crown",
       "upsellNote": "“We found cracks in your crown” is the most common scare-sell in the trade. Every crown eventually shows hairline cracks, so ask for a dated photograph of yours and ask whether what is shown is hairline or structural before agreeing to a rebuild.",
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "crown-rebuild",
+        "full-coverage-cap",
+        "waterproofing-application"
+      ]
     },
     {
       "slug": "crown-rebuild",
       "name": "Chimney crown rebuild",
+      "noun": "a chimney crown rebuild",
       "group": "masonry",
-      "what": "When the slab has broken up, lost its overhang, or was only a thin mortar wash to begin with, it is taken off and recast as a proper crown: reinforced concrete, sloped to shed water, with an overhang, a drip edge and a bond break around the flue tile. Those details are what make it last.",
+      "what": "A crown rebuild replaces a crown that has broken up, lost its overhang, or was only a thin mortar wash to begin with. The old top is taken off and recast as a proper crown: reinforced concrete, sloped to shed water, with an overhang, a drip edge and a bond break around the flue tile. Those details are what make it last.",
       "when": "When the crown has failed as a structure rather than cracked — chunks missing, tiles loose, or a mortar wash where a cast slab belongs.",
       "standard": "NFPA 211 · IRC",
       "askFor": "Ask whether you are being sold a repair or a rebuild, and what overhang and drip edge the new crown will have.",
       "priceSlug": "crown-rebuild",
       "learn": "/learn/chimney-crown",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "full-coverage-cap",
+        "chimney-rebuild-above-roofline"
+      ]
     },
     {
       "slug": "chimney-rebuild-above-roofline",
       "name": "Chimney rebuild above the roofline",
+      "noun": "a chimney rebuild above the roofline",
       "group": "masonry",
-      "what": "The stack above the roof is taken down to sound masonry and rebuilt: new brick, new joints, a new crown, and new flashing where it ties into the roof. It is the standard answer for an exposed stack that is leaning, badly spalled or open at the joints along its whole run, where repointing would buy only a season.",
+      "what": "A chimney rebuild above the roofline takes the stack down to sound masonry and rebuilds it: new brick, new joints, a new crown, and new flashing where it ties into the roof. It is the standard answer for an exposed stack that is leaning, badly spalled or open at the joints along its whole run, where repointing would buy only a season.",
       "when": "When the exposed stack has failed as a structure rather than in patches, or when it is no longer safe to leave standing.",
       "standard": "IRC · NFPA 211",
       "askFor": "Ask for a written scope: how far down the tear-out goes, what happens to the liner, and who reflashes the roof afterwards.",
       "priceSlug": "chimney-rebuild-above-roofline",
       "learn": null,
       "upsellNote": null,
-      "variesByState": true
+      "variesByState": true,
+      "credential": "Masonry rebuilds are among the chimney jobs most likely to need a contractor license or registration, a permit and an inspection. In several Southern states the license turns on the size of the job, through a dollar threshold.",
+      "related": [
+        "tuckpointing",
+        "flashing-repair"
+      ]
     },
     {
       "slug": "firebox-rebuild",
       "name": "Firebox rebuild and repair",
+      "noun": "a firebox rebuild",
       "group": "masonry",
-      "what": "The firebox is the chamber the fire burns in. In a masonry fireplace it is built of firebrick laid in refractory mortar, and it is relaid in part or rebuilt when joints have washed out, brick has cracked through, or the back wall has begun to lean. Ordinary brick and ordinary mortar do not belong in it.",
+      "what": "A firebox rebuild relays or rebuilds the chamber the fire burns in when its joints have washed out, its brick has cracked, or its back wall leans. In a masonry fireplace the firebox is built of firebrick laid in refractory mortar. Ordinary brick and ordinary mortar do not belong in it.",
       "when": "When joints have opened up, firebrick is cracked through or missing, or the back and sides have moved out of line.",
       "standard": "NFPA 211 · IRC",
       "askFor": "Ask for photographs of the open joints or cracked brick, and confirm in writing that firebrick and refractory mortar are being used.",
       "priceSlug": "firebox-rebuild",
       "learn": null,
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "smoke-chamber-parging"
+      ]
     },
     {
       "slug": "refractory-panel-replacement",
       "name": "Refractory panel replacement",
+      "noun": "refractory panel replacement",
       "group": "masonry",
-      "what": "A factory-built fireplace has molded refractory panels instead of firebrick. They crack with heat and age, and the manufacturer sets the point at which a cracked panel must be replaced — usually a crack wider than a stated gauge. Panels are model-specific: the right part is the one made for that unit, not a generic slab cut to fit.",
+      "what": "Refractory panel replacement swaps the molded panels that line a factory-built fireplace in place of firebrick. They crack with heat and age, and the manufacturer sets the point at which a cracked panel must be replaced — usually a crack wider than a stated gauge. Panels are model-specific: the right part is the one made for that unit, not a generic slab cut to fit.",
       "when": "When a panel is cracked past the manufacturer's stated limit, has crumbled, or has pulled away from the shell.",
       "standard": "Manufacturer instructions",
       "askFor": "Ask for the manufacturer's crack limit for your model and the part number of the replacement panel.",
       "priceSlug": null,
       "learn": null,
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "prefab-fireplace-replacement"
+      ]
     },
     {
       "slug": "smoke-chamber-parging",
       "name": "Smoke chamber parging and cleaning",
+      "shortName": "Smoke chamber parging",
+      "noun": "smoke chamber parging",
       "group": "masonry",
-      "what": "The smoke chamber is the sloped space above the damper that funnels smoke into the flue. Corbelled brick leaves it stepped and rough, which catches creosote and slows the draft. Parging smooths it with refractory mortar, by hand or sprayed, and the chamber is cleaned at the same visit because deposits collect on every step.",
+      "what": "Smoke chamber parging smooths the sloped space above the damper that funnels smoke into the flue. Corbelled brick leaves that chamber stepped and rough, which catches creosote and slows the draft. Parging coats it with refractory mortar, by hand or sprayed, and the chamber is cleaned at the same visit because deposits collect on every step.",
       "when": "When an inspection finds an open, stepped or deteriorated smoke chamber, often alongside a draft complaint or creosote that keeps coming back.",
       "standard": "NFPA 211 · IRC",
       "askFor": "Ask for a photograph up into the smoke chamber before and after — it is the easiest part of a chimney to show you and the hardest to see yourself.",
       "priceSlug": null,
       "learn": null,
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "chimney-fan"
+      ]
     },
     {
       "slug": "chimney-leak-repair",
       "name": "Chimney leak repair",
+      "noun": "chimney leak repair",
       "group": "masonry",
-      "what": "Water showing up on a ceiling or wall beside a chimney has a short list of causes: a failed crown, a missing or undersized cap, open mortar joints, porous brick, failed flashing where the stack meets the roof, or condensation inside an oversized flue. Leak repair is diagnosis first — working out which of those it is — and then the matching repair.",
+      "what": "Chimney leak repair finds why water is showing up on a ceiling or wall beside a chimney, and then fixes that cause. The list of causes is short: a failed crown, a missing or undersized cap, open mortar joints, porous brick, failed flashing where the stack meets the roof, or condensation inside an oversized flue. The work is diagnosis first — working out which of those it is — and then the matching repair.",
       "when": "At the first stain, before the ceiling comes down. Water is the largest single cause of chimney deterioration.",
       "standard": "IRC · NFPA 211",
       "askFor": "Ask which causes were ruled out and how, before paying for any of the fixes.",
       "priceSlug": null,
       "learn": "/learn/chimney-crown",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "water-intrusion-diagnosis",
+        "flashing-repair",
+        "crown-repair"
+      ]
     },
-
     {
       "slug": "rain-cap-install",
       "name": "Rain cap installation, single flue",
+      "shortName": "Chimney cap installation",
+      "noun": "a chimney cap",
       "group": "metal",
-      "what": "A cap sits over the flue and keeps rain, snow, animals and downdraft out, while its mesh holds sparks in. A single-flue cap clamps or screws to one flue tile. It is the cheapest component on a chimney and it protects the most expensive ones.",
+      "what": "A chimney cap is a metal hood with mesh sides that sits over the flue and keeps rain, snow, animals and downdraft out, while its mesh holds sparks in. A single-flue cap clamps or screws to one flue tile. It is the cheapest component on a chimney and it protects the most expensive ones. Stainless steel generally outlasts galvanized, and a rusted or loose cap is usually replaced rather than repaired.",
       "when": "When there is no cap, when the mesh or lid has rusted through or gone missing, or after an animal has got in.",
       "standard": "NFPA 211 · manufacturer instructions",
       "askFor": "Ask for stainless steel or copper rather than galvanized where the budget allows, and for a photograph of the cap installed.",
       "priceSlug": "cap-single-flue",
       "learn": "/learn/rain-caps",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "chase-cover-replacement",
+        "animal-removal"
+      ]
     },
     {
       "slug": "multi-flue-cap",
       "name": "Multi-flue cap installation",
+      "noun": "a multi-flue cap",
       "group": "metal",
-      "what": "One cap covering two or more flues on a single stack, normally fabricated to the crown's dimensions and fixed to the crown rather than to the tiles. It is made to measure, which is why it costs more than a single-flue cap and takes longer to arrive.",
+      "what": "A multi-flue cap is one cap covering two or more flues on a single stack, fixed to the crown rather than to the tiles. It is normally fabricated to the crown's dimensions — made to measure, which is why it costs more than a single-flue cap and takes longer to arrive.",
       "when": "When a stack carries more than one flue and needs covering as a unit — common on older masonry chimneys serving a fireplace and a furnace.",
       "standard": "NFPA 211 · manufacturer instructions",
       "askFor": "Ask for the material and gauge, and whether the cap fixes to the crown or to the tiles.",
       "priceSlug": "cap-multi-flue",
       "learn": "/learn/rain-caps",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": []
     },
     {
       "slug": "full-coverage-cap",
       "name": "Full-coverage chimney cap",
+      "noun": "a full-coverage chimney cap",
       "group": "metal",
-      "what": "A cap covering the whole top of the chimney, crown included, rather than only the flue openings. It keeps water off the crown itself, which is usually what fails first, so it is often fitted at the same visit as crown work.",
+      "what": "A full-coverage cap covers the whole top of the chimney, crown included, rather than only the flue openings, and attaches to the outside of the masonry. It keeps water off the crown itself, which is usually what fails first, so it is often fitted at the same visit as crown work. It shelters a crown but does not repair one that is already cracked, so the crown is fixed first. Full-coverage caps are usually measured and often made to order.",
       "when": "When the crown is weathered or has just been repaired, or where wind-driven rain keeps soaking the stack.",
       "standard": "NFPA 211 · manufacturer instructions",
       "askFor": "Ask how the cap is anchored, and whether the crown underneath was repaired or simply covered over.",
       "priceSlug": "cap-full-coverage",
       "learn": "/learn/rain-caps",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": []
     },
     {
       "slug": "chase-cover-replacement",
       "name": "Chase cover replacement",
+      "noun": "chase cover replacement",
       "group": "metal",
-      "what": "A factory-built chimney usually stands in a boxed chase with a metal lid — the chase cover — around the flue pipe. Galvanized covers rust from standing water and then drip into the chase, rotting the framing below. Replacement means a new cover, normally stainless steel, cut and cross-broken so water runs off instead of pooling.",
+      "what": "Chase cover replacement swaps the metal lid on top of a factory-built chimney's chase for one that sheds water. A factory-built chimney usually stands in a boxed chase, and the chase cover is the lid around the flue pipe. Galvanized covers rust from standing water and then drip into the chase, rotting the framing below. The replacement is normally stainless steel, cut and cross-broken so water runs off instead of pooling.",
       "when": "When the cover is rusted, holding water, or staining the siding under the chase.",
       "standard": "Manufacturer instructions · IRC",
       "askFor": "Ask for a photograph looking down at the existing cover, and for the replacement's material and gauge named in writing.",
       "priceSlug": "chase-cover",
       "learn": "/learn/rain-caps",
       "upsellNote": "A rusty chase cover photographs well and sells easily. Ask whether it is rusted through or only surface-stained, and whether the framing below it is actually wet.",
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "chase-construction",
+        "prefab-fireplace-replacement"
+      ]
     },
     {
       "slug": "damper-repair",
       "name": "Damper repair and replacement",
+      "noun": "damper repair",
       "group": "metal",
-      "what": "The throat damper is the plate above the firebox that opens the flue for a fire and closes it afterwards. They warp, rust, seize and lose their handles. A repair can be a new handle, a new plate or a rebuilt frame; where the frame is cast into the masonry, replacement often means fitting a top-sealing damper at the flue top instead.",
+      "what": "Damper repair fixes or replaces the throat damper — the plate above the firebox that opens the flue for a fire and closes it afterwards. Throat dampers warp, rust, seize and lose their handles. A repair can be a new handle, a new plate or a rebuilt frame; where the frame is cast into the masonry, replacement often means fitting a top-sealing damper at the flue top instead.",
       "when": "When the damper will not open or close fully, when its seal has gone, or when outside air pours down a closed fireplace.",
       "standard": "NFPA 211 · IRC",
       "askFor": "Ask to watch the damper being operated, open and shut, before and after the work.",
       "priceSlug": "damper-throat",
       "learn": null,
       "upsellNote": "“Your damper is shot” is easy to say and easy to check. Ask to watch it move, and ask whether a new plate or handle would do the job before agreeing to a top-sealing unit.",
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "top-sealing-damper"
+      ]
     },
     {
       "slug": "top-sealing-damper",
       "name": "Top-sealing damper installation",
+      "noun": "a top-sealing damper",
       "group": "metal",
-      "what": "A damper mounted at the top of the flue with a gasket seal and a cable running down to the firebox. It closes the flue at the top, which keeps conditioned air in and weather and animals out better than a throat damper does, and it doubles as a rain cap.",
+      "what": "A top-sealing damper is mounted at the top of the flue with a gasket seal and a cable running down to the firebox. It closes the flue at the top, which keeps conditioned air in and weather and animals out better than a throat damper does, and it doubles as a rain cap.",
       "when": "When a cast-in throat damper has failed, when downdraft or heat loss is the complaint, or when a cap is needed anyway.",
       "standard": "NFPA 211 · manufacturer instructions",
       "askFor": "Ask for the cable to be demonstrated from the firebox and the gasket to be shown at installation.",
       "priceSlug": "damper-top-sealing",
       "learn": null,
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "odor-diagnosis"
+      ]
     },
     {
       "slug": "flashing-repair",
       "name": "Flashing repair and resealing",
+      "noun": "chimney flashing repair",
       "group": "metal",
-      "what": "Flashing is the metal that seals the joint where the chimney comes through the roof: step flashing up the sides, counter-flashing let into the mortar joints, and sealant along the top edge. The work runs from resealing a counter-flashing line to cutting in new metal. Tar smeared over old flashing is a patch, not a repair, and it fails.",
+      "what": "Flashing repair reseals or replaces the metal that seals the joint where a chimney comes through the roof. That metal is step flashing up the sides, counter-flashing let into the mortar joints, and sealant along the top edge. The work runs from resealing a counter-flashing line to cutting in new metal. Tar smeared over old flashing is a patch, not a repair, and it fails.",
       "when": "When water appears at the chimney in ordinary rain, when the metal is lifted, split or rusted, and whenever the roof is replaced.",
       "standard": "IRC · manufacturer instructions",
       "askFor": "Ask whether new counter-flashing is being cut into the joint or the old one resealed, and who warrants the roof afterwards.",
       "priceSlug": "flashing-repair",
       "learn": null,
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "roofing-near-chimney",
+        "cricket-install"
+      ]
     },
     {
       "slug": "liner-stainless-install",
       "name": "Stainless steel liner installation",
+      "noun": "a stainless steel chimney liner",
       "group": "metal",
       "what": "A stainless liner is a continuous metal flue dropped down the chimney and connected to the appliance, sized to that appliance and usually insulated. It is the normal answer when a clay flue is damaged, or when an old chimney has to serve a new stove, insert or furnace. The parts are listed as a system — liner, insulation, connector and cap together.",
       "when": "When an inspection finds a cracked, gapped or missing liner, or when an appliance is added or changed and the existing flue is the wrong size or material for it.",
@@ -419,91 +585,126 @@
       "priceSlug": "liner-stainless-install",
       "learn": "/learn/flue-liners",
       "upsellNote": "“You need a new liner” is the highest-value sentence in the trade. Ask for footage of the damage, ask what exactly it shows — a crack, a gap, a missing tile — and get a second opinion before replacing a flue you have never seen.",
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "liner-cast-in-place",
+        "flue-tile-resurfacing",
+        "camera-scan",
+        "wood-stove-install",
+        "insert-install"
+      ]
     },
     {
       "slug": "liner-cast-in-place",
       "name": "Cast-in-place liner",
+      "noun": "a cast-in-place liner",
       "group": "metal",
-      "what": "A cement-like liner poured or pumped around a form inside the existing chimney, leaving a smooth, continuous flue bonded to the masonry. It can add strength back to a chimney that has lost it, which a metal liner does not do, and it is a bigger and slower job than dropping in stainless.",
+      "what": "A cast-in-place liner is a cement-like lining poured or pumped around a form inside the chimney, leaving a smooth, continuous flue bonded to the masonry. It can add strength back to a chimney that has lost it, which a metal liner does not do, and it is a bigger and slower job than dropping in stainless.",
       "when": "When the chimney is structurally weak as well as unlined or damaged, or where the flue's shape makes a metal liner impractical.",
       "standard": "NFPA 211 · IRC · manufacturer instructions",
       "askFor": "Ask which product is being used, what it is listed for, and exactly what the warranty covers.",
       "priceSlug": "liner-cast-in-place",
       "learn": "/learn/flue-liners",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "flue-tile-resurfacing"
+      ]
     },
     {
       "slug": "flue-tile-resurfacing",
       "name": "Flue tile resurfacing",
+      "noun": "flue tile resurfacing",
       "group": "metal",
-      "what": "A ceramic coating sprayed or troweled onto the inside of an existing clay tile flue to seal joints and small cracks, applied under the maker's instructions and checked by camera afterwards. Several proprietary systems exist; the usable ones are tested and listed to a standard, and that — not the brand name — is what to ask about.",
+      "what": "Flue tile resurfacing is a ceramic coating sprayed or troweled onto the inside of an existing clay tile flue to seal joints and small cracks. It is applied under the maker's instructions and checked by camera afterwards. Several proprietary systems exist; the usable ones are tested and listed to a standard, and that — not the brand name — is what to ask about.",
       "when": "When an inspection finds open joints or surface cracking in clay tiles that are otherwise in place. It is not a fix for tiles that are missing, collapsed or badly displaced.",
       "standard": "Manufacturer instructions · NFPA 211",
       "askFor": "Ask what the product is listed to, for the before-and-after camera footage, and what happens if the coating fails.",
       "priceSlug": null,
       "learn": "/learn/flue-liners",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": []
     },
     {
       "slug": "chimney-fan",
       "name": "Chimney fan or draft inducer",
+      "noun": "a chimney fan",
       "group": "metal",
-      "what": "A powered fan at the top of the flue, or an inducer in the connector, that pulls the draft mechanically when the chimney cannot make one on its own. It belongs at the end of the queue, after the ordinary causes of poor draft — flue size, chimney height, a blockage, a house too airtight to give up replacement air — have been ruled out.",
+      "what": "A chimney fan is a powered fan at the top of the flue, or an inducer in the connector, that pulls the draft when the chimney cannot make one on its own. It belongs at the end of the queue, after the ordinary causes of poor draft — flue size, chimney height, a blockage, a house too airtight to give up replacement air — have been ruled out.",
       "when": "When a fireplace or appliance will not draw and the structural causes have been checked and cannot be corrected.",
       "standard": "Manufacturer instructions · NFPA 211",
       "askFor": "Ask which draft causes were checked and ruled out first, in writing.",
       "priceSlug": null,
       "learn": null,
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "smoke-test"
+      ]
     },
-
     {
       "slug": "waterproofing-application",
       "name": "Chimney waterproofing",
+      "noun": "chimney waterproofing",
       "group": "weather",
-      "what": "A vapor-permeable water repellent applied to the masonry so the brick sheds water but can still dry outward. The permeable part is the whole point: a film-forming sealer traps moisture inside the wall and makes spalling worse. It goes on sound masonry, after repointing and crown work, never instead of them.",
+      "what": "Chimney waterproofing is a vapor-permeable water repellent applied to the masonry so the brick sheds water but can still dry outward. The permeable part is the whole point: a film-forming sealer traps moisture inside the wall and makes spalling worse. It goes on sound masonry, after repointing and crown work, never instead of them.",
       "when": "After repointing or crown repair, and then on the interval the product maker states — usually several years — in wet or freeze-thaw climates.",
       "standard": "Manufacturer instructions",
       "askFor": "Ask for the product name and its vapor permeability, and confirm the repairs happen before the coating, not after it.",
       "priceSlug": "waterproofing-application",
       "learn": "/learn/chimney-crown",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "spalling-repair"
+      ]
     },
     {
       "slug": "cricket-install",
       "name": "Chimney cricket (saddle) installation",
+      "shortName": "Chimney cricket installation",
+      "noun": "a chimney cricket",
       "group": "weather",
-      "what": "A small peaked structure built on the up-slope side of a chimney so water and snow divide and run around the stack instead of piling against it. The IRC requires one behind chimneys above a stated width on a sloped roof, with the detail depending on the chimney's width and the roof's pitch.",
+      "what": "A chimney cricket, or saddle, is a small peaked structure on the up-slope side of a chimney that turns water and snow around the stack. Without one, both pile up against the chimney. The IRC requires one behind chimneys above a stated width on a sloped roof, with the detail depending on the chimney's width and the roof's pitch.",
       "when": "When a wide chimney on a sloped roof has none, when the up-slope side is the one leaking, or when the roof is being replaced anyway.",
       "standard": "IRC",
       "askFor": "Ask for the chimney's width measured and the code threshold named, and for the cricket's flashing detail to be written into the quote.",
       "priceSlug": null,
       "learn": null,
       "upsellNote": null,
-      "variesByState": true
+      "variesByState": true,
+      "credential": "Chimney flashing is one of the trades our licensing research tracks by state, and whether the code's cricket rule applies depends on the code edition your area has adopted.",
+      "related": []
     },
     {
       "slug": "ice-and-snow-damage",
       "name": "Ice, snow and freeze-thaw damage repair",
+      "shortName": "Freeze-thaw chimney damage repair",
+      "noun": "freeze-thaw damage repair",
       "group": "weather",
-      "what": "Cold weather breaks chimneys in specific ways: water absorbed into brick freezes and pops the face off, ice dams push water back under flashing, and a saturated crown opens a little wider each cycle. The repairs are the ordinary ones — repointing, crown work, flashing, waterproofing — chosen by what the freeze actually broke.",
+      "what": "Freeze-thaw damage repair fixes what cold weather breaks in a chimney: water absorbed into brick freezes and pops the face off, ice dams push water back under flashing, and a saturated crown opens a little wider each cycle. The repairs are the ordinary ones — repointing, crown work, flashing, waterproofing — chosen by what the freeze actually broke.",
       "when": "In spring, once the first thaw has shown what the winter did, and before the next freeze arrives.",
       "standard": "IRC",
       "askFor": "Ask for photographs taken from the roof rather than the ground, and for the water source to be named.",
       "priceSlug": null,
       "learn": "/learn/chimney-crown",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "flashing-repair"
+      ]
     },
-
     {
       "slug": "wood-stove-install",
       "name": "Wood stove installation",
+      "noun": "wood stove installation",
       "group": "installation",
       "what": "A wood stove is set on a hearth pad listed for it, at the clearances the manufacturer's instructions require, and connected to a correctly sized flue — usually a new insulated liner inside an existing chimney. The instructions are the specification: clearances, pad size, connector type and flue diameter all come from them.",
       "when": "When adding a stove, replacing one, or moving an existing stove to another room or another flue.",
@@ -512,217 +713,291 @@
       "priceSlug": "wood-stove-install",
       "learn": "/learn/flue-liners",
       "upsellNote": null,
-      "variesByState": true
+      "variesByState": true,
+      "credential": "Stove installation is one of the trades our licensing research tracks state by state. Where a credential applies it is usually a contractor license or registration, in some states only above a dollar threshold, and some Western states also regulate which wood stoves may be sold or installed.",
+      "related": []
     },
     {
       "slug": "insert-install",
       "name": "Fireplace insert installation",
+      "noun": "fireplace insert installation",
       "group": "installation",
-      "what": "An insert is a closed firebox that slides into an existing masonry fireplace, with a liner run from the insert to the top of the flue and connected as the maker's instructions require. A liner taken all the way up — rather than stubbed into the smoke chamber — is what keeps the system cleanable and sized to the appliance.",
+      "what": "Fireplace insert installation slides a closed firebox into an existing masonry fireplace and runs a liner from the insert to the top of the flue. The liner is connected as the maker's instructions require. A liner taken all the way up — rather than stubbed into the smoke chamber — is what keeps the system cleanable and sized to the appliance.",
       "when": "When converting an open fireplace to a closed, efficient appliance, or replacing an insert that has failed.",
       "standard": "NFPA 211 · manufacturer instructions · IRC",
       "askFor": "Ask for a full-length liner to be specified in writing, and for the permit and inspection where your jurisdiction requires them.",
       "priceSlug": "insert-install",
       "learn": "/learn/flue-liners",
       "upsellNote": null,
-      "variesByState": true
+      "variesByState": true,
+      "credential": "An insert is stove installation work. Where a credential applies it is usually a contractor license or registration, in some states only above a dollar threshold, and a permit and inspection may be required.",
+      "related": []
     },
     {
       "slug": "gas-fireplace-install",
       "name": "Gas fireplace, gas log and conversion installation",
+      "shortName": "Gas fireplace and gas log installation",
+      "h1": "Gas fireplace and gas log installation: what it is, when it's needed",
+      "noun": "gas fireplace installation",
       "group": "installation",
-      "what": "Fitting a gas fireplace, a gas log set, or converting a wood-burning fireplace to gas. The work covers the appliance, the venting — direct-vent, B-vent or vent-free, depending on the unit — and the connection to the gas supply. Whether a vent-free unit may be installed at all is one of the things that varies from state to state.",
+      "what": "Gas fireplace installation fits a gas fireplace or a gas log set, or converts a wood-burning fireplace to gas. The work covers the appliance, the venting — direct-vent, B-vent or vent-free, depending on the unit — and the connection to the gas supply. Whether a vent-free unit may be installed at all is one of the things that varies from state to state.",
       "when": "When replacing an unused wood fireplace, adding a hearth appliance, or changing fuel.",
       "standard": "Manufacturer instructions · NFPA 211 · IRC",
       "askFor": "Ask which venting category the unit is, who is making the gas connection and under what credential, and for the permit.",
       "priceSlug": null,
       "learn": null,
       "upsellNote": null,
-      "variesByState": true
+      "variesByState": true,
+      "credential": "Gas hearth work is often licensed more tightly than chimney work. Where a state credential applies it is usually a gas fitter's or plumber's license, or for propane a separate LP permit, and a few states write a hearth-specific license that builds on NFI certification. The venting and the appliance itself may also need a permit and an inspection.",
+      "related": [
+        "gas-line-hookup"
+      ]
     },
     {
       "slug": "gas-line-hookup",
       "name": "Gas line hookup for a hearth appliance",
+      "shortName": "Gas line hookup for a fireplace",
+      "noun": "a gas line hookup",
       "group": "installation",
-      "what": "Running or connecting the gas supply to a fireplace, log set, stove or insert, including the shutoff valve and the pressure test. In most states this is licensed work and the person doing it holds a gas fitter's or plumber's license — which license, and who issues it, varies by state, and a chimney company may or may not hold one.",
+      "what": "A gas line hookup runs or connects the gas supply to a fireplace, log set, stove or insert, including the shutoff valve and the pressure test. In most states this is licensed work and the person doing it holds a gas fitter's or plumber's license — which license, and who issues it, varies by state, and a chimney company may or may not hold one.",
       "when": "Whenever a gas appliance is installed, moved, or reconnected after work on the hearth.",
       "standard": "IRC · manufacturer instructions",
       "askFor": "Ask to see the license of whoever makes the gas connection, and for the pressure test and the permit to be documented.",
       "priceSlug": null,
       "learn": null,
       "upsellNote": null,
-      "variesByState": true
+      "variesByState": true,
+      "credential": "Gas connections are licensed work in most states — normally a gas fitter or a plumber, and for propane sometimes a separate LP permit. Which license applies, and who issues it, is set state by state, and sometimes by city.",
+      "related": []
     },
     {
       "slug": "pellet-stove-install",
       "name": "Pellet stove installation",
+      "noun": "pellet stove installation",
       "group": "installation",
-      "what": "A pellet appliance is vented through its own listed pellet vent, usually horizontally through a wall or upward inside a liner in an existing chimney, with clearances and terminations set by the manufacturer. It needs electricity, so the installation includes an outlet and, in many homes, a plan for what happens in a power cut.",
+      "what": "A pellet stove is vented through its own listed pellet vent, usually horizontally through a wall or upward inside a liner in an existing chimney. Clearances and terminations are set by the manufacturer. It needs electricity, so the installation includes an outlet and, in many homes, a plan for what happens in a power cut.",
       "when": "When adding or replacing a pellet stove or pellet insert.",
       "standard": "Manufacturer instructions · NFPA 211",
       "askFor": "Ask for the manual's vent termination page and a permit where your jurisdiction requires one.",
       "priceSlug": null,
       "learn": null,
       "upsellNote": null,
-      "variesByState": true
+      "variesByState": true,
+      "credential": "Pellet stove installation is stove work. Where a credential applies it is usually a contractor license or registration, in some states only above a dollar threshold, and a permit and inspection may be required.",
+      "related": []
     },
     {
       "slug": "prefab-fireplace-replacement",
       "name": "Factory-built (prefab) fireplace replacement",
+      "shortName": "Prefab fireplace replacement",
+      "noun": "prefab fireplace replacement",
       "group": "installation",
-      "what": "Factory-built fireplaces are listed systems with a service life. When the firebox shell, the chimney sections or the refractory have failed beyond the maker's repair limits, the unit is replaced rather than rebuilt, and parts are model-specific — discontinued models are often what forces a full replacement. A zero-clearance system put in where none existed is the same work, with framing and a chase added around it.",
+      "what": "Prefab fireplace replacement swaps out a factory-built fireplace whose shell, chimney sections or refractory have failed past the maker's repair limits. Factory-built fireplaces are listed systems with a service life, and their parts are model-specific — discontinued models are often what forces a full replacement. A zero-clearance system put in where none existed is the same work, with framing and a chase added around it.",
       "when": "When panels, shell or chimney sections are damaged past the manufacturer's repair limits, or when parts for the model no longer exist.",
       "standard": "Manufacturer instructions · IRC",
       "askFor": "Ask for the model and serial plate to be photographed, and for the reason the existing unit cannot be repaired.",
       "priceSlug": null,
       "learn": null,
       "upsellNote": null,
-      "variesByState": true
+      "variesByState": true,
+      "credential": "Replacing a factory-built fireplace is installation work: where a credential applies it is usually a contractor license or registration, and if the unit burns gas the gas connection is normally licensed work of its own.",
+      "related": []
     },
     {
       "slug": "chase-construction",
       "name": "Chimney chase construction",
+      "noun": "chimney chase construction",
       "group": "installation",
-      "what": "The framed, sided box that encloses a factory-built chimney, built new or rebuilt when rot has taken the old one. It carries the chase cover at the top, the flashing where it meets the roof, and the siding that matches the house.",
+      "what": "Chase construction builds the framed, sided box that encloses a factory-built chimney — new, or as a rebuild when rot has taken the old one. It carries the chase cover at the top, the flashing where it meets the roof, and the siding that matches the house.",
       "when": "When building or replacing a factory-built system, or when water has rotted the framing of an existing chase.",
       "standard": "Manufacturer instructions · IRC",
       "askFor": "Ask what is going on top — a cross-broken stainless cover sheds water, a flat galvanized one collects it.",
       "priceSlug": null,
       "learn": null,
       "upsellNote": null,
-      "variesByState": true
+      "variesByState": true,
+      "credential": "Building a chase is framing and siding work, so where a credential applies it is usually a general or home-improvement contractor license or registration, often only above a dollar threshold.",
+      "related": []
     },
     {
       "slug": "mantel-install",
       "name": "Mantel and surround installation",
+      "shortName": "Mantel and surround installation",
+      "noun": "mantel installation",
       "group": "installation",
-      "what": "Fitting a mantel or a surround around a fireplace. It looks like carpentry and is partly a clearance question: combustible trim has to keep the distance from the opening that the appliance's instructions or the code require, and a deeper mantel shelf needs more.",
+      "what": "Mantel installation fits a mantel or a surround around a fireplace, and it is partly a clearance question. It looks like carpentry, but combustible trim has to keep the distance from the opening that the appliance's instructions or the code require, and a deeper mantel shelf needs more.",
       "when": "With a new fireplace or insert, or when an existing surround is replaced.",
       "standard": "IRC · manufacturer instructions",
       "askFor": "Ask which clearance figure is being used and where it comes from.",
       "priceSlug": null,
       "learn": null,
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "insert-install",
+        "gas-fireplace-install"
+      ]
     },
     {
       "slug": "outdoor-fireplace-build",
       "name": "Outdoor fireplace and fire pit construction",
+      "shortName": "Outdoor fireplace construction",
+      "noun": "an outdoor fireplace build",
       "group": "installation",
-      "what": "Masonry work outdoors: a built outdoor fireplace with a flue of its own, or a fire pit. Chimney companies take it on because it is the same masonry and the same draft knowledge. Rules on open burning, setbacks and permits apply and are not the same everywhere.",
+      "what": "An outdoor fireplace build is masonry work outdoors: a built outdoor fireplace with a flue of its own, or a fire pit. Chimney companies take it on because it is the same masonry and the same draft knowledge. Rules on open burning, setbacks and permits apply and are not the same everywhere.",
       "when": "New build, or replacement of an outdoor hearth that has broken up.",
       "standard": "IRC",
       "askFor": "Ask which permit the build needs and who is pulling it.",
       "priceSlug": null,
       "learn": null,
       "upsellNote": null,
-      "variesByState": true
+      "variesByState": true,
+      "credential": "Open-burning rules, setbacks and permits are set by states and by cities and counties, so the local building or fire department is often the one to ask.",
+      "related": [
+        "firebox-rebuild"
+      ]
     },
-
     {
       "slug": "smoke-test",
       "name": "Smoke test and draft test",
+      "shortName": "Chimney smoke and draft test",
+      "noun": "a chimney smoke test",
       "group": "diagnostics",
-      "what": "A controlled test to find where smoke goes when it should not: smoke introduced into the flue while the technician watches for it leaving through cracks, crossing into another flue, or coming back into the room. Draft is measured or observed alongside it. It is a diagnostic rather than a repair, and it is how a suspected breach between flues is confirmed.",
+      "what": "A smoke test is a controlled test to find where smoke goes when it should not: smoke introduced into the flue while the technician watches for it leaving through cracks, crossing into another flue, or coming back into the room. Draft is measured or observed alongside it. It is a diagnostic rather than a repair, and it is how a suspected breach between flues is confirmed.",
       "when": "When smoke comes into the house, when one flue smells of another appliance, or when an inspection suspects a breach it cannot see.",
       "standard": "NFPA 211",
       "askFor": "Ask what the test showed and where, in writing, before buying the repair it points to.",
       "priceSlug": "smoke-test",
       "learn": null,
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "co-investigation"
+      ]
     },
     {
       "slug": "co-investigation",
       "name": "Carbon monoxide investigation",
+      "noun": "a carbon monoxide investigation",
       "group": "diagnostics",
-      "what": "When an alarm has sounded or symptoms point at carbon monoxide, the venting of every fuel-burning appliance is checked: spillage at the draft hood, blockage, an undersized or shared flue, and back-drafting pulled on by exhaust fans. The work overlaps with the heating trade, and a fault inside a gas appliance belongs to whoever is licensed for it where you live.",
+      "what": "A carbon monoxide investigation checks the venting of every fuel-burning appliance after an alarm has sounded or symptoms point at carbon monoxide. The technician looks for spillage at the draft hood, blockage, an undersized or shared flue, and back-drafting pulled on by exhaust fans. The work overlaps with the heating trade, and a fault inside a gas appliance belongs to whoever is licensed for it where you live.",
       "when": "Immediately after a carbon monoxide alarm, and whenever headaches, nausea or window condensation follow the heating coming on. Leave the building first and call the fire department or the gas utility.",
       "standard": "NFPA 211 · IRC",
       "askFor": "Ask for the readings taken, where they were taken, and with what instrument.",
       "priceSlug": null,
       "learn": null,
       "upsellNote": null,
-      "variesByState": true
+      "variesByState": true,
+      "credential": "A fault inside a gas appliance belongs to whoever is licensed for gas work where you live — a gas fitter, a plumber or a licensed heating contractor, depending on the state.",
+      "related": []
     },
     {
       "slug": "odor-diagnosis",
       "name": "Chimney odor diagnosis",
+      "noun": "chimney odor diagnosis",
       "group": "diagnostics",
-      "what": "A chimney that smells usually has one of three causes: creosote reacting to summer humidity, an animal or a nest, or a house at negative pressure pulling air down the flue. The fix follows the cause — cleaning, removal, a top-sealing damper, or dealing with the pressure. Deodorants and a sealed damper fitted without a diagnosis only move the problem.",
+      "what": "Chimney odor diagnosis finds which of three usual causes is behind a smell: creosote reacting to summer humidity, an animal or a nest, or a house at negative pressure pulling air down the flue. The fix follows the cause — cleaning, removal, a top-sealing damper, or dealing with the pressure. Deodorants and a sealed damper fitted without a diagnosis only move the problem.",
       "when": "When the smell shows up in warm, humid weather or when the air conditioning runs — the classic signature of air coming down the flue.",
       "standard": "NFPA 211",
       "askFor": "Ask which of the causes was identified, and how.",
       "priceSlug": null,
       "learn": "/learn/creosote",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "animal-removal"
+      ]
     },
     {
       "slug": "animal-removal",
       "name": "Animal removal and wildlife exclusion",
+      "shortName": "Chimney animal removal",
+      "noun": "chimney animal removal",
       "group": "diagnostics",
-      "what": "Birds, squirrels, raccoons and chimney swifts get into uncapped flues, and some of them nest there. The work means getting the animal out, clearing the nest, sweeping the flue and capping it so it cannot happen again. Chimney swifts are protected migratory birds, and there are times of year when an active nest may not be disturbed at all.",
+      "what": "Chimney animal removal gets a bird, squirrel, raccoon or chimney swift out of a flue, clears the nest, sweeps the flue and caps it. Animals get into uncapped flues, and some of them nest there; the cap is what stops it happening again. Chimney swifts are protected migratory birds, and there are times of year when an active nest may not be disturbed at all.",
       "when": "At the first scratching, chirping or smell, and before the next fire — a nest in a flue is a blockage.",
       "standard": "NFPA 211",
       "askFor": "Ask what species it is, how it will be removed, and whether capping afterwards is included in the price.",
       "priceSlug": "animal-removal",
       "learn": "/learn/rain-caps",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": []
     },
     {
       "slug": "water-intrusion-diagnosis",
       "name": "Water intrusion diagnosis",
+      "noun": "water intrusion diagnosis",
       "group": "diagnostics",
-      "what": "Finding where water gets in before anything is rebuilt: testing the stack in sections with a hose, checking crown, cap, joints and flashing in turn, and ruling out condensation inside an oversized or unlined flue. It is the step that decides which repair you actually need, and it is worth paying for on its own.",
+      "what": "Water intrusion diagnosis finds where water gets into a chimney before anything is rebuilt: testing the stack in sections with a hose, checking crown, cap, joints and flashing in turn, and ruling out condensation inside an oversized or unlined flue. It is the step that decides which repair you actually need, and it is worth paying for on its own.",
       "when": "At the first stain or damp smell near a chimney, and before agreeing to a rebuild sold as a leak fix.",
       "standard": "NFPA 211 · IRC",
       "askFor": "Ask for the test that identified the entry point, with photographs of it.",
       "priceSlug": null,
       "learn": "/learn/chimney-crown",
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "crown-repair"
+      ]
     },
-
     {
       "slug": "dryer-vent-install",
       "name": "Dryer vent installation or rerouting",
+      "shortName": "Dryer vent installation",
+      "noun": "dryer vent installation",
       "group": "related",
-      "what": "A new or rerouted dryer duct: rigid metal, the shortest practical run, the fewest bends, ending outside at a hood that opens. Flexible foil duct crushed behind a dryer is the common fault this work corrects. It is related trade work rather than chimney work.",
+      "what": "Dryer vent installation means a new or rerouted dryer duct: rigid metal, the shortest practical run, the fewest bends, ending outside at a hood that opens. Flexible foil duct crushed behind a dryer is the common fault this work corrects. It is related trade work rather than chimney work.",
       "when": "When a dryer cannot dry a load in one cycle, when the duct runs too far or turns too often, or when a laundry is moved.",
       "standard": "IRC · manufacturer instructions",
       "askFor": "Ask for the duct material and the total equivalent length measured against the dryer maker's limit.",
       "priceSlug": null,
       "learn": null,
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": []
     },
     {
       "slug": "gutter-cleaning",
       "name": "Gutter cleaning",
+      "noun": "gutter cleaning",
       "group": "related",
-      "what": "Often bundled with chimney work because the crew is already on the roof, and genuinely useful — gutters overflowing beside a chimney soak the masonry below them. It is not a chimney service, and it belongs on its own line of the invoice rather than folded into a chimney price.",
+      "what": "Gutter cleaning is often bundled with chimney work because the crew is already on the roof, and genuinely useful — gutters overflowing beside a chimney soak the masonry below them. It is not a chimney service, and it belongs on its own line of the invoice rather than folded into a chimney price.",
       "when": "Twice a year on a wooded lot, once otherwise, and whenever water is spilling over beside the chimney.",
       "standard": null,
       "askFor": "Ask for it to be priced separately from the chimney work.",
       "priceSlug": null,
       "learn": null,
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "roofing-near-chimney"
+      ]
     },
     {
       "slug": "roofing-near-chimney",
       "name": "Roofing work around a chimney",
+      "noun": "roofing work around a chimney",
       "group": "related",
-      "what": "Shingles, underlayment and decking around the stack, as distinct from the flashing that seals to it. Some chimney companies do the flashing and refer the roofing out; some do both. Either is fine, as long as one of them warrants the finished result and you know which one.",
+      "what": "Roofing work around a chimney covers the shingles, underlayment and decking around the stack, as distinct from the flashing that seals to it. Some chimney companies do the flashing and refer the roofing out; some do both. Either is fine, as long as one of them warrants the finished result and you know which one.",
       "when": "When the roof is being replaced, when decking under the flashing has rotted, or when the leak turns out to be in the roof rather than the chimney.",
       "standard": "IRC",
       "askFor": "Ask who warrants the roof after the chimney work, in writing, before either trade starts.",
       "priceSlug": null,
       "learn": null,
       "upsellNote": null,
-      "variesByState": false
+      "variesByState": false,
+      "credential": null,
+      "related": [
+        "cricket-install"
+      ]
     }
   ]
 }
