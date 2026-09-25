@@ -6,13 +6,13 @@
   "researched": "2026-07-06",
   "lawsCitedAs": "Sep 2026",
   "headerNote": null,
-  "verified": "2026-09-15",
+  "verified": "2026-09-25",
   "publishVerdict": "READY WITH CAVEATS",
-  "publishVerdictNote": "scam section limited to patterns until AG release is read; licensing described strictly as enacted-not-operative",
+  "publishVerdictNote": "(1) licensing copy must say \"enacted, not operative; starts six months after Board rules; rule status unverified\"; (2) do not state the compliance bond as currently required; (3) scam section limited to patterns until AG release is read; (4) CO rule cited via LII mirror.",
   "verification": {
-    "heading": "Verification pass — September 2026",
-    "checked": "2026-09-15",
-    "markdown": "Checked 2026-09-15 by verification agent. Laws cited as of Sep 2026.\n- Licensing board / full-license status: CORRECTED — P.L. 2023 c.237 (approved Jan 8, 2024; C.45:5AAA-1 et seq.) makes licensing operative six months after the Board promulgates rules, not \"~2027 / two years after board seated\"; no rules found as of June 2026 (REF: browntriallaw.com, 2026-06-13) — https://pub.njleg.state.nj.us/Bills/2022/PL23/237_.PDF — evidence class GOV (statute) + REF (status)\n- Registration statute and threshold: RESOLVED — N.J.S.A. 56:8-136 et seq.; $500,000 per occurrence CGL (56:8-142); fourth-degree crime (56:8-146); fee set by Director (56:8-138). \"$110 fee\" removed as unverified (DCA pages return 403) — https://www.nj.gov/dep/exams/docs/contractor_reg_act.pdf — GOV/DOC\n- Seller disclosure: CORRECTED — was \"Real Estate Consumer Protection Enhancement Act, N.J.S.A. 46:3C-10, effective Aug 1, 2024\" (neither the act name nor that section was found as the disclosure mandate). Correct: P.L. 2023 c.93, C.56:8-19.2, approved July 3, 2023; new form required from March 20, 2024 per AG — https://pub.njleg.state.nj.us/Bills/2022/PL23/93_.PDF ; https://www.njoag.gov/murphy-administration-announces-tools-to-protect-new-jerseyans-from-increasing-flood-risks-brought-by-climate-change/ — GOV\n- Chimney item on form: RESOLVED — \"Woodburning Stove or Fireplace\" section Q56–59 (usable, flue last cleaned, permits, problems) — https://www.nj.gov/oag/newsreleases23/2023-1220_SELLERS-PROPERTY-CONDITION-DISCLOSURE-STATEMENT.pdf — DOC\n- 3-day cancel / $500 writing threshold: CORRECTED citation — was N.J.A.C. 13:45A-16.2; statute is N.J.S.A. 56:8-151 (midnight of third business day; 30-day refund) — https://law.justia.com/codes/new-jersey/title-56/section-56-8-151/ — REF mirror of statute\n- Code cycle: CORRECTED — was \"2021 I-Codes\"; DCA adopted 2024 I-Codes (N.J.A.C. 5:23-3.14–3.22) on Aug 17, 2026 — https://www.nj.gov/dca/codes/codreg/rule_proposals_adoptions.shtml — GOV\n- CO law: RESOLVED — N.J.A.C. 5:70-2.3 CSACMAPFEC before sale/lease/change of occupancy of 1–2 family — https://www.law.cornell.edu/regulations/new-jersey/N-J-A-C-5-70-2-3 — REF mirror of regulation\n- Enforcement actions: STILL OPEN — AG release headline found, text 403.\n- Template-leakage sweep: clean (PA/MI/OH mentioned only as labeled comparisons)."
+    "heading": "Verification pass — September 25, 2026",
+    "checked": "2026-09-25",
+    "markdown": "Checked 2026-09-25 by verification agent (sweep #2, G7). Laws cited as of Sep 2026 (load-bearing claims re-read this pass).\n- 2026 law-change sweep: **done by primary-host fetch, not web search** (session search budget exhausted). Sources: P.L.2023 c.237 chapter-law PDF (pub.njleg.state.nj.us), DCA Codes rule proposals/adoptions table (nj.gov/dca), OAL rulemaking-notices page (nj.gov/oal/rules/proposals — tables render empty to the fetcher), NJ Legislature chapter-laws page (JS-only, no list rendered). Findings: (1) **HIC licensing transition** — confirmed on the chapter law: approved Jan 8, 2024; §§ 7, 8, 14–20 effective \"first day of the 25th month next following enactment\" = Feb 1, 2026 (computed); the licensing mandate (§§ 9–13, C.45:5AAA-9 to -13) and N.J.S.A. 56:8-138(d)–(g) stay inoperative until the first day of the sixth month after the Board promulgates rules; nine-member Board confirmed; compliance-bond tiers are by contract value ($10k / $25k / $50k at <$10k / $10k–$120k / >$120k). No Board rule proposal located (STILL OPEN — DCA 403, OAL empty) — GOV (statute) — https://pub.njleg.state.nj.us/Bills/2022/PL23/237_.PDF. (2) **2024 I-Codes** adopted Aug 17, 2026 (N.J.A.C. 5:23-3.14–3.22) re-confirmed; other 2025–26 UCC adoptions listed (enforcement activities May 18, 2026; omnibus and rehab Aug 17, 2026; LPG Jul 6, 2026) — none touch chimney/CO content; no N.J.A.C. 5:70 fire-code (CO certificate) change listed — GOV — https://www.nj.gov/dca/codes/codreg/rule_proposals_adoptions.shtml. (3) 2024–2026 NJ enacted-laws index could not be enumerated (JS app; pub.njleg directory 403) — no amendment to C.45:5AAA found, but not ruled out.\n- Mirror spot-check: n/a (not a flagged state). Note: N.J.S.A. 56:8-151 re-read on Justia 2025 code — history line now shows \"2023, c.237, s.39\"; $500 writing threshold, midnight-of-third-business-day cancel and 30-day refund unchanged — REF mirror.\n- Seller disclosure (load-bearing b): RESOLVED — P.L.2023 c.93 (C.56:8-19.2) approved July 3, 2023 — GOV; AG: new forms required \"beginning on March 20, 2024\" — GOV; SPCDS Q56–59 woodburning stove/fireplace, flue last cleaned, professional vs non-professional, permits, problems — DOC.\n- Registration statute (load-bearing a): RESOLVED — 56:8-142 $500,000 CGL, 56:8-146 fourth-degree crime (DEP-hosted act text, amendments through 2007) — DOC; c.237 amendments to 56:8-142 add workers' comp + bond tiers (above).\n- CO law (load-bearing c): RESOLVED (mirror) — N.J.A.C. 5:70-2.3 CSACMAPFEC before sale/lease/change of occupancy; CO exception only with no fuel-burning appliance and no attached garage — REF mirror (LII).\n- Dead links: none dead. njconsumeraffairs.gov/…/Pages/* and njoag.gov search return 403 to the fetcher (bot-blocking, not dead; njconsumeraffairs.gov/hic/ loads).\n- Corrections made this pass: compliance bond described as tiered by \"contract value/volume\" → by contract value (tiers stated); added the Feb 1, 2026 effective date of the non-mandate sections and the C.56:8-138(d)–(g) inoperative clause; \"no Board rules had been published\" reframed as \"none located — unverified.\"\n- Template-leakage sweep: clean (PA/MI/OH only as labeled comparisons)."
   },
   "sections": [
     {
@@ -27,7 +27,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence; licensing enacted but NOT yet operative",
-      "markdown": "New Jersey has **no chimney-specific license and no operative state contractor license today — it runs a mandatory STATE REGISTRATION** for home improvement work. The **Contractors' Registration Act (N.J.S.A. 56:8-136 et seq.)** requires anyone selling or making home improvements to register with the **Division of Consumer Affairs** (AG's office). Registration requires **commercial general liability insurance of at least $500,000 per occurrence (N.J.S.A. 56:8-142)**; the fee is set by the Director (N.J.S.A. 56:8-138) — **no exam, no competency test**. There is **no dollar threshold** for registration. Knowingly violating the Act is a **crime of the fourth degree (N.J.S.A. 56:8-146)**; Consumer Fraud Act civil penalties also apply. Public lookup: **njconsumeraffairs.gov** → HIC registration search.\n**Transition to licensing (flag):** the **Home Improvement and Home Elevation Contractor Licensing Act, P.L. 2023, c.237 (N.J.S.A. 45:5AAA-1 et seq.)**, approved **January 8, 2024**, creates a nine-member State Board and requires compliance bonds ($10,000–$50,000 depending on contract value/volume). Under the Act, the individual licensing mandate becomes operative **six months after the Board promulgates implementing rules** — not on a calendar date. As of mid-2026 no Board rules had been published and the Board was reported as not fully constituted (REF only). **Do not describe a license or exam regime as live in NJ; do not publish a \"~2027\" date.** Home improvement contracts must already carry the license number \"when required\" under the amended N.J.S.A. 56:8-151."
+      "markdown": "New Jersey has **no chimney-specific license and no operative state contractor license today — it runs a mandatory STATE REGISTRATION** for home improvement work. The **Contractors' Registration Act (N.J.S.A. 56:8-136 et seq.)** requires anyone selling or making home improvements to register with the **Division of Consumer Affairs** (AG's office). Registration requires **commercial general liability insurance of at least $500,000 per occurrence (N.J.S.A. 56:8-142)**; the fee is set by the Director (N.J.S.A. 56:8-138) — **no exam, no competency test**. There is **no dollar threshold** for registration. Knowingly violating the Act is a **crime of the fourth degree (N.J.S.A. 56:8-146)**; Consumer Fraud Act civil penalties also apply. Public lookup: **njconsumeraffairs.gov** → HIC registration search.\n**Transition to licensing (flag):** the **Home Improvement and Home Elevation Contractor Licensing Act, P.L. 2023, c.237 (N.J.S.A. 45:5AAA-1 et seq.)**, approved **January 8, 2024**, creates a nine-member **New Jersey State Board of Home Improvement and Home Elevation Contractors** and amends the registration act's insurance/bond section (N.J.S.A. 56:8-142) to add a compliance bond tiered by **contract value**: $10,000 (contracts under $10,000), $25,000 ($10,000–$120,000), $50,000 (over $120,000) — *the date the bond tier becomes enforceable was not pinned down from the chapter-law text in the Sep 25, 2026 pass; do not tell readers it is currently required.* The Act's effective-date clause reads: \"effective immediately, but section 9 through 13 shall remain inoperative until such time as provided in section 5 and sections 7, 8, and 14 through 20 shall be effective on the first day of the 25th month next following enactment\" — i.e., the eligibility/disclosure and ancillary sections (C.45:5AAA-7, -8, -14 to -18 and C.45:1-2.1/-2.2) took effect **February 1, 2026** (our arithmetic from the Jan 8, 2024 approval date), **but the actual mandate that home improvement work be performed by a Board licensee (§ 9, C.45:5AAA-9) and §§ 10–13 remain inoperative \"until the first day of the sixth month next following the promulgation by the board of the rules and regulations\"** (§ 5, C.45:5AAA-5); the parallel registration-act changes in N.J.S.A. 56:8-138(d)–(g) carry the same trigger. As of Sep 25, 2026 no Board rule proposal could be located (DCA pages return 403 to our fetcher; the OAL notices page renders empty) — the status of the clock is **unverified**, not \"no rules exist.\" **Do not describe a license or exam regime as live in NJ; do not publish a \"~2027\" date.** Home improvement contracts must already list \"the license number of the contractor licensed pursuant to P.L.2023, c.237\" under the amended N.J.S.A. 56:8-151 — meaningful only once licensing is operative."
     },
     {
       "number": "2",
@@ -186,17 +186,17 @@
     "co_law": "strong — pre-sale compliance certificate (N.J.A.C. 5:70-2.3)",
     "lookup_url": "njconsumeraffairs.gov (HIC search)"
   },
-  "tableRowStale": false,
-  "lastVerified": "2026-09-15",
+  "tableRowStale": true,
+  "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [
     {
       "id": "verdict-license",
       "label": "License required?",
-      "answer": "SEE SECTION",
-      "note": "Flagged in the verification caveats — read the section",
+      "answer": "REGISTRATION ONLY",
+      "note": "NO operative state license — mandatory REGISTRATION (HIC); licensing enacted (P.L. 2023 c.237)…",
       "anchor": "license",
-      "rule": "license:NO+registration→caveat-downgrade",
+      "rule": "license:NO+registration",
       "derivedFrom": "§11: license_regime",
       "evidence": null
     },
@@ -233,10 +233,10 @@
     {
       "id": "verdict-co",
       "label": "CO alarm required in your home?",
-      "answer": "YES",
-      "note": "— pre-sale compliance certificate (N.J.A.C. 5:70-2.3)",
+      "answer": "SEE SECTION",
+      "note": "Flagged in the verification caveats — read the section",
       "anchor": "co-law",
-      "rule": "co:yes",
+      "rule": "co:yes→caveat-downgrade",
       "derivedFrom": "§11: co_law",
       "evidence": null
     },
@@ -251,8 +251,8 @@
       "evidence": null
     }
   ],
-  "h1": "New Jersey chimney & fireplace laws: know your rights",
-  "metaDescription": "New Jersey chimney & fireplace laws: licensing, seller disclosure, right to cancel and CO alarm rules, with statutes cited.",
+  "h1": "New Jersey: contractors register, but no state license tests them. Here's what that means.",
+  "metaDescription": "New Jersey chimney & fireplace laws: registration rules, seller disclosure, right to cancel and CO alarm rules, with statutes cited.",
   "municipal": {
     "cities": null,
     "derivedFrom": null
@@ -298,15 +298,15 @@
   "compare": {
     "neighborSlug": "delaware",
     "neighborName": "Delaware",
-    "label": "CO alarm required in your home?",
-    "verdictId": "verdict-co",
+    "label": "License required?",
+    "verdictId": "verdict-license",
     "a": {
-      "answer": "YES",
-      "note": "— pre-sale compliance certificate (N.J.A.C. 5:70-2.3)"
+      "answer": "REGISTRATION ONLY",
+      "note": "NO operative state license — mandatory REGISTRATION (HIC); licensing enacted (P.L. 2023 c.237)…"
     },
     "b": {
-      "answer": "LIMITED",
-      "note": "NARROW — lodging establishments only (16 Del. C. Ch. 66C); owner-occupied homes excluded"
+      "answer": "NO",
+      "note": "NO state trade license — Division of Revenue contractor license (30 Del. C. § 2502, $75 +…"
     },
     "neighborPublishVerdict": "READY WITH CAVEATS"
   }

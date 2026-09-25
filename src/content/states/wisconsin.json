@@ -5,14 +5,14 @@
   "sourceFile": "rights-research-wisconsin.md",
   "researched": "2026-07-06",
   "lawsCitedAs": "Sep 2026",
-  "headerNote": null,
-  "verified": "2026-09-15",
-  "publishVerdict": "DO NOT PUBLISH",
-  "publishVerdictNote": "the disclosure item (a load-bearing claim) and the 3-day cancel window both rest only on the July pass, the Dwelling Contractor scope was materially wrong and its chimney application is still interpretive, and no 2026-change check was possible. Re-run with docs.legis.wisconsin.gov access.",
+  "headerNote": "legis.wisconsin.gov / dsps.wi.gov on Sep 25, 2026; statutes \"updated through 2025 Wis. Act 247,\" published 9-4-26). **CORRECTED Sep 25, 2026: the 3-day cancel is Wis. Stat. § 423.202 (Wisconsin Consumer Act), not ATCP 110.07; Dwelling Contractor bond minimum is $5,000 (not $25,000).**",
+  "verified": "2026-09-25",
+  "publishVerdict": "READY WITH CAVEATS",
+  "publishVerdictNote": null,
   "verification": {
-    "heading": "Verification pass — September 2026",
-    "checked": "2026-09-15",
-    "markdown": "Checked 2026-09-15 by verification agent. Laws cited as of Sep 2026.\n- UDC/IRC alignment: CORRECTED — old text called UDC \"its own IRC-derived residential code.\" DSPS: UDC is the statewide code for 1–2 family dwellings built since June 1, 1980; IRC derivation not supported by the DSPS page — removed; pre-1980 scope limit added — https://dsps.wi.gov/Pages/Programs/UDC/Default.aspx — GOV. SPS 320 text STILL OPEN (docs.legis.wisconsin.gov robots/timeout failures, retried).\n- Dwelling Contractor cert scope for existing-dwelling chimney rebuilds: CORRECTED/PARTIAL — old text said the cert applies only to NEW 1–2 family construction. § 101.654(1)(a) conditions obtaining \"a building permit\" on certification; (1)(b) exempts owner-occupants doing work on their dwelling — implying permitted work on existing dwellings is covered — https://law.justia.com/codes/wisconsin/chapter-101/section-101-654/ (REF copy of statute); DSPS: \"No person may obtain a building permit for a one- and two-family dwelling unless...\" — https://dsps.wi.gov/Pages/Professions/DwellingContractor/Default.aspx — GOV. Application to chimney rebuilds specifically: STILL OPEN (interpretation). Bond/insurance amounts and DCQ 12-hour course: STILL OPEN (not shown on DSPS page).\n- Disclosure report fireplace/woodstove item: STILL OPEN — § 709.03 form table not rendered on Justia (https://law.justia.com/codes/wisconsin/chapter-709/section-709-03/) and docs.legis unreachable.\n- CO law: RESOLVED — § 101.647 text as summarized — https://law.justia.com/codes/wisconsin/chapter-101/section-101-647/ — REF copy of 2025 statute.\n- ATCP 110 remedies: RESOLVED (damages) — § 100.20(5) twice pecuniary loss + costs + reasonable attorney fee — https://law.justia.com/codes/wisconsin/chapter-100/section-100-20/ — REF copy. ATCP 110.05/110.07 section titles confirmed from ATCP 110 table of contents — https://docs.legis.wisconsin.gov/code/admin_code/atcp/090/110 — GOV; 3-day cancel window STILL OPEN.\n- AG/DATCP chimney actions: STILL OPEN — not searched (search budget exhausted).\n- 2026 changes: not checked (search budget exhausted) — STILL OPEN.\n- Template-leakage sweep: clean — IL appears only as a labeled comparison."
+    "heading": "Verification pass — September 25, 2026",
+    "checked": "2026-09-25",
+    "markdown": "Checked 2026-09-25 by verification agent (sweep #2). Laws cited as of Sep 2026. **Method note:** WebSearch was unavailable (session budget exhausted) and WebFetch is robots-blocked on docs.legis.wisconsin.gov, so the official statute/code pages were read in a browser session on docs.legis.wisconsin.gov itself (HTML section pages plus the official chapter 709 PDF; text taken from the official host, no mirror). Job 1 was done by primary-host fetch, not search.\n- **Job 3 item 1: disclosure form chimney/fireplace line:** RESOLVED on official host. § 709.03 form item B5: \"Are you aware of defects in a woodburning stove or fireplace or of other defects caused by a fire in a stove or fireplace or elsewhere on the property?\" Its examples include \"defects in the chimney, fireplace flue, inserts, or other installed fireplace equipment\". Item B6 covers smoke/CO detectors. § 709.02(1): 10-day delivery; 2-business-day rescission if not delivered. Sources: https://docs.legis.wisconsin.gov/statutes/statutes/709/03 (HTML; table \"See PDF\") and https://docs.legis.wisconsin.gov/statutes/statutes/709.pdf (official PDF; published 9-4-26). Evidence class GOV.\n- **Job 3 item 2: 3-day cancel:** CORRECTED and RESOLVED on official host. The old file put the 3-day cancel in ATCP 110.07. That was wrong: ATCP 110.07 is cancellation/refund for late performance. The 3-day right is Wis. Stat. § 423.202(1): \"until midnight of the 3rd business day after the merchant has given the notice\" under § 423.203. It applies to \"consumer approval transactions\" (§ 423.201: face-to-face solicitation away from the business, or directed mail/phone solicitation; credit or cash over $25). The emergency waiver is § 423.202(4). ATCP 110.08 applies ch. 423 to home improvement contracts, and ATCP 127.74(4) makes failing to give or honor the notice a prohibited face-to-face practice. Consumer Act scope cap (§ 421.202(6)): cash price over $25,000 is excluded, becoming $50,000 on 1-1-2027 under 2025 Wis. Act 105; first-lien mortgage transactions are excluded (§ 421.202(7)). Sources: https://docs.legis.wisconsin.gov/statutes/statutes/423/II/201 ; https://docs.legis.wisconsin.gov/code/admin_code/atcp/090/110/07 ; https://docs.legis.wisconsin.gov/code/admin_code/atcp/090/127/IV/64 (ATCP 127.74 text on page) ; https://docs.legis.wisconsin.gov/statutes/statutes/421/II/202. Evidence class GOV.\n- **Job 3 item 3: Dwelling Contractor scope (SPS 305):** RESOLVED on official host. SPS 305.31(1): \"no person may obtain a building permit for a one- or 2-family dwelling unless\" the person holds a Dwelling Contractor or Dwelling Contractor–restricted certification and holds or employs a certified DCQ. Owner-occupants are exempt (§ 101.654(1)(b)). The text has no new-construction limit, and § 101.61(1) defines \"dwelling\" as any building with 1 or 2 dwelling units. The only remaining interpretive point is which chimney jobs need a permit, which is local/UDC and is carried as a caveat. Sources: https://docs.legis.wisconsin.gov/document/administrativecode/SPS%20305.31 ; https://docs.legis.wisconsin.gov/statutes/statutes/101/II/654 ; https://docs.legis.wisconsin.gov/statutes/statutes/101/II/61 ; https://dsps.wi.gov/Pages/Professions/DwellingContractor/Default.aspx. Evidence class GOV.\n- **Bond/insurance amounts:** CORRECTED. The old file said \"$25,000 bond or $250,000 liability insurance\". § 101.654(2)(a) requires a bond \"of not less than $5,000\" or general liability insurance of \"at least $250,000 per occurrence\". Under § 101.654(2m), a bond under $25,000 yields a restricted certificate and caps job size at the bond amount. Source: https://docs.legis.wisconsin.gov/statutes/statutes/101/II/654. Evidence class GOV.\n- **DCQ course:** CORRECTED/partly RESOLVED. SPS 305.315 requires \"at least 12 hours in an approved course in dwelling construction within one year prior to the date of application\" and 12 hours CE per renewal. The earlier \"+ test\" is not in the rule text and has been removed. Source: https://docs.legis.wisconsin.gov/document/administrativecode/SPS%20305.315. Evidence class GOV.\n- **UDC scope:** RESOLVED. SPS 320.02–320.04: effective dates Dec 1, 1978 (SPS 322) and June 1, 1980 (others). Additions/alterations to UDC dwellings must comply. Municipalities may extend the code to existing dwellings or require permits outside it (SPS 320.02(2)(c)–(d)). SPS 320.08 requires a uniform building permit before on-site construction. The file's \"relines/rebuilds are generally permit work\" is softened to \"check locally\". Sources: https://docs.legis.wisconsin.gov/document/administrativecode/SPS%20320.02 ; https://docs.legis.wisconsin.gov/document/administrativecode/SPS%20320.08 ; https://dsps.wi.gov/Pages/Programs/UDC/Default.aspx. Evidence class GOV.\n- **CO law:** RESOLVED (official host). § 101.647(3)(a) text is as summarized; the history (2009 a. 158; 2015 a. 55; 2017 a. 330) shows no 2025–26 change. Source: https://docs.legis.wisconsin.gov/statutes/statutes/101/II/647. Evidence class GOV.\n- **Double damages:** RESOLVED (official host). § 100.20(5) gives \"twice the amount of such pecuniary loss, together with costs, including a reasonable attorney fee\". Source: https://docs.legis.wisconsin.gov/statutes/statutes/100/20. Evidence class GOV.\n- **2026 law-change sweep:** done by primary-host fetch, not search. Sources read: the 2025 session enacted-acts index (Acts 1–247, https://docs.legis.wisconsin.gov/2025/related/acts), history lines on every cited section, the DSPS pending-rules page, and the DATCP news-release index. Findings:\n  - 2025 Wis. Act 120 (enacted 3/27/2026) creates condition-report item E3m (NID special assessments), effective Oct 1, 2026. Not chimney-related. https://docs.legis.wisconsin.gov/2025/related/acts/120\n  - 2025 Wis. Act 237 (enacted 4/8/2026) amends item F7 (restrictive covenants/deed restrictions). Not chimney-related. https://docs.legis.wisconsin.gov/2025/related/acts/237\n  - 2025 Wis. Act 105 raises the Consumer Act exclusion cap from $25,000 to $50,000, effective 1-1-2027. This widens the 3-day cancel's reach and is now in §4.\n  - DSPS \"SPS 320 to 325: Update to the Uniform Dwelling Code\" is in Drafting Rule status. Nothing adopted. https://dsps.wi.gov/Pages/RulesStatutes/PendingRules.aspx\n  - No 2025–26 amendment to §§ 101.647, 101.654 or 423.202, per their history lines.\n  - No act in the 247-act index concerns chimneys, fireplaces, or contractor licensing.\n  - DATCP July 31, 2026 storm-repair release: general door-to-door caution only; no chimney item. https://datcp.wi.gov/Pages/News_Media/20260731FollowingStormDamageWisconsinConsumersShouldBeCautiousWhenSeekingRepairs.aspx\n  - Evidence class GOV.\n- **Mirror spot-check (Job 2):** confirmed on official host. The licensing threshold (§ 101.654), seller disclosure (§ 709.03 B5) and CO law (§ 101.647) were all re-read on docs.legis.wisconsin.gov and match. The only differences were corrections the mirrors didn't cause: bond amount and cancel cite.\n- **Dead links:** none dead. dsps.wi.gov UDC and Dwelling Contractor pages resolve, as do docs.legis ATCP 110 and all four law.justia.com links from the Sep 15 pass. The Justia links are mirrors and are superseded by the official docs.legis URLs above; do not use them in page copy. New lookup URL license.wi.gov is linked from the DSPS Dwelling Contractor page as the \"LicensE Portal\". It is a script-rendered app, so its search page could not be machine-read. Confirm it by hand before publishing it as the lookup link.\n- **Corrections made this pass:**\n  - 3-day cancel: ATCP 110.07 → Wis. Stat. § 423.202 (+ ATCP 110.08, ATCP 127.74(4)), with scope cap and emergency waiver.\n  - Bond: $25,000 → not less than $5,000 (restricted certificate under $25,000).\n  - DCQ: \"12 hours + test\" → 12-hour course (no exam in rule text).\n  - Permit copy softened to \"check locally\".\n  - Row lookup → license.wi.gov.\n- **Template-leakage sweep:** clean. \"Illinois\" appears only as a labeled comparison in The story, and no other-state statute strings appear.\n- **Still open (non-blocking):** DATCP/AG chimney-sweep enforcement actions (pattern-only §8); per-job permit triggers are local.\n\n1. §8 scam section is pattern-only.\n2. Chimney-job permit triggers must be framed as \"check with your local building inspector\".\n3. The 3-day cancel must carry the ≤ $25,000 scope ($50,000 from 1-1-2027) and the emergency-waiver warning.\n4. Pre-1980 / local-permit interplay with § 101.654 is not asserted."
   },
   "sections": [
     {
@@ -20,14 +20,14 @@
       "key": "licensing",
       "anchor": "license",
       "group": "licensing",
-      "rawHeading": "1 · Licensing (GOV — high confidence on scope; medium on amounts)",
+      "rawHeading": "1 · Licensing (GOV — high confidence; re-read on official host Sep 25, 2026)",
       "researchTitle": "Licensing",
       "title": "State licensing and registration",
       "evidence": [
         "GOV"
       ],
-      "confidenceNote": "high confidence on scope; medium on amounts",
-      "markdown": "Wisconsin credentials **permit-pullers on 1–2 family dwellings, not chimney contractors.** Under **Wis. Stat. § 101.654(1)(a)**, \"no person may obtain a building permit\" under the one- and two-family dwelling code unless the person annually holds a DSPS certificate of financial responsibility (the **Dwelling Contractor** certification) and completes continuing education; DSPS says the certificate holder must employ a certified **Dwelling Contractor Qualifier (DCQ)**. **§ 101.654(1)(b) exempts an owner who resides (or will reside) in the dwelling and pulls a permit for work on it.** The requirement is tied to the permit, not to new construction only — so if a chimney rebuild or reline on a UDC-covered dwelling requires a building permit, the contractor pulling it needs the Dwelling Contractor certification (our reading of the statute text; confirm with DSPS before stating it as settled). Bond/insurance options (July pass: $25,000 bond or $250,000 liability insurance) and the DCQ course (July pass: 12 hours + test) were **not re-verified**. Work that needs no permit — sweeping, most repairs, and work on pre-June-1980 dwellings outside UDC scope — needs **no state credential at all**; **Wisconsin has no home-improvement or chimney license**, only consumer rules (ATCP 110). Lookup: DSPS credential search."
+      "confidenceNote": "high confidence; re-read on official host Sep 25, 2026",
+      "markdown": "Wisconsin credentials **permit-pullers on 1–2 family dwellings, not chimney contractors.** Under **Wis. Stat. § 101.654(1)(a)**, \"no person may obtain a building permit unless the person annually obtains from the department a certificate of financial responsibility,\" completes continuing education, and furnishes proof to the permit issuer. The implementing rule, **Wis. Admin. Code § SPS 305.31(1)**, states it as: \"no person may obtain a building permit for a one- or 2-family dwelling unless\" the person holds a **Dwelling Contractor** (or **Dwelling Contractor — restricted**) certification **and** holds or employs a certified **Dwelling Contractor Qualifier (DCQ)**. **§ 101.654(1)(b) exempts an owner who resides (or will reside) in the dwelling and applies for a permit to work on it.** Neither text limits the rule to new construction: **any building permit for a one- or two-family dwelling** triggers it — so if a chimney rebuild, reline, or stove install on a house needs a building permit, the contractor pulling that permit must be certified (whether a given chimney job needs a permit is a UDC/local question — see §5). **Financial responsibility (§ 101.654(2)–(2m)):** a surety bond of **not less than $5,000** or general liability insurance of **at least $250,000 per occurrence**, plus worker's-comp and unemployment-insurance compliance; a contractor using a bond under $25,000 gets a **restricted** certificate and may not take work whose estimated cost exceeds the bond. **DCQ (SPS 305.315):** at least **12 hours** in an approved dwelling-construction course within a year before applying, and 12 hours of continuing education per renewal; the rule text shows no state exam. Work that needs no permit — sweeping and most repairs — needs **no state credential at all**; **Wisconsin has no home-improvement or chimney license**, only consumer rules (ATCP 110, ATCP 127, Wis. Stat. ch. 423). Lookup: DSPS LicensE portal / credential search (license.wi.gov)."
     },
     {
       "number": "2",
@@ -46,28 +46,28 @@
       "key": "home-sale",
       "anchor": "home-sale",
       "group": "home-sale",
-      "rawHeading": "3 · Home sale (GOV statute — high; form wording — medium, not re-fetched)",
+      "rawHeading": "3 · Home sale (GOV — high confidence; form item read verbatim from the official statute PDF Sep 25, 2026)",
       "researchTitle": "Home sale",
       "title": "Seller disclosure when a home sells",
       "evidence": [
         "GOV"
       ],
-      "confidenceNote": "statute — high; form wording — medium, not re-fetched",
-      "markdown": "**Real Estate Condition Report, Wis. Stat. §§ 709.02–.03**: the owner must furnish a completed statutory report for most residential transfers. The July research reported that the report asks whether the owner is aware of defects in a **woodburning stove or fireplace**, defects caused by a fire in a stove or fireplace, and smoke-detector-law violations — **the item wording sits in a table not rendered in the sources reachable in September and was not re-confirmed.** Actual-knowledge basis. No inspection is mandated at transfer; NFPA 211 Level 2 stays a NATIONAL STANDARD."
+      "confidenceNote": "high confidence; form item read verbatim from the official statute PDF Sep 25, 2026",
+      "markdown": "**Real Estate Condition Report, Wis. Stat. §§ 709.01–.03**: sellers of property with 1–4 dwelling units (with stated exceptions, e.g., never-occupied fiduciaries and transfer-fee-exempt transfers) must furnish a completed statutory report **within 10 days after acceptance** of the contract; a buyer who does not receive it may rescind within **2 business days** after that 10-day period (§ 709.02(1)). The statutory form's **item B5** asks: \"Are you aware of defects in a woodburning stove or fireplace or of other defects caused by a fire in a stove or fireplace or elsewhere on the property?\" and lists as examples \"defects in the chimney, fireplace flue, inserts, or other installed fireplace equipment; or woodburning stoves not installed pursuant to applicable code.\" **Item B6** asks about defects related to smoke or carbon monoxide detectors or violations of smoke/CO-detector laws. The report is \"not a warranty\"; \"aware\" means the owner has notice or knowledge. No inspection is mandated at transfer; NFPA 211 Level 2 stays a NATIONAL STANDARD. *(2025–26 changes to the form — none to B5/B6: 2025 Wis. Act 120 adds item E3m on neighborhood-improvement-district special assessments, effective Oct 1, 2026; 2025 Wis. Act 237 amends item F7 on restrictive covenants/deed restrictions.)*"
     },
     {
       "number": "4",
       "key": "remedies",
       "anchor": "remedies",
       "group": "remedies",
-      "rawHeading": "4 · Consumer remedies (GOV — high on damages; medium on cancel details)",
+      "rawHeading": "4 · Consumer remedies (GOV — high confidence; re-read on official host Sep 25, 2026)",
       "researchTitle": "Consumer remedies",
       "title": "Consumer remedies and cancellation rights",
       "evidence": [
         "GOV"
       ],
-      "confidenceNote": "high on damages; medium on cancel details",
-      "markdown": "**Home Improvement Practices, ATCP 110** (DATCP) sets home improvement contract requirements (ATCP 110.05) and contract cancellation and return-of-payment rules (ATCP 110.07); the July research reported a **3-business-day right to cancel** for solicited contracts — exact scope not re-verified. ATCP 110 is an order under **Wis. Stat. § 100.20**, and **§ 100.20(5)** gives any person suffering pecuniary loss from a violation **twice the amount of the pecuniary loss, plus costs including a reasonable attorney fee**. Complaints: DATCP + AG."
+      "confidenceNote": "high confidence; re-read on official host Sep 25, 2026",
+      "markdown": "**Home Improvement Practices, ATCP 110** (DATCP) sets home improvement contract requirements (ATCP 110.05). **ATCP 110.07 (\"Contract cancellation; return of payments\") is NOT a cooling-off rule** — it lets a buyer who prepaid cancel and demand a refund when the seller misses a performance deadline or fails to give required delay notice. **The 3-day cancel is in the Wisconsin Consumer Act: Wis. Stat. § 423.202(1)** gives a customer the right to cancel a **\"consumer approval transaction\" until midnight of the 3rd business day after the merchant gives the § 423.203 notice**. Under **§ 423.201**, that covers a consumer transaction initiated by face-to-face solicitation away from the merchant's regular place of business (or by mail/phone solicitation directed to the customer), consummated away from that place of business, on credit or for cash over $25. Cancellation notice goes by mail and \"need not take a particular form.\" **Emergency waiver (§ 423.202(4)):** the customer may not cancel if they determined a 3-business-day delay would jeopardize health/safety or endanger property **and** gave the merchant a separate signed, dated personal statement — a door-knock \"your chimney is dangerous\" pitch is exactly where a customer can be pushed to sign one. **ATCP 110.08** requires a home improvement contract that is a consumer approval transaction to comply with ch. 423, and **ATCP 127.74(4)** makes it a prohibited face-to-face practice to fail to give the § 423.203 notice or honor the cancellation. **Scope limit:** the Consumer Act does not apply to consumer transactions with a cash price over **$25,000 — rising to $50,000 on Jan 1, 2027 (2025 Wis. Act 105)** — or to transactions secured by a first-lien real estate mortgage (§ 421.202(6)–(7)). **Damages:** ATCP 110 is adopted under **Wis. Stat. § 100.20(2)** (per its chapter note), and **§ 100.20(5)** gives any person suffering pecuniary loss from a violation **twice the amount of the pecuniary loss, plus costs including a reasonable attorney fee**. Complaints: DATCP + AG."
     },
     {
       "number": "5",
@@ -81,7 +81,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence",
-      "markdown": "Wisconsin runs a **statewide Uniform Dwelling Code (UDC), SPS 320–325** — per DSPS, \"the statewide building code for one- and two-family dwellings built since June 1, 1980,\" enforced in all municipalities. It is Wisconsin's own administrative code (not a straight IRC adoption; exact model-code references in SPS 320 not re-verified). **Key limit for chimney content: homes built before June 1, 1980 sit outside UDC scope** — permit rules for them are local. On UDC-covered homes, chimney relines, rebuilds, and solid-fuel appliance installs are generally permit work; routine sweeps and like-for-like caps generally are not."
+      "markdown": "Wisconsin runs a **statewide Uniform Dwelling Code (UDC), SPS 320–325** — per DSPS, \"the statewide building code for one- and two-family dwellings built since June 1, 1980,\" enforced in all municipalities. It is Wisconsin's own administrative code (not a straight IRC adoption; DSPS notes its energy chapter was updated to the 2009 IECC effective Jan 1, 2016). Scope per **SPS 320.02–320.04**: the code covers dwellings built on or after its effective dates (SPS 322 Dec 1, 1978; SPS 320, 321, 323–325 June 1, 1980), and **additions and alterations to UDC dwellings must comply with the code \"at the time of permit application or the beginning of the project, if no permit is required\"** (SPS 320.04(2)). **Key limit for chimney content: homes built before the UDC effective dates sit outside UDC scope** — a municipality may, by ordinance, apply the UDC to additions/alterations of existing dwellings or require permits for work outside the code (SPS 320.02(2)(c)–(d)), so permit rules for older homes are local. Which chimney jobs on a UDC home need a permit is not stated item-by-item in the text read — **treat relines, rebuilds, and solid-fuel appliance installs as \"check with your local building inspector,\" not as a state-wide permit rule**; routine sweeps are maintenance. A DSPS rulemaking to update SPS 320–325 is in \"Drafting Rule\" status (DSPS pending-rules page, Sep 2026) — nothing adopted yet."
     },
     {
       "number": "6",
@@ -95,7 +95,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence",
-      "markdown": "**Wis. Stat. § 101.647** requires the owner of a residential building (dwellings with an attached garage, fireplace, or fuel-burning appliance; tourist rooming houses excluded) to install a functional CO detector **\"in the basement of the dwelling and on each floor level except the attic, garage, or storage area\"**; buildings permitted after Feb 1, 2011 with utility service need electrically powered detectors with battery backup; owners must respond within 5 days to written notice of a non-functional detector, and occupants must maintain detectors in their units. Broad standing coverage; **no statewide pre-sale certificate** found. A permitted chimney job is the natural moment to verify alarms."
+      "markdown": "**Wis. Stat. § 101.647** (re-read on docs.legis.wisconsin.gov Sep 25, 2026; history 2009 a. 158; 2015 a. 55; 2017 a. 330 — no 2025–26 amendment) requires the owner of a dwelling (the duty does not apply to a dwelling with no attached garage, no fireplace, and no fuel-burning appliance; tourist rooming houses excluded) to install a functional CO detector **\"in the basement of the dwelling and on each floor level except the attic, garage, or storage area\"**; buildings permitted after Feb 1, 2011 with utility service need electrically powered detectors with battery backup; owners must respond within 5 days to written notice of a non-functional detector, and occupants must maintain detectors in their units. Broad standing coverage; **no statewide pre-sale certificate** found. A permitted chimney job is the natural moment to verify alarms."
     },
     {
       "number": "7",
@@ -157,7 +157,7 @@
       "title": "/rights table row (internal)",
       "evidence": [],
       "confidenceNote": null,
-      "markdown": "License: **Dwelling Contractor cert required to pull a 1–2 family dwelling building permit (Wis. Stat. 101.654; owner-occupants exempt); NO home-improvement/chimney license** · Registration: **cert regime + ATCP 110 duties** · Disclosure law: **YES — § 709.02–.03 (fireplace/woodstove item per July pass)** · 3-day cancel: **YES per July pass (ATCP 110.07 — details not re-verified)** · CO law: **broad (§ 101.647, basement + every floor)** · Lookup: DSPS credential search"
+      "markdown": "License: **Dwelling Contractor cert required to obtain any 1–2 family dwelling building permit (Wis. Stat. 101.654; SPS 305.31; owner-occupants exempt); NO home-improvement/chimney license** · Registration: **cert regime ($5k+ bond or $250k liability insurance) + ATCP 110 duties** · Disclosure law: **YES — § 709.02–.03 Real Estate Condition Report** · Chimney item on form: **YES — item B5 (woodburning stove/fireplace; examples: chimney, fireplace flue, inserts) + B6 (smoke/CO detectors)** · 3-day cancel: **YES — Wis. Stat. § 423.202 for consumer approval (home-solicited) transactions ≤ $25,000 cash price ($50,000 from 1-1-2027); emergency waiver § 423.202(4)** · CO law: **broad (§ 101.647, basement + every floor)** · Lookup: DSPS LicensE credential search (license.wi.gov)"
     }
   ],
   "story": {
@@ -166,35 +166,35 @@
   },
   "faqSeeds": null,
   "table": {
-    "license_regime": "Dwelling Contractor cert required to pull a 1-2 family dwelling building permit (Wis. Stat. 101.654; owner-occupants exempt); NO home-improvement/chimney license",
-    "registration_name": "Dwelling Contractor cert + ATCP 110 duties",
-    "disclosure_law": "Yes (Wis. Stat. 709.02-.03, actual knowledge)",
-    "chimney_item_on_form": "Unconfirmed Sep 2026 (fireplace/woodstove item per Jul 2026 research)",
-    "three_day_cancel": "Unconfirmed Sep 2026 (ATCP 110.07 — 3-day per Jul 2026 research)",
+    "license_regime": "Dwelling Contractor cert required to obtain any 1-2 family dwelling building permit (Wis. Stat. 101.654; SPS 305.31; owner-occupants exempt); NO home-improvement/chimney license",
+    "registration_name": "Dwelling Contractor certification ($5,000+ bond or $250,000/occurrence liability insurance; DCQ 12-hr course) + ATCP 110 duties",
+    "disclosure_law": "Yes (Wis. Stat. 709.02-.03 Real Estate Condition Report, actual knowledge)",
+    "chimney_item_on_form": "Yes — item B5 (woodburning stove/fireplace; examples: chimney, fireplace flue, inserts) + B6 smoke/CO detectors",
+    "three_day_cancel": "Yes (Wis. Stat. 423.202, home-solicited consumer approval transactions; cash price <= $25,000, $50,000 from 1-1-2027; emergency waiver 423.202(4))",
     "co_law": "Broad (Wis. Stat. 101.647, basement + every floor)",
-    "lookup_url": "DSPS credential search",
-    "researched_date": "2026-09-15"
+    "lookup_url": "https://license.wi.gov/",
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
     "source": "§11",
-    "license_regime": "Dwelling Contractor cert required to pull a 1–2 family dwelling building permit (Wis. Stat. 101.654; owner-occupants exempt); NO home-improvement/chimney license",
-    "registration_name": "cert regime + ATCP 110 duties",
-    "disclosure_law": "YES — § 709.02–.03 (fireplace/woodstove item per July pass)",
-    "chimney_item_on_form": "",
-    "three_day_cancel": "YES per July pass (ATCP 110.07 — details not re-verified)",
+    "license_regime": "Dwelling Contractor cert required to obtain any 1–2 family dwelling building permit (Wis. Stat. 101.654; SPS 305.31; owner-occupants exempt); NO home-improvement/chimney license",
+    "registration_name": "cert regime ($5k+ bond or $250k liability insurance) + ATCP 110 duties",
+    "disclosure_law": "YES — § 709.02–.03 Real Estate Condition Report",
+    "chimney_item_on_form": "YES — item B5 (woodburning stove/fireplace; examples: chimney, fireplace flue, inserts) + B6 (smoke/CO detectors)",
+    "three_day_cancel": "YES — Wis. Stat. § 423.202 for consumer approval (home-solicited) transactions ≤ $25,000 cash price ($50,000 from 1-1-2027); emergency waiver § 423.202(4)",
     "co_law": "broad (§ 101.647, basement + every floor)",
-    "lookup_url": "DSPS credential search"
+    "lookup_url": "DSPS LicensE credential search (license.wi.gov)"
   },
   "tableRowStale": false,
-  "lastVerified": "2026-09-15",
+  "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [
     {
       "id": "verdict-license",
       "label": "License required?",
       "answer": "SEE SECTION",
-      "note": "Dwelling Contractor cert required to pull a 1–2 family dwelling building permit (Wis. Stat.…",
+      "note": "Dwelling Contractor cert required to obtain any 1–2 family dwelling building permit (Wis.…",
       "anchor": "license",
       "rule": "license:unmatched",
       "derivedFrom": "§11: license_regime",
@@ -223,10 +223,10 @@
     {
       "id": "verdict-cancel",
       "label": "Right to cancel",
-      "answer": "SEE SECTION",
-      "note": "Flagged in the verification caveats — read the section",
+      "answer": "YES",
+      "note": "Wis. Stat. § 423.202 for consumer approval (home-solicited) transactions ≤ $25,000 cash price…",
       "anchor": "remedies",
-      "rule": "cancel:YES→caveat-downgrade",
+      "rule": "cancel:YES",
       "derivedFrom": "§11: three_day_cancel",
       "evidence": null
     },
@@ -276,21 +276,21 @@
     {
       "id": "faq-what-to-do",
       "q": "What should I check before hiring a chimney company in Wisconsin?",
-      "a": "State licensing: Dwelling Contractor cert required to pull a 1–2 family dwelling building permit (Wis. Stat. 101.654; owner-occupants exempt); NO home-improvement/chimney license. Registration or credential: cert regime + ATCP 110 duties. Seller disclosure at sale: YES — § 709.02–.03 (fireplace/woodstove item per July pass). Right to cancel a sale made at your home: YES per July pass (ATCP 110.07 — details not re-verified). Carbon monoxide alarm law: broad (§ 101.647, basement + every floor). Where to check a contractor: DSPS credential search. Then ask the eight questions below, get the inspection findings in writing with photos, and never sign for \"emergency\" work on the day of a door-knock.",
+      "a": "State licensing: Dwelling Contractor cert required to obtain any 1–2 family dwelling building permit (Wis. Stat. 101.654; SPS 305.31; owner-occupants exempt); NO home-improvement/chimney license. Registration or credential: cert regime ($5k+ bond or $250k liability insurance) + ATCP 110 duties. Seller disclosure at sale: YES — § 709.02–.03 Real Estate Condition Report. Right to cancel a sale made at your home: YES — Wis. Stat. § 423.202 for consumer approval (home-solicited) transactions ≤ $25,000 cash price ($50,000 from 1-1-2027); emergency waiver § 423.202(4). Carbon monoxide alarm law: broad (§ 101.647, basement + every floor). Where to check a contractor: DSPS LicensE credential search (license.wi.gov). Then ask the eight questions below, get the inspection findings in writing with photos, and never sign for \"emergency\" work on the day of a door-knock.",
       "expanded": true,
       "derivedFrom": "verified summary row (§11)"
     },
     {
       "id": "faq-home-sale",
       "q": "Is a chimney inspection required when a home sells in Wisconsin?",
-      "a": "Real Estate Condition Report, Wis. Stat. §§ 709.02–.03: the owner must furnish a completed statutory report for most residential transfers. The July research reported that the report asks whether the owner is aware of defects in a woodburning stove or fireplace, defects caused by a fire in a stove or fireplace, and smoke-detector-law violations — the item wording sits in a table not rendered in the sources reachable in September and was not re-confirmed.",
+      "a": "Real Estate Condition Report, Wis. Stat. §§ 709.01–.03: sellers of property with 1–4 dwelling units (with stated exceptions, e.g., never-occupied fiduciaries and transfer-fee-exempt transfers) must furnish a completed statutory report within 10 days after acceptance of the contract; a buyer who does not receive it may rescind within 2 business days after that 10-day period (§ 709.02(1)). The statutory form's item B5 asks: \"Are you aware of defects in a woodburning stove or fireplace or of other defects caused by a fire in a stove or fireplace or elsewhere on the property?\" and lists as examples \"defects in the chimney, fireplace flue, inserts, or other installed fireplace equipment; or woodburning stoves not installed pursuant to applicable code.\" Item B6 asks about defects related to smoke or carbon monoxide detectors or violations of smoke/CO-detector laws.",
       "expanded": false,
       "derivedFrom": "§3 text"
     },
     {
       "id": "faq-cancel",
       "q": "Can I cancel a chimney contract I signed at my door in Wisconsin?",
-      "a": "Home Improvement Practices, ATCP 110 (DATCP) sets home improvement contract requirements (ATCP 110.05) and contract cancellation and return-of-payment rules (ATCP 110.07); the July research reported a 3-business-day right to cancel for solicited contracts — exact scope not re-verified. ATCP 110 is an order under Wis. Stat. § 100.20, and § 100.20(5) gives any person suffering pecuniary loss from a violation twice the amount of the pecuniary loss, plus costs including a reasonable attorney fee.",
+      "a": "Home Improvement Practices, ATCP 110 (DATCP) sets home improvement contract requirements (ATCP 110.05). ATCP 110.07 (\"Contract cancellation; return of payments\") is NOT a cooling-off rule — it lets a buyer who prepaid cancel and demand a refund when the seller misses a performance deadline or fails to give required delay notice. The 3-day cancel is in the Wisconsin Consumer Act: Wis. Stat.",
       "expanded": false,
       "derivedFrom": "§4 text"
     }

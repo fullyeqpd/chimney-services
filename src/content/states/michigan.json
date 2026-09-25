@@ -6,13 +6,13 @@
   "researched": "2026-07-06",
   "lawsCitedAs": "Sep 2026",
   "headerNote": null,
-  "verified": "2026-09-15",
+  "verified": "2026-09-25",
   "publishVerdict": "READY WITH CAVEATS",
-  "publishVerdictNote": "(1) re-confirm 2015 MRC still in force at publish time; (2) statute texts for 339.2412 / 565.957 / 125.1504f verified via FindLaw/Justia copies because legislature.mi.gov was unreachable; (3) reline/sweep licensure scope labeled as interpretation.",
+  "publishVerdictNote": null,
   "verification": {
-    "heading": "Verification pass — September 2026",
-    "checked": "2026-09-15",
-    "markdown": "Checked 2026-09-15 by verification agent. Laws cited as of Sep 2026.\n- MRC code cycle: RESOLVED — 2015 MRC remains in effect; Court of Claims order of July 7, 2025 paused the 2021 IRC-based Part 5 residential rules and residential energy rules (set for Aug 29, 2025) — https://www.michigan.gov/lara/-/media/Project/Websites/lara/bcc-media/ASD/2021-Code-Injunction-Residential-Part-5-and-Energy-Part-10.pdf — GOV. Supported by Troy building dept \"Codes currently in effect\" (https://troymi.gov/departments/building_inspections/codes_currently_in_effect.php, GOV-local) and Ann Arbor (https://www.a2gov.org/news/posts/enforcement-of-2021-michigan-building-code-begins-may-1-2025/, GOV-local); HBA of Michigan legal page shows litigation ongoing (https://hbaofmichigan.com/legal/, REF). Could not find a 2026 final ruling (search budget exhausted late in pass) — re-check before publish.\n- CO statute layer: CORRECTED — old text pointed to \"PA 54 of 2008 hotel rule\" (unverified, removed). Dwelling statute is MCL 125.1504f, effective Mar 23, 2009: CO device required at initial construction, permitted renovation of existing single-family dwelling, or bedroom addition — https://law.justia.com/codes/michigan/chapter-125/statute-act-230-of-1972/section-125-1504f/ — REF copy of statute text (legislature.mi.gov unreachable: TLS error).\n- AG chimney-scam actions: RESOLVED (absence) — no chimney-specific MI AG action found; AG home-improvement alert and Feb 17, 2026 Hummingbird Construction judgment confirmed — https://www.michigan.gov/consumerprotection/protect-yourself/consumer-alerts/home-health/building-and-remodeling-advice-for-homeowners ; https://www.michigan.gov/ag/news/press-releases/2026/02/17/ag-nessel-secures-judgment-against-construction-company-for-consumer-protection-violation — GOV.\n- Licensing statute + $600 threshold: RESOLVED — LARA homeowner page quotes $600 labor+materials; FAQ confirms <$600 exemption and anti-splitting; M&A trade list confirmed (masonry, roofing, concrete; no chimney) — https://www.michigan.gov/lara/bureau-list/bcc/sections/licensing-section/residential-builders/lic-info/helpful-information-for-homeowners ; https://www.michigan.gov/lara/bureau-list/bcc/sections/licensing-section/residential-builders/lic-info/maintenance-alteration-contractor-license-information ; Builders-FAQ.pdf — GOV/DOC. CORRECTED minor: \"$195 application\" clarified as company application fee ($185 individual relicensure).\n- MCL 339.2412 unlicensed-can't-sue: RESOLVED — subsection (1) text quoted above — https://codes.findlaw.com/mi/chapter-339-occupational-code/mi-comp-laws-339-2412 — REF copy of statute (legislature.mi.gov TLS failure); text is unambiguous and consistent with multiple MI law-firm summaries.\n- Seller disclosure chimney item: RESOLVED — MCL 565.957 statutory form lists \"Fireplace & chimney\" and \"Wood burning system\" — https://codes.findlaw.com/mi/chapter-565-conveyances-of-real-property/mi-comp-laws-565-957/ — REF copy of statute. HB 4110 (2025) in committee, tax-estimate only — https://www.billtrack50.com/billdetail/1845249 — REF.\n- 3-day cancel (added): RESOLVED — AG alert confirms 3 days for home-solicited sales (GOV); statute MCL 445.112 per Justia index of Act 227 of 1971 (REF).\n- 2026 changes: none found affecting licensing threshold or disclosure form; code cycle unchanged pending litigation.\n- Template-leakage sweep: clean — \"PA\" appears only in the labeled comparison section."
+    "heading": "Verification pass — September 25, 2026",
+    "checked": "2026-09-25",
+    "markdown": "Checked 2026-09-25 by verification agent (sweep #2). Job 1 used direct fetches of primary hosts (regulator news pages, AG, statute pages), not search, because the session's search budget was exhausted.\n- 2026 law-change sweep: **legislature.mi.gov bill search could not be run.** Every fetch to that host failed at robots.txt, with \"CERTIFICATE_VERIFY_FAILED\" or \"failed to parse\", except two reads of MCL 125.1504f. Regulator and other checks:\n  - **LARA Bureau of Construction Codes page** (https://www.michigan.gov/lara/bureau-list/bcc, GOV). 2025–26 items: May 18, 2026 LARA/NASCLA consumer guide to home improvement (educational; no new law or rule; https://www.michigan.gov/lara/news-releases/2026/05/18/lara-releases-consumer-guide-to-help-michigan-homeowners-avoid-costly-home-improvement-mistakes). May 4, 2026 Building Safety Month proclamation. Apr 17, 2026 \"cutting red tape\" release (general process improvements; no residential builder/M&A licensing, education-hour or fee change named). Rule-revision notices for the boiler code and skilled trades only. The page still says the 2021 residential and energy rules (Parts 5 and 10) remain under injunction.\n  - **HBAM legal page** (REF, modified Aug 14, 2026): discovery extended to late spring; no ruling.\n  - **Troy \"codes currently in effect\"** (GOV-local): LARA paused the 2021 MRC; the 2015 versions remain in effect.\n  - **Ann Arbor** (GOV-local): \"Residential Code will remain 2015 Michigan Residential Code until the State of Michigan adopts an updated Residential Code.\"\n  - **AG Hummingbird Construction consent judgment**, Feb 17, 2026, re-confirmed (GOV).\n  - **HB 4110 (2025)**: still \"In Committee\" as of its last action 02/25/2025 (billtrack50, REF; not confirmed on legislature.mi.gov).\n  - **Result:** no 2025–26 change to the $600 threshold, the M&A trade list, the seller-disclosure form or the CO rule found in the sources that loaded. The 2021 MRC is still enjoined.\n- Mirror spot-check (Job 2, legislature.mi.gov):\n  - **MCL 125.1504f — confirmed on official host, with a CORRECTION.** History \"Add. 2008, Act 377, Eff. Mar. 23, 2009\" matches. But the operative text is permissive: \"The director may provide for ... the installation of at least 1 operational and approved carbon monoxide device\", and subsec. (3) bars penalties until a code incorporating it takes effect. The file previously said the statute itself \"required\" a device. § 6 and the table row are reworded so the binding rule sits in the code (MRC R315), authorized by the statute.\n  - **Licensing threshold** (MCL 339.2403 exemption): the official-host fetch failed. The $600 threshold was re-confirmed on LARA's own homeowner page, which states that contractors \"offering to do work which totals $600 or more in labor and materials must be licensed\" (GOV). The M&A trade list was re-confirmed verbatim on LARA (no chimney).\n  - **MCL 339.2412 and MCL 565.957: STILL OPEN on the official host** (robots/TLS failure on every attempt). FindLaw copies re-read today match the file: 2412(1) as quoted; 565.957 form lines \"Fireplace & chimney\" and \"Wood burning system\" (REF).\n  - **MCL 445.112**: the official-host fetch failed; the AG alert's \"three days to cancel\" is re-confirmed (GOV).\n- Dead links: none. All 13 URLs in the file resolved: LARA injunction PDF, Troy, Ann Arbor, HBAM, Justia 125.1504f, AG alert, AG Hummingbird release, LARA homeowner page, LARA M&A page, FindLaw 339.2412, FindLaw 565.957, billtrack50 HB 4110. Official-host statute URLs were not added to the body because only 125.1504f could be fetched: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-125-1504f (GOV).\n- Corrections made this pass:\n  - (a) § 6 and table row: MCL 125.1504f is enabling (\"may provide for\"), with penalties deferred to code adoption; the binding CO rule is the code (MRC R315); the bedroom-addition trigger was added to the table row.\n  - (b) § 5 litigation status updated (HBAM page Aug 14, 2026; LARA BCC page Sep 25, 2026).\n  - (c) Header now states which statutes were confirmed on the official host.\n1. Re-confirm the 2015 MRC is still in force at publish time.\n2. MCL 339.2412, 565.957 and 445.112 text are still verified only on FindLaw/Justia copies. The official host was unreachable in both passes, so label them as such or confirm before publish.\n3. The CO rule must be framed as code-level (MRC R315, authorized by MCL 125.1504f), not as a direct statutory mandate; R315 wording was not re-read.\n4. Reline and sweep licensure scope is labeled as interpretation.\n5. The 2025–26 bill search on legislature.mi.gov is still owed."
   },
   "sections": [
     {
@@ -81,7 +81,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence",
-      "markdown": "Statewide code under the **Stille-DeRossett-Hale Single State Construction Code Act (PA 230 of 1972)**, enforced by local building departments. **The 2015 Michigan Residential Code (IRC 2015-based) remains in effect.** LARA filed rules adopting the 2021 Michigan Residential Code (2021 IRC) and residential energy provisions to take effect August 29, 2025, but a **Michigan Court of Claims order dated July 7, 2025** (posted by LARA) paused both rule sets, stating the 2015 versions \"will remain valid and in effect.\" The Home Builders Association of Michigan lawsuit was still in discovery as of its latest posted update; no source found showing the 2021 MRC in force. (Commercial side is different: 2021 Michigan Building Code took effect April 2025 — do not conflate.) Relines, rebuilds, and solid-fuel appliance installs are typically permit work (building/mechanical); routine sweeps and like-for-like cap swaps typically are not — local variation is real, say so."
+      "markdown": "Statewide code under the **Stille-DeRossett-Hale Single State Construction Code Act (PA 230 of 1972)**, enforced by local building departments. **The 2015 Michigan Residential Code (IRC 2015-based) remains in effect.** LARA filed rules adopting the 2021 Michigan Residential Code (2021 IRC) and residential energy provisions to take effect August 29, 2025, but a **Michigan Court of Claims order dated July 7, 2025** (posted by LARA) paused both rule sets, stating the 2015 versions \"will remain valid and in effect.\" The Home Builders Association of Michigan's lawsuit was still in discovery at the latest check. HBAM's legal page (modified Aug 14, 2026; REF) says the court extended discovery to \"late spring\" and reports no ruling. LARA's Bureau of Construction Codes page (GOV, Sep 25, 2026) still describes the 2021 residential and energy rules as under injunction. No source shows the 2021 MRC in force. (Commercial side is different: 2021 Michigan Building Code took effect April 2025 — do not conflate.) Relines, rebuilds, and solid-fuel appliance installs are typically permit work (building/mechanical); routine sweeps and like-for-like cap swaps typically are not — local variation is real, say so."
     },
     {
       "number": "6",
@@ -95,7 +95,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence",
-      "markdown": "The statute layer is **MCL 125.1504f (the \"Overbeck law,\" added to the Construction Code Act, effective March 23, 2009)**: an operational, approved CO device is required in a single-family or multifamily dwelling **at initial construction, at a renovation of an existing single-family dwelling for which a permit is required, or when a bedroom is added** — positioned near sleeping areas and fuel-burning appliances/attached garages. The Michigan Residential Code's R315 carries the same requirement at the code level. There is **no statewide retrofit or at-sale CO requirement** for existing homes — a permitted chimney job is exactly the trigger, and the natural moment to add alarms. Rental rules vary locally."
+      "markdown": "The statute layer is **MCL 125.1504f (the \"Overbeck law,\" added to the Construction Code Act by 2008 PA 377, effective March 23, 2009)**. The statute is **enabling, not self-executing**. It reads: \"The director **may provide for**, at the time of initial construction of a single-family dwelling or a multifamily dwelling, or at the time of renovation of any existing single-family dwelling in which a permit is required, or upon the addition or creation of a bedroom, the installation of at least 1 operational and approved carbon monoxide device.\" A device \"shall be located in the vicinity of the bedrooms ... in areas within the dwelling adjacent to an attached garage; and in areas adjacent to any fuel-burning appliances.\" Subsection (3) bars penalties until a code incorporating the requirement takes effect (legislature.mi.gov, MCL 125.1504f). The binding requirement therefore sits in the **Michigan Residential Code (R315)**, which the construction code adopts. *(R315's current MRC text was not re-read on a primary source in Sep 2026; cite it as the code-level home of the rule, not by quoted wording.)* There is **no statewide retrofit or at-sale CO requirement** for existing homes — a permitted chimney job is exactly the trigger, and the natural moment to add alarms. Rental rules vary locally."
     },
     {
       "number": "7",
@@ -157,7 +157,7 @@
       "title": "/rights table row (internal)",
       "evidence": [],
       "confidenceNote": null,
-      "markdown": "License: **YES — state license ≥$600 (RB or M&A-masonry)** · Registration: — (licensure regime) · Disclosure law: **YES, \"Fireplace & chimney\" + \"Wood burning system\" items (MCL 565.957)** · Unlicensed can't sue: **YES (MCL 339.2412)** · 3-day cancel: **YES (MCL 445.112)** · CO law: **at construction/permitted renovation only (MCL 125.1504f + MRC R315)** · Lookup: michigan.gov/statelicensesearch"
+      "markdown": "License: **YES — state license ≥$600 (RB or M&A-masonry)** · Registration: — (licensure regime) · Disclosure law: **YES, \"Fireplace & chimney\" + \"Wood burning system\" items (MCL 565.957)** · Unlicensed can't sue: **YES (MCL 339.2412)** · 3-day cancel: **YES (MCL 445.112)** · CO law: **at construction / permitted single-family renovation / bedroom addition only — code requirement (MRC R315) authorized by MCL 125.1504f; no retrofit or at-sale rule** · Lookup: michigan.gov/statelicensesearch"
     }
   ],
   "story": {
@@ -171,9 +171,9 @@
     "disclosure_law": "Yes (Seller Disclosure Act, MCL 565.957, actual knowledge)",
     "chimney_item_on_form": "Yes (Fireplace & chimney + Wood burning system)",
     "three_day_cancel": "Yes (MCL 445.112)",
-    "co_law": "Moderate — construction/permitted renovation only (MCL 125.1504f + MRC R315)",
+    "co_law": "Moderate — construction/permitted single-family renovation/bedroom addition only; code rule (MRC R315) authorized by MCL 125.1504f; no retrofit or at-sale rule",
     "lookup_url": "michigan.gov/statelicensesearch",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -183,11 +183,11 @@
     "disclosure_law": "YES, \"Fireplace & chimney\" + \"Wood burning system\" items (MCL 565.957)",
     "chimney_item_on_form": "",
     "three_day_cancel": "YES (MCL 445.112)",
-    "co_law": "at construction/permitted renovation only (MCL 125.1504f + MRC R315)",
+    "co_law": "at construction / permitted single-family renovation / bedroom addition only — code requirement (MRC R315) authorized by MCL 125.1504f; no retrofit or at-sale rule",
     "lookup_url": "michigan.gov/statelicensesearch"
   },
   "tableRowStale": false,
-  "lastVerified": "2026-09-15",
+  "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [
     {
@@ -234,7 +234,7 @@
       "id": "verdict-co",
       "label": "CO alarm required in your home?",
       "answer": "SEE SECTION",
-      "note": "at construction/permitted renovation only (MCL 125.1504f + MRC R315)",
+      "note": "at construction / permitted single-family renovation / bedroom addition only — code…",
       "anchor": "co-law",
       "rule": "co:unmatched",
       "derivedFrom": "§11: co_law",
@@ -276,7 +276,7 @@
     {
       "id": "faq-what-to-do",
       "q": "What should I check before hiring a chimney company in Michigan?",
-      "a": "State licensing: YES — state license ≥$600 (RB or M&A-masonry). Registration or credential: — (licensure regime). Seller disclosure at sale: YES, \"Fireplace & chimney\" + \"Wood burning system\" items (MCL 565.957). Right to cancel a sale made at your home: YES (MCL 445.112). Carbon monoxide alarm law: at construction/permitted renovation only (MCL 125.1504f + MRC R315). Where to check a contractor: michigan.gov/statelicensesearch. Then ask the eight questions below, get the inspection findings in writing with photos, and never sign for \"emergency\" work on the day of a door-knock.",
+      "a": "State licensing: YES — state license ≥$600 (RB or M&A-masonry). Registration or credential: — (licensure regime). Seller disclosure at sale: YES, \"Fireplace & chimney\" + \"Wood burning system\" items (MCL 565.957). Right to cancel a sale made at your home: YES (MCL 445.112). Carbon monoxide alarm law: at construction / permitted single-family renovation / bedroom addition only — code requirement (MRC R315) authorized by MCL 125.1504f; no retrofit or at-sale rule. Where to check a contractor: michigan.gov/statelicensesearch. Then ask the eight questions below, get the inspection findings in writing with photos, and never sign for \"emergency\" work on the day of a door-knock.",
       "expanded": true,
       "derivedFrom": "verified summary row (§11)"
     },

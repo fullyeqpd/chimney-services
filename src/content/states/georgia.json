@@ -6,13 +6,13 @@
   "researched": "2026-07-06",
   "lawsCitedAs": "Sep 2026",
   "headerNote": null,
-  "verified": "2026-09-15",
+  "verified": "2026-09-25",
   "publishVerdict": "READY WITH CAVEATS",
-  "publishVerdictNote": "(1) do not state chimney masonry is definitively license-exempt; (2) 3-day-cancel copy must say installment-credit-only + FTC rule for cash; (3) CO section must say \"no CO statute located\" without the removed Rule 120-3-3 claim; (4) passive-concealment described without case names; (5) Georgia statute text rests on Justia mirror — spot-check against the official code before launch.",
+  "publishVerdictNote": "(1) passive-concealment described without case names; (2) no GAR form line item quoted; (3) 3-day-cancel copy must say installment-credit-only (§ 10-1-6) + FTC rule for cash; (4) statute text rests on Justia mirror (official LexisNexis code not fetchable); (5) specialty exemption described as Board policy \"subject to change,\" with ch. 14 trade licenses and local permits still applying.",
   "verification": {
-    "heading": "Verification pass — September 2026",
-    "checked": "2026-09-15",
-    "markdown": "Checked 2026-09-15 by verification agent. Laws cited as of Sep 2026.\n- 2024 IRC (GA Amendments) effective date: RESOLVED — DCA lists \"International Residential Code, 2024 Edition, with Georgia Amendments\"; Construction Codes page: \"New Georgia Codes and Amendments - Effective January 1, 2026\" — https://dca.georgia.gov/community-assistance/construction-codes/current-state-minimum-codes-construction ; https://dca.georgia.gov/community-assistance/construction-codes — GOV\n- $2,500 licensing threshold: CORRECTED (citation) — the $2,500 trigger is in § 43-41-2(9) (\"residential contractor\"), not § 43-41-17(g); § 43-41-17(g) is the non-structural repair exemption — https://law.justia.com/codes/georgia/title-43/chapter-41/section-43-41-2/ ; https://law.justia.com/codes/georgia/title-43/chapter-41/section-43-41-17/ — REF mirror of official code (2025) (official LexisNexis GA code portal not fetchable)\n- Specialty exemption covers chimney masonry: STILL OPEN — § 43-41-17(f) delegates the specialty list to Board \"rule or policy\"; masonry not named in statute; Rule 553-8 only defines \"Repair\"; rules.sos.ga.gov rule text blocked — https://rules.sos.ga.gov/gac/553 — GOV (index only)\n- No residential disclosure statute: RESOLVED as absence (medium) — no seller-disclosure section identified; broker duty confirmed in § 10-6A-5 — https://law.justia.com/codes/georgia/title-10/chapter-6a/section-10-6a-5/ — REF mirror of code. Passive-concealment doctrine: STILL OPEN (no primary opinion reached; CourtListener/casetext blocked).\n- CO-alarm rental posture: CORRECTED — Rule 120-3-3 text contains no CO-alarm provision (Dec 27, 2022 claim removed); § 25-2-40 is smoke-detector only; no CO statute located — https://rules.sos.ga.gov/gac/120-3-3 — GOV; https://law.justia.com/codes/georgia/title-25/chapter-2/section-25-2-40/ — REF mirror. Whether GA IRC amendments keep the IRC CO section: STILL OPEN.\n- 3-day cancel: CORRECTED — § 10-1-2 limits home solicitation sale to installment consumer credit sales; no $25 threshold in state law ($25 is the federal FTC rule) — https://law.justia.com/codes/georgia/title-10/chapter-1/article-1/section-10-1-2/ ; https://law.justia.com/codes/georgia/title-10/chapter-1/article-1/section-10-1-6/ — REF mirror of code; https://www.law.cornell.edu/cfr/text/16/429.0 — REF mirror of federal reg\n- FBPA treble: RESOLVED — § 10-1-399 \"three times actual damages for an intentional violation\" — https://law.justia.com/codes/georgia/title-10/chapter-1/article-15/part-2/section-10-1-399/ — REF mirror of code\n- GAR form chimney line: STILL OPEN — member-only form not reached; line-item quote removed from copy.\n- AG enforcement action: STILL OPEN — none located; alert years removed as unverified.\n- 2026 changes: 2024 IRC/GA amendments effective Jan 1, 2026 captured; dedicated 2026 licensing-law sweep STILL OPEN (web-search budget exhausted).\n- Template-leakage sweep: clean (Ohio/Illinois appear only as labeled comparisons)."
+    "heading": "Verification pass — September 25, 2026",
+    "checked": "2026-09-25",
+    "markdown": "Checked 2026-09-25 by verification agent (sweep #2).\n- 2026 law-change sweep: 2024 IRC w/ GA amendments eff. Jan 1, 2026 (already captured); SB 553 (2026) rewrites Title 43 ch. 14 trade licenses eff. Jul 1, 2026 (REF only; no ch. 41 change); no CO, disclosure or chimney-specific change found in 8 searches.\n- Mirror spot-check: n/a (Georgia not a flagged mirror state; statute text still read on Justia 2025 — caveat retained).\n- Dead links: none — all 14 URLs/hosts in the file resolved (Justia GA code pages, law.cornell.edu 16 CFR 429.0, dca.georgia.gov ×2, rules.sos.ga.gov ×2, sos.ga.gov, consumer.georgia.gov). GOALS licensee-search app (goals.sos.ga.gov/GASOSOneStop/s/licensee-search) renders only with JavaScript — cite the sos.ga.gov board page that links it.\n- Blocker — specialty exemption covers chimney masonry: RESOLVED — Board \"Traditional Specialty Contractors Policy Statements\" (rev. 03/06/20) lists \"Masonry\" and \"Fireplaces\"; \"Traditional specialty contractors will not be required to carry a residential or general contractor license\"; list \"under development and subject to change\"; ch. 14 trade licenses still apply — https://sos.ga.gov/page/traditional-specialty-contractors-policy-statements — GOV\n- Blocker — 2024 IRC GA amendments keep CO alarms: RESOLVED — packet revises R311.2.1: \"For new construction, carbon monoxide alarms shall be provided in dwelling units\"; also adds Appendix BB107 (tiny houses) — https://dca.georgia.gov/document/document/irc-2026-amendment-packet-2024-edition/download — DOC. Chapter 10 (chimneys/fireplaces) not amended in the packet.\n- Rule 120-3-3 has no CO provision: RESOLVED (reconfirmed) — https://rules.sos.ga.gov/gac/120-3-3 — GOV\n- § 25-2-40 smoke-only; § 43-41-2(9) $2,500; § 43-41-17(f)/(g); § 10-1-2(a)(4) installment-credit definition; § 10-1-6 midnight of third business day; § 10-1-399 treble for intentional violation; § 10-6A-5 broker duty: RESOLVED (reconfirmed) — law.justia.com 2025 Georgia Code pages — REF mirror of code\n- FTC Cooling-Off Rule $25 at residence / $130 elsewhere: RESOLVED — https://www.law.cornell.edu/cfr/text/16/429.0 — REF mirror of federal reg\n- Passive concealment: STILL OPEN (REF-supported) — Cendant Mobility Fin. Corp. v. Asuamah, 285 Ga. 818 (2009) quotes Wilhite v. Mays, 239 Ga. 31, 32 (1977): seller who knows of serious defects the buyer could not discover with due diligence commits fraud to which caveat emptor is no defense — https://caselaw.findlaw.com/court/ga-supreme-court/1177655.html — REF mirror of opinion\n- GAR form chimney line; FBPA elderly/disabled penalty amount; GA chimney-specific AG action: STILL OPEN (not reachable / none found)\n- Template-leakage sweep: clean (Ohio/Illinois only as labeled comparisons).\n- Corrections made this pass: §1 specialty-exemption caveat replaced with the Board's confirmed list (Masonry, Fireplaces) and the ch. 14 limit; §6 \"GA amendments unverified\" replaced with the R311.2.1 text; §8 now links the live AG \"Storms and Fraud\" page; §11 row updated."
   },
   "sections": [
     {
@@ -27,7 +27,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence on statute; medium on how the specialty exemption reaches chimney work",
-      "markdown": "Georgia licenses **residential and general contractors statewide, but exempts specialty trades and small jobs.** The **State Licensing Board for Residential and General Contractors** (Secretary of State) licenses contractors under **O.C.G.A. Title 43, Chapter 41 (§ 43-41-1 et seq.)**; Residential-Basic covers \"detached one-family and two-family residences and one-family townhouses not over three stories\" (§ 43-41-2). The **$2,500 trigger lives in the definition of \"residential contractor,\" § 43-41-2(9)**: licensing applies \"where the total value of the work or activity or of the compensation to be received by the contractor for such activity or work, whichever is the higher, exceeds $2,500.00.\" **§ 43-41-17(f)** exempts **specialty contractors**, and the statute says the Board \"shall, by rule or policy, identify specialty contractors\" — a specialty contractor may also do incidental other work up to \"the greater of $10,000.00 or 25 percent of the total value.\" **§ 43-41-17(g)** separately allows **repair work** without a license if the person discloses they are unlicensed and the work \"does not affect the structural integrity of the real property.\" Contracts requiring a license entered by an unlicensed contractor are **unenforceable by that contractor** (§ 43-41-17). Net: **sweeping, inspection, caps, and non-structural repair need no state license**; masonry chimney work is widely treated as specialty-exempt, **but the Board's specialty list was not reached on a primary source this pass — a structural chimney rebuild over $2,500 should not be described as definitely license-exempt until confirmed.** There is no chimney-sweep credential. Public lookup: **sos.ga.gov** (Board licensee search)."
+      "markdown": "Georgia licenses **residential and general contractors statewide, but exempts specialty trades and small jobs.** The **State Licensing Board for Residential and General Contractors** (Secretary of State) licenses contractors under **O.C.G.A. Title 43, Chapter 41 (§ 43-41-1 et seq.)**; Residential-Basic covers \"detached one-family and two-family residences and one-family townhouses not over three stories\" (§ 43-41-2). The **$2,500 trigger lives in the definition of \"residential contractor,\" § 43-41-2(9)**: licensing applies \"where the total value of the work or activity or of the compensation to be received by the contractor for such activity or work, whichever is the higher, exceeds $2,500.00.\" **§ 43-41-17(f)** exempts **specialty contractors**, and the statute says the Board \"shall, by rule or policy, identify specialty contractors\" — a specialty contractor may also do incidental other work up to \"the greater of $10,000.00 or 25 percent of the total value.\" **§ 43-41-17(g)** separately allows **repair work** without a license if the person discloses they are unlicensed and the work \"does not affect the structural integrity of the real property.\" Contracts requiring a license entered by an unlicensed contractor are **unenforceable by that contractor** (§ 43-41-17). The Board's own **\"Traditional Specialty Contractors Policy Statements\"** (sos.ga.gov, revised 03/06/20, checked Sep 25, 2026) implements § 43-41-17 and lists both **\"Masonry\"** and **\"Fireplaces\"** among the traditional specialty trades; the policy says \"Traditional specialty contractors will not be required to carry a residential or general contractor license but will be required to comply with all applicable national, state, and local codes and ordinances,\" and that specialty contractors may \"contract directly with an owner.\" Two limits the page must keep: the Board calls the list \"under development and subject to change,\" and the specialty exemption does not reach work that needs a **Chapter 14 (Title 43) trade license** (electrical, plumbing, conditioned air, etc. — e.g., gas piping for a gas fireplace). Net: **sweeping, inspection, caps, non-structural repair, and chimney masonry/fireplace work as a specialty trade need no state residential/general contractor license**; permits and codes still apply locally. There is no chimney-sweep credential. Public lookup: **sos.ga.gov** (Board page links the GOALS licensee search) — useful only when a chimney job is bundled into general residential construction."
     },
     {
       "number": "2",
@@ -93,7 +93,7 @@
       "title": "Carbon monoxide and smoke alarm law",
       "evidence": [],
       "confidenceNote": "medium — no statute located; code-based only",
-      "markdown": "**No Georgia statute requiring CO detectors in existing homes or rentals was located.** Georgia's alarm statute, **O.C.G.A. § 25-2-40**, covers **smoke detectors only** (new dwellings since July 1, 1987; battery detectors in pre-1987 dwellings since July 1, 1994). New-construction CO alarms come, if at all, through the adopted **2024 IRC with Georgia Amendments** (IRC CO-alarm section — whether Georgia's amendments keep, modify, or delete it was NOT verified this pass). **Correction:** an earlier draft tied a CO requirement to State Minimum Fire Safety Standards Rule 120-3-3 with a Dec. 27, 2022 date; the current Rule 120-3-3 text reviewed Sep 2026 contains no CO-alarm provision, so that claim has been removed. No statewide landlord CO mandate and **no pre-sale CO certificate**; local rental ordinances (e.g., City of Atlanta) were not verified. A permitted chimney job is the natural moment to add alarms."
+      "markdown": "**No Georgia statute requiring CO detectors in existing homes or rentals was located.** Georgia's alarm statute, **O.C.G.A. § 25-2-40**, covers **smoke detectors only** (new dwellings since July 1, 1987; battery detectors in pre-1987 dwellings since July 1, 1994). New-construction CO alarms come through the adopted **2024 IRC with Georgia Amendments** (effective Jan 1, 2026): the DCA amendment packet keeps the IRC's carbon-monoxide-alarm section (numbered **R311** in the 2024 IRC as shown in the packet) and revises **R311.2.1** to read \"For new construction, carbon monoxide alarms shall be provided in dwelling units\" (DCA, \"Georgia State Amendments to the International Residential Code (2024 Edition),\" dca.georgia.gov/document/document/irc-2026-amendment-packet-2024-edition/download, checked Sep 25, 2026). That is a code rule for new construction, not a statute reaching existing homes. **Correction:** an earlier draft tied a CO requirement to State Minimum Fire Safety Standards Rule 120-3-3 with a Dec. 27, 2022 date; the current Rule 120-3-3 text reviewed Sep 2026 contains no CO-alarm provision, so that claim has been removed. No statewide landlord CO mandate and **no pre-sale CO certificate**; local rental ordinances (e.g., City of Atlanta) were not verified. A permitted chimney job is the natural moment to add alarms."
     },
     {
       "number": "7",
@@ -122,7 +122,7 @@
         "REF"
       ],
       "confidenceNote": "good AG material",
-      "markdown": "The **Georgia AG's Consumer Protection Division** has issued recurring **home-repair and post-storm \"storm chaser\" consumer alerts** advising Georgians to avoid door-to-door repair offers, refuse full up-front/cash payment, and demand a written contract (specific alert dates not re-verified this pass — link the live consumer.georgia.gov page rather than citing years). The door-knock \"we noticed your chimney\" pitch is a textbook FBPA matter (plus § 10-1-6 if financed on installments, or the FTC Cooling-Off Rule if cash). **No Georgia chimney-sweep-specific enforcement action located — pattern language only.**"
+      "markdown": "The **Georgia AG's Consumer Protection Division** has issued recurring **home-repair and post-storm \"storm chaser\" consumer alerts** advising Georgians to avoid door-to-door repair offers, refuse full up-front/cash payment, and demand a written contract (link the live \"Storms and Fraud\" page, consumer.georgia.gov/consumer-topics/storms-fraud, checked Sep 25, 2026 — written bids, no large up-front payment, written contract with dates, verify credentials; individual alert dates not re-verified, so do not cite years). The door-knock \"we noticed your chimney\" pitch is a textbook FBPA matter (plus § 10-1-6 if financed on installments, or the FTC Cooling-Off Rule if cash). **No Georgia chimney-sweep-specific enforcement action located — pattern language only.**"
     },
     {
       "number": "9",
@@ -158,7 +158,7 @@
       "title": "/rights table row (internal)",
       "evidence": [],
       "confidenceNote": null,
-      "markdown": "License: **NO chimney-sweep license; residential license only > $2,500 (O.C.G.A. § 43-41-2(9)) with specialty (§ 43-41-17(f)) and non-structural repair (§ 43-41-17(g)) exemptions — Board specialty list not yet confirmed for chimney masonry** · Registration: **none for chimney; local permits only** · Disclosure law: **NO mandatory seller disclosure — caveat emptor; broker must disclose known adverse physical facts (§ 10-6A-5); Realtor form optional** · 3-day cancel: **PARTIAL — § 10-1-6 covers installment consumer-credit home solicitation only; cash doorstep sales rely on federal FTC Cooling-Off Rule** · CO law: **WEAK — no CO statute located (§ 25-2-40 is smoke-only); new construction via 2024 IRC w/ GA amendments (unverified); no pre-sale certificate** · Lookup: sos.ga.gov + consumer.georgia.gov"
+      "markdown": "License: **NO chimney-sweep license; residential license only > $2,500 (O.C.G.A. § 43-41-2(9)) with specialty (§ 43-41-17(f)) and non-structural repair (§ 43-41-17(g)) exemptions — Board's traditional-specialty list (rev. 03/06/20) names Masonry and Fireplaces** · Registration: **none for chimney; local permits only** · Disclosure law: **NO mandatory seller disclosure — caveat emptor; broker must disclose known adverse physical facts (§ 10-6A-5); Realtor form optional** · 3-day cancel: **PARTIAL — § 10-1-6 covers installment consumer-credit home solicitation only; cash doorstep sales rely on federal FTC Cooling-Off Rule** · CO law: **WEAK — no CO statute located (§ 25-2-40 is smoke-only); new construction only via 2024 IRC w/ GA amendments (R311.2.1, eff. Jan 1, 2026); no pre-sale certificate** · Lookup: sos.ga.gov + consumer.georgia.gov"
     }
   ],
   "story": {
@@ -167,28 +167,28 @@
   },
   "faqSeeds": null,
   "table": {
-    "license_regime": "NO chimney/sweep license — residential license only >$2,500 (O.C.G.A. 43-41-2(9)); specialty (43-41-17(f)) and non-structural repair (43-41-17(g)) exemptions; Board specialty list unconfirmed for masonry",
+    "license_regime": "NO chimney/sweep license — residential license only >$2,500 (O.C.G.A. 43-41-2(9)); specialty (43-41-17(f)) and non-structural repair (43-41-17(g)) exemptions; Board traditional-specialty list (rev. 03/06/20) names Masonry and Fireplaces",
     "registration_name": "none for chimney; local permits only",
     "disclosure_law": "NO mandatory disclosure statute — caveat emptor; broker must disclose known adverse physical facts (10-6A-5)",
     "chimney_item_on_form": "No state form (optional Realtor form; line item unverified)",
     "three_day_cancel": "PARTIAL — 10-1-6 covers installment consumer-credit home solicitation only; cash sales via federal FTC Cooling-Off Rule",
-    "co_law": "WEAK — no CO statute located (25-2-40 smoke only); new construction via 2024 IRC w/ GA amendments (CO section unverified)",
+    "co_law": "WEAK — no CO statute located (25-2-40 smoke only); new construction only via 2024 IRC w/ GA amendments (R311.2.1, eff. 1/1/2026)",
     "lookup_url": "sos.ga.gov",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
     "source": "§11",
-    "license_regime": "NO chimney-sweep license; residential license only > $2,500 (O.C.G.A. § 43-41-2(9)) with specialty (§ 43-41-17(f)) and non-structural repair (§ 43-41-17(g)) exemptions — Board specialty list not yet confirmed for chimney masonry",
+    "license_regime": "NO chimney-sweep license; residential license only > $2,500 (O.C.G.A. § 43-41-2(9)) with specialty (§ 43-41-17(f)) and non-structural repair (§ 43-41-17(g)) exemptions — Board's traditional-specialty list (rev. 03/06/20) names Masonry and Fireplaces",
     "registration_name": "none for chimney; local permits only",
     "disclosure_law": "NO mandatory seller disclosure — caveat emptor; broker must disclose known adverse physical facts (§ 10-6A-5); Realtor form optional",
     "chimney_item_on_form": "",
     "three_day_cancel": "PARTIAL — § 10-1-6 covers installment consumer-credit home solicitation only; cash doorstep sales rely on federal FTC Cooling-Off Rule",
-    "co_law": "WEAK — no CO statute located (§ 25-2-40 is smoke-only); new construction via 2024 IRC w/ GA amendments (unverified); no pre-sale certificate",
+    "co_law": "WEAK — no CO statute located (§ 25-2-40 is smoke-only); new construction only via 2024 IRC w/ GA amendments (R311.2.1, eff. Jan 1, 2026); no pre-sale certificate",
     "lookup_url": "sos.ga.gov + consumer.georgia.gov"
   },
   "tableRowStale": false,
-  "lastVerified": "2026-09-15",
+  "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [
     {
@@ -234,10 +234,10 @@
     {
       "id": "verdict-co",
       "label": "CO alarm required in your home?",
-      "answer": "SEE SECTION",
-      "note": "Flagged in the verification caveats — read the section",
+      "answer": "LIMITED",
+      "note": "WEAK — no CO statute located (§ 25-2-40 is smoke-only); new construction only via 2024 IRC w/…",
       "anchor": "co-law",
-      "rule": "co:limited→caveat-downgrade",
+      "rule": "co:limited",
       "derivedFrom": "§11: co_law",
       "evidence": null
     },
@@ -278,7 +278,7 @@
     {
       "id": "faq-what-to-do",
       "q": "What should I check before hiring a chimney company in Georgia?",
-      "a": "State licensing: NO chimney-sweep license; residential license only > $2,500 (O.C.G.A. § 43-41-2(9)) with specialty (§ 43-41-17(f)) and non-structural repair (§ 43-41-17(g)) exemptions — Board specialty list not yet confirmed for chimney masonry. Registration or credential: none for chimney; local permits only. Seller disclosure at sale: NO mandatory seller disclosure — caveat emptor; broker must disclose known adverse physical facts (§ 10-6A-5); Realtor form optional. Right to cancel a sale made at your home: PARTIAL — § 10-1-6 covers installment consumer-credit home solicitation only; cash doorstep sales rely on federal FTC Cooling-Off Rule. Carbon monoxide alarm law: WEAK — no CO statute located (§ 25-2-40 is smoke-only); new construction via 2024 IRC w/ GA amendments (unverified); no pre-sale certificate. Where to check a contractor: sos.ga.gov + consumer.georgia.gov. Then ask the eight questions below, get the inspection findings in writing with photos, and never sign for \"emergency\" work on the day of a door-knock.",
+      "a": "State licensing: NO chimney-sweep license; residential license only > $2,500 (O.C.G.A. § 43-41-2(9)) with specialty (§ 43-41-17(f)) and non-structural repair (§ 43-41-17(g)) exemptions — Board's traditional-specialty list (rev. 03/06/20) names Masonry and Fireplaces. Registration or credential: none for chimney; local permits only. Seller disclosure at sale: NO mandatory seller disclosure — caveat emptor; broker must disclose known adverse physical facts (§ 10-6A-5); Realtor form optional. Right to cancel a sale made at your home: PARTIAL — § 10-1-6 covers installment consumer-credit home solicitation only; cash doorstep sales rely on federal FTC Cooling-Off Rule. Carbon monoxide alarm law: WEAK — no CO statute located (§ 25-2-40 is smoke-only); new construction only via 2024 IRC w/ GA amendments (R311.2.1, eff. Jan 1, 2026); no pre-sale certificate. Where to check a contractor: sos.ga.gov + consumer.georgia.gov. Then ask the eight questions below, get the inspection findings in writing with photos, and never sign for \"emergency\" work on the day of a door-knock.",
       "expanded": true,
       "derivedFrom": "verified summary row (§11)"
     },
@@ -308,7 +308,7 @@
     },
     "b": {
       "answer": "YES",
-      "note": "YES for residential work > $10,000 — HBLB (Ala. Code § 34-14A-2(12); roofers > $2,500)…"
+      "note": "YES for residential work > $10,000 — HBLB (Ala. Code § 34-14A-2(16); roofers > $2,500)…"
     },
     "neighborPublishVerdict": "READY WITH CAVEATS"
   }

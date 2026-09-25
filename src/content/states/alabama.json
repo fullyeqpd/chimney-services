@@ -6,13 +6,13 @@
   "researched": "2026-07-06",
   "lawsCitedAs": "Sep 2026",
   "headerNote": null,
-  "verified": "2026-09-15",
+  "verified": "2026-09-25",
   "publishVerdict": "READY WITH CAVEATS",
-  "publishVerdictNote": "(1) caveat-emptor exceptions need a verified case cite before the Home Sale section ships; (2) no code-edition claims; (3) CO section must reflect the corrected \"no landlord CO duty in statute\"; (4) 3-day cancel copy credit-only + FTC rule for cash; (5) all Alabama statute text rests on the Justia mirror — spot-check against the official code before launch.",
+  "publishVerdictNote": "(1) name no IRC edition until the HBLB rule is final; (2) Permits and CO sections must say the state residential code starts 1/1/2027, edition pending; (3) exam/bond facts not verified — leave them off the page; (4) statute text read on the HBLB compilation and Justia, not the official code site.",
   "verification": {
-    "heading": "Verification pass — September 2026",
-    "checked": "2026-09-15",
-    "markdown": "Checked 2026-09-15 by verification agent. Laws cited as of Sep 2026.\n- $10,000 HBLB residential threshold / exact section: RESOLVED — § 34-14A-2(12) \"residential home builder\" includes repair/improvement when cost exceeds $10,000 ($2,500 residential roofers) — https://law.justia.com/codes/alabama/title-34/chapter-14a/section-34-14a-2/ — REF mirror of code (2023 code year shown; official alisondb not fetchable)\n- General Contractors Board threshold: RESOLVED — § 34-8-1 \"$100,000 or more\" (2025 code) — https://law.justia.com/codes/alabama/title-34/chapter-8/section-34-8-1/ — REF mirror; \"Act 2024-277\" and residential carve-out: STILL OPEN (removed from copy).\n- Current IRC edition (state + Birmingham/Huntsville): STILL OPEN — § 34-14A-12 confirms HBLB may adopt codes without superseding local codes — https://law.justia.com/codes/alabama/title-34/chapter-14a/section-34-14a-12/ — REF mirror; hblb.alabama.gov shows only a pending \"proposed rule change regarding the Alabama Residential Building Code\" — https://hblb.alabama.gov/ — GOV. Edition claims (2015/2018, Act 2024-443) removed from copy.\n- Caveat emptor for used homes: STILL OPEN — no primary case or § 6-5-102 text reached (Justia 404s); doctrine retained with verification flag.\n- CO law: CORRECTED — landlord CO duty claim removed; § 35-9A-204 has no CO/smoke provision — https://law.justia.com/codes/alabama/title-35/chapter-9a/article-2/section-35-9a-204/ — REF mirror of code\n- 3-day cancel: CORRECTED (scope) — § 5-19-1(8) limits to \"a consumer credit sale\"; § 5-19-12 third-business-day window and one-year extension confirmed — https://law.justia.com/codes/alabama/title-5/chapter-19/section-5-19-1/ ; https://law.justia.com/codes/alabama/title-5/chapter-19/section-5-19-12/ — REF mirror; federal fallback https://www.law.cornell.edu/cfr/text/16/429.0 — REF mirror\n- DTPA remedies: RESOLVED — § 8-19-10 greater of actual or $100, up to treble, fees, 15-day demand — https://law.justia.com/codes/alabama/title-8/chapter-19/section-8-19-10/ — REF mirror\n- Enforcement / AG-HBLB warnings: STILL OPEN — none verified; web-search budget exhausted.\n- 2026 changes: STILL OPEN — no 2026 legislation sweep possible (search budget exhausted); HBLB proposed residential-code rule change pending.\n- Template-leakage sweep: MD/VA/IL appear only as labeled comparisons — OK."
+    "heading": "Verification pass — September 25, 2026",
+    "checked": "2026-09-25",
+    "markdown": "Checked 2026-09-25 by verification agent (sweep #2).\n- 2026 law-change sweep: Act 2024-443 (state residential code from 1/1/2027, edition pending), Act 2024-277 (GC threshold $100k), Act 2026-396 (GC exemptions eff. 10/1/2026) — details above; nothing changes the $10,000 HBLB line, caveat emptor, or the no-CO-statute finding.\n- Licensing threshold: RESOLVED on regulator text — HBLB official law compilation (eff. Oct 1, 2025) § 34-14A-2(16) \"exceeds ten thousand dollars ($10,000)\"; HBLB Jan 29, 2026 notice restates $10,000 / roofers $2,500 — https://hblb.alabama.gov/wp-content/uploads/2025/10/HBLB-Law-Effective-October-1-2025-Reg-Effective-March-17-2025-Full-2025-Legislative-Changes-1.pdf (DOC); https://hblb.alabama.gov/warning-against-home-repair-fraud/ (GOV). CORRECTED paragraph cite (12) → (16) throughout.\n- General Contractors Board $100,000 / Act 2024-277: RESOLVED (was STILL OPEN) — https://genconbd.alabama.gov/14104/changes-to-the-alabama-licensing-board-for-general-contractors-section-of-the-code-of-alabama/ — GOV\n- Penalties: RESOLVED — § 34-14A-14(a) Class A misdemeanor; administrative fine ≤ $5,000 per violation — HBLB compilation — DOC\n- Caveat emptor / seller disclosure: RESOLVED (was STILL OPEN) — AREC consumer page states caveat emptor and the health-or-safety exception — https://arec.alabama.gov/pages/consumer/information/consumerinformation.aspx — GOV; Blaylock v. Cary, 709 So. 2d 1128 (Ala. 1997), three exceptions, citing Cato v. Lowder Realty Co., 630 So. 2d 378 (Ala. 1993) — https://law.justia.com/cases/alabama/supreme-court/1997/1952086-1.html — REF host of primary case text; Teer v. Johnston (Ala. Sept. 30, 2010), quoting Massey v. Weeks Realty Co., 511 So. 2d 171 (Ala. 1987) — https://caselaw.findlaw.com/court/al-supreme-court/1539949.html — REF host; § 6-5-102 text (2025 code) — https://law.justia.com/codes/alabama/title-6/chapter-5/article-8/section-6-5-102/ — REF mirror. No mandatory form exists, so no chimney item.\n- CO law: RESOLVED (absence re-confirmed) — no CO statute found; § 35-9A-204 (landlord) and § 34-15-4 (hotels, smoke only) silent on CO — https://law.justia.com/codes/alabama/title-34/chapter-15/section-34-15-4/ — REF mirror. Statewide residential code from 1/1/2027 noted; R315 inclusion STILL OPEN.\n- Code edition: STILL OPEN — proposed rule on admincode.legislature.state.al.us is script-only.\n- Mirror spot-check: n/a (AL not a Job 2 state); note the official code host alison.legislature.state.al.us is script-only and returned no statute text.\n- Dead links: none in file (hblb.alabama.gov, genconbd.alabama.gov resolve; complaint link made specific: alabamaag.gov/consumer-complaint/). alabamaag.gov/consumer-protection/ returns 404 — not used.\n- Template leakage: MD/VA/IL appear only as labeled comparisons — clean.\n- Corrections made this pass: § 34-14A-2(12) → (16); Act 2024-277 and Act 2024-443 now cited (both verified on agency sources); code-adoption paragraph rewritten for the 1/1/2027 state code; caveat-emptor doctrine now cited to cases + AREC."
   },
   "sections": [
     {
@@ -28,7 +28,7 @@
         "REF"
       ],
       "confidenceNote": "high confidence on thresholds; no chimney-specific credential",
-      "markdown": "Alabama runs **two separate contractor boards, and homeowner chimney repair is the residential one's territory.** The **Alabama Home Builders Licensure Board (HBLB)**, under **Ala. Code Title 34, Chapter 14A**, licenses a **\"residential home builder\"** — defined in **§ 34-14A-2(12)** to include one who undertakes the construction \"or the repair, improvement, or reimprovement thereof\" of a residential structure when the cost **exceeds $10,000** (**$2,500 for residential roofers**). So a chimney rebuild, reline, or larger masonry repair over $10,000 requires an HBLB license; a homeowner-facing chimney job **at or under $10,000 needs no state license at all.** (The HBLB's limited vs. unlimited license categories were not re-verified this pass.) The separate **Alabama Licensing Board for General Contractors (Ala. Code Title 34, Chapter 8)** applies to projects of \"one hundred thousand dollars ($100,000) or more\" (§ 34-8-1, 2025 code; amending act number not re-verified) — how that board's jurisdiction interacts with HBLB residential work was not re-verified, but a typical homeowner chimney job is far below $100,000. There is **no statewide \"home improvement\" registration**; any such layer is **LOCAL** (specific city registration regimes not verified this pass). Public lookup: **hblb.alabama.gov** (residential); **genconbd.alabama.gov** (commercial)."
+      "markdown": "Alabama runs **two separate contractor boards, and homeowner chimney repair is the residential one's territory.** The **Alabama Home Builders Licensure Board (HBLB)**, under **Ala. Code Title 34, Chapter 14A**, licenses a **\"residential home builder\"** — defined in **§ 34-14A-2(16)** (paragraph renumbered by Act 2024-443; earlier code years showed it as (12)) to include one who undertakes the construction \"or the repair, improvement, or reimprovement thereof\" of a residence \"when the cost of the undertaking exceeds ten thousand dollars ($10,000)\"; **residential roofers** are covered when the cost **exceeds $2,500** (§ 34-14A-2; the HBLB's Jan 29, 2026 public notice restates both lines: a license is required \"when the cost of the job is more than $10,000,\" roofers \"more than $2,500\"). So a chimney rebuild, reline, or larger masonry repair over $10,000 requires an HBLB license; a homeowner-facing chimney job **at or under $10,000 needs no state license at all.** License type, per the HBLB's published law-and-rules compilation (Oct 2025): a **limited** license covers work that does not affect structural integrity or involves only one trade; an **unlimited** license is required where work affects structural integrity or involves more than one trade (DOC; rule text not independently re-read). Unlicensed residential home building is a **Class A misdemeanor** (§ 34-14A-14(a)), and the board may levy administrative fines \"not to exceed five thousand dollars ($5,000) for each violation\" (§ 34-14A-14(c)); the HBLB states that under an emergency declaration the crime \"may be enhanced to a felony\" under Alabama's aggravated home repair fraud statute (section number not given by the board — do not cite one). The separate **Alabama Licensing Board for General Contractors (Ala. Code Title 34, Chapter 8)** applies to projects of \"one hundred thousand dollars ($100,000) or more\" (§ 34-8-1(a), raised from $50,000 by **Act 2024-277, effective Oct 1, 2024** — genconbd.alabama.gov). **Act 2026-396 (effective Oct 1, 2026)** adds General Contractors Board exemptions for residential swimming-pool work and \"certain routine or regular maintenance, repair, cleaning, and facility support services\" — it changes neither the $100,000 line nor the HBLB's $10,000 residential line. A typical homeowner chimney job is far below $100,000. There is **no statewide \"home improvement\" registration**; any such layer is **LOCAL** (specific city registration regimes not verified this pass). Public lookup: **hblb.alabama.gov** (residential); **genconbd.alabama.gov** (commercial)."
     },
     {
       "number": "2",
@@ -54,7 +54,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence; Alabama is a true caveat-emptor state",
-      "markdown": "**Alabama is a caveat-emptor (\"buyer beware\") state for resale homes — no statute mandating a seller-disclosure form was identified.** Alabama case law is widely reported to hold that a seller of a used home generally has no duty to disclose defects, subject to narrow exceptions: (1) a fiduciary relationship; (2) seller knowledge of a **material defect affecting health or safety** not known or readily observable by the buyer; and (3) a **direct buyer question**, which must be answered truthfully — with fraud claims resting on the suppression-of-material-fact statute (**Ala. Code § 6-5-102**). **Neither the case citations nor the § 6-5-102 text were reached on a primary source in the Sep 2026 pass** — publish the doctrine only with a verified case cite. A cracked flue or CO-leaking chimney could plausibly implicate the health/safety exception, but **absent a direct question the seller may stay silent** — the practical takeaway is that Alabama buyers must get their own inspection and ask chimney questions in writing. No inspection is mandated at transfer; NFPA 211 Level 2 stays a NATIONAL STANDARD."
+      "markdown": "**Alabama is a caveat-emptor (\"buyer beware\") state for resale homes — no statute mandating a seller-disclosure form was identified.** The **Alabama Real Estate Commission** says so on its own consumer page: \"The Alabama Supreme Court has held caveat emptor (\"buyer beware\") to be the law in Alabama when selling existing homes,\" and \"Neither the seller nor the seller's agents, unless asked, are required to disclose defects, except those which might pose an immediate health or safety risk\" (arec.alabama.gov, GOV). The controlling case law: in **Blaylock v. Cary, 709 So. 2d 1128 (Ala. 1997)**, the Alabama Supreme Court restated that for used residential real estate \"a seller ordinarily has no duty to disclose to the purchaser any defects in the property,\" subject to three exceptions — (1) a **fiduciary relationship** between the parties; (2) **material defects affecting health or safety** known to the seller but not known to or readily observable by the buyer; and (3) a **direct inquiry** by the buyer, which must be answered truthfully — citing **Cato v. Lowder Realty Co., 630 So. 2d 378 (Ala. 1993)**. **Teer v. Johnston (Ala. Sept. 30, 2010)** reaffirmed that \"Alabama retains the caveat emptor rule with regard to the resale of used residential real estate\" (quoting **Massey v. Weeks Realty Co., 511 So. 2d 171 (Ala. 1987)**) and called the health-or-safety exception \"narrow.\" Fraud claims for silence rest on **Ala. Code § 6-5-102**: \"Suppression of a material fact which the party is under an obligation to communicate constitutes fraud. The obligation to communicate may arise from the confidential relations of the parties or from the particular circumstances of the case.\" (Case texts read on Justia/FindLaw; § 6-5-102 on the 2025 Justia code — the official code site is script-only and could not be read.) A cracked flue or CO-leaking chimney could plausibly implicate the health/safety exception, but **absent a direct question the seller may stay silent** — the practical takeaway is that Alabama buyers must get their own inspection and ask chimney questions in writing. No inspection is mandated at transfer; NFPA 211 Level 2 stays a NATIONAL STANDARD."
     },
     {
       "number": "4",
@@ -68,7 +68,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence",
-      "markdown": "Two levers. **(1)** The **Alabama Deceptive Trade Practices Act (Ala. Code § 8-19-1 et seq.)**, enforced by the AG's Consumer Interest Division, gives a private action under **§ 8-19-10** for \"any actual damages sustained ... or the sum of $100, whichever is greater,\" and the court may award \"up to three times any actual damages,\" plus costs and a reasonable attorney's fee; a written demand at least 15 days before suit is required, and class actions by consumers are barred. **(2)** A **3-business-day cancel right** lives NOT in the DTPA but in the consumer-credit \"Mini-Code\": **Ala. Code § 5-19-12** — cancel \"until midnight of the third business day following execution\"; if the seller never gave the required notice, the buyer may cancel within **one year**. **Scope correction:** § 5-19-1(8) defines a home solicitation sale as \"a **consumer credit sale** of goods or services\" — so this state right covers **financed** doorstep deals only. A **cash** doorstep chimney sale of $25+ at the home is covered by the **federal FTC Cooling-Off Rule (16 CFR Part 429)** — NATIONAL, not Alabama law. Complaints: **alabamaag.gov** (Consumer Interest Division)."
+      "markdown": "Two levers. **(1)** The **Alabama Deceptive Trade Practices Act (Ala. Code § 8-19-1 et seq.)**, enforced by the AG's Consumer Interest Division, gives a private action under **§ 8-19-10** for \"any actual damages sustained ... or the sum of $100, whichever is greater,\" and the court may award \"up to three times any actual damages,\" plus costs and a reasonable attorney's fee; a written demand at least 15 days before suit is required, and class actions by consumers are barred. **(2)** A **3-business-day cancel right** lives NOT in the DTPA but in the consumer-credit \"Mini-Code\": **Ala. Code § 5-19-12** — cancel \"until midnight of the third business day following execution\"; if the seller never gave the required notice, the buyer may cancel within **one year**. **Scope correction:** § 5-19-1(8) defines a home solicitation sale as \"a **consumer credit sale** of goods or services\" — so this state right covers **financed** doorstep deals only. A **cash** doorstep chimney sale of $25+ at the home is covered by the **federal FTC Cooling-Off Rule (16 CFR Part 429)** — NATIONAL, not Alabama law. Complaints: **Alabama AG Consumer Interest Division** — online form at alabamaag.gov/consumer-complaint/; unlicensed-builder complaints also go to the HBLB (hblb.alabama.gov)."
     },
     {
       "number": "5",
@@ -82,7 +82,7 @@
         "GOV"
       ],
       "confidenceNote": "medium; genuine local patchwork, editions unverified",
-      "markdown": "Alabama has **no single residential code enforced everywhere**. **Ala. Code § 34-14A-12** says the HBLB \"may establish or adopt residential building codes and standards of practice for residential home builders,\" but these do not \"supersede or otherwise exempt residential home builders from a local building law or code\" — **enforcement is LOCAL** and only where a building department exists. (Reports that code-adoption authority moved from ADECA to the HBLB in 2024, the HBLB's currently adopted IRC edition, and the editions enforced by Birmingham and Huntsville were **not verified this pass — do not cite editions yet**; the HBLB site notes a pending \"proposed rule change regarding the Alabama Residential Building Code.\") Where a department exists, chimney relines, rebuilds, crowns, and solid-fuel appliance installs are generally **permit work**; routine sweeps and like-for-like caps generally are not. In unincorporated/rural areas there may be **no permit process at all** — the local-variance disclaimer is essential here."
+      "markdown": "Alabama has **no single residential code enforced everywhere today — but that is scheduled to change on January 1, 2027.** **Act 2024-443** rewrote **Ala. Code § 34-14A-12**: the HBLB now has \"sole authority to adopt\" the **Alabama Residential Building Code** and **Alabama Residential Energy Code**, based on \"a published edition of the International Residential Code\" and of the IECC; created a Residential Building Code Division and an Advisory Council (§§ 34-14A-41 to -44, -80 to -83); and added **§ 34-14A-12.1**, under which, beginning **January 1, 2027**, residential home builders must construct, renovate, or repair per the \"applicable residential building code.\" The state code \"shall not supersede any local residential building code adopted by any county or municipality in effect on January 1, 2027\"; local codes adopted after that date must meet the state minimums. Enforcement (permits, inspections) stays **LOCAL**, where a building department exists (HBLB law compilation effective Oct 1, 2025 — DOC). **Which IRC edition the HBLB will adopt is NOT yet confirmed** — the Advisory Council was to recommend a code by Oct 1, 2025, and the HBLB homepage links a pending \"proposed rule change regarding the Alabama Residential Building Code\" on the Legislative Services Agency's admin-code site (script-only; not readable this pass). Birmingham and Huntsville editions also unverified — **do not cite editions yet**. Where a department exists, chimney relines, rebuilds, crowns, and solid-fuel appliance installs are generally **permit work**; routine sweeps and like-for-like caps generally are not. In unincorporated/rural areas there may be **no permit process at all** — the local-variance disclaimer is essential here."
     },
     {
       "number": "6",
@@ -96,7 +96,7 @@
         "GOV"
       ],
       "confidenceNote": "medium; no state statute located",
-      "markdown": "Alabama has **no standalone statewide CO-alarm statute located.** **Correction:** an earlier draft said Alabama landlords must provide CO alarms in rentals with fuel-fired appliances or attached garages; the landlord-obligations section of the Alabama Uniform Residential Landlord and Tenant Act (**Ala. Code § 35-9A-204**, 2025) contains **no carbon monoxide or smoke alarm provision**, so that claim has been removed. CO requirements reach homes only through **locally adopted IRC editions for new construction** (where a local code exists). No statewide pre-sale or pre-rental CO certificate exists. A permitted chimney job remains the natural moment to add alarms. *(Absence of a dedicated CO statute is itself the finding.)*"
+      "markdown": "Alabama has **no standalone statewide CO-alarm statute located.** **Correction:** an earlier draft said Alabama landlords must provide CO alarms in rentals with fuel-fired appliances or attached garages; the landlord-obligations section of the Alabama Uniform Residential Landlord and Tenant Act (**Ala. Code § 35-9A-204**, 2025) contains **no carbon monoxide or smoke alarm provision**, so that claim has been removed. The hotel statute (**§ 34-15-4**) requires smoke detectors in guest rooms but says nothing about CO. CO requirements reach homes only through **locally adopted IRC editions for new construction** (where a local code exists). From **Jan 1, 2027** the state Alabama Residential Building Code (Act 2024-443, § 5 above) will bind HBLB-licensed residential construction statewide — whether the adopted edition carries the IRC's CO-alarm section (R315) is **not yet confirmed**. No statewide pre-sale or pre-rental CO certificate exists. A permitted chimney job remains the natural moment to add alarms. *(Absence of a dedicated CO statute is itself the finding.)*"
     },
     {
       "number": "7",
@@ -123,7 +123,7 @@
         "REF"
       ],
       "confidenceNote": "post-storm pattern well-documented",
-      "markdown": "The national pattern is **storm-chaser home-repair fraud** after severe weather: door-to-door and out-of-town contractors, demands for full up-front payment, and no state license shown for jobs over $10,000 (Alabama AG and HBLB public warnings are reported but specific releases were not re-verified this pass — link the live agency pages rather than quoting). The door-knock \"we noticed your chimney\" pitch is a DTPA matter, plus § 5-19-12 cancel rights if financed or the FTC Cooling-Off Rule if cash. **No AL chimney-sweep-specific enforcement action located — pattern language only.**"
+      "markdown": "The national pattern is **storm-chaser home-repair fraud** after severe weather: door-to-door and out-of-town contractors, demands for full up-front payment, and no state license shown for jobs over $10,000. Citable agency material: the **AG and HBLB joint warning of Jan 29, 2021** (Jefferson County tornado) — \"Ask if they are licensed. Ask to see the card!\" and \"NEVER make a full payment or substantial down payment up front\" (alabamaag.gov); the **HBLB's Jan 29, 2026 \"Warning Against Home Repair Fraud\"** (license lines $10,000 / roofers $2,500; felony enhancement under an emergency declaration); and an **HBLB license check in Jefferson and Shelby Counties (news item Nov 3, 2025)** that ended in stop-work orders against four unlicensed builders (hblb.alabama.gov, GOV). None of these mentions chimneys. The door-knock \"we noticed your chimney\" pitch is a DTPA matter, plus § 5-19-12 cancel rights if financed or the FTC Cooling-Off Rule if cash. **No AL chimney-sweep-specific enforcement action located — pattern language only.**"
     },
     {
       "number": "9",
@@ -159,7 +159,7 @@
       "title": "/rights table row (internal)",
       "evidence": [],
       "confidenceNote": null,
-      "markdown": "License: **YES for residential work > $10,000 — HBLB (Ala. Code § 34-14A-2(12); roofers > $2,500); General Contractors Board ≥ $100,000 (§ 34-8-1); NONE at/under $10k** · Registration: **no state HIC registration; local only (cities not verified)** · Disclosure law: **NO — caveat emptor for resale, no mandatory seller form (case-law exceptions pending primary verification)** · 3-day cancel: **PARTIAL — § 5-19-12 covers consumer-credit home solicitation only (1 year if no notice); cash doorstep sales rely on federal FTC Cooling-Off Rule** · CO law: **NONE at state level — no CO statute; landlord act (§ 35-9A-204) silent; local IRC new construction only** · Lookup: hblb.alabama.gov"
+      "markdown": "License: **YES for residential work > $10,000 — HBLB (Ala. Code § 34-14A-2(16); roofers > $2,500); General Contractors Board ≥ $100,000 (§ 34-8-1, Act 2024-277); NONE at/under $10k** · Registration: **no state home-improvement registration; local only (cities not verified)** · Disclosure law: **NO — caveat emptor for resale, no mandatory seller form; exceptions for fiduciary relationship, known health/safety defects, and direct questions (Blaylock v. Cary, 709 So. 2d 1128 (Ala. 1997))** · 3-day cancel: **PARTIAL — § 5-19-12 covers consumer-credit home solicitation only (1 year if no notice); cash doorstep sales rely on federal FTC Cooling-Off Rule** · CO law: **NONE at state level — no CO statute; landlord act (§ 35-9A-204) silent; local IRC new construction only** · Lookup: hblb.alabama.gov"
     }
   ],
   "story": {
@@ -168,35 +168,35 @@
   },
   "faqSeeds": null,
   "table": {
-    "license_regime": "HBLB residential license required >$10,000 (Ala. Code 34-14A-2(12); roofers >$2,500); General Contractors Board >=$100,000 (34-8-1); none at/under $10k",
+    "license_regime": "HBLB residential license required >$10,000 (Ala. Code 34-14A-2(16); roofers >$2,500); General Contractors Board >=$100,000 (34-8-1, Act 2024-277); none at/under $10k",
     "registration_name": "no state HIC registration; local only (cities unverified)",
-    "disclosure_law": "NO — caveat emptor for resale, no mandatory seller form (case-law exceptions pending primary verification)",
+    "disclosure_law": "NO — caveat emptor for resale, no mandatory seller form; exceptions: fiduciary relationship, known health/safety defect, direct inquiry (Blaylock v. Cary, 709 So. 2d 1128 (Ala. 1997))",
     "chimney_item_on_form": "No",
     "three_day_cancel": "PARTIAL — 5-19-12 covers consumer-credit home solicitation only (1 yr if no notice); cash sales via federal FTC Cooling-Off Rule",
-    "co_law": "NONE at state level — no CO statute; landlord act 35-9A-204 silent; local IRC new construction only",
+    "co_law": "NONE at state level — no CO statute; landlord act 35-9A-204 silent; local IRC new construction only; state residential code applies from 1/1/2027 (edition pending)",
     "lookup_url": "hblb.alabama.gov",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
     "source": "§11",
-    "license_regime": "YES for residential work > $10,000 — HBLB (Ala. Code § 34-14A-2(12); roofers > $2,500); General Contractors Board ≥ $100,000 (§ 34-8-1); NONE at/under $10k",
-    "registration_name": "no state HIC registration; local only (cities not verified)",
-    "disclosure_law": "NO — caveat emptor for resale, no mandatory seller form (case-law exceptions pending primary verification)",
+    "license_regime": "YES for residential work > $10,000 — HBLB (Ala. Code § 34-14A-2(16); roofers > $2,500); General Contractors Board ≥ $100,000 (§ 34-8-1, Act 2024-277); NONE at/under $10k",
+    "registration_name": "no state home-improvement registration; local only (cities not verified)",
+    "disclosure_law": "NO — caveat emptor for resale, no mandatory seller form; exceptions for fiduciary relationship, known health/safety defects, and direct questions (Blaylock v. Cary, 709 So. 2d 1128 (Ala. 1997))",
     "chimney_item_on_form": "",
     "three_day_cancel": "PARTIAL — § 5-19-12 covers consumer-credit home solicitation only (1 year if no notice); cash doorstep sales rely on federal FTC Cooling-Off Rule",
     "co_law": "NONE at state level — no CO statute; landlord act (§ 35-9A-204) silent; local IRC new construction only",
     "lookup_url": "hblb.alabama.gov"
   },
   "tableRowStale": false,
-  "lastVerified": "2026-09-15",
+  "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [
     {
       "id": "verdict-license",
       "label": "License required?",
       "answer": "YES",
-      "note": "YES for residential work > $10,000 — HBLB (Ala. Code § 34-14A-2(12); roofers > $2,500)…",
+      "note": "YES for residential work > $10,000 — HBLB (Ala. Code § 34-14A-2(16); roofers > $2,500)…",
       "anchor": "license",
       "rule": "license:YES",
       "derivedFrom": "§11: license_regime",
@@ -205,10 +205,10 @@
     {
       "id": "verdict-exam",
       "label": "Exam tests chimney skill?",
-      "answer": "NO",
-      "note": "The credential does not test chimney or flue work",
+      "answer": "SEE SECTION",
+      "note": "Flagged in the verification caveats — read the section",
       "anchor": "qualified-gap",
-      "rule": "exam:§2-negative",
+      "rule": "exam:§2-negative→caveat-downgrade",
       "derivedFrom": "§2 text",
       "evidence": "The HBLB license is a business/financial-responsibility credential, not a competence exam for flue work."
     },
@@ -225,10 +225,10 @@
     {
       "id": "verdict-cancel",
       "label": "Right to cancel",
-      "answer": "SEE SECTION",
-      "note": "Flagged in the verification caveats — read the section",
+      "answer": "YES",
+      "note": "3 business day window — conditions in the remedies section",
       "anchor": "remedies",
-      "rule": "cancel:§4-sentence→caveat-downgrade",
+      "rule": "cancel:§4-sentence",
       "derivedFrom": "§4 text",
       "evidence": "(2) A 3-business-day cancel right lives NOT in the DTPA but in the consumer-credit \"Mini-Code\": Ala."
     },
@@ -281,14 +281,14 @@
     {
       "id": "faq-what-to-do",
       "q": "What should I check before hiring a chimney company in Alabama?",
-      "a": "State licensing: YES for residential work > $10,000 — HBLB (Ala. Code § 34-14A-2(12); roofers > $2,500); General Contractors Board ≥ $100,000 (§ 34-8-1); NONE at/under $10k. Registration or credential: no state HIC registration; local only (cities not verified). Seller disclosure at sale: NO — caveat emptor for resale, no mandatory seller form (case-law exceptions pending primary verification). Right to cancel a sale made at your home: PARTIAL — § 5-19-12 covers consumer-credit home solicitation only (1 year if no notice); cash doorstep sales rely on federal FTC Cooling-Off Rule. Carbon monoxide alarm law: NONE at state level — no CO statute; landlord act (§ 35-9A-204) silent; local IRC new construction only. Where to check a contractor: hblb.alabama.gov. Then ask the eight questions below, get the inspection findings in writing with photos, and never sign for \"emergency\" work on the day of a door-knock.",
+      "a": "State licensing: YES for residential work > $10,000 — HBLB (Ala. Code § 34-14A-2(16); roofers > $2,500); General Contractors Board ≥ $100,000 (§ 34-8-1, Act 2024-277); NONE at/under $10k. Registration or credential: no state home-improvement registration; local only (cities not verified). Seller disclosure at sale: NO — caveat emptor for resale, no mandatory seller form; exceptions for fiduciary relationship, known health/safety defects, and direct questions (Blaylock v. Cary, 709 So. 2d 1128 (Ala. 1997)). Right to cancel a sale made at your home: PARTIAL — § 5-19-12 covers consumer-credit home solicitation only (1 year if no notice); cash doorstep sales rely on federal FTC Cooling-Off Rule. Carbon monoxide alarm law: NONE at state level — no CO statute; landlord act (§ 35-9A-204) silent; local IRC new construction only. Where to check a contractor: hblb.alabama.gov. Then ask the eight questions below, get the inspection findings in writing with photos, and never sign for \"emergency\" work on the day of a door-knock.",
       "expanded": true,
       "derivedFrom": "verified summary row (§11)"
     },
     {
       "id": "faq-home-sale",
       "q": "Is a chimney inspection required when a home sells in Alabama?",
-      "a": "Alabama is a caveat-emptor (\"buyer beware\") state for resale homes — no statute mandating a seller-disclosure form was identified. Alabama case law is widely reported to hold that a seller of a used home generally has no duty to disclose defects, subject to narrow exceptions: (1) a fiduciary relationship; (2) seller knowledge of a material defect affecting health or safety not known or readily observable by the buyer; and (3) a direct buyer question, which must be answered truthfully — with fraud claims resting on the suppression-of-material-fact statute (Ala. Code § 6-5-102). Neither the case citations nor the § 6-5-102 text were reached on a primary source in the Sep 2026 pass — publish the doctrine only with a verified case cite.",
+      "a": "Alabama is a caveat-emptor (\"buyer beware\") state for resale homes — no statute mandating a seller-disclosure form was identified. The Alabama Real Estate Commission says so on its own consumer page: \"The Alabama Supreme Court has held caveat emptor (\"buyer beware\") to be the law in Alabama when selling existing homes,\" and \"Neither the seller nor the seller's agents, unless asked, are required to disclose defects, except those which might pose an immediate health or safety risk\" (arec.alabama.gov, GOV). The controlling case law: in Blaylock v. Cary, 709 So.",
       "expanded": false,
       "derivedFrom": "§3 text"
     },
@@ -307,7 +307,7 @@
     "verdictId": "verdict-license",
     "a": {
       "answer": "YES",
-      "note": "YES for residential work > $10,000 — HBLB (Ala. Code § 34-14A-2(12); roofers > $2,500)…"
+      "note": "YES for residential work > $10,000 — HBLB (Ala. Code § 34-14A-2(16); roofers > $2,500)…"
     },
     "b": {
       "answer": "ONLY > $2,500",

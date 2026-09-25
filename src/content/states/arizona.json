@@ -6,13 +6,13 @@
   "researched": "2026-07-06",
   "lawsCitedAs": "Sep 2026",
   "headerNote": null,
-  "verified": "2026-09-15",
+  "verified": "2026-09-25",
   "publishVerdict": "READY WITH CAVEATS",
-  "publishVerdictNote": "(1) do not quote the SPDS chimney line until the form is read; (2) CO section labeled local-code only; (3) Maricopa no-burn details unverified.",
+  "publishVerdictNote": "(1) quote the SPDS as the customary AAR form (Feb 2023), read on a broker-hosted copy; (2) CO new-construction rule labeled LOCAL CODE, no edition; (3) Maricopa: quote only the gas-only No Burn Day rule and $50–$250 fines; (4) no city code editions.",
   "verification": {
-    "heading": "Verification pass — September 2026",
-    "checked": "2026-09-15",
-    "markdown": "Checked 2026-09-15 by verification agent. Laws cited as of Sep 2026.\n- Masonry classification (blocker 1): CORRECTED — A.A.C. R4-9-102 lists R-31 Masonry (residential) and C-31 (commercial); scope = grout, caulk, sand blast, tuckpoint, mortar wash, parge, clean, weld rebar to install/repair masonry, brick, block, ICF, adobe, stone, marble, slate, mortar-free masonry; no chimney wording. Metal \"patented chimneys\" and \"metal flues\" are expressly in R-45/C-45 Sheet Metal. File's \"CR-31\" replaced with R-31 — https://apps.azsos.gov/public_services/Title_04/4-09.pdf — GOV\n- Handyman exemption (blocker 2): RESOLVED/CORRECTED — A.R.S. § 32-1121(A)(14): casual/minor work, aggregate price less than $1,000, no building permit required, not part of larger or split operation, advertising must say \"not a licensed contractor.\" File's \"exceed $1,000\" corrected to \"$1,000 or more\"; unverified \"raised from $750\" history removed — https://www.azleg.gov/ars/32/01121.htm — GOV\n- Recovery Fund cap: CORRECTED — $30,000 limit is in A.R.S. § 32-1136 (file cited § 32-1132, which establishes the fund and eligible claimants and has no cap); \"$200,000 per license\" and \"per residence\" not found in either section — removed — https://www.azleg.gov/ars/32/01136.htm ; https://www.azleg.gov/ars/32/01132.htm — GOV\n- Suit bar: RESOLVED — A.R.S. § 32-1153 — https://www.azleg.gov/ars/32/01153.htm — GOV. (\"Is an offense\" removed; criminal cite not re-checked.)\n- Home-solicitation cancel: RESOLVED — A.R.S. § 44-5004, three business days — https://www.azleg.gov/ars/44/05004.htm — GOV\n- CFA AG remedies: RESOLVED (context) — A.R.S. § 44-1528 injunction, restoration, disgorgement, receiver — https://www.azleg.gov/ars/44/01528.htm — GOV\n- CO law (blocker 3): PARTIAL — A.R.S. § 36-2062 sober-living CO detector requirement confirmed; no statewide existing-home/rental CO statute found; new-construction cite STILL OPEN — https://www.azleg.gov/ars/36/02062.htm — GOV\n- SPDS fireplace/chimney line: STILL OPEN — AAR form not reachable (403); SPDS is a REALTOR form, not statute, so evidence would be DOC at best.\n- Maricopa no-burn (blocker 4), enforcement action (blocker 5): STILL OPEN — not reached.\n- 2026 changes: not searched (web-search budget exhausted); statutes fetched from azleg.gov reflect current text.\n- Template-leakage sweep: clean — MD/MT/NV appear only as labeled comparisons."
+    "heading": "Verification pass — September 25, 2026",
+    "checked": "2026-09-25",
+    "markdown": "Checked 2026-09-25 by verification agent (sweep #2).\n- 2026 law-change sweep: no enacted 2025–26 change found in 9 searches; HB 2120 (2025, $3,500 handyman threshold) died.\n- Licensing threshold: RESOLVED (re-read) — § 32-1121(A)(14) \"is less than $1,000\" — https://www.azleg.gov/ars/32/01121.htm — GOV; § 32-1153 suit bar — https://www.azleg.gov/ars/32/01153.htm — GOV; § 32-1136(E) fund cap \"not to exceed thirty thousand dollars\" — https://www.azleg.gov/ars/32/01136.htm — GOV\n- CR-31 dual masonry license (old blocker 2): RESOLVED — CR-31 exists (R4-9-104), \"allows the scopes of work permitted by the commercial C-31 Masonry and the residential R-31 Masonry licenses\" — https://roc.az.gov/license-classifications — GOV; CORRECTED rule cites: R-31 and R-45 are in R4-9-103 (residential), C-31/C-45 in R4-9-102, CR in R4-9-104 — https://apps.azsos.gov/public_services/Title_04/4-09.pdf (Supp. 23-2) — GOV\n- SPDS chimney line (old blocker 1): RESOLVED WITH CAVEAT / CORRECTED — Feb 2023 AAR SPDS line 77 \"Are you aware of any chimney or fireplace problems, if applicable? Explain:\"; line 148 includes \"Carbon monoxide detector\"; no woodstove item (file's \"fireplaces, woodstoves, and chimneys\" corrected) — read on https://www.arizonaproex.com/files/Residential%20Sellers%20Property%20Disclosure%20Statement.pdf (REF host of an AAR DOC; aaronline.com 403). A second, seller-completed copy found online showed the same line text (not cited — private filled form).\n- Hill v. Jones: RESOLVED — 151 Ariz. 81, 725 P.2d 1115 (Ct. App. Div. 1, Mar. 11, 1986) — https://www.leagle.com/decision/1986232151ariz811215 ; rule text https://www.courtlistener.com/opinion/2616203/hill-v-jones/ — REF hosts of primary case text.\n- Home-solicitation cancel: RESOLVED (re-read) — § 44-5004 \"within three business days\" — https://www.azleg.gov/ars/44/05004.htm — GOV\n- CO law: RESOLVED (absence re-confirmed) — no A.R.S. CO-alarm provision beyond § 36-2062 (sober living) found on azleg.gov search — GOV; new-construction requirement stays LOCAL CODE.\n- Maricopa no-burn (old blocker 4): RESOLVED — Ordinance P-26 (rev. Oct 23, 2019); gas-only on No Burn Days; fines $50–$250 — https://www.maricopa.gov/1830/Burning-Activities ; https://ready.maricopa.gov/7781/P-26---Residential-Burning-Restriction — GOV\n- Enforcement (old blocker 5): RESOLVED (pattern) — AG Nov 20, 2025 release — https://www.azag.gov/press-release/attorney-general-mayes-reminds-arizonans-protect-themselves-home-construction-scams — GOV; no chimney-specific action.\n- Mirror spot-check: n/a (AZ statutes were already read on azleg.gov).\n- Dead links: roc.az.gov/search returned 403 to the fetcher (bot block, not shown dead — kept; roc.az.gov home resolves and links the search); azleg.gov and azsos.gov links resolve; the Maricopa URL tried Sep 15 (404) is replaced by the two maricopa.gov pages above.\n- Template leakage: clean (no other state's statute appears).\n- Corrections made this pass: R-31/R-45 rule section (R4-9-103, not R4-9-102); CR-31 dual license added; SPDS wording (chimney/fireplace question; no woodstove item); Maricopa P-26 specifics added; code-edition sentence marked REF-only."
   },
   "sections": [
     {
@@ -27,7 +27,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence; a real license with a classification and a fund",
-      "markdown": "**Arizona has the real thing: a genuine state contractor license with masonry classification, an exam, and a recovery fund.** STATE LAW: the **Arizona Registrar of Contractors (ROC, roc.az.gov)** licenses contractors under **A.R.S. Title 32, Chapter 10**. Masonry — the relevant trade for a masonry chimney — is its own classification: **R-31 (residential) / C-31 (commercial) Masonry** under **A.A.C. R4-9-102**, which lets the licensee grout, caulk, sand blast, tuckpoint, mortar wash, parge, clean and weld reinforcing steel to install and repair masonry, brick, concrete block, insulating concrete forms, adobe, stone, marble, slate and mortar-free masonry products. The scope **does not name chimneys** — a masonry chimney fits as brick/block/stone work, but that is a reading, not rule text. A **prefab/metal \"patented\" chimney or metal flue is expressly R-45 / C-45 Sheet Metal** (scope lists \"Patented chimneys\" and \"Metal flues\"). Licensure requires a qualifying party with experience, a trade + business-management **exam**, and a bond. **Threshold/exemption:** the **handyman exemption (A.R.S. § 32-1121(A)(14))** covers casual or minor work with an aggregate contract price **under $1,000** — but not if a local building permit is required, not if the job is part of a larger operation or split to evade licensing, and only if the person's advertising states they are **\"not a licensed contractor.\"** So a license is required at **$1,000 or more, or for any permit job**. An unlicensed contractor cannot sue to collect for work requiring a license (A.R.S. § 32-1153). **ROC Residential Contractors' Recovery Fund** (below) is the consumer backstop. Public lookup: **roc.az.gov/search**."
+      "markdown": "**Arizona has the real thing: a genuine state contractor license with masonry classification, an exam, and a recovery fund.** STATE LAW: the **Arizona Registrar of Contractors (ROC, roc.az.gov)** licenses contractors under **A.R.S. Title 32, Chapter 10**. Masonry — the relevant trade for a masonry chimney — is its own classification: **R-31 Masonry (residential, A.A.C. R4-9-103)**, **C-31 (commercial, R4-9-102)**, and a dual **CR-31 (R4-9-104)** that \"allows the scopes of work permitted by the commercial C-31 Masonry and the residential R-31 Masonry licenses\" (roc.az.gov License Classifications). The masonry scope lets the licensee grout, caulk, sand blast, tuckpoint, mortar wash, parge, clean and weld reinforcing steel to install and repair masonry, brick, concrete block, insulating concrete forms, adobe, stone, marble, slate and mortar-free masonry products. The scope **does not name chimneys** — a masonry chimney fits as brick/block/stone work, but that is a reading, not rule text. A **prefab/metal \"patented\" chimney or metal flue is expressly R-45 Sheet Metal (R4-9-103) / C-45 (R4-9-102)** (scope lists \"Patented chimneys\" and \"Metal flues\"; dual CR-45 also exists). Licensure requires a qualifying party with experience, a trade + business-management **exam**, and a bond. **Threshold/exemption:** the **handyman exemption (A.R.S. § 32-1121(A)(14))** covers casual or minor work with an aggregate contract price **under $1,000** — but not if a local building permit is required, not if the job is part of a larger operation or split to evade licensing, and only if the person's advertising states they are **\"not a licensed contractor.\"** So a license is required at **$1,000 or more, or for any permit job**. An unlicensed contractor cannot sue to collect for work requiring a license (A.R.S. § 32-1153). **ROC Residential Contractors' Recovery Fund** (below) is the consumer backstop. Public lookup: **roc.az.gov/search**."
     },
     {
       "number": "2",
@@ -54,7 +54,7 @@
         "REF"
       ],
       "confidenceNote": "disclosure is common-law-driven, not a disclosure *statute*",
-      "markdown": "**Arizona's seller-disclosure duty comes from case law, not a mandatory-form statute — and the customary form reportedly names the chimney.** The controlling rule is **common law**: **Hill v. Jones, 151 Ariz. 81, 725 P.2d 1115 (Ariz. Ct. App. 1986)** — a seller must disclose known facts materially affecting value that are not readily observable and not known to the buyer. The customary vehicle is the **AAR Residential Seller's Property Disclosure Statement (SPDS)** — an Arizona Association of REALTORS® form, **not a state-mandated statutory form** — which is reported to ask about fireplaces, woodstoves, and chimneys *(form line NOT verified Sep 2026 — do not quote until the current SPDS is read)*. Because the duty is common-law and the SPDS is customary, a sale can technically proceed without an SPDS, but the underlying Hill v. Jones duty to disclose known material defects still applies. No inspection is mandated at transfer; NFPA 211 Level 2 stays a NATIONAL STANDARD."
+      "markdown": "**Arizona's seller-disclosure duty comes from case law, not a mandatory-form statute — and the customary form names the chimney.** The controlling rule is **common law**: **Hill v. Jones, 151 Ariz. 81, 725 P.2d 1115 (Ariz. Ct. App., Div. 1, Mar. 11, 1986)** — \"where the seller of a home knows of facts materially affecting the value of the property which are not readily observable and are not known to the buyer, the seller is under a duty to disclose them to the buyer.\" The customary vehicle is the **AAR Residential Seller's Property Disclosure Statement (SPDS)** — an Arizona Association of REALTORS® form, **not a state-mandated statutory form**. The current edition (\"Document updated: February 2023\") asks, in its Roof/Structural section (line 77): **\"Are you aware of any chimney or fireplace problems, if applicable? Explain:\"**, and in Miscellaneous (line 148) whether the property has smoke/fire detection, fire suppression, or a **\"Carbon monoxide detector.\"** It has **no separate woodstove item** (earlier drafts said \"fireplaces, woodstoves, and chimneys\" — corrected). *(Read on a broker-hosted copy of the blank Feb 2023 form; AAR's own site returns 403 — DOC content via a REF host.)* Because the duty is common-law and the SPDS is customary, a sale can technically proceed without an SPDS, but the underlying Hill v. Jones duty to disclose known material defects still applies. No inspection is mandated at transfer; NFPA 211 Level 2 stays a NATIONAL STANDARD."
     },
     {
       "number": "4",
@@ -82,7 +82,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence; home-rule patchwork",
-      "markdown": "STATE LAW/LOCAL: **Arizona has no statewide building code.** Each city, town, and county is its own Authority Having Jurisdiction, adopting and amending I-Codes (IBC/IRC/IMC/IECC) locally — **Phoenix, Tucson, Flagstaff, Scottsdale, Mesa, and Maricopa/Pima/Coconino counties each set their own.** As of recent references, many large jurisdictions run the **2018 IRC, transitioning to 2021.** Where a code and building department exist, chimney relines, rebuilds, and solid-fuel appliance installs are generally permit work (and a required permit itself triggers the $1,000 licensing threshold regardless of cost); sweeps and like-for-like caps generally are not. The only true statewide construction standard is electrical (State Fire Marshal). This state needs the local-variance disclaimer."
+      "markdown": "STATE LAW/LOCAL: **Arizona has no statewide building code.** Each city, town, and county is its own Authority Having Jurisdiction, adopting and amending I-Codes (IBC/IRC/IMC/IECC) locally — **Phoenix, Tucson, Flagstaff, Scottsdale, Mesa, and Maricopa/Pima/Coconino counties each set their own.** Secondary references say many large jurisdictions run the 2018 IRC, transitioning to 2021 (REF only — not verified against any city's adopting ordinance; name no edition on the page). Where a code and building department exist, chimney relines, rebuilds, and solid-fuel appliance installs are generally permit work (and a required permit itself triggers the $1,000 licensing threshold regardless of cost); sweeps and like-for-like caps generally are not. The only true statewide construction standard is electrical (State Fire Marshal). This state needs the local-variance disclaimer."
     },
     {
       "number": "6",
@@ -110,7 +110,7 @@
         "REF"
       ],
       "confidenceNote": "honest thin-but-cited: chimneys are a minority feature in the desert metros",
-      "markdown": "**Be honest on the page: in the Phoenix/Tucson desert metros, wood-burning fireplaces and masonry chimneys are relatively uncommon** — many homes have gas fireplaces or none — so the chimney-services market concentrates in the **high country: Flagstaff, Prescott, Sedona, Payson, the White Mountains and the forested north**, where wood heat and real winters exist. That high-country belt is also **WUI/wildfire terrain**, where spark-arrestor caps and defensible space are code/insurance expectations. Maricopa County has historically run **\"no-burn day\" restrictions** on wood-burning during winter PM pollution episodes (a Valley air-quality program) — verify current rules. National standard NFPA 211 governs where chimneys do exist."
+      "markdown": "**Be honest on the page: in the Phoenix/Tucson desert metros, wood-burning fireplaces and masonry chimneys are relatively uncommon** — many homes have gas fireplaces or none — so the chimney-services market concentrates in the **high country: Flagstaff, Prescott, Sedona, Payson, the White Mountains and the forested north**, where wood heat and real winters exist. That high-country belt is also **WUI/wildfire terrain**, where spark-arrestor caps and defensible space are code/insurance expectations. LOCAL: **Maricopa County Ordinance P-26 (Residential Burning Restriction; originally adopted 10/05/1994, last revised Oct 23, 2019)** lets the county declare **No Burn Days** when air pollution threatens the standards; per the county's Burning Activities page (updated Aug 19, 2026), \"Burning anything other than gaseous fuels (including gas logs) in a fireplace, woodstove, or chimenea is prohibited on a No Burn Day,\" and fines for improper residential burning \"range from $50 – $250 depending on the number of violations\" (P-26: warning, then $50 / $100 / $250). P-26 lists exemption categories (e.g., registered sole-heat-source households, emergencies); confirm the device-specific exemptions against the current ordinance before quoting them (maricopa.gov/1830/Burning-Activities; ready.maricopa.gov/7781, GOV). National standard NFPA 211 governs where chimneys do exist."
     },
     {
       "number": "8",
@@ -124,7 +124,7 @@
         "REF"
       ],
       "confidenceNote": "partial; pull specifics before publish",
-      "markdown": "The door-knock \"we noticed your chimney\" pitch is a textbook A.R.S. § 44-5004 home-solicitation + Consumer Fraud Act violation, and the AZ AG runs consumer-fraud enforcement. Because chimneys cluster in the high country, scam exposure concentrates there and in older homes. **Specific Arizona chimney-sweep enforcement actions: NOT CONFIRMED — no state-specific alert surfaced; re-run search before publish.**"
+      "markdown": "The door-knock \"we noticed your chimney\" pitch is a textbook A.R.S. § 44-5004 home-solicitation + Consumer Fraud Act violation, and the AZ AG runs consumer-fraud enforcement. Because chimneys cluster in the high country, scam exposure concentrates there and in older homes. Citable agency material: **AG Mayes' Nov 20, 2025 release** reminding Arizonans to protect themselves from home construction scams, after prosecuting a contractor who took $75,000 from Tucson victims — \"Confirm your contractor is licensed with the Arizona Registrar of Contractors. Anyone can pretend to be a contractor—double check\" (azag.gov, GOV); ROC runs its own enforcement and \"Most Wanted\" pages. **Specific Arizona chimney-sweep enforcement actions: none found (re-searched Sep 25, 2026) — pattern language only.**"
     },
     {
       "number": "9",
@@ -160,7 +160,7 @@
       "title": "/rights table row (internal)",
       "evidence": [],
       "confidenceNote": null,
-      "markdown": "License: **YES — state ROC license, masonry class R-31/C-31 (exam + bond; metal chimneys R-45), A.R.S. Title 32 Ch. 10; license needed at $1,000+ or any permit job (handyman exemption § 32-1121(A)(14))** · Registration: **license regime + ROC Recovery Fund ($30k cap, § 32-1136)** · Disclosure law: **common-law duty (Hill v. Jones 1986), customary AAR SPDS (chimney line unverified) — NOT a mandatory statutory form** · 3-day cancel: **YES (A.R.S. § 44-5004)** · CO law: **limited — new construction/remodel via local code; no all-rental or pre-sale mandate** · Lookup: roc.az.gov/search"
+      "markdown": "License: **YES — state ROC license, masonry class R-31/C-31/CR-31 (exam + bond; metal chimneys R-45), A.R.S. Title 32 Ch. 10; license needed at $1,000+ or any permit job (handyman exemption § 32-1121(A)(14))** · Registration: **license regime + ROC Recovery Fund ($30k cap, § 32-1136)** · Disclosure law: **common-law duty (Hill v. Jones 1986), customary AAR SPDS (Feb 2023) asks \"Are you aware of any chimney or fireplace problems\" — NOT a mandatory statutory form** · 3-day cancel: **YES (A.R.S. § 44-5004)** · CO law: **limited — new construction/remodel via local code; no all-rental or pre-sale mandate** · Lookup: roc.az.gov/search"
     }
   ],
   "story": {
@@ -170,34 +170,34 @@
   "faqSeeds": null,
   "table": {
     "license_regime": "state license (ROC, A.R.S. Title 32 ch. 10; required at $1,000+ or any permit job, handyman exemption § 32-1121(A)(14))",
-    "registration_name": "ROC contractor license (R-31/C-31 Masonry; R-45/C-45 Sheet Metal for patented chimneys) + Residential Recovery Fund ($30k cap, § 32-1136)",
-    "disclosure_law": "No statute (common-law duty, Hill v. Jones; customary AAR SPDS)",
-    "chimney_item_on_form": "Unverified (AAR SPDS reportedly asks about fireplaces/woodstoves/chimneys; form not reached)",
+    "registration_name": "ROC contractor license (R-31/C-31/CR-31 Masonry; R-45/C-45 Sheet Metal for patented chimneys) + Residential Recovery Fund ($30k cap, § 32-1136)",
+    "disclosure_law": "No statute (common-law duty, Hill v. Jones, 151 Ariz. 81 (App. 1986); customary AAR SPDS)",
+    "chimney_item_on_form": "Customary AAR SPDS (Feb 2023, non-statutory) asks 'Are you aware of any chimney or fireplace problems' + CO detector checkbox (read on broker-hosted copy)",
     "three_day_cancel": "Yes (A.R.S. § 44-5004)",
     "co_law": "Limited (local IRC adoption for new construction; no statewide existing-home statute found)",
     "lookup_url": "roc.az.gov/search",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
     "source": "§11",
-    "license_regime": "YES — state ROC license, masonry class R-31/C-31 (exam + bond; metal chimneys R-45), A.R.S. Title 32 Ch. 10; license needed at $1,000+ or any permit job (handyman exemption § 32-1121(A)(14))",
+    "license_regime": "YES — state ROC license, masonry class R-31/C-31/CR-31 (exam + bond; metal chimneys R-45), A.R.S. Title 32 Ch. 10; license needed at $1,000+ or any permit job (handyman exemption § 32-1121(A)(14))",
     "registration_name": "license regime + ROC Recovery Fund ($30k cap, § 32-1136)",
-    "disclosure_law": "common-law duty (Hill v. Jones 1986), customary AAR SPDS (chimney line unverified) — NOT a mandatory statutory form",
+    "disclosure_law": "common-law duty (Hill v. Jones 1986), customary AAR SPDS (Feb 2023) asks \"Are you aware of any chimney or fireplace problems\" — NOT a mandatory statutory form",
     "chimney_item_on_form": "",
     "three_day_cancel": "YES (A.R.S. § 44-5004)",
     "co_law": "limited — new construction/remodel via local code; no all-rental or pre-sale mandate",
     "lookup_url": "roc.az.gov/search"
   },
   "tableRowStale": false,
-  "lastVerified": "2026-09-15",
+  "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [
     {
       "id": "verdict-license",
       "label": "License required?",
       "answer": "YES",
-      "note": "state ROC license, masonry class R-31/C-31 (exam + bond; metal chimneys R-45), A.R.S. Title 32…",
+      "note": "state ROC license, masonry class R-31/C-31/CR-31 (exam + bond; metal chimneys R-45), A.R.S.…",
       "anchor": "license",
       "rule": "license:YES",
       "derivedFrom": "§11: license_regime",
@@ -279,14 +279,14 @@
     {
       "id": "faq-what-to-do",
       "q": "What should I check before hiring a chimney company in Arizona?",
-      "a": "State licensing: YES — state ROC license, masonry class R-31/C-31 (exam + bond; metal chimneys R-45), A.R.S. Title 32 Ch. 10; license needed at $1,000+ or any permit job (handyman exemption § 32-1121(A)(14)). Registration or credential: license regime + ROC Recovery Fund ($30k cap, § 32-1136). Seller disclosure at sale: common-law duty (Hill v. Jones 1986), customary AAR SPDS (chimney line unverified) — NOT a mandatory statutory form. Right to cancel a sale made at your home: YES (A.R.S. § 44-5004). Carbon monoxide alarm law: limited — new construction/remodel via local code; no all-rental or pre-sale mandate. Where to check a contractor: roc.az.gov/search. Then ask the eight questions below, get the inspection findings in writing with photos, and never sign for \"emergency\" work on the day of a door-knock.",
+      "a": "State licensing: YES — state ROC license, masonry class R-31/C-31/CR-31 (exam + bond; metal chimneys R-45), A.R.S. Title 32 Ch. 10; license needed at $1,000+ or any permit job (handyman exemption § 32-1121(A)(14)). Registration or credential: license regime + ROC Recovery Fund ($30k cap, § 32-1136). Seller disclosure at sale: common-law duty (Hill v. Jones 1986), customary AAR SPDS (Feb 2023) asks \"Are you aware of any chimney or fireplace problems\" — NOT a mandatory statutory form. Right to cancel a sale made at your home: YES (A.R.S. § 44-5004). Carbon monoxide alarm law: limited — new construction/remodel via local code; no all-rental or pre-sale mandate. Where to check a contractor: roc.az.gov/search. Then ask the eight questions below, get the inspection findings in writing with photos, and never sign for \"emergency\" work on the day of a door-knock.",
       "expanded": true,
       "derivedFrom": "verified summary row (§11)"
     },
     {
       "id": "faq-home-sale",
       "q": "Is a chimney inspection required when a home sells in Arizona?",
-      "a": "Arizona's seller-disclosure duty comes from case law, not a mandatory-form statute — and the customary form reportedly names the chimney. The controlling rule is common law: Hill v. Jones, 151 Ariz. 81, 725 P.2d 1115 (Ariz.",
+      "a": "Arizona's seller-disclosure duty comes from case law, not a mandatory-form statute — and the customary form names the chimney. The controlling rule is common law: Hill v. Jones, 151 Ariz. 81, 725 P.2d 1115 (Ariz.",
       "expanded": false,
       "derivedFrom": "§3 text"
     },
@@ -305,7 +305,7 @@
     "verdictId": "verdict-license",
     "a": {
       "answer": "YES",
-      "note": "state ROC license, masonry class R-31/C-31 (exam + bond; metal chimneys R-45), A.R.S. Title 32…"
+      "note": "state ROC license, masonry class R-31/C-31/CR-31 (exam + bond; metal chimneys R-45), A.R.S.…"
     },
     "b": {
       "answer": "NO",

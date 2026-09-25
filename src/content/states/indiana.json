@@ -6,13 +6,13 @@
   "researched": "2026-07-06",
   "lawsCitedAs": "Sep 2026",
   "headerNote": null,
-  "verified": "2026-09-15",
+  "verified": "2026-09-25",
   "publishVerdict": "READY WITH CAVEATS",
-  "publishVerdictNote": "(1) Form 46234 chimney/flue wording must be confirmed or softened to \"mechanical systems\" before the disclosure chip says \"chimney line\"; (2) no local registries named; (3) AG section pattern-only; (4) statute text via Justia copies (iga.in.gov not used).",
+  "publishVerdictNote": "(1) disclosure chip must say \"fireplace / fireplace insert / woodburning stove rows — no chimney or flue line\" (not \"chimney line\"); (2) give no effective date for the R9/2-26 form; (3) no local registries named; (4) AG section pattern-only; (5) statute text via Justia copies (iga.in.gov not fetchable).",
   "verification": {
-    "heading": "Verification pass — September 2026",
-    "checked": "2026-09-15",
-    "markdown": "Checked 2026-09-15 by verification agent. Laws cited as of Sep 2026.\n- Indiana Residential Code cycle: RESOLVED — 2020 Indiana Residential Code adopts 2018 IRC by reference; Commission reviewing newer model codes, no date — https://secure.in.gov/dhs/files/2025-Readoption-Review.pdf — DOC (IDHS). CORRECTED minor: added the 2018 IRC base.\n- Local registries beyond Indianapolis: STILL OPEN — not reachable (web search budget exhausted); body text now forbids naming them.\n- AG chimney/home-improvement actions: STILL OPEN — not searched (search budget exhausted).\n- DCSA senior treble: CORRECTED — old text said seniors are \"statutorily entitled to treble\"/\"automatic treble.\" IC 24-5-0.5-4(i): senior consumer \"may bring an action to recover treble damages, if appropriate\"; senior = 60+ (IC 24-5-0.5-2); general (a): actual or $500; willful: greater of 3× or $1,000 — https://law.justia.com/codes/indiana/title-24/article-5/chapter-0-5/section-24-5-0-5-4/ ; .../section-24-5-0-5-2/ — REF copies of statute.\n- HICA threshold: RESOLVED — contract price exceeds $150 (IC 24-5-11-4); contents IC 24-5-11-10; violation = deceptive act (IC 24-5-11-14) — https://law.justia.com/codes/indiana/title-24/article-5/chapter-11/section-24-5-11-4/ — REF copy. CORRECTED minor: \"HICA\" short name removed (chapter is titled Home Improvement Contracts; \"HICA\" is informal).\n- Home solicitation cancel: RESOLVED — IC 24-5-10-8, before midnight of third business day after later of agreement or notice — https://law.justia.com/codes/indiana/title-24/article-5/chapter-10/section-24-5-10-8/ — REF copy. \"Return within 10 business days\" not re-verified — removed.\n- CO-alarm status: RESOLVED — R315 alterations/repairs exception quoted from IDHS guidance — https://www.in.gov/dhs/files/R315-CO-Alarms.pdf — DOC (IDHS; document labels code year 2015, the R315 text matches the current code framing). No statewide existing-home statute found (absence not exhaustively searched).\n- Seller disclosure: PARTIAL — IC 32-21-5-7 (mechanical systems, IREC form) confirmed — https://law.justia.com/codes/indiana/title-32/article-21/chapter-5/section-32-21-5-7/ — REF copy; Form 46234 chimney/flue wording STILL OPEN (forms.in.gov and 876 IAC 1-4-2 pages did not render form text).\n- 2026 changes: none found (limited — search budget exhausted).\n- Template-leakage sweep: clean — OH/IL references are labeled comparisons."
+    "heading": "Verification pass — September 25, 2026",
+    "checked": "2026-09-25",
+    "markdown": "Checked 2026-09-25 by verification agent (sweep #2).\n- 2026 law-change sweep: State Form 46234 revised to R9/2-26 (final rule Mar 11, 2026); 2026 Indiana Building Code is commercial-only; nothing on licensing, CO or chimneys in 8 searches.\n- Mirror spot-check: n/a (Indiana not a flagged mirror state); statute text still on Justia 2025 copies (iga.in.gov is JavaScript-only), now corroborated by the AG fact sheet ($150; local licensing).\n- Dead links: none — all 7 URLs resolved (Justia IC ×4, secure.in.gov 2025 Readoption Review, in.gov R315 guidance PDF (text partly garbled but the quoted sentence reads), forms.in.gov); bare hosts iga.in.gov (JS-only) and in.gov/attorneygeneral resolve.\n- Blocker — Form 46234 chimney/flue wording: CORRECTED — current R9/2-26 has no \"chimney\" or \"flue\"; Heating & Cooling rows \"Woodburning Stove,\" \"Fireplace,\" \"Fireplace Insert\" (Defective / Not Defective / Unknown / Not Applicable-Rented); Electrical row \"Smoke / Fire Alarms Carbon Monoxide Detectors\"; the \"furnace/woodstove/chimney/flue … working order\" question exists only on the superseded R6/6-14 — https://forms.in.gov/Download.aspx?id=16805 — DOC; https://www.in.gov/pla/rulesingov/lsa-document-25-627 — GOV; old form https://www.in.gov/health/eph/files/46234-fill-in.pdf — DOC.\n- Load-bearing (a) licensing: RESOLVED — IC 24-5-11-4 \"exceeds one hundred fifty dollars ($150)\" (Justia, REF) + AG fact sheet (GOV); no state GC license.\n- Load-bearing (c) CO: RESOLVED (reconfirmed) — IDHS R315 guidance: CO alarms \"not required … when alterations, repairs or additions occur\" — DOC; NCSL table lists no Indiana CO statute — REF.\n- DCSA 24-5-0.5-4(a)/(i), IC 24-5-10-8: RESOLVED (reconfirmed on Justia 2025) — REF.\n- Local registries beyond Indianapolis; IN chimney AG action: STILL OPEN (none found).\n- Template-leakage sweep: clean (OH/IL references are labeled comparisons).\n- Corrections made this pass: §3 form wording replaced (R9/2-26 has no chimney/flue line; old question attributed to R6/6-14); §11 row and header updated; §5 adds the commercial-only 2026 Indiana Building Code; §4 adds AG fact-sheet corroboration; §6 notes the form's CO-detector condition row."
   },
   "sections": [
     {
@@ -46,14 +46,14 @@
       "key": "home-sale",
       "anchor": "home-sale",
       "group": "home-sale",
-      "rawHeading": "3 · Home sale (GOV statute — high; form wording — medium, not re-fetched)",
+      "rawHeading": "3 · Home sale (GOV statute — high; form wording — high, current form read Sep 25, 2026)",
       "researchTitle": "Home sale",
       "title": "Seller disclosure when a home sells",
       "evidence": [
         "GOV"
       ],
-      "confidenceNote": "statute — high; form wording — medium, not re-fetched",
-      "markdown": "**Ind. Code 32-21-5** requires the seller of 1–4 unit residential property to complete a disclosure form adopted by the Indiana Real Estate Commission (IC 32-21-5-7), covering the known condition of \"the foundation, the mechanical systems, the roof, the structure, the water and sewer systems\" and other listed items; the prescribed form is the **Seller's Residential Real Estate Sales Disclosure (State Form 46234)**. The July research reported that the form's heating section itemizes woodburning stove, fireplace, and fireplace insert and asks whether \"the furnace/woodstove/chimney/flue [are] all in working order\" — **that exact wording was not re-confirmed against the form PDF in the September pass.** Actual-knowledge basis; the form is not a warranty. No inspection is mandated at transfer; NFPA 211 Level 2 stays a NATIONAL STANDARD. (State Form 46021 is the separate tax \"Sales Disclosure\" — different document.)"
+      "confidenceNote": "statute — high; form wording — high, current form read Sep 25, 2026",
+      "markdown": "**Ind. Code 32-21-5** requires the seller of 1–4 unit residential property to complete a disclosure form adopted by the Indiana Real Estate Commission (IC 32-21-5-7), covering the known condition of \"the foundation, the mechanical systems, the roof, the structure, the water and sewer systems\" and other listed items; the prescribed form is the **Seller's Residential Real Estate Sales Disclosure (State Form 46234)**. **The form changed in 2026.** The Indiana Real Estate Commission adopted an updated form, **State Form 46234 (R9/2-26)**, as a final rule on March 11, 2026 (LSA Document #25-627; in.gov/pla/rulesingov/lsa-document-25-627, checked Sep 25, 2026 — the PLA page does not state the rule's effective date), and R9/2-26 is the version the state forms catalog now serves (forms.in.gov/Download.aspx?id=16805, checked Sep 25, 2026). On R9/2-26, section **1.D \"Heating & Cooling System\"** lists **\"Woodburning Stove,\" \"Fireplace,\"** and **\"Fireplace Insert\"** as rows to mark Not Applicable/Rented, Defective, Not Defective, or Unknown, and section 1.B \"Electrical System\" has a row for **\"Smoke / Fire Alarms Carbon Monoxide Detectors.\"** **The words \"chimney\" and \"flue\" do not appear on R9/2-26.** The older form (R6/6-14) asked \"Are the furnace/woodstove/chimney/flue all in working order?\" (copy at in.gov/health/eph/files/46234-fill-in.pdf) — that question is **not** on the current form, so the page must not quote it as current. Actual-knowledge basis; the form is not a warranty. No inspection is mandated at transfer; NFPA 211 Level 2 stays a NATIONAL STANDARD. (State Form 46021 is the separate tax \"Sales Disclosure\" — different document.)"
     },
     {
       "number": "4",
@@ -67,7 +67,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence",
-      "markdown": "The **Deceptive Consumer Sales Act (DCSA), Ind. Code 24-5-0.5**: a consumer relying on an uncured or incurable deceptive act may recover **actual damages or $500, whichever is greater**; for a **willful** act the court may increase damages to **the greater of 3× actual damages or $1,000**, plus attorney's fees (IC 24-5-0.5-4(a)). **Senior consumers (age 60+, IC 24-5-0.5-2) relying on an uncured or incurable deceptive act \"may bring an action to recover treble damages, if appropriate\" (IC 24-5-0.5-4(i))** — a distinctive Indiana angle for elder chimney-scam targets (treble is available, not automatic). **Violations of the home improvement contracts chapter are deceptive acts actionable by the AG or a consumer under IC 24-5-0.5-4 (IC 24-5-11-14).** Separately, **Home Solicitation Sales (Ind. Code 24-5-10)** give a right to cancel **before midnight of the third business day** after the later of the agreement or the supplier's required notice (IC 24-5-10-8). The Indiana AG's Consumer Protection Division enforces."
+      "markdown": "The **Deceptive Consumer Sales Act (DCSA), Ind. Code 24-5-0.5**: a consumer relying on an uncured or incurable deceptive act may recover **actual damages or $500, whichever is greater**; for a **willful** act the court may increase damages to **the greater of 3× actual damages or $1,000**, plus attorney's fees (IC 24-5-0.5-4(a)). **Senior consumers (age 60+, IC 24-5-0.5-2) relying on an uncured or incurable deceptive act \"may bring an action to recover treble damages, if appropriate\" (IC 24-5-0.5-4(i))** — a distinctive Indiana angle for elder chimney-scam targets (treble is available, not automatic). **Violations of the home improvement contracts chapter are deceptive acts actionable by the AG or a consumer under IC 24-5-0.5-4 (IC 24-5-11-14).** Separately, **Home Solicitation Sales (Ind. Code 24-5-10)** give a right to cancel **before midnight of the third business day** after the later of the agreement or the supplier's required notice (IC 24-5-10-8). The Indiana AG's Consumer Protection Division enforces; its home-improvement fact sheet restates \"Indiana law requires home improvement contracts exceeding $150 to be in writing,\" notes \"Licensing requirements vary from community to community,\" and takes complaints at 1-800-382-5516 / IndianaConsumer.com (in.gov/attorneygeneral/consumer-protection-division/files/CPD_Fact_Sheet-Home_improv_Scams.pdf, checked Sep 25, 2026 — GOV)."
     },
     {
       "number": "5",
@@ -81,7 +81,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence",
-      "markdown": "Indiana has a **statewide building code** through the **Fire Prevention & Building Safety Commission** — the **2020 Indiana Residential Code, which adopts the 2018 IRC by reference** — enforced by local building departments. IDHS's 2025 readoption review says the Commission is reviewing the latest national model codes for an update, with no adoption date set; re-check before publish. Chimney relines, rebuilds, and solid-fuel appliance installs are generally permit work where local enforcement exists; in some rural/unincorporated areas enforcement is light. Include the local-variance disclaimer."
+      "markdown": "Indiana has a **statewide building code** through the **Fire Prevention & Building Safety Commission** — the **2020 Indiana Residential Code, which adopts the 2018 IRC by reference** — enforced by local building departments. IDHS's 2025 readoption review says the Commission is reviewing the latest national model codes for an update, with no adoption date set. The Commission's new **2026 Indiana Building Code** final rule (2024 IBC with Indiana amendments; IDHS posting dated June 1, 2026, in.gov/dhs/files/Building-Code-LSA-Document-6.1.2026.pdf — DOC) covers Class 1 (commercial) structures only and leaves one- and two-family dwellings under the Indiana Residential Code (675 IAC 14); the Indiana Association of Building Officials still lists the 2020 Indiana Residential Code (2018 IRC base, effective Dec 26, 2019) as current (iabo.com/Current-Code, checked Sep 25, 2026 — REF). Chimney relines, rebuilds, and solid-fuel appliance installs are generally permit work where local enforcement exists; in some rural/unincorporated areas enforcement is light. Include the local-variance disclaimer."
     },
     {
       "number": "6",
@@ -95,7 +95,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence; the weak spot",
-      "markdown": "**Indiana is the CO laggard of this set.** No statewide CO-alarm mandate for existing 1–2 family dwellings was found. The Indiana Residential Code's **R315** requires CO alarms in dwelling units with a fuel-fired appliance or attached garage for new construction, and IDHS's R315 guidance states: **\"Carbon monoxide alarms are not required to be installed in townhouses and one- and two-family dwellings when alterations, repairs or additions occur.\"** No CO requirement at sale was found. Some cities add rental rules (e.g., Bloomington — not re-verified). Absence is the finding: most existing Indiana homes carry no state CO-alarm obligation — a live safety talking point, not a gap to gloss."
+      "markdown": "**Indiana is the CO laggard of this set.** No statewide CO-alarm mandate for existing 1–2 family dwellings was found. The Indiana Residential Code's **R315** requires CO alarms in dwelling units with a fuel-fired appliance or attached garage for new construction, and IDHS's R315 guidance states: **\"Carbon monoxide alarms are not required to be installed in townhouses and one- and two-family dwellings when alterations, repairs or additions occur.\"** No CO requirement at sale was found — the 2026 seller form (R9/2-26) only asks the seller to mark the condition of any \"Smoke / Fire Alarms Carbon Monoxide Detectors\" present; it does not require them. Some cities add rental rules (e.g., Bloomington — not re-verified). Absence is the finding: most existing Indiana homes carry no state CO-alarm obligation — a live safety talking point, not a gap to gloss."
     },
     {
       "number": "7",
@@ -157,7 +157,7 @@
       "title": "/rights table row (internal)",
       "evidence": [],
       "confidenceNote": null,
-      "markdown": "License: **NO state license (plumbers only) — LOCAL (Indianapolis + some cities); statewide written-contract duty > $150 (IC 24-5-11)** · Registration: **local; no state competency registry for chimney work** · Disclosure law: **YES — IC 32-21-5, Form 46234 (chimney/flue line per July pass)** · 3-day cancel: **YES (IC 24-5-10-8)** · CO law: **WEAK — new construction only; not required on alterations/repairs; none at sale (IRC-based R315)** · Lookup: local building depts + Indianapolis BNS + IN AG (in.gov/attorneygeneral)"
+      "markdown": "License: **NO state license (plumbers only) — LOCAL (Indianapolis + some cities); statewide written-contract duty > $150 (IC 24-5-11)** · Registration: **local; no state competency registry for chimney work** · Disclosure law: **YES — IC 32-21-5, State Form 46234 (R9/2-26): Woodburning Stove / Fireplace / Fireplace Insert rows under Heating & Cooling; no chimney or flue line** · 3-day cancel: **YES (IC 24-5-10-8)** · CO law: **WEAK — new construction only; not required on alterations/repairs; none at sale (IRC-based R315)** · Lookup: local building depts + Indianapolis BNS + IN AG (in.gov/attorneygeneral)"
     }
   ],
   "story": {
@@ -169,25 +169,25 @@
     "license_regime": "no state license (plumbers only) — local (Indianapolis + some cities); statewide home improvement contract duty >$150 (IC 24-5-11)",
     "registration_name": "local; no state competency registry for chimney work",
     "disclosure_law": "Yes (IC 32-21-5, actual knowledge)",
-    "chimney_item_on_form": "Likely (furnace/woodstove/chimney/flue line on Form 46234 — wording unconfirmed Sep 2026)",
+    "chimney_item_on_form": "Partial — State Form 46234 (R9/2-26) lists Woodburning Stove, Fireplace, Fireplace Insert under Heating & Cooling; no chimney or flue line",
     "three_day_cancel": "Yes (IC 24-5-10-8)",
-    "co_law": "WEAK — new construction only; not required on alterations/repairs; none at sale (2020 IRC-based R315)",
+    "co_law": "WEAK — new construction only; not required on alterations/repairs; none at sale (R315, 2020 Indiana Residential Code on 2018 IRC base)",
     "lookup_url": "local building depts + Indianapolis BNS + IN AG",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
     "source": "§11",
     "license_regime": "NO state license (plumbers only) — LOCAL (Indianapolis + some cities); statewide written-contract duty > $150 (IC 24-5-11)",
     "registration_name": "local; no state competency registry for chimney work",
-    "disclosure_law": "YES — IC 32-21-5, Form 46234 (chimney/flue line per July pass)",
+    "disclosure_law": "YES — IC 32-21-5, State Form 46234 (R9/2-26): Woodburning Stove / Fireplace / Fireplace Insert rows under Heating & Cooling; no chimney or flue line",
     "chimney_item_on_form": "",
     "three_day_cancel": "YES (IC 24-5-10-8)",
     "co_law": "WEAK — new construction only; not required on alterations/repairs; none at sale (IRC-based R315)",
     "lookup_url": "local building depts + Indianapolis BNS + IN AG (in.gov/attorneygeneral)"
   },
   "tableRowStale": false,
-  "lastVerified": "2026-09-15",
+  "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [
     {
@@ -276,14 +276,14 @@
     {
       "id": "faq-what-to-do",
       "q": "What should I check before hiring a chimney company in Indiana?",
-      "a": "State licensing: NO state license (plumbers only) — LOCAL (Indianapolis + some cities); statewide written-contract duty > $150 (IC 24-5-11). Registration or credential: local; no state competency registry for chimney work. Seller disclosure at sale: YES — IC 32-21-5, Form 46234 (chimney/flue line per July pass). Right to cancel a sale made at your home: YES (IC 24-5-10-8). Carbon monoxide alarm law: WEAK — new construction only; not required on alterations/repairs; none at sale (IRC-based R315). Where to check a contractor: local building depts + Indianapolis BNS + IN AG (in.gov/attorneygeneral). Then ask the eight questions below, get the inspection findings in writing with photos, and never sign for \"emergency\" work on the day of a door-knock.",
+      "a": "State licensing: NO state license (plumbers only) — LOCAL (Indianapolis + some cities); statewide written-contract duty > $150 (IC 24-5-11). Registration or credential: local; no state competency registry for chimney work. Seller disclosure at sale: YES — IC 32-21-5, State Form 46234 (R9/2-26): Woodburning Stove / Fireplace / Fireplace Insert rows under Heating & Cooling; no chimney or flue line. Right to cancel a sale made at your home: YES (IC 24-5-10-8). Carbon monoxide alarm law: WEAK — new construction only; not required on alterations/repairs; none at sale (IRC-based R315). Where to check a contractor: local building depts + Indianapolis BNS + IN AG (in.gov/attorneygeneral). Then ask the eight questions below, get the inspection findings in writing with photos, and never sign for \"emergency\" work on the day of a door-knock.",
       "expanded": true,
       "derivedFrom": "verified summary row (§11)"
     },
     {
       "id": "faq-home-sale",
       "q": "Is a chimney inspection required when a home sells in Indiana?",
-      "a": "Ind. Code 32-21-5 requires the seller of 1–4 unit residential property to complete a disclosure form adopted by the Indiana Real Estate Commission (IC 32-21-5-7), covering the known condition of \"the foundation, the mechanical systems, the roof, the structure, the water and sewer systems\" and other listed items; the prescribed form is the Seller's Residential Real Estate Sales Disclosure (State Form 46234). The July research reported that the form's heating section itemizes woodburning stove, fireplace, and fireplace insert and asks whether \"the furnace/woodstove/chimney/flue [are] all in working order\" — that exact wording was not re-confirmed against the form PDF in the September pass. Actual-knowledge basis; the form is not a warranty.",
+      "a": "Ind. Code 32-21-5 requires the seller of 1–4 unit residential property to complete a disclosure form adopted by the Indiana Real Estate Commission (IC 32-21-5-7), covering the known condition of \"the foundation, the mechanical systems, the roof, the structure, the water and sewer systems\" and other listed items; the prescribed form is the Seller's Residential Real Estate Sales Disclosure (State Form 46234). The form changed in 2026. The Indiana Real Estate Commission adopted an updated form, State Form 46234 (R9/2-26), as a final rule on March 11, 2026 (LSA Document #25-627; in.gov/pla/rulesingov/lsa-document-25-627, checked Sep 25, 2026 — the PLA page does not state the rule's effective date), and R9/2-26 is the version the state forms catalog now serves (forms.in.gov/Download.aspx?id=16805, checked Sep 25, 2026).",
       "expanded": false,
       "derivedFrom": "§3 text"
     },

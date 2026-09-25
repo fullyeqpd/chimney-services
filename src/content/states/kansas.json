@@ -6,13 +6,13 @@
   "researched": "2026-07-06",
   "lawsCitedAs": "Jul 2026",
   "headerNote": null,
-  "verified": "2026-09-15",
+  "verified": "2026-09-25",
   "publishVerdict": "READY WITH CAVEATS",
-  "publishVerdictNote": "(1) Omit or label the KAR® form \"last cleaned\" hook until verified. (2) Label the CO absence and the lodging rule as \"not confirmed against primary source.\" (3) County license classes and code editions unconfirmed; keep generic. (4) No enforcement names.",
+  "publishVerdictNote": "(1) omit or label the KAR® \"last cleaned\" hook; (2) phrase CO absence as \"no statewide residential CO statute found; the state alarm law covers smoke only,\" and label the lodging rule unconfirmed; (3) county code editions and Johnson County exam scope unconfirmed, so keep generic; (4) no enforcement names; (5) the 2026 sweep ran without searches. Header left at \"Laws cited as of Jul 2026 (statutory items re-checked Sep 2026)\" because load-bearing claims (a) and (b) are absence claims still resting partly on REF.",
   "verification": {
-    "heading": "Verification pass — September 2026",
-    "checked": "2026-09-15",
-    "markdown": "Checked 2026-09-15 by verification agent. Laws cited as of Sep 2026 for statutory items only (header left at Jul 2026 because local, CO and form items were not re-verified).\n- **MABCD / Johnson County exam scope:** STILL OPEN. The MABCD page confirms roofers must be state-registered and MABCD-licensed, but gives no license classes or exam detail. The Johnson County licensing URL returned 404 — https://www.sedgwickcounty.org/mabcd/ — GOV (partial)\n- **Roofing registration \"$500/yr, $1M general liability\":** CORRECTED. Statute sets the fee by AG rule, capped at $500 (K.S.A. 50-6,128), and requires liability insurance of **not less than $500,000** (K.S.A. 50-6,125), not $1M. Registration is required by K.S.A. 50-6,123. The act spans 50-6,121 to 50-6,138 — https://ksrevisor.gov/statutes/chapters/ch50/050_006_0125.html ; https://ksrevisor.gov/statutes/chapters/ch50/050_006_0128.html ; https://ksrevisor.gov/statutes/chapters/ch50/050_006_0123.html ; https://ksrevisor.gov/statutes/chapters/ch50/050_006_0122.html — GOV\n- **3-day cancel K.S.A. 50-640:** RESOLVED, with caveat added. $25+ threshold; buyer-requested maintenance/repair visits excluded — https://ksrevisor.gov/statutes/chapters/ch50/050_006_0040.html — GOV\n- **KCPA penalties/remedy:** RESOLVED. Up to $10,000 per violation (50-636(a)), with continuing violations counted per day. Private remedy is damages or the civil penalty, whichever is greater (50-634(b)) — https://ksrevisor.gov/statutes/chapters/ch50/050_006_0036.html ; https://ksrevisor.gov/statutes/chapters/ch50/050_006_0034.html — GOV\n- **Special-assessment (12-6a20) and radon (58-3078a) seller duties:** RESOLVED — https://ksrevisor.gov/statutes/chapters/ch12/012_006a_0020.html ; https://ksrevisor.gov/statutes/chapters/ch58/058_030_0078a.html — GOV\n- **No mandatory general seller disclosure statute:** RESOLVED only to the extent that the statutory duties found are narrow (radon, assessments). No primary \"absence\" source was fetched — REF-supported\n- **KAR® form \"last cleaned\" item:** STILL OPEN. The form was not reached, so the file now labels it unverified.\n- **Statewide residential CO statute absence + K.A.R. 4-27-8:** STILL OPEN. No primary source reached this pass.\n- **IRC cycle per jurisdiction:** STILL OPEN.\n- **AG enforcement:** STILL OPEN.\n- **2026 changes:** none found in fetched statutes. A general 2026 search could not be run (search budget exhausted).\n- **Template-leakage sweep:** clean."
+    "heading": "Verification pass — September 25, 2026",
+    "checked": "2026-09-25",
+    "markdown": "Checked 2026-09-25 by verification agent (sweep #2).\n- 2026 law-change sweep: see the section above. None found; searches not run (budget exhausted).\n- MABCD / Johnson County classes (old blocker 1): PARTLY RESOLVED. MABCD issues General and Trade Contractor licenses; qualified persons need an ICC exam score of 75% or higher. Johnson County has 11 license types (A/B/C general; DE, DF, DFA, DM, DP, DR, DS, DW trades) and no masonry or chimney class. Exam content and participating cities STILL OPEN — https://www.sedgwickcounty.org/mabcd/contractor-licensing/ ; https://www.jocogov.org/department/contractor-licensing/new-license-license-types — GOV\n- IRC editions per jurisdiction (old blocker 2): STILL OPEN. The MABCD adopted-codes URL failed (redirect loop); the Johnson County building-codes page names no edition.\n- Statewide CO absence (old blocker 3, part): SUPPORTED, not proven. The Smoke Detector Act (K.S.A. 31-160 to 31-164) is smoke-only — https://ksrevisor.gov/statutes/chapters/ch31/031_001_0060.html ; https://ksrevisor.gov/statutes/chapters/ch31/031_001_0062.html — GOV\n- K.A.R. 4-27-8 lodging CO rule (old blocker 3, part): STILL OPEN. sos.ks.gov returned 403.\n- KAR® form \"last cleaned\" item (old blocker 4): STILL OPEN (not attempted: industry form, not a government source).\n- Licensing (load-bearing a): roofing registration RE-CONFIRMED — K.S.A. 50-6,123 (registration required), 50-6,125 (insurance \"not less than $500,000\"; L. 2013), 50-6,128 (fee \"shall not exceed $500\") — https://ksrevisor.gov/statutes/chapters/ch50/050_006_0123.html ; …/050_006_0125.html ; …/050_006_0128.html — GOV. Absence of a state general-contractor license rests on the Jul 2026 pass plus the county pages (REF-level for the absence itself).\n- Disclosure (load-bearing b): narrow statutory duties RE-CONFIRMED — K.S.A. 12-6a20; 58-3078a (L. 2008, eff. 7/1/2009) — GOV. Absence of a general form statute: no primary \"absence\" source (unchanged).\n- 3-day cancel and KCPA penalty: RE-CONFIRMED — K.S.A. 50-640 ($25+; requested-repair and emergency exclusions); 50-636(a) up to $10,000 per violation — GOV. K.S.A. 50-634 and 50-6,122 could not be re-fetched (ksrevisor robots.txt failures ×3); verified Sep 15.\n- Mirror spot-check: n/a.\n- Dead links: none dead. The Johnson County URL that 404'd on Sep 15 was not in the file; the current official pages are now cited. https://ksrevisor.gov/statutes/chapters/ch50/050_006_0034.html and …/050_006_0122.html failed on robots.txt fetch errors (transient; not confirmed dead).\n- Template leakage: clean.\n- Corrections made this pass: none to existing facts. Added the MABCD license types and exam threshold, the Johnson County class list (no masonry/chimney class), and the Smoke Detector Act as evidence for CO absence."
   },
   "sections": [
     {
@@ -27,7 +27,7 @@
         "GOV"
       ],
       "confidenceNote": "on the state statutes; LOCAL detail partially unverified",
-      "markdown": "**No statewide license covers chimney work in Kansas, and there is no state contractor board for general construction.** Kansas has **no state general-contractor, residential-builder, or home-improvement license.** Licensing, testing and enforcement happen at the **city and county** level, and chimney masonry, relining and sweeping fall outside any state credential. The big local regimes:\n- **Wichita / Sedgwick County:** contractors are licensed through the **Metropolitan Area Building & Construction Dept. (MABCD)**. MABCD tells homeowners to verify roofers are \"registered with the State of Kansas and licensed with MABCD.\"\n- **Johnson County:** runs a county contractor-licensing program used by participating cities.\n- **Wyandotte County / Kansas City, KS:** reported to require only a business license.\n\n*(License classes, exam scope, and which cities participate were not confirmed in this pass. See blockers.)*\n\n**The one statewide exception is roofing.** Under the **Kansas Roofing Contractor Registration Act (K.S.A. 50-6,121 to 50-6,138)**, no one may act as a roofing contractor without an **Attorney General registration certificate** (K.S.A. 50-6,123). The application must include:\n- a certificate of liability insurance of **not less than $500,000** (K.S.A. 50-6,125);\n- proof of workers'-comp coverage or an exemption;\n- a Kansas tax clearance.\n\nThe AG sets the annual fee by rule, **capped at $500** (K.S.A. 50-6,128). A chimney is not roofing, so chimney work is neither AG-registered nor state-licensed. \"Licensed and bonded\" here means a county or city credential, valid only in that jurisdiction."
+      "markdown": "**No statewide license covers chimney work in Kansas, and there is no state contractor board for general construction.** Kansas has **no state general-contractor, residential-builder, or home-improvement license.** Licensing, testing and enforcement happen at the **city and county** level, and chimney masonry, relining and sweeping fall outside any state credential. The big local regimes:\n- **Wichita / Sedgwick County:** contractors are licensed through the **Metropolitan Area Building & Construction Dept. (MABCD)**. MABCD tells homeowners to verify roofers are \"registered with the State of Kansas and licensed with MABCD.\" MABCD issues **General Contractor** and **Trade Contractor** licenses; the qualified person must pass an ICC exam (\"a score of 75 percent or better\"; Kansas Standard ICC exam or an ICC test release) (https://www.sedgwickcounty.org/mabcd/contractor-licensing/ — GOV, Sep 25 2026). No masonry- or chimney-specific class is listed.\n- **Johnson County:** runs a county contractor-licensing program (**11 license types**: Class A, B and C general classes — Class C covers \"construct, remodel, repair, and demolish single-family or duplex residences\" — plus trade classes DE electrical, DF fire protection, DFA fire alarm, DM mechanical, DP plumbing, DR roofing, DS swimming pool, DW wood framing). **There is no masonry or chimney class** (https://www.jocogov.org/department/contractor-licensing/new-license-license-types — GOV, Sep 25 2026). Lookup: https://cls.jocogov.org/searchcontractor. Which cities honor the county license was not confirmed.\n- **Wyandotte County / Kansas City, KS:** reported to require only a business license (not re-verified).\n\n*(Exam content for Johnson County classes and which cities participate were not confirmed. See blockers.)*\n\n**The one statewide exception is roofing.** Under the **Kansas Roofing Contractor Registration Act (K.S.A. 50-6,121 to 50-6,138)**, no one may act as a roofing contractor without an **Attorney General registration certificate** (K.S.A. 50-6,123). The application must include:\n- a certificate of liability insurance of **not less than $500,000** (K.S.A. 50-6,125);\n- proof of workers'-comp coverage or an exemption;\n- a Kansas tax clearance.\n\nThe AG sets the annual fee by rule, **capped at $500** (K.S.A. 50-6,128). A chimney is not roofing, so chimney work is neither AG-registered nor state-licensed. \"Licensed and bonded\" here means a county or city credential, valid only in that jurisdiction."
     },
     {
       "number": "2",
@@ -86,12 +86,12 @@
       "key": "co-law",
       "anchor": "co-law",
       "group": "co",
-      "rawHeading": "6 · CO law (medium — absence not re-verified against a primary source this pass)",
+      "rawHeading": "6 · CO law (medium-high — absence supported by the state's own alarm statute, Sep 25 2026)",
       "researchTitle": "CO law",
       "title": "Carbon monoxide and smoke alarm law",
       "evidence": [],
-      "confidenceNote": "medium — absence not re-verified against a primary source this pass",
-      "markdown": "**Kansas appears to have NO statewide residential carbon-monoxide-alarm statute**, meaning no state mandate for rentals, new construction or sale. CO requirements are **LOCAL**, through adopted building and fire codes. A narrow administrative CO-detector rule for **lodging establishments** with fuel-fired equipment, wood-burning fireplaces or attached garages has been reported (K.A.R. 4-27-8). That covers hotels, not homes. *(The regulation number and text were not re-fetched this pass; label as unconfirmed.)* There is no pre-sale CO certificate. A permitted chimney or solid-fuel job is still the natural moment to add alarms."
+      "confidenceNote": "medium-high — absence supported by the state's own alarm statute, Sep 25 2026",
+      "markdown": "**Kansas appears to have NO statewide residential carbon-monoxide-alarm statute**, meaning no state mandate for rentals, new construction or sale. The state's residential alarm law is the **Smoke Detector Act, K.S.A. 31-160 through 31-164** (K.S.A. 31-160: \"shall be known and may be cited as the smoke detector act\"). K.S.A. 31-162 requires smoke detectors (one per story in single-family dwellings; hardwired in units built after Jan 1, 1999). **None of the act's sections mentions carbon monoxide** (https://ksrevisor.gov/statutes/chapters/ch31/031_001_0060.html ; https://ksrevisor.gov/statutes/chapters/ch31/031_001_0062.html ; …/031_001_0063.html ; …/031_001_0064.html — GOV). That supports, but cannot by itself prove, the absence of any CO statute elsewhere in the K.S.A. The act's penalty is a fine of up to $25 (K.S.A. 31-163), and it supplements local law (K.S.A. 31-164). CO requirements are **LOCAL**, through adopted building and fire codes. A narrow administrative CO-detector rule for **lodging establishments** with fuel-fired equipment, wood-burning fireplaces or attached garages has been reported (K.A.R. 4-27-8). That covers hotels, not homes. *(The regulation number and text were not re-fetched this pass; label as unconfirmed.)* There is no pre-sale CO certificate. A permitted chimney or solid-fuel job is still the natural moment to add alarms."
     },
     {
       "number": "7",
@@ -153,7 +153,7 @@
       "title": "/rights table row (internal)",
       "evidence": [],
       "confidenceNote": null,
-      "markdown": "License: **NO state license (no state contractor board) — LOCAL (Wichita/Sedgwick MABCD; Johnson County; KCK). Statewide exception: roofers register with AG (K.S.A. 50-6,121 et seq.; $500k liability floor; fee capped at $500)** · Registration: **local only; AG roofing registration is the one statewide credential (not chimneys)** · Disclosure law: **NO statute requiring a general seller form (narrow statutory duties: special assessments K.S.A. 12-6a20, radon K.S.A. 58-3078a); voluntary KAR® form (chimney wording unverified)** · 3-day cancel: **YES (K.S.A. 50-640; $25+, buyer-requested repair visits excluded)** · CO law: **NONE statewide residential found (lodging-only rule reported; no pre-sale certificate)** · Lookup: MABCD (Wichita) + Johnson County contractor licensing + ag.ks.gov complaints"
+      "markdown": "License: **NO state license (no state contractor board) — LOCAL (Wichita/Sedgwick MABCD; Johnson County; KCK). Statewide exception: roofers register with AG (K.S.A. 50-6,121 et seq.; $500k liability floor; fee capped at $500)** · Registration: **local only; AG roofing registration is the one statewide credential (not chimneys)** · Disclosure law: **NO statute requiring a general seller form (narrow statutory duties: special assessments K.S.A. 12-6a20, radon K.S.A. 58-3078a); voluntary KAR® form (chimney wording unverified)** · 3-day cancel: **YES (K.S.A. 50-640; $25+, buyer-requested repair visits excluded)** · CO law: **NONE statewide residential found (state Smoke Detector Act K.S.A. 31-160–164 is smoke-only; lodging-only CO rule reported, unconfirmed; no pre-sale certificate)** · Lookup: MABCD (Wichita) + Johnson County contractor search (cls.jocogov.org/searchcontractor) + ag.ks.gov complaints"
     }
   ],
   "story": {
@@ -162,14 +162,14 @@
   },
   "faqSeeds": null,
   "table": {
-    "license_regime": "No state license/contractor board; local only (Wichita/Sedgwick MABCD; Johnson County; KCK). Statewide exception: AG roofing contractor registration (K.S.A. 50-6,121 et seq.), not chimneys",
+    "license_regime": "No state license/contractor board; local only (Wichita/Sedgwick MABCD; Johnson County; KCK) - no masonry/chimney class in MABCD or Johnson County licensing. Statewide exception: AG roofing contractor registration (K.S.A. 50-6,121 et seq.), not chimneys",
     "registration_name": "Local only; AG Roofing Contractor Registration ($500k liability floor, fee capped at $500) is only statewide credential",
     "disclosure_law": "No general seller disclosure statute (narrow duties: radon K.S.A. 58-3078a, special assessments 12-6a20); voluntary KAR form",
     "chimney_item_on_form": "Unverified (voluntary KAR form reportedly names fireplace/chimney; not confirmed)",
     "three_day_cancel": "Yes - K.S.A. 50-640 ($25+; buyer-requested repair visits excluded)",
-    "co_law": "None statewide residential found (lodging rule reported, unconfirmed; no pre-sale certificate)",
+    "co_law": "None statewide residential found (Smoke Detector Act K.S.A. 31-160 to 31-164 is smoke-only; lodging rule reported, unconfirmed; no pre-sale certificate)",
     "lookup_url": "https://www.sedgwickcounty.org/mabcd/",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -179,11 +179,11 @@
     "disclosure_law": "NO statute requiring a general seller form (narrow statutory duties: special assessments K.S.A. 12-6a20, radon K.S.A. 58-3078a); voluntary KAR® form (chimney wording unverified)",
     "chimney_item_on_form": "",
     "three_day_cancel": "YES (K.S.A. 50-640; $25+, buyer-requested repair visits excluded)",
-    "co_law": "NONE statewide residential found (lodging-only rule reported; no pre-sale certificate)",
-    "lookup_url": "MABCD (Wichita) + Johnson County contractor licensing + ag.ks.gov complaints"
+    "co_law": "NONE statewide residential found (state Smoke Detector Act K.S.A. 31-160–164 is smoke-only; lodging-only CO rule reported, unconfirmed; no pre-sale certificate)",
+    "lookup_url": "MABCD (Wichita) + Johnson County contractor search (cls.jocogov.org/searchcontractor) + ag.ks.gov complaints"
   },
   "tableRowStale": false,
-  "lastVerified": "2026-09-15",
+  "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [
     {
@@ -199,10 +199,10 @@
     {
       "id": "verdict-exam",
       "label": "Exam tests chimney skill?",
-      "answer": "NO STATE EXAM",
-      "note": "No state license covers this work statewide",
+      "answer": "SEE SECTION",
+      "note": "Flagged in the verification caveats — read the section",
       "anchor": "qualified-gap",
-      "rule": "exam:no-license",
+      "rule": "exam:no-license→caveat-downgrade",
       "derivedFrom": "§11: license_regime",
       "evidence": null
     },
@@ -272,7 +272,7 @@
     {
       "id": "faq-what-to-do",
       "q": "What should I check before hiring a chimney company in Kansas?",
-      "a": "State licensing: NO state license (no state contractor board) — LOCAL (Wichita/Sedgwick MABCD; Johnson County; KCK). Statewide exception: roofers register with AG (K.S.A. 50-6,121 et seq.; $500k liability floor; fee capped at $500). Registration or credential: local only; AG roofing registration is the one statewide credential (not chimneys). Seller disclosure at sale: NO statute requiring a general seller form (narrow statutory duties: special assessments K.S.A. 12-6a20, radon K.S.A. 58-3078a); voluntary KAR® form (chimney wording unverified). Right to cancel a sale made at your home: YES (K.S.A. 50-640; $25+, buyer-requested repair visits excluded). Carbon monoxide alarm law: NONE statewide residential found (lodging-only rule reported; no pre-sale certificate). Where to check a contractor: MABCD (Wichita) + Johnson County contractor licensing + ag.ks.gov complaints. Then ask the eight questions below, get the inspection findings in writing with photos, and never sign for \"emergency\" work on the day of a door-knock.",
+      "a": "State licensing: NO state license (no state contractor board) — LOCAL (Wichita/Sedgwick MABCD; Johnson County; KCK). Statewide exception: roofers register with AG (K.S.A. 50-6,121 et seq.; $500k liability floor; fee capped at $500). Registration or credential: local only; AG roofing registration is the one statewide credential (not chimneys). Seller disclosure at sale: NO statute requiring a general seller form (narrow statutory duties: special assessments K.S.A. 12-6a20, radon K.S.A. 58-3078a); voluntary KAR® form (chimney wording unverified). Right to cancel a sale made at your home: YES (K.S.A. 50-640; $25+, buyer-requested repair visits excluded). Carbon monoxide alarm law: NONE statewide residential found (state Smoke Detector Act K.S.A. 31-160–164 is smoke-only; lodging-only CO rule reported, unconfirmed; no pre-sale certificate). Where to check a contractor: MABCD (Wichita) + Johnson County contractor search (cls.jocogov.org/searchcontractor) + ag.ks.gov complaints. Then ask the eight questions below, get the inspection findings in writing with photos, and never sign for \"emergency\" work on the day of a door-knock.",
       "expanded": true,
       "derivedFrom": "verified summary row (§11)"
     },

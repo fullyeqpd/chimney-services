@@ -6,13 +6,13 @@
   "researched": "2026-07-06",
   "lawsCitedAs": "Sep 2026",
   "headerNote": null,
-  "verified": "2026-09-15",
+  "verified": "2026-09-25",
   "publishVerdict": "READY WITH CAVEATS",
-  "publishVerdictNote": "(1) 3-day-cancel copy must say credit-only + FTC rule for cash; (2) attribute the narrow No-Representation reading to the form instructions/§ 27-50-65; (3) say \"2024 code update pending\" rather than implying 2021 is final.",
+  "publishVerdictNote": "(1) 3-day-cancel copy must say credit-only (§ 37-2-501) + FTC Cooling-Off Rule for cash; (2) attribute the narrow No-Representation reading to the form instructions/§ 27-50-65; (3) say \"2021 codes in effect; 2024 update pending\"; (4) CO \"no statute\" is an absence finding (Title 27 Ch. 40 read + NCSL), not an exhaustive code search; (5) 2026 acts are not yet codified online — the sweep rests on the acts log titles.",
   "verification": {
-    "heading": "Verification pass — September 2026",
-    "checked": "2026-09-15",
-    "markdown": "Checked 2026-09-15 by verification agent. Laws cited as of Sep 2026.\n- $500 specialty / $5,000 builder thresholds; masonry named: RESOLVED — § 40-59-20 definitions and specialty list (\"masons\"); $200→$500 by 2022 Act No. 186 — https://www.scstatehouse.gov/code/t40c059.php — GOV\n- Specialty registration exam: RESOLVED — \"An examination is not required to become a registered specialty contractor\"; masonry classification defined — https://llr.sc.gov/res/resspecialty.aspx — GOV\n- Bond / lien-and-suit bar: RESOLVED (added) — § 40-59-240 bond > $5,000; § 40-59-30(B) no lien/action by unlicensed — https://www.scstatehouse.gov/code/t40c059.php — GOV\n- Chimney line on disclosure form: RESOLVED — Q7 \"fireplaces, chimneys, wood stoves\", Yes/No/No Representation, form effective 6/1/2023 — https://www.llr.sc.gov/re/recpdf/Property-Condition-Disclosure-Statement-06.01.2023.pdf — DOC (official LLR PDF); statute § 27-50-40(A)(2) names chimneys — https://www.scstatehouse.gov/code/t27c050.php — GOV. Pending reg Doc. 5238 (2024 H.1226) stalled in Senate committee; no newer form found.\n- \"No representation tied to lack of knowledge\": CORRECTED (attribution) — statute § 27-50-40(B) does not itself restrict the option; the narrowing is in the official form instructions + § 27-50-65 knowing-violation liability — same URLs — GOV/DOC\n- 2021 IRC cycle not superseded: RESOLVED — 2021 codes effective Jan 1, 2023 still listed as current; 2024 notice of intent posted, no effective date — https://llr.sc.gov/bcc/BCAdoption.aspx ; https://llr.sc.gov/bcc/ ; https://www.llr.sc.gov/bcc/pdffiles/SC-Code-Adoption-Notice.pdf — GOV. 2024 effective date: STILL OPEN (York County notice fetch 429; search budget exhausted).\n- 3-day cancel: CORRECTED — § 37-2-501 limited to \"a consumer credit sale\"; cash sales → 16 CFR 429 — https://www.scstatehouse.gov/code/t37c002.php — GOV; https://www.law.cornell.edu/cfr/text/16/429.0 — REF mirror\n- SCUTPA treble: RESOLVED — § 39-5-140(a) willful/knowing trebling, mandatory fees — https://www.scstatehouse.gov/code/t39c005.php — GOV\n- CO law: RESOLVED as absence (medium) — no CO/smoke provision in Title 27 Ch. 40 text — https://www.scstatehouse.gov/code/t27c040.php — GOV; exhaustive statewide absence not provable by one chapter read.\n- Enforcement actions: STILL OPEN — none located; web-search budget exhausted.\n- 2026 changes: H.4266 (2025, local code modification procedures) still in committee, not enacted — https://www.scstatehouse.gov/sess126_2025-2026/bills/4266.htm — GOV. Full 2026 licensing-law sweep: STILL OPEN (search budget exhausted).\n- Template-leakage sweep: clean."
+    "heading": "Verification pass — September 25, 2026",
+    "checked": "2026-09-25",
+    "markdown": "Checked 2026-09-25 by verification agent (sweep #2). Job 1 was done by primary-host fetch (WebFetch of scstatehouse.gov and llr.sc.gov), NOT by web search — the session's search budget was exhausted.\n- 2026 law-change sweep: none found. (a) scstatehouse.gov 2025–2026 Ratifications/Acts log (https://www.scstatehouse.gov/rats2.php; ~277 acts, Mar 6, 2025 – Sep 1, 2026): no act title matched \"40-59\", \"40-11\", \"27-50\", \"6-9-\", \"Building Code\", \"Residential Builder\", \"contractor\", \"carbon monoxide\", \"smoke\", \"disclosure\", \"37-2\", \"39-5\", \"27-40\", \"landlord\" (caveat: log shows short titles only) — GOV. (b) Statute history lines on the official code host (current through the 2025 session per https://www.scstatehouse.gov/code/statmast.php): § 40-59-20 last amended 2022 Act No. 186; § 40-59-30 last 2009 Act No. 40; § 40-59-240 unchanged since 2002; § 27-50-40 last 2018 Act No. 245; § 27-50-65 unchanged since 2002; §§ 37-2-501/-502 last 1976; § 39-5-140 last 1971; Title 27 Ch. 40 has no 2025/2026 history and still no \"carbon monoxide\"/\"smoke detector\" text — GOV. (c) H.4266 (local code-modification procedures) still sitting in House Labor, Commerce & Industry since Mar 27, 2025 — https://www.scstatehouse.gov/sess126_2025-2026/bills/4266.htm — GOV. (d) LLR Residential Builders Commission news: only a June 30, 2026 renewal deadline and a new 2026 electronic application platform — no threshold/rule change — https://llr.sc.gov/res/ — GOV. (e) Building Codes Council: 2021 codes (eff. Jan 1, 2023) still in effect; 2024 codes \"undergoing the modification and adoption process,\" no effective date — https://llr.sc.gov/bcc/BCAdoption.aspx — GOV. Searches in the Job 1 search list were not run (no search budget); 8 primary-host fetches substituted.\n- Load-bearing re-check (official host): (a) licensing — § 40-59-20(6) builder \"exceeds five thousand dollars\", § 40-59-20(7) specialty \"exceed five hundred dollars\", \"masons\" in the specialty list; LLR: \"An examination is not required to become a registered specialty contractor\" — https://www.scstatehouse.gov/code/t40c059.php ; https://llr.sc.gov/res/resspecialty.aspx — GOV. (b) disclosure — § 27-50-40(A)(2) \"roof, chimneys, floors...\"; LLR form (Effective 6/1/2023) Q7 \"Foundation, slab, fireplaces, chimneys, wood stoves...\" and the No Representation instructions — https://www.scstatehouse.gov/code/t27c050.php — GOV; https://www.llr.sc.gov/re/recpdf/Property-Condition-Disclosure-Statement-06.01.2023.pdf — DOC. (c) CO — still no statute located; NCSL CO-statute table (updated Sep 29, 2025) does not list SC — REF support only. All confirmed; no change.\n- Mirror spot-check: n/a (SC not a mirror state; all statute reads were already on scstatehouse.gov).\n- Dead links: none. All cited URLs resolved (t40c059, t27c050, t37c002, t39c005, t27c040, 4266.htm, llr.sc.gov/res/, resspecialty.aspx, bcc/, BCAdoption.aspx, SC-Code-Adoption-Notice.pdf, the 06.01.2023 disclosure PDF, law.cornell.edu 16 CFR 429.0). Live RBC lookup link found on llr.sc.gov/res/: https://verify.llronline.com/LicLookup/Resbu/Resbu.aspx?div=46 (page content not rendered by fetch; keep llr.sc.gov/res/ as the published lookup URL).\n- Corrections made this pass: none to facts; §5 copy updated to say the 2024 cycle still has no effective date as of Sep 25, 2026."
   },
   "sections": [
     {
@@ -81,7 +81,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence on current code; next cycle pending",
-      "markdown": "STATE LAW: the **2021 South Carolina Residential Code (2021 IRC with SC modifications)**, adopted by the **SC Building Codes Council** on Oct 6, 2021 with an **effective date of Jan 1, 2023** — still the code in effect per LLR's Building Code Adoption page (Sep 2026). The Council has posted a **Notice of Intent to Modify and Adopt the 2024 Building Codes**, but no 2024-cycle effective date was confirmed on a primary source in this pass — say \"2021 codes in effect; 2024 update pending.\" Chimney/fireplace provisions track IRC Chapter 10. Relines, rebuilds, crowns, and solid-fuel appliance installs are generally **permit work** through the **local** building department; routine sweeps and like-for-like caps generally are not."
+      "markdown": "STATE LAW: the **2021 South Carolina Residential Code (2021 IRC with SC modifications)**, adopted by the **SC Building Codes Council** on Oct 6, 2021 with an **effective date of Jan 1, 2023** — still the code in effect per LLR's Building Code Adoption page (Sep 2026). The Council has posted a **Notice of Intent to Modify and Adopt the 2024 Building Codes**; as of Sep 25, 2026 LLR's Building Code Adoption page still says the 2024 codes are \"undergoing the modification and adoption process\" with **no effective date** (the modification-request comment period ran Feb 3 – Aug 4, 2025) — say \"2021 codes in effect; 2024 update pending.\" Chimney/fireplace provisions track IRC Chapter 10. Relines, rebuilds, crowns, and solid-fuel appliance installs are generally **permit work** through the **local** building department; routine sweeps and like-for-like caps generally are not."
     },
     {
       "number": "6",
@@ -186,8 +186,8 @@
     "co_law": "WEAK — code/new-construction only; no rental or pre-sale statute located",
     "lookup_url": "llr.sc.gov/res/"
   },
-  "tableRowStale": false,
-  "lastVerified": "2026-09-15",
+  "tableRowStale": true,
+  "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [
     {
@@ -233,10 +233,10 @@
     {
       "id": "verdict-co",
       "label": "CO alarm required in your home?",
-      "answer": "LIMITED",
-      "note": "WEAK — code/new-construction only; no rental or pre-sale statute located",
+      "answer": "SEE SECTION",
+      "note": "Flagged in the verification caveats — read the section",
       "anchor": "co-law",
-      "rule": "co:limited",
+      "rule": "co:limited→caveat-downgrade",
       "derivedFrom": "§11: co_law",
       "evidence": null
     },

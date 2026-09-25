@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-19T02:33:24.809Z",
+  "generatedAt": "2026-09-25T07:47:35.285Z",
   "rightsDir": "/home/claude/cs/rights-research",
   "states": [
     {
       "slug": "alabama",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "YES [license:YES]",
-        "exam": "NO [exam:§2-negative]",
+        "exam": "SEE SECTION [exam:§2-negative→caveat-downgrade]",
         "sale": "NO [inspection:§3-negative]",
-        "cancel": "SEE SECTION [cancel:§4-sentence→caveat-downgrade]",
+        "cancel": "YES [cancel:§4-sentence]",
         "co": "SEE SECTION [co:none→caveat-downgrade]",
         "sue": "SEE SECTION [sue:unmatched]"
       },
@@ -20,7 +20,7 @@
     {
       "slug": "alaska",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "REGISTRATION ONLY [license:NO+registration]",
@@ -35,7 +35,7 @@
     {
       "slug": "arizona",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "YES [license:YES]",
@@ -50,7 +50,7 @@
     {
       "slug": "arkansas",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "YES [license:YES]",
@@ -65,7 +65,7 @@
     {
       "slug": "california",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "YES [license:YES]",
@@ -80,7 +80,7 @@
     {
       "slug": "colorado",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "NO [license:NO]",
@@ -95,7 +95,7 @@
     {
       "slug": "connecticut",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "REGISTRATION ONLY [license:NO+registration]",
@@ -110,7 +110,7 @@
     {
       "slug": "delaware",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "NO [license:NO]",
@@ -125,7 +125,7 @@
     {
       "slug": "district-of-columbia",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "YES [license:YES]",
@@ -140,7 +140,7 @@
     {
       "slug": "florida",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "YES [license:YES]",
@@ -155,14 +155,14 @@
     {
       "slug": "georgia",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "ONLY > $2,500 [license:NO+threshold]",
         "exam": "NO [exam:§2-negative]",
         "sale": "NO [inspection:§3-negative]",
         "cancel": "SEE SECTION [cancel:unmatched]",
-        "co": "SEE SECTION [co:limited→caveat-downgrade]",
+        "co": "LIMITED [co:limited]",
         "sue": "SEE SECTION [sue:unmatched]"
       },
       "compare": "Alabama on License required?"
@@ -170,7 +170,7 @@
     {
       "slug": "hawaii",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "YES [license:YES]",
@@ -185,14 +185,14 @@
     {
       "slug": "idaho",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "REGISTRATION ONLY [license:NO+registration]",
         "exam": "NO STATE EXAM [exam:registration-no-exam]",
         "sale": "NO [inspection:§3-negative]",
         "cancel": "YES [cancel:YES]",
-        "co": "LIMITED [co:limited]",
+        "co": "SEE SECTION [co:limited→caveat-downgrade]",
         "sue": "NO [sue:§4-sentence]"
       },
       "compare": "Montana on License required?"
@@ -200,7 +200,7 @@
     {
       "slug": "illinois",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "NO [license:NO]",
@@ -215,7 +215,7 @@
     {
       "slug": "indiana",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "NO [license:NO]",
@@ -230,7 +230,7 @@
     {
       "slug": "iowa",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "SEE SECTION [license:unmatched]",
@@ -245,11 +245,11 @@
     {
       "slug": "kansas",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "NO [license:NO]",
-        "exam": "NO STATE EXAM [exam:no-license]",
+        "exam": "SEE SECTION [exam:no-license→caveat-downgrade]",
         "sale": "NO [inspection:§3-negative]",
         "cancel": "YES [cancel:YES]",
         "co": "SEE SECTION [co:none→caveat-downgrade]",
@@ -260,14 +260,14 @@
     {
       "slug": "kentucky",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "NO [license:NO]",
         "exam": "NO STATE EXAM [exam:no-license]",
         "sale": "NO [inspection:§3-negative]",
         "cancel": "YES [cancel:YES]",
-        "co": "SEE SECTION [co:limited→caveat-downgrade]",
+        "co": "LIMITED [co:limited]",
         "sue": "SEE SECTION [sue:unmatched]"
       },
       "compare": "Tennessee on License required?"
@@ -275,11 +275,11 @@
     {
       "slug": "louisiana",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "YES [license:YES]",
-        "exam": "SEE SECTION [exam:§2-negative→caveat-downgrade]",
+        "exam": "NO [exam:§2-negative]",
         "sale": "NO [inspection:§3-negative]",
         "cancel": "YES [cancel:YES]",
         "co": "YES [co:yes]",
@@ -290,7 +290,7 @@
     {
       "slug": "maine",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "SEE SECTION [license:unmatched]",
@@ -305,7 +305,7 @@
     {
       "slug": "maryland",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "YES [license:YES]",
@@ -320,7 +320,7 @@
     {
       "slug": "massachusetts",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "YES [license:YES]",
@@ -335,7 +335,7 @@
     {
       "slug": "michigan",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "YES [license:YES]",
@@ -350,7 +350,7 @@
     {
       "slug": "minnesota",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "YES [license:YES]",
@@ -365,28 +365,28 @@
     {
       "slug": "mississippi",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "ONLY > $10,000 [license:NO+threshold]",
         "exam": "NO [exam:§2-negative]",
         "sale": "NO [inspection:§3-negative]",
         "cancel": "YES [cancel:§4-sentence]",
-        "co": "SEE SECTION [co:none→caveat-downgrade]",
-        "sue": "NO [sue:§4-sentence]"
+        "co": "NO STATE LAW [co:none]",
+        "sue": "SEE SECTION [sue:unmatched]"
       },
       "compare": "Alabama on License required?"
     },
     {
       "slug": "missouri",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "NO [license:NO]",
         "exam": "NO STATE EXAM [exam:no-license]",
         "sale": "NO [inspection:§3-negative]",
-        "cancel": "SEE SECTION [cancel:§4-sentence→caveat-downgrade]",
+        "cancel": "YES [cancel:§4-sentence]",
         "co": "NO STATE LAW [co:none]",
         "sue": "SEE SECTION [sue:unmatched]"
       },
@@ -395,7 +395,7 @@
     {
       "slug": "montana",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "LICENSE, NO EXAM [license:non-competency-license]",
@@ -410,7 +410,7 @@
     {
       "slug": "nebraska",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "REGISTRATION ONLY [license:NO+registration]",
@@ -425,14 +425,14 @@
     {
       "slug": "nevada",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "YES [license:YES]",
         "exam": "NO [exam:§2-negative]",
         "sale": "NO [inspection:§3-negative]",
         "cancel": "YES [cancel:YES]",
-        "co": "SEE SECTION [co:limited→caveat-downgrade]",
+        "co": "LIMITED [co:limited]",
         "sue": "SEE SECTION [sue:unmatched]"
       },
       "compare": "Idaho on License required?"
@@ -440,7 +440,7 @@
     {
       "slug": "new-hampshire",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "NO [license:NO]",
@@ -455,26 +455,26 @@
     {
       "slug": "new-jersey",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
-        "license": "SEE SECTION [license:NO+registration→caveat-downgrade]",
+        "license": "REGISTRATION ONLY [license:NO+registration]",
         "exam": "NO [exam:§2-negative]",
         "sale": "NO [inspection:§3-negative]",
         "cancel": "YES [cancel:YES]",
-        "co": "YES [co:yes]",
+        "co": "SEE SECTION [co:yes→caveat-downgrade]",
         "sue": "SEE SECTION [sue:unmatched]"
       },
-      "compare": "Delaware on CO alarm required in your home?"
+      "compare": "Delaware on License required?"
     },
     {
       "slug": "new-mexico",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "YES [license:YES]",
-        "exam": "NO [exam:§2-negative]",
+        "exam": "SEE SECTION [exam:§2-negative→caveat-downgrade]",
         "sale": "NO [inspection:§3-negative]",
         "cancel": "YES [cancel:YES]",
         "co": "SEE SECTION [co:limited→caveat-downgrade]",
@@ -485,7 +485,7 @@
     {
       "slug": "new-york",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "NO [license:NO]",
@@ -500,14 +500,14 @@
     {
       "slug": "north-carolina",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "ONLY ≥ $40,000 [license:THRESHOLD]",
         "exam": "NO [exam:§2-negative]",
         "sale": "NO [inspection:§3-negative]",
         "cancel": "SEE SECTION [cancel:§4-sentence→caveat-downgrade]",
-        "co": "YES [co:yes]",
+        "co": "SEE SECTION [co:yes→caveat-downgrade]",
         "sue": "SEE SECTION [sue:unmatched]"
       },
       "compare": "Georgia on License required?"
@@ -515,14 +515,14 @@
     {
       "slug": "north-dakota",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "YES [license:YES]",
         "exam": "NO [exam:§2-negative]",
         "sale": "NO [inspection:§3-negative]",
         "cancel": "YES [cancel:YES]",
-        "co": "SEE SECTION [co:limited→caveat-downgrade]",
+        "co": "LIMITED [co:limited]",
         "sue": "SEE SECTION [sue:unmatched]"
       },
       "compare": "Montana on License required?"
@@ -530,7 +530,7 @@
     {
       "slug": "ohio",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "NO [license:NO]",
@@ -545,7 +545,7 @@
     {
       "slug": "oklahoma",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "SEE SECTION [license:unmatched]",
@@ -560,7 +560,7 @@
     {
       "slug": "oregon",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "YES [license:YES]",
@@ -575,7 +575,7 @@
     {
       "slug": "pennsylvania",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "REGISTRATION ONLY [license:NO+registration]",
@@ -590,14 +590,14 @@
     {
       "slug": "rhode-island",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "SEE SECTION [license:qualified-yes→see]",
         "exam": "SEE SECTION [exam:unmatched]",
         "sale": "NO [inspection:§3-negative]",
         "cancel": "YES [cancel:YES]",
-        "co": "SEE SECTION [co:yes→caveat-downgrade]",
+        "co": "SEE SECTION [co:unmatched]",
         "sue": "SEE SECTION [sue:unmatched]"
       },
       "compare": null
@@ -605,14 +605,14 @@
     {
       "slug": "south-carolina",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "REGISTRATION ONLY [license:registration]",
         "exam": "NO STATE EXAM [exam:registration-no-exam]",
         "sale": "NO [inspection:§3-negative]",
         "cancel": "SEE SECTION [cancel:§4-sentence→caveat-downgrade]",
-        "co": "LIMITED [co:limited]",
+        "co": "SEE SECTION [co:limited→caveat-downgrade]",
         "sue": "SEE SECTION [sue:unmatched]"
       },
       "compare": "Georgia on License required?"
@@ -620,7 +620,7 @@
     {
       "slug": "south-dakota",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "NO [license:NO]",
@@ -635,7 +635,7 @@
     {
       "slug": "tennessee",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "ONLY ≥ $25,000 [license:THRESHOLD]",
@@ -650,14 +650,14 @@
     {
       "slug": "texas",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "NO [license:NO]",
         "exam": "NO STATE EXAM [exam:no-license]",
         "sale": "NO [inspection:§3-negative]",
         "cancel": "YES [cancel:YES]",
-        "co": "LIMITED [co:limited]",
+        "co": "SEE SECTION [co:limited→caveat-downgrade]",
         "sue": "SEE SECTION [sue:unmatched]"
       },
       "compare": "Arkansas on License required?"
@@ -665,14 +665,14 @@
     {
       "slug": "utah",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "YES [license:YES]",
         "exam": "NO [exam:§2-negative]",
         "sale": "NO [inspection:§3-negative]",
         "cancel": "YES [cancel:YES]",
-        "co": "LIMITED [co:limited]",
+        "co": "SEE SECTION [co:limited→caveat-downgrade]",
         "sue": "SEE SECTION [sue:unmatched]"
       },
       "compare": "Colorado on License required?"
@@ -680,7 +680,7 @@
     {
       "slug": "vermont",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "YES [license:YES]",
@@ -695,14 +695,14 @@
     {
       "slug": "virginia",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "YES [license:YES]",
         "exam": "NO [exam:§2-negative]",
         "sale": "NO [inspection:§3-negative]",
         "cancel": "YES [cancel:YES]",
-        "co": "SEE SECTION [co:limited→caveat-downgrade]",
+        "co": "LIMITED [co:limited]",
         "sue": "SEE SECTION [sue:unmatched]"
       },
       "compare": "Kentucky on License required?"
@@ -710,7 +710,7 @@
     {
       "slug": "washington",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "REGISTRATION ONLY [license:NO+registration]",
@@ -725,7 +725,7 @@
     {
       "slug": "west-virginia",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "YES [license:YES]",
@@ -739,14 +739,14 @@
     },
     {
       "slug": "wisconsin",
-      "publishVerdict": "DO NOT PUBLISH",
-      "verified": "2026-09-15",
+      "publishVerdict": "READY WITH CAVEATS",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "SEE SECTION [license:unmatched]",
         "exam": "SEE SECTION [exam:unmatched]",
         "sale": "NO [inspection:§3-negative]",
-        "cancel": "SEE SECTION [cancel:YES→caveat-downgrade]",
+        "cancel": "YES [cancel:YES]",
         "co": "YES [co:yes]",
         "sue": "SEE SECTION [sue:unmatched]"
       },
@@ -755,19 +755,35 @@
     {
       "slug": "wyoming",
       "publishVerdict": "READY WITH CAVEATS",
-      "verified": "2026-09-15",
+      "verified": "2026-09-25",
       "tableStatus": "IN TABLE",
       "grid": {
         "license": "NO [license:NO-nothing]",
         "exam": "NO STATE EXAM [exam:no-license]",
         "sale": "NO [inspection:§3-negative]",
         "cancel": "YES [cancel:YES]",
-        "co": "NO STATE LAW [co:none]",
+        "co": "SEE SECTION [co:none→caveat-downgrade]",
         "sue": "SEE SECTION [sue:unmatched]"
       },
       "compare": "Idaho on License required?"
     }
   ],
   "csvProblems": {},
-  "warnings": []
+  "warnings": [
+    "rights-research-alabama.md: unrecognised headings kept out of page: 2025–26 law-change sweep (sweep #2, Sep 25, 2026)",
+    "rights-research-alaska.md: unrecognised headings kept out of page: 2025–26 law-change sweep (sweep #2, Sep 25, 2026)",
+    "rights-research-arizona.md: unrecognised headings kept out of page: 2025–26 law-change sweep (sweep #2, Sep 25, 2026)",
+    "rights-research-arkansas.md: unrecognised headings kept out of page: 2025–26 law-change sweep (sweep #2, Sep 25, 2026)",
+    "rights-research-california.md: unrecognised headings kept out of page: 2025–26 law-change sweep (sweep #2, Sep 25, 2026)",
+    "rights-research-georgia.md: unrecognised headings kept out of page: 2025–26 law-change sweep (sweep #2, Sep 25, 2026)",
+    "rights-research-hawaii.md: unrecognised headings kept out of page: 2025–26 law-change sweep (sweep #2, Sep 25, 2026)",
+    "rights-research-idaho.md: unrecognised headings kept out of page: 2025–26 law-change sweep (sweep #2, Sep 25, 2026)",
+    "rights-research-illinois.md: unrecognised headings kept out of page: 2025–26 law-change sweep (sweep #2, Sep 25, 2026)",
+    "rights-research-indiana.md: unrecognised headings kept out of page: 2025–26 law-change sweep (sweep #2, Sep 25, 2026)",
+    "rights-research-iowa.md: unrecognised headings kept out of page: 2026 law-change sweep (September 25, 2026)",
+    "rights-research-kansas.md: unrecognised headings kept out of page: 2026 law-change sweep (September 25, 2026)",
+    "rights-research-kentucky.md: unrecognised headings kept out of page: 2026 law-change sweep (September 25, 2026)",
+    "rights-research-louisiana.md: unrecognised headings kept out of page: 2026 law-change sweep (September 25, 2026)",
+    "rights-research-maine.md: unrecognised headings kept out of page: 2026 law-change sweep (September 25, 2026)"
+  ]
 }

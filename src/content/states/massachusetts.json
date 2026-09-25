@@ -6,13 +6,13 @@
   "researched": "2026-07-06",
   "lawsCitedAs": "Sep 2026",
   "headerNote": null,
-  "verified": "2026-09-15",
+  "verified": "2026-09-25",
   "publishVerdict": "READY WITH CAVEATS",
-  "publishVerdictNote": "cite caveat-emptor as not re-verified or obtain GOV source; omit 60-day certificate window; no named enforcement",
+  "publishVerdictNote": null,
   "verification": {
-    "heading": "Verification pass — September 2026",
-    "checked": "2026-09-15",
-    "markdown": "Checked 2026-09-15 by verification agent. Laws cited as of Sep 2026 (except §3 caveat-emptor absence, not re-verified).\n- 780 CMR edition: RESOLVED — 10th edition (2021 I-Codes; ch. 51 = 2021 IRC w/ MA amendments) effective Oct 11, 2024; concurrency with 9th ended June 30, 2025 — https://www.mass.gov/handbook/tenth-edition-of-the-ma-state-building-code-780 — GOV\n- CSL scope for structural chimney work: RESOLVED — mass.gov table: \"Masonry, related to building\" requires HIC + CSL + permit, \"Masonry CSL minimum\"; \"Solid Fuel Burning Appliance\" \"Appliance CSL minimum\"; specialty CSL Masonry covers \"masonry structures that requires a permit\" — https://www.mass.gov/info-details/hic-contractor-resources ; https://www.mass.gov/info-details/learn-about-different-construction-supervisor-licenses — GOV. (File had pointed to a Boston table; the statewide mass.gov table is the primary.) \"3 years' experience\" removed (not verified).\n- HIC scope/fees: CORRECTED — \"$150 fee + $100 Guaranty Fund\" replaced with § 11 structure (fee tied to c.143 § 94 + Guaranty Fund payment $100/$200/$300/$500 by employee count); written contract > $1,000 (§ 2); owner-occupied 1–4 units (§ 1) — https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXX/Chapter142A/Section11 — GOV\n- Guaranty Fund cap: CORRECTED — was \"up to $10k\"; § 7 now caps awards at the lesser of $25,000 or actual loss per claim ($150,000 per contractor per 12 months) — https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXX/Chapter142A/Section7 — GOV\n- 93A hook: RESOLVED — c. 142A § 17 — https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXX/Chapter142A/Section17 — GOV\n- 3-day cancel: RESOLVED — c. 93 § 48, third business day, > $25, off-premises — https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter93/Section48 — GOV\n- CO/smoke at sale: CORRECTED (framing) — § 26F½ mandates fire-department CO inspection upon sale/transfer; § 26F requires seller to equip smoke detectors; certificate validity \"60 days\" not in statute text — flagged — https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXX/Chapter148/Section26F1~2 ; https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXX/Chapter148/Section26F — GOV\n- Seller disclosure (caveat emptor, no form): STILL OPEN — absence not re-confirmed on a primary source this pass (search budget exhausted).\n- Enforcement actions: STILL OPEN.\n- Template-leakage sweep: clean (93A/c.142A are MA's own law; PA/NJ/CT/NY only as labeled comparisons)."
+    "heading": "Verification pass — September 25, 2026",
+    "checked": "2026-09-25",
+    "markdown": "Checked 2026-09-25 by verification agent (sweep #2). Job 1 was done by fetching primary hosts directly (legislature session-law indexes and bill search, regulator pages, statute pages), not by web search: the session's search budget was exhausted.\n- 2026 law-change sweep:\n  - **Session laws.** Fetched malegislature.gov Session Laws, Acts of 2025 (101 chapters) and Acts of 2026 (chapters 1–215). No chapter titles concern HIC, CSL, the building code, CO/smoke alarms, seller disclosure, home solicitation, or chimneys/fireplaces. The nearest was 2026 c. 114, \"violation of regulation regarding hot work processes\", which is not chimney-related.\n  - **Bill search.** A malegislature.gov search for \"chimney\" returned only 2009–2012 bills, including H.2693 (187th), \"An Act relative to licensing of chimney sweeps\", which was not enacted. No chimney licensing exists.\n  - **Regulator changes found, both 2025:** (1) **760 CMR 74.00, the home-inspection-waiver ban** (Mass. Register #1549, 6/6/2025; statute c. 143 § 101, added by St. 2024 c. 150 § 45; contracts on or before Oct 15, 2025 exempt). Added to § 3 — https://www.mass.gov/regulations/760-CMR-7400-residential-home-inspection-waivers ; https://www.mass.gov/doc/760-cmr-74-residential-home-inspection-waivers/download ; https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXX/Chapter143/Section101 — GOV/DOC. (2) **201 CMR 14.00, HIC arbitration and Guaranty Fund**, amended (Mass. Register #1549, 6/6/2025): up to $25,000 per claimant and $150,000 per registrant per 12 months — https://www.mass.gov/doc/201-cmr-14-home-improvement-contractor-arbitration-and-guaranty-fund/download — DOC.\n  - **Code edition.** The 780 CMR 10th-edition page shows no 11th edition and no 2024 I-code adoption.\n  - **Regulator pages.** OCABR's HIC pages have no 2025–26 news items.\n- Load-bearing re-checks (official host):\n  - c. 142A § 11 guaranty-fund payment of $100/$200/$300/$500 by headcount: confirmed.\n  - § 17 (a 142A violation is a 93A unfair or deceptive act): confirmed.\n  - c. 93 § 48 (over $25; cancel by midnight of the third business day): confirmed.\n  - c. 148 § 26F½ (CO alarms where there is fossil-fuel equipment, \"fireplace\" named; fire-department inspection \"upon sale or transfer\"): confirmed.\n  - § 26F (seller equips smoke detectors on sale; no validity period in the text): confirmed.\n  - The mass.gov HIC table still reads \"Masonry, related to building … Masonry CSL minimum\" and \"Solid Fuel Burning Appliance … Appliance CSL minimum\". The CSL specialty descriptions are unchanged. All GOV.\n  - Seller-disclosure absence (caveat emptor): still no GOV source. STILL OPEN.\n- Mirror spot-check: n/a. MA is not a mirror state, and all statute reads were on malegislature.gov.\n- Dead links: none. All 10 URLs resolved: mass.gov 10th-edition handbook, hic-contractor-resources, CSL types, and c. 142A §§ 7, 11, 17, c. 93 § 48, c. 148 §§ 26F½ and 26F. Several guessed mass.gov guaranty-fund URLs 404'd, but none of them were in the file. The working OCABR pages are https://www.mass.gov/home-improvement-contractor-program and https://www.mass.gov/info-details/file-a-guaranty-fund-claim-for-an-unpaid-hic-judgment. The HIC lookup is now https://contractorhub.mass.gov/s/hic-contractor-search.\n- Corrections made this pass:\n  - (a) Guaranty Fund citation. The Sep 15 pass attributed $25k/$150k to c. 142A § 7. The official § 7 text reads \"more than ten thousand dollars … to any one claimant\" and \"seventy-five thousand dollars … within a twelve month period\". The $25k/$150k figures come from 201 CMR 14.00 and OCABR. The table row now cites the regulation and flags the conflict.\n  - (b) Added the 760 CMR 74 / c. 143 § 101 inspection-waiver protection to § 3.\n  - (c) Added the statute's \"fireplace\" example to § 6.\n1. Caveat-emptor absence still lacks a GOV cite. Label it \"not independently verified\" or get an OCABR/AG source.\n2. Omit the 60-day certificate window.\n3. No named enforcement.\n4. State the Guaranty Fund cap as \"$25,000 per OCABR regulation 201 CMR 14.00\". Do not attribute it to § 7 until the statute/regulation conflict is resolved."
   },
   "sections": [
     {
@@ -53,7 +53,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence; the headline",
-      "markdown": "**Massachusetts is a caveat emptor state — there is NO mandatory general seller property-condition disclosure form.** Sellers of the oldest housing stock in America are not required by statute to disclose the condition of the chimney, fireplace, or anything else on a standard form. The only mandatory sale disclosures are **lead paint** (pre-1978, federal + state) and **Title 5 septic** (inspection required within 2 years, 310 CMR 15.00). A seller must **answer direct questions truthfully** and cannot actively conceal, but has **no duty to volunteer** a cracked flue. **No inspection is mandated at transfer**; NFPA 211 Level 2 stays a NATIONAL STANDARD — and here there isn't even a disclosure form to sit beside it. This is the strongest \"get your own inspection\" state in the launch set."
+      "markdown": "**Massachusetts is a caveat emptor state — there is NO mandatory general seller property-condition disclosure form.** Sellers of the oldest housing stock in America are not required by statute to disclose the condition of the chimney, fireplace, or anything else on a standard form. The only mandatory sale disclosures are **lead paint** (pre-1978, federal + state) and **Title 5 septic** (inspection required within 2 years, 310 CMR 15.00). A seller must **answer direct questions truthfully** and cannot actively conceal, but has **no duty to volunteer** a cracked flue. **No inspection is mandated at transfer**; NFPA 211 Level 2 stays a NATIONAL STANDARD — and here there isn't even a disclosure form to sit beside it. This is the strongest \"get your own inspection\" state in the launch set — and since 2025 the buyer's right to that inspection is protected: **M.G.L. c. 143 § 101 (added by St. 2024, c. 150, § 45, the Affordable Homes Act) and 760 CMR 74.00 (Mass. Register #1549, 6/6/2025)** bar a seller of a 1–4 unit residential building, condo unit or co-op (or the seller's agent) from conditioning acceptance of an offer on the buyer waiving, limiting or forgoing a home inspection, and from accepting offers whose contract documents require that. Exemptions include auctions, sales to relatives, foreclosures and deeds in lieu, estate-planning transfers, and certain new construction with a one-year warranty; contracts executed on or before Oct 15, 2025 are exempt (760 CMR 74.04(2)(a)) (mass.gov/regulations/760-CMR-7400-residential-home-inspection-waivers; malegislature.gov c. 143 § 101). A chimney inspection can therefore ride along with the protected home inspection."
     },
     {
       "number": "4",
@@ -95,7 +95,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence; pre-sale fire inspection",
-      "markdown": "**Nicole's Law (M.G.L. c. 148 § 26F½)** requires working CO alarms in every residential dwelling with fossil-fuel-burning equipment or enclosed parking, and requires that such a dwelling **\"upon sale or transfer … be inspected by the head of the fire department for compliance.\"** **§ 26F** separately requires the seller to equip residential buildings with approved smoke detectors upon sale or transfer, enforced by the fire chief. In practice the fire department issues a smoke/CO certificate of compliance before closing — *(the certificate form and its validity window, commonly cited as 60 days, come from fire-code regulations not re-verified in the Sep 2026 pass; do not publish the 60-day figure until confirmed)*. This is a **mandatory, in-person, point-of-sale safety check** — MA has no disclosure form, but it does put a firefighter in the house before closing."
+      "markdown": "**Nicole's Law (M.G.L. c. 148 § 26F½)** requires working CO alarms in every residential dwelling with fossil-fuel-burning equipment (the statute's own examples include \"a furnace, boiler, water heater, fireplace\") or enclosed parking, and requires that such a dwelling **\"upon sale or transfer … be inspected by the head of the fire department for compliance.\"** **§ 26F** separately requires the seller to equip residential buildings with approved smoke detectors upon sale or transfer, enforced by the fire chief. In practice the fire department issues a smoke/CO certificate of compliance before closing — *(the certificate form and its validity window, commonly cited as 60 days, come from fire-code regulations not re-verified in the Sep 2026 pass; do not publish the 60-day figure until confirmed)*. This is a **mandatory, in-person, point-of-sale safety check** — MA has no disclosure form, but it does put a firefighter in the house before closing."
     },
     {
       "number": "7",
@@ -157,7 +157,7 @@
       "title": "/rights table row (internal)",
       "evidence": [],
       "confidenceNote": null,
-      "markdown": "License: **YES for structural work — CSL (exam) + HIC registration for contracting** · Registration: **YES (HIC) + Guaranty Fund (up to $25k per claim, c. 142A § 7)** · Disclosure law: **NO mandatory form — caveat emptor** · Chimney item on form: **N/A (no form)** · 3-day cancel: **YES (c. 93 § 48; disclosed in HIC contract)** · CO law: **strong — mandatory fire-dept inspection at sale (c. 148 §§ 26F, 26F½)** · Lookup: mass.gov HIC check + OPSI CSL check"
+      "markdown": "License: **YES for structural work — CSL (exam) + HIC registration for contracting** · Registration: **YES (HIC) + Guaranty Fund (up to $25k per claimant, $150k per registrant per 12 months — 201 CMR 14.00 as amended 6/6/2025 and OCABR; the c. 142A § 7 text on malegislature.gov still reads $10k/$75k — conflict flagged)** · Disclosure law: **NO mandatory form — caveat emptor** · Chimney item on form: **N/A (no form)** · 3-day cancel: **YES (c. 93 § 48; disclosed in HIC contract)** · CO law: **strong — mandatory fire-dept inspection at sale (c. 148 §§ 26F, 26F½)** · Lookup: mass.gov HIC check + OPSI CSL check"
     }
   ],
   "story": {
@@ -167,19 +167,19 @@
   "faqSeeds": null,
   "table": {
     "license_regime": "CSL license (exam; Masonry/Solid Fuel specialty CSL minimum) for permitted chimney masonry & stove work + HIC registration",
-    "registration_name": "Home Improvement Contractor (M.G.L. c.142A) + Guaranty Fund ($25k/claim)",
+    "registration_name": "Home Improvement Contractor (M.G.L. c.142A) + Guaranty Fund (up to $25k/claim per 201 CMR 14.00; c.142A s.7 text still reads $10k — conflict flagged)",
     "disclosure_law": "No mandatory form (caveat emptor — not re-verified Sep 2026)",
     "chimney_item_on_form": "N/A (no form)",
     "three_day_cancel": "Yes (c.93 s.48)",
     "co_law": "Strong (mandatory fire-dept CO/smoke inspection at sale, c.148 ss.26F, 26F1/2)",
     "lookup_url": "mass.gov HIC/CSL check",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
     "source": "§11",
     "license_regime": "YES for structural work — CSL (exam) + HIC registration for contracting",
-    "registration_name": "YES (HIC) + Guaranty Fund (up to $25k per claim, c. 142A § 7)",
+    "registration_name": "YES (HIC) + Guaranty Fund (up to $25k per claimant, $150k per registrant per 12 months — 201 CMR 14.00 as amended 6/6/2025 and OCABR; the c. 142A § 7 text on malegislature.gov still reads $10k/$75k — conflict flagged)",
     "disclosure_law": "NO mandatory form — caveat emptor",
     "chimney_item_on_form": "N/A (no form)",
     "three_day_cancel": "YES (c. 93 § 48; disclosed in HIC contract)",
@@ -187,7 +187,7 @@
     "lookup_url": "mass.gov HIC check + OPSI CSL check"
   },
   "tableRowStale": false,
-  "lastVerified": "2026-09-15",
+  "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [
     {
@@ -276,7 +276,7 @@
     {
       "id": "faq-what-to-do",
       "q": "What should I check before hiring a chimney company in Massachusetts?",
-      "a": "State licensing: YES for structural work — CSL (exam) + HIC registration for contracting. Registration or credential: YES (HIC) + Guaranty Fund (up to $25k per claim, c. 142A § 7). Seller disclosure at sale: NO mandatory form — caveat emptor. Right to cancel a sale made at your home: YES (c. 93 § 48; disclosed in HIC contract). Carbon monoxide alarm law: strong — mandatory fire-dept inspection at sale (c. 148 §§ 26F, 26F½). Where to check a contractor: mass.gov HIC check + OPSI CSL check. Then ask the eight questions below, get the inspection findings in writing with photos, and never sign for \"emergency\" work on the day of a door-knock.",
+      "a": "State licensing: YES for structural work — CSL (exam) + HIC registration for contracting. Registration or credential: YES (HIC) + Guaranty Fund (up to $25k per claimant, $150k per registrant per 12 months — 201 CMR 14.00 as amended 6/6/2025 and OCABR; the c. 142A § 7 text on malegislature.gov still reads $10k/$75k — conflict flagged). Seller disclosure at sale: NO mandatory form — caveat emptor. Right to cancel a sale made at your home: YES (c. 93 § 48; disclosed in HIC contract). Carbon monoxide alarm law: strong — mandatory fire-dept inspection at sale (c. 148 §§ 26F, 26F½). Where to check a contractor: mass.gov HIC check + OPSI CSL check. Then ask the eight questions below, get the inspection findings in writing with photos, and never sign for \"emergency\" work on the day of a door-knock.",
       "expanded": true,
       "derivedFrom": "verified summary row (§11)"
     },

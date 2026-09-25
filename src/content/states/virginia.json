@@ -6,13 +6,13 @@
   "researched": "2026-07-06",
   "lawsCitedAs": "Sep 2026",
   "headerNote": null,
-  "verified": "2026-09-15",
+  "verified": "2026-09-25",
   "publishVerdict": "READY WITH CAVEATS",
-  "publishVerdictNote": "(1) § 8 pattern-only, (2) no dollar figures for financial responsibility/experience, (3) CO new-construction section cited generically as USBC.",
+  "publishVerdictNote": null,
   "verification": {
-    "heading": "Verification pass — September 2026",
-    "checked": "2026-09-15",
-    "markdown": "Checked 2026-09-15 by verification agent. Laws cited as of Sep 2026.\n- Transaction Recovery Fund cap after 2025 HB1707: RESOLVED — § 54.1-1123: $30,000 per claimant per single transaction; $100,000 aggregate per regulant per biennium (HB1707 raised $20,000→$30,000 and $40,000→$100,000; approved Mar 19, 2025). File previously said \"~$100k\", now exact — https://law.lis.virginia.gov/vacode/title54.1/chapter11/section54.1-1123/ ; https://legiscan.com/VA/text/HB1707/id/3183493/Virginia-2025-HB1707-Chaptered.html — GOV\n- License thresholds (§ 54.1-1100): CORRECTED — trigger is \"over $1,000\" (file previously stated the trigger inclusively at $1,000); Class C <$30,000 / <$250,000 per 12 mo; Class B $30,000–<$150,000 / $250,000–<$1M; Class A $150,000+ / $1M+ — https://law.lis.virginia.gov/vacode/title54.1/chapter11/section54.1-1100/ — GOV\n- Financial-responsibility dollar figures previously in § 1: STILL OPEN — not found on a primary page this pass; numbers removed from file.\n- § 55.1-703 buyer-beware form: RESOLVED — statute requires statement that \"The owner makes no representations or warranties as to the condition of the real property or any improvements thereon\" and advises purchasers to exercise due diligence incl. \"obtaining a home inspection\"; no chimney/fireplace item anywhere in the section — https://law.lis.virginia.gov/vacode/title55.1/chapter7/section55.1-703/ — GOV\n- USBC cycle: RESOLVED — 2021 USBC effective Jan 18, 2024 (GOV: https://www.dhcd.virginia.gov/codes); 2024 USBC tentatively Oct 2027 (REF only: https://hbav.com/news/update-2024-virginia-building-code-development-cycle)\n- Rental CO on request: RESOLVED — § 55.1-1229(E), install within 90 days of written request — https://law.lis.virginia.gov/vacodefull/title55.1/chapter12/article3/ — GOV\n- 3-day cancel: RESOLVED — § 59.1-21.3, until midnight of third business day after signing — https://law.lis.virginia.gov/vacode/title59.1/chapter2.1/section59.1-21.3/ — GOV\n- Enforcement actions: STILL OPEN — not searched.\n- Template-leakage sweep: clean (no other-state statute strings; MD/MA/OH mentions are labeled comparisons)."
+    "heading": "Verification pass — September 25, 2026",
+    "checked": "2026-09-25",
+    "markdown": "Checked 2026-09-25 by verification agent (sweep #2). Laws cited as of Sep 2026. **Method note:** WebSearch was unavailable (session budget exhausted). Job 1 was done by primary-host fetch, not search, using four sources:\n- history lines on law.lis.virginia.gov for every cited section;\n- keyword searches of **approved/enacted 2026 Regular Session bill text** on lis.virginia.gov (the official LIS bill search, run in a browser; 1,132 approved bills). The keywords were \"chimney\" (0 hits), \"carbon monoxide\" (1 hit: HB507, data-center generator emissions, not residential), \"Board for Contractors\" (4 hits) and \"home solicitation\";\n- the DPOR Board for Contractors page;\n- the DHCD codes page.\n\n- **Licensing threshold, § 54.1-1100:** RE-CONFIRMED. Class C is \"over $1,000 but less than $30,000\" (or under $250,000 per 12 months). Class B is $30,000 to under $150,000. Class A is $150,000 or more. The history ends \"2025, cc. 127, 133\", with no 2026 amendment. Source: https://law.lis.virginia.gov/vacode/title54.1/chapter11/section54.1-1100/. Evidence class GOV.\n- **Recovery Fund, § 54.1-1123:** RE-CONFIRMED at $30,000 per claimant per transaction and $100,000 per regulant per biennium. The history ends \"2025, cc. 127, 133\". **New finding:** 2026 SB565 (Acts 2026 c. 508, approved 4/8/2026, effective 7/1/2026) applies the 2025 limits retroactively to verified claims filed on or after June 6, 2024. Sources: https://law.lis.virginia.gov/vacode/title54.1/chapter11/section54.1-1123/ ; https://lis.virginia.gov/bill-details/20261/SB565. Evidence class GOV.\n- **Seller disclosure, § 55.1-703:** RE-CONFIRMED as a buyer-beware notice with no chimney item. **New finding:** 2026 Acts cc. 308, 309 and 510 amended the section. There is now a version \"effective until January 1, 2027\" and a version \"effective January 1, 2027\", which adds item 20 on use-value assessment and roll-back taxes. Neither version mentions chimney, fireplace, flue, wood stove, smoke or CO. Source: https://law.lis.virginia.gov/vacode/title55.1/chapter7/section55.1-703/. Evidence class GOV.\n- **CO law:** RE-CONFIRMED.\n  - § 55.1-1229(E): \"Upon written request of a tenant in a dwelling unit, the landlord shall install a carbon monoxide alarm in the tenant's dwelling unit within 90 days\". The last amendment was 2024 c. 46.\n  - § 55.1-1227(A)(9): tenants may not tamper with the alarm.\n  - The only 2026 enacted bill-text hit for \"carbon monoxide\" is HB507 (data centers), which is not residential.\n  - The USBC section is still cited generically.\n  - Sources: https://law.lis.virginia.gov/vacode/title55.1/chapter12/section55.1-1229/ ; https://law.lis.virginia.gov/vacodefull/title55.1/chapter12/article3/. Evidence class GOV.\n- **3-day cancel, § 59.1-21.3:** RE-CONFIRMED. The buyer may cancel \"until midnight of the third business day after the day on which the buyer signs an agreement or offer to purchase\". The history is 1970, c. 668; 1972, c. 448, with no amendment since. Source: https://law.lis.virginia.gov/vacode/title59.1/chapter2.1/section59.1-21.3/. Evidence class GOV.\n- **Code cycle:** RE-CONFIRMED. DHCD says the 2021 USBC has been effective since Jan 18, 2024, and the DHCD page announces no 2024-cycle date. HBAV (REF, Aug 5, 2026) says the 2024 USBC is \"tentatively scheduled to take effect in October 2027\", with mandatory compliance expected in October 2028. That REF-only date is kept labeled. Sources: https://www.dhcd.virginia.gov/codes (GOV) ; https://hbav.com/news/update-2024-virginia-building-code-development-cycle (REF).\n- **2026 law-change sweep:** done by primary-host fetch, not search. Findings:\n  - SB565 / c. 508 (Recovery Fund retroactivity, above).\n  - HB165 (2026, enacted): Board for Contractors exams available in alternative languages.\n  - HB1439 / SB823 (2026, enacted): regulation of solar installation companies. Not chimney-related.\n  - § 55.1-703 2026 amendments (above).\n  - DPOR's contractors page notes a $7.25/yr technology fee under 2026 HB30, effective July 1, 2026 (administrative).\n  - No 2026 change to §§ 54.1-1100, 54.1-1123, 55.1-1229 or 59.1-21.3.\n  - No enacted 2026 bill text contains \"chimney\".\n  - Sources: https://lis.virginia.gov/session-details/20261/statistics/status ; https://www.dpor.virginia.gov/Boards/Contractors. Evidence class GOV.\n- **Mirror spot-check:** n/a (Virginia is not a mirror state; all cites are on law.lis.virginia.gov).\n- **Dead links:** none. All of these resolved on Sep 25: law.lis §§ 54.1-1100, 54.1-1123, 55.1-703, 55.1-1229, 59.1-21.3, vacodefull 55.1 ch. 12 art. 3, dhcd.virginia.gov/codes, hbav.com and legiscan HB1707. The legiscan page is REF; the official equivalent is Acts 2025 c. 127.\n- **Corrections made this pass:** none (no wrong facts found). Additions:\n  - 2026 c. 508 Recovery Fund retroactivity.\n  - 2026 amendments to § 55.1-703.\n  - Acts 2025 cc. 127/133 chapter cites.\n- **Template-leakage sweep:** clean. MD, MA and OH appear only as labeled comparisons.\n- **Still open (non-blocking):**\n  - DPOR/AG chimney enforcement actions (§8 is pattern-only).\n  - Per-class experience years and financial-responsibility dollar figures (kept out of copy).\n  - The exact VRC CO section.\n\n1. §8 is pattern-only.\n2. No financial-responsibility or experience dollar figures.\n3. CO new-construction rule cited generically as USBC.\n4. The 2024 USBC date is REF-only and labeled \"tentative\"."
   },
   "sections": [
     {
@@ -53,7 +53,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence; the quirk",
-      "markdown": "Virginia's disclosure is the strangest of the launch set: a **mandatory form that discloses nothing about condition.** Under the **Virginia Residential Property Disclosure Act (Va. Code § 55.1-700 et seq.; § 55.1-703)**, the seller must deliver a **Residential Property Disclosure Statement — but it is a \"buyer beware\" notice**: the owner \"makes no representations or warranties as to the condition,\" and the buyer is advised to \"exercise whatever due diligence [the] purchaser deems necessary, including obtaining a home inspection.\" **There is no chimney line item because the form lists no property conditions at all.** Virginia is caveat emptor with a mandatory notice that says so in writing. No inspection is mandated at transfer; NFPA 211 Level 2 stays a NATIONAL STANDARD."
+      "markdown": "Virginia's disclosure is the strangest of the launch set: a **mandatory form that discloses nothing about condition.** Under the **Virginia Residential Property Disclosure Act (Va. Code § 55.1-700 et seq.; § 55.1-703)**, the seller must deliver a **Residential Property Disclosure Statement — but it is a \"buyer beware\" notice**: the owner \"makes no representations or warranties as to the condition,\" and the buyer is advised to \"exercise whatever due diligence [the] purchaser deems necessary, including obtaining a home inspection.\" **There is no chimney line item because the form lists no property conditions at all.** (The statement's content is set by § 55.1-703(B) and posted by the Real Estate Board on its website; 2026 Acts cc. 308, 309 and 510 amended the section — the version effective Jan 1, 2027 adds a twentieth \"no representations\" item on use-value assessment/roll-back taxes — and neither the current nor the 2027 version mentions a chimney, fireplace, flue, wood stove, smoke or CO item.) Virginia is caveat emptor with a mandatory notice that says so in writing. No inspection is mandated at transfer; NFPA 211 Level 2 stays a NATIONAL STANDARD."
     },
     {
       "number": "4",
@@ -67,7 +67,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence",
-      "markdown": "Two-track, like Maryland. **(1) The Contractor Transaction Recovery Fund (Va. Code § 54.1-1118 et seq.)** pays a homeowner with an unpaid judgment against a *licensed* contractor **up to $30,000 per claimant per single transaction** (§ 54.1-1123; raised from $20,000 by 2025 HB1707, approved Mar 19, 2025) with an **aggregate cap of $100,000 per regulant per biennium** (raised from $40,000 by the same bill); actual loss only. **(2) The Virginia Consumer Protection Act (§ 59.1-196 et seq.; § 59.1-204)** gives actual damages or $500 (whichever greater), and for **willful** violations up to **treble damages** (or $1,000) plus attorney's fees — discretionary, moderate. Home-solicitation/door-to-door sales carry a **3-business-day right to cancel** (Home Solicitation Sales Act, Va. Code § 59.1-21.1 et seq.; cancellation right at **§ 59.1-21.3**, until midnight of the third business day after signing). Complaints: DPOR + AG."
+      "markdown": "Two-track, like Maryland. **(1) The Contractor Transaction Recovery Fund (Va. Code § 54.1-1118 et seq.)** pays a homeowner with an unpaid judgment against a *licensed* contractor **up to $30,000 per claimant per single transaction** (§ 54.1-1123; raised from $20,000 by 2025 HB1707 / Acts 2025 cc. 127 and 133, approved Mar 19, 2025) with an **aggregate cap of $100,000 per regulant per biennium** (raised from $40,000 by the same acts); actual loss only. **2026 SB565 (Acts 2026 c. 508, effective July 1, 2026)** extends those higher limits to any claimant who filed a verified claim on or after June 6, 2024 that the Board later approved — the dollar caps themselves did not change. **(2) The Virginia Consumer Protection Act (§ 59.1-196 et seq.; § 59.1-204)** gives actual damages or $500 (whichever greater), and for **willful** violations up to **treble damages** (or $1,000) plus attorney's fees — discretionary, moderate. Home-solicitation/door-to-door sales carry a **3-business-day right to cancel** (Home Solicitation Sales Act, Va. Code § 59.1-21.1 et seq.; cancellation right at **§ 59.1-21.3**, until midnight of the third business day after signing). Complaints: DPOR + AG."
     },
     {
       "number": "5",
@@ -167,13 +167,13 @@
   "faqSeeds": null,
   "table": {
     "license_regime": "YES — DPOR tiered license (Class C >$1k-<$30k, B $30k-<$150k, A $150k+; post-2025 HB1707)",
-    "registration_name": "DPOR license (Title 54.1 ch.11) + Contractor Transaction Recovery Fund ($30k/claimant, $100k/biennium per regulant)",
+    "registration_name": "DPOR license (Title 54.1 ch.11) + Contractor Transaction Recovery Fund ($30k/claimant, $100k/biennium per regulant; 2026 c. 508 retroactive to claims filed on/after 6/6/2024)",
     "disclosure_law": "Mandatory form but buyer-beware, no condition content (55.1-703)",
     "chimney_item_on_form": "None (form discloses nothing)",
     "three_day_cancel": "Yes (Home Solicitation Sales Act, 59.1-21.3)",
     "co_law": "Code (USBC) + landlord install on written tenant request within 90 days (55.1-1229(E)); no pre-sale cert",
     "lookup_url": "dpor.virginia.gov",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -187,7 +187,7 @@
     "lookup_url": "dpor.virginia.gov"
   },
   "tableRowStale": false,
-  "lastVerified": "2026-09-15",
+  "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [
     {
@@ -233,10 +233,10 @@
     {
       "id": "verdict-co",
       "label": "CO alarm required in your home?",
-      "answer": "SEE SECTION",
-      "note": "Flagged in the verification caveats — read the section",
+      "answer": "LIMITED",
+      "note": "code (USBC) + rental-on-request within 90 days (§ 55.1-1229(E)); no pre-sale certificate",
       "anchor": "co-law",
-      "rule": "co:limited→caveat-downgrade",
+      "rule": "co:limited",
       "derivedFrom": "§11: co_law",
       "evidence": null
     },
@@ -283,14 +283,14 @@
     {
       "id": "faq-home-sale",
       "q": "Is a chimney inspection required when a home sells in Virginia?",
-      "a": "Virginia's disclosure is the strangest of the launch set: a mandatory form that discloses nothing about condition. Under the Virginia Residential Property Disclosure Act (Va. Code § 55.1-700 et seq.; § 55.1-703), the seller must deliver a Residential Property Disclosure Statement — but it is a \"buyer beware\" notice: the owner \"makes no representations or warranties as to the condition,\" and the buyer is advised to \"exercise whatever due diligence [the] purchaser deems necessary, including obtaining a home inspection.\" There is no chimney line item because the form lists no property conditions at all. Virginia is caveat emptor with a mandatory notice that says so in writing.",
+      "a": "Virginia's disclosure is the strangest of the launch set: a mandatory form that discloses nothing about condition. Under the Virginia Residential Property Disclosure Act (Va. Code § 55.1-700 et seq.; § 55.1-703), the seller must deliver a Residential Property Disclosure Statement — but it is a \"buyer beware\" notice: the owner \"makes no representations or warranties as to the condition,\" and the buyer is advised to \"exercise whatever due diligence [the] purchaser deems necessary, including obtaining a home inspection.\" There is no chimney line item because the form lists no property conditions at all. (The statement's content is set by § 55.1-703(B) and posted by the Real Estate Board on its website; 2026 Acts cc.",
       "expanded": false,
       "derivedFrom": "§3 text"
     },
     {
       "id": "faq-cancel",
       "q": "Can I cancel a chimney contract I signed at my door in Virginia?",
-      "a": "Two-track, like Maryland. (1) The Contractor Transaction Recovery Fund (Va. Code § 54.1-1118 et seq.) pays a homeowner with an unpaid judgment against a licensed contractor up to $30,000 per claimant per single transaction (§ 54.1-1123; raised from $20,000 by 2025 HB1707, approved Mar 19, 2025) with an aggregate cap of $100,000 per regulant per biennium (raised from $40,000 by the same bill); actual loss only. (2) The Virginia Consumer Protection Act (§ 59.1-196 et seq.; § 59.1-204) gives actual damages or $500 (whichever greater), and for willful violations up to treble damages (or $1,000) plus attorney's fees — discretionary, moderate.",
+      "a": "Two-track, like Maryland. (1) The Contractor Transaction Recovery Fund (Va. Code § 54.1-1118 et seq.) pays a homeowner with an unpaid judgment against a licensed contractor up to $30,000 per claimant per single transaction (§ 54.1-1123; raised from $20,000 by 2025 HB1707 / Acts 2025 cc. 127 and 133, approved Mar 19, 2025) with an aggregate cap of $100,000 per regulant per biennium (raised from $40,000 by the same acts); actual loss only.",
       "expanded": false,
       "derivedFrom": "§4 text"
     }

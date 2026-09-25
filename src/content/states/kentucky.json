@@ -6,13 +6,13 @@
   "researched": "2026-07-06",
   "lawsCitedAs": "Sep 2026",
   "headerNote": "**CORRECTED Sep 15, 2026: Kentucky did NOT enact a 2025 point-of-sale CO/smoke detector law — 2025 HB 339 died in House committee (§6). The residential code is 815 KAR 7:125 (2018 Kentucky Residential Code on the 2015 IRC), not 815 KAR 7:120 (§5).**",
-  "verified": "2026-09-15",
+  "verified": "2026-09-25",
   "publishVerdict": "READY WITH CAVEATS",
-  "publishVerdictNote": "confirm no 2026 detector law before stating \"no point-of-sale CO law\"; KRS 367.420 verified only via a Justia mirror; Louisville numbers unverified",
+  "publishVerdictNote": "(1) KRS 367.420 verified only via a Justia mirror; (2) Louisville Class C numbers unverified, so do not quote them; (3) SB 153's effective date not pinned (say \"enacted April 2026\"); (4) no enforcement names.",
   "verification": {
-    "heading": "Verification pass — September 2026",
-    "checked": "2026-09-15",
-    "markdown": "Checked 2026-09-15 by verification agent. Laws cited as of Sep 2026.\n- KRS 324.360 FSBO scope (old blocker #1): RESOLVED — § 324.360(1) applies only \"if any person licensed under this chapter receives compensation\"; FSBO without a paid licensee is outside it — https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=31615 — GOV\n- Chimney item on the form: RESOLVED — KREC Form 402 (12/2022), incorporated by 201 KAR 11:121, item \"g. Chimneys, fireplaces, inserts\" — https://krec.ky.gov/Documents/KREC%20Form%20402%20-%20Sellers%20Disclosure%20of%20Property%20Condition.pdf, https://apps.legislature.ky.gov/law/kar/titles/201/011/121/ — GOV/DOC\n- Home Solicitation cancellation section (old blocker #2): RESOLVED — KRS 367.420, midnight of third business day, emergency exception — https://statecodesfiles.justia.com/kentucky/2013/chapter-367/section-367.420/section-367.420.pdf — REF mirror of LRC statute PDF (2013 compilation; LRC chapter-367 page not located). Prior claim that a seller performing early \"forfeits compensation\" was not verified and was removed.\n- 2025 HB 339 CO-at-sale law (old blocker #3): CORRECTED — not enacted; last action Feb 7, 2025 referral to House LOAR committee — https://apps.legislature.ky.gov/record/25rs/hb339.html — GOV. KRS ch. 227 section list contains no CO-detector section — https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=38346 — GOV\n- 2026 successor bill: STILL OPEN — 2026 RS bill index not reachable (403/404); web search budget exhausted\n- Kentucky Residential Code IRC cycle (old blocker #4): CORRECTED — regulation is 815 KAR 7:125 (not 7:120); 2015 IRC + 2018 KRC Third Edition (Aug 2024), amended eff. Dec 3, 2024 — https://apps.legislature.ky.gov/law/kar/titles/815/007/125/, https://apps.legislature.ky.gov/law/kar/titles/815/007/120/ — GOV\n- State licensing absence (HVAC/plumbing/electrical only): not re-fetched this pass (rests on Jul 2026 pass); Louisville Class C specifics not re-verified — flagged in §1\n- KY AG chimney enforcement actions (old blocker #5): STILL OPEN (non-blocking; pattern language only) — none found\n- Template-leakage sweep: clean."
+    "heading": "Verification pass — September 25, 2026",
+    "checked": "2026-09-25",
+    "markdown": "Checked 2026-09-25 by verification agent (sweep #2).\n- 2026 law-change sweep: SB 153 (Acts ch. 54) enacted, covering insurance-funded contractor work (5-day cancel, emergency AG registration). No CO, licensing or disclosure law enacted. Details above.\n- 2026 successor to HB 339 (old blocker 1): RESOLVED. HB 326 and HB 474 were both only referred to committee (1/20/26, 1/30/26), with no further action per the LRC record updated 8/19/26. Neither would have imposed a CO mandate. \"No point-of-sale CO law\" stands — https://apps.legislature.ky.gov/record/26rs/hb326.html ; https://apps.legislature.ky.gov/record/26rs/hb474.html ; https://apps.legislature.ky.gov/record/25rs/hb339.html — GOV\n- New-construction CO: SUPPORTED. DHBC: \"The Building Code requires CO detectors in residential construction built after 2011\" — https://dhbc.ky.gov/Documents/CarbonMonoxideTestingInitiative1-26.pdf — GOV. Kentucky's amended R315 text still not read.\n- Licensing (load-bearing a): RE-CONFIRMED in part. The DHBC name is verified; it licenses plumbers, electricians, boiler, sprinkler and fire-alarm contractors, and building inspectors, with no general-contractor or masonry license listed; HB 300 (a statewide contractor license) did not pass — https://dhbc.ky.gov/ — GOV. Louisville Class C numbers (old blocker 2): STILL OPEN; louisvilleky.gov returned 404/403.\n- Seller disclosure (load-bearing b): RE-CONFIRMED. KRS 324.360(1) compensated-licensee trigger; KREC Form 402 12/2022 item \"g. Chimneys, fireplaces, inserts\"; 201 KAR 11:121 incorporates it (eff. 5-2-2023) — https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=31615 ; https://krec.ky.gov/Documents/KREC%20Form%20402%20-%20Sellers%20Disclosure%20of%20Property%20Condition.pdf ; https://apps.legislature.ky.gov/law/kar/titles/201/011/121/ — GOV/DOC\n- CO law (load-bearing c): RE-CONFIRMED. KRS ch. 227 has no CO-detector section — https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=38346 — GOV\n- Codes: RE-CONFIRMED. 815 KAR 7:125 (2015 IRC + 2018 KRC 3rd ed., eff. 12/3/24); 815 KAR 7:120 (2015 IBC + 2018 KBC 4th ed., Feb 2024) — GOV\n- KRS 367.420: STILL mirror-only (Justia 2013 PDF resolves; the text agrees on the third-business-day and emergency rules). The official LRC section page was not located without search.\n- Mirror spot-check: n/a (not a mirror state).\n- Dead links: none. All cited URLs resolved (statute id=31615, KREC Form 402, 201 KAR 11:121, 815 KAR 7:125 and 7:120, KRS ch. 227 id=38346, 25RS HB 339, Justia 367.420).\n- Template leakage: clean.\n- Corrections made this pass: agency name confirmed and the list of licensed trades updated from DHBC's own page; 2026 detector bills added (not enacted); SB 153 (2026) insurance-funded-repair cancel right added to §4."
   },
   "sections": [
     {
@@ -27,7 +27,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence on state absence; local details from Jul 2026 pass, not re-fetched",
-      "markdown": "**No state license covers chimney work in Kentucky.** STATE LAW: the **Kentucky Board / Department of Housing, Buildings and Construction** (agency name not re-verified) licenses **HVAC, plumbing, and electrical** trades at the state level — there is **no statewide general-contractor and no masonry license**, so chimney masonry, relining, and sweeping fall **outside** state licensure. Licensing is **LOCAL**: **(1) Louisville Metro** (Codes & Regulations) licenses general contractors by class; the Jul 2026 pass reported a Class C masonry path with an experience requirement, insurance, and a Louisville Metro building-contractor exam (**details not re-verified — confirm before quoting numbers**); **(2) Lexington-Fayette Urban County Government** Building Inspection registers contractors separately. Other cities run their own registration. So \"licensed and bonded\" in Kentucky usually means a **Louisville or Lexington local credential** valid only in that jurisdiction — never a statewide chimney credential."
+      "markdown": "**No state license covers chimney work in Kentucky.** STATE LAW: the **Department of Housing, Buildings and Construction (DHBC)** (name verified on dhbc.ky.gov, Sep 25 2026) licenses or certifies \"plumbers, electricians, boiler contractors, sprinkler and/or fire alarm contractors and building inspectors,\" and administers HVAC work at the state level (HVAC licensing not re-read this pass) — there is **no statewide general-contractor and no masonry license**, so chimney masonry, relining, and sweeping fall **outside** state licensure. Licensing is **LOCAL**: **(1) Louisville Metro** (Codes & Regulations) licenses general contractors by class; the Jul 2026 pass reported a Class C masonry path with an experience requirement, insurance, and a Louisville Metro building-contractor exam (**details not re-verified — confirm before quoting numbers**); **(2) Lexington-Fayette Urban County Government** Building Inspection registers contractors separately. Other cities run their own registration. So \"licensed and bonded\" in Kentucky usually means a **Louisville or Lexington local credential** valid only in that jurisdiction — never a statewide chimney credential."
     },
     {
       "number": "2",
@@ -67,7 +67,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence on cancel section",
-      "markdown": "STATE LAW: the **Kentucky Consumer Protection Act, KRS 367.170**, bars \"unfair, false, misleading, or deceptive acts or practices in the conduct of any trade or commerce,\" with AG enforcement and a private right of action (KRS 367.220) *(not re-fetched this pass)*. Door-to-door work is governed by the **Home Solicitation Sales provisions, KRS 367.410 et seq.**; **KRS 367.420 (\"Buyer's right to cancel home solicitation sale -- Method of cancellation\")** lets the buyer \"cancel a home solicitation sale until midnight of the third business day after the day on which the buyer signs an agreement,\" by written notice to the seller's stated address (mail notice effective on deposit); where the buyer requests emergency goods/services and the seller has substantially performed before notice, the right does not apply. That is the exact mechanic against chimney scare-sales. Complaints: KY AG Office of Consumer Protection."
+      "markdown": "STATE LAW: the **Kentucky Consumer Protection Act, KRS 367.170**, bars \"unfair, false, misleading, or deceptive acts or practices in the conduct of any trade or commerce,\" with AG enforcement and a private right of action (KRS 367.220) *(not re-fetched this pass)*. Door-to-door work is governed by the **Home Solicitation Sales provisions, KRS 367.410 et seq.**; **KRS 367.420 (\"Buyer's right to cancel home solicitation sale -- Method of cancellation\")** lets the buyer \"cancel a home solicitation sale until midnight of the third business day after the day on which the buyer signs an agreement,\" by written notice to the seller's stated address (mail notice effective on deposit); where the buyer requests emergency goods/services and the seller has substantially performed before notice, the right does not apply. That is the exact mechanic against chimney scare-sales. **New in 2026 — insurance-funded repair work:** **SB 153 (2026 Ky. Acts ch. 54, signed Apr 8, 2026)** amends KRS 367.620–367.628, which cover \"goods or services relating to real estate\" (repair, replacement, construction or improvement) expected to be paid from insurance proceeds. The homeowner may cancel \"before midnight on the fifth business day after you have received written notification from the insurer\" that the claim is not covered. The contractor must supply a detachable cancellation notice and may not require payment before that window ends. During a declared emergency the AG may require contractor registration in the affected area, and contractors may not solicit in person there for 90 days (https://apps.legislature.ky.gov/record/26rs/sb153.html ; https://apps.legislature.ky.gov/law/acts/26RS/documents/0054.pdf — GOV; effective date not pinned this pass). This matters for storm-damage chimney and roof jobs billed to insurance. Complaints: KY AG Office of Consumer Protection."
     },
     {
       "number": "5",
@@ -93,7 +93,7 @@
       "title": "Carbon monoxide and smoke alarm law",
       "evidence": [],
       "confidenceNote": "CORRECTED — no point-of-sale law; new-construction code only",
-      "markdown": "**CORRECTED Sep 15, 2026.** The prior draft said 2025 HB 339 created a detector requirement at sale/lease effective Dec 31, 2025. **That bill never became law.** The LRC record shows **2025 HB 339, \"AN ACT relating to residential detectors,\"** introduced Feb 5, 2025 and referred Feb 7, 2025 to House Licensing, Occupations, & Administrative Regulations — **no further action.** Kentucky therefore has **no statewide point-of-sale or point-of-lease CO requirement** found in statute. CO alarm requirements for **new one- and two-family construction** come through the **Kentucky Residential Code (815 KAR 7:125, on the 2015 IRC)**; the 2015 IRC model text requires CO alarms in new dwellings with fuel-fired appliances or attached garages (NATIONAL STANDARD model language — **Kentucky's amended R315 text not read this pass**). Existing homes: no state retrofit mandate found. A chimney/appliance job is still the natural moment to recommend alarms."
+      "markdown": "**CORRECTED Sep 15, 2026.** The prior draft said 2025 HB 339 created a detector requirement at sale/lease effective Dec 31, 2025. **That bill never became law.** The LRC record shows **2025 HB 339, \"AN ACT relating to residential detectors,\"** introduced Feb 5, 2025 and referred Feb 7, 2025 to House Licensing, Occupations, & Administrative Regulations — **no further action.** **2026 session (RESOLVED Sep 25 2026):** two successor bills were filed, and neither advanced. **2026 HB 326** (\"AN ACT relating to residential safety\") covers smoke detectors only at sale or lease; it was referred to House Licensing, Occupations, & Administrative Regulations on 1/20/26 with no further action. **2026 HB 474** would require smoke detectors at sale or lease and only directs the fire marshal to *recommend* CO detectors; it was referred to the same committee on 1/30/26 with no further action. The LRC record, updated 8/19/26, shows no later action on either (https://apps.legislature.ky.gov/record/26rs/hb326.html ; https://apps.legislature.ky.gov/record/26rs/hb474.html — GOV). Kentucky therefore has **no statewide point-of-sale or point-of-lease CO requirement** found in statute. DHBC's January 2026 CO safety initiative covers schools, daycares and senior living inspections and announces no new residential mandate. It states: \"The Building Code requires CO detectors in residential construction built after 2011\" (https://dhbc.ky.gov/Documents/CarbonMonoxideTestingInitiative1-26.pdf — GOV). CO alarm requirements for **new one- and two-family construction** come through the **Kentucky Residential Code (815 KAR 7:125, on the 2015 IRC)**; the 2015 IRC model text requires CO alarms in new dwellings with fuel-fired appliances or attached garages (NATIONAL STANDARD model language — **Kentucky's amended R315 text not read this pass**). Existing homes: no state retrofit mandate found. A chimney/appliance job is still the natural moment to recommend alarms."
     },
     {
       "number": "7",
@@ -155,7 +155,7 @@
       "title": "/rights table row (internal)",
       "evidence": [],
       "confidenceNote": null,
-      "markdown": "License: **NO state license (state licenses HVAC/plumbing/electrical only) — LOCAL (Louisville Metro, Lexington-Fayette)** · Registration: **local only; no statewide contractor registry** · Disclosure law: **YES — KRS 324.360 / KREC Form 402 lists \"Chimneys, fireplaces, inserts\"; applies only when a licensee is compensated (FSBO excluded)** · 3-day cancel: **YES (KRS 367.420, home solicitation sales)** · CO law: **WEAK — no point-of-sale/lease law (2025 HB 339 died in committee); new construction via Kentucky Residential Code (815 KAR 7:125)** · Lookup: Louisville Metro Codes & Regulations + Lexington-Fayette Building Inspection + krec.ky.gov"
+      "markdown": "License: **NO state license (state licenses HVAC/plumbing/electrical only) — LOCAL (Louisville Metro, Lexington-Fayette)** · Registration: **local only; no statewide contractor registry** · Disclosure law: **YES — KRS 324.360 / KREC Form 402 lists \"Chimneys, fireplaces, inserts\"; applies only when a licensee is compensated (FSBO excluded)** · 3-day cancel: **YES (KRS 367.420, home solicitation sales)** · CO law: **WEAK — no point-of-sale/lease law (2025 HB 339 died in committee; 2026 HB 326/HB 474 stalled in committee); new construction via Kentucky Residential Code (815 KAR 7:125; DHBC: CO detectors required in residential construction built after 2011)** · Lookup: Louisville Metro Codes & Regulations + Lexington-Fayette Building Inspection + krec.ky.gov"
     }
   ],
   "story": {
@@ -164,14 +164,14 @@
   },
   "faqSeeds": null,
   "table": {
-    "license_regime": "No state license (state licenses HVAC/plumbing/electrical only); local (Louisville Metro, Lexington-Fayette)",
+    "license_regime": "No state license (DHBC licenses plumbing/electrical/boiler/sprinkler-fire alarm and administers HVAC; no general-contractor or masonry license); local (Louisville Metro, Lexington-Fayette)",
     "registration_name": "None statewide (local registration only)",
     "disclosure_law": "Yes (KRS 324.360; KREC Form 402) - only when a licensee is compensated; FSBO excluded",
     "chimney_item_on_form": "Yes - Chimneys, fireplaces, inserts",
-    "three_day_cancel": "Yes (KRS 367.420)",
-    "co_law": "Weak - no point-of-sale/lease law (2025 HB 339 died in committee); new construction via Kentucky Residential Code 815 KAR 7:125",
+    "three_day_cancel": "Yes (KRS 367.420); plus 5-business-day cancel for insurance-funded work after insurer notice (KRS 367.620 et seq., 2026 SB 153)",
+    "co_law": "Weak - no point-of-sale/lease law (2025 HB 339 died in committee; 2026 HB 326/HB 474 stalled); new construction via Kentucky Residential Code 815 KAR 7:125 (DHBC: CO detectors required in residential construction built after 2011)",
     "lookup_url": "https://krec.ky.gov/new_docs.aspx?cat=47&menuid=58",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -181,11 +181,11 @@
     "disclosure_law": "YES — KRS 324.360 / KREC Form 402 lists \"Chimneys, fireplaces, inserts\"; applies only when a licensee is compensated (FSBO excluded)",
     "chimney_item_on_form": "",
     "three_day_cancel": "YES (KRS 367.420, home solicitation sales)",
-    "co_law": "WEAK — no point-of-sale/lease law (2025 HB 339 died in committee); new construction via Kentucky Residential Code (815 KAR 7:125)",
+    "co_law": "WEAK — no point-of-sale/lease law (2025 HB 339 died in committee; 2026 HB 326/HB 474 stalled in committee); new construction via Kentucky Residential Code (815 KAR 7:125; DHBC: CO detectors required in residential construction built after 2011)",
     "lookup_url": "Louisville Metro Codes & Regulations + Lexington-Fayette Building Inspection + krec.ky.gov"
   },
   "tableRowStale": false,
-  "lastVerified": "2026-09-15",
+  "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [
     {
@@ -231,10 +231,10 @@
     {
       "id": "verdict-co",
       "label": "CO alarm required in your home?",
-      "answer": "SEE SECTION",
-      "note": "Flagged in the verification caveats — read the section",
+      "answer": "LIMITED",
+      "note": "WEAK — no point-of-sale/lease law (2025 HB 339 died in committee; 2026 HB 326/HB 474 stalled…",
       "anchor": "co-law",
-      "rule": "co:limited→caveat-downgrade",
+      "rule": "co:limited",
       "derivedFrom": "§11: co_law",
       "evidence": null
     },
@@ -274,7 +274,7 @@
     {
       "id": "faq-what-to-do",
       "q": "What should I check before hiring a chimney company in Kentucky?",
-      "a": "State licensing: NO state license (state licenses HVAC/plumbing/electrical only) — LOCAL (Louisville Metro, Lexington-Fayette). Registration or credential: local only; no statewide contractor registry. Seller disclosure at sale: YES — KRS 324.360 / KREC Form 402 lists \"Chimneys, fireplaces, inserts\"; applies only when a licensee is compensated (FSBO excluded). Right to cancel a sale made at your home: YES (KRS 367.420, home solicitation sales). Carbon monoxide alarm law: WEAK — no point-of-sale/lease law (2025 HB 339 died in committee); new construction via Kentucky Residential Code (815 KAR 7:125). Where to check a contractor: Louisville Metro Codes & Regulations + Lexington-Fayette Building Inspection + krec.ky.gov. Then ask the eight questions below, get the inspection findings in writing with photos, and never sign for \"emergency\" work on the day of a door-knock.",
+      "a": "State licensing: NO state license (state licenses HVAC/plumbing/electrical only) — LOCAL (Louisville Metro, Lexington-Fayette). Registration or credential: local only; no statewide contractor registry. Seller disclosure at sale: YES — KRS 324.360 / KREC Form 402 lists \"Chimneys, fireplaces, inserts\"; applies only when a licensee is compensated (FSBO excluded). Right to cancel a sale made at your home: YES (KRS 367.420, home solicitation sales). Carbon monoxide alarm law: WEAK — no point-of-sale/lease law (2025 HB 339 died in committee; 2026 HB 326/HB 474 stalled in committee); new construction via Kentucky Residential Code (815 KAR 7:125; DHBC: CO detectors required in residential construction built after 2011). Where to check a contractor: Louisville Metro Codes & Regulations + Lexington-Fayette Building Inspection + krec.ky.gov. Then ask the eight questions below, get the inspection findings in writing with photos, and never sign for \"emergency\" work on the day of a door-knock.",
       "expanded": true,
       "derivedFrom": "verified summary row (§11)"
     },
@@ -288,7 +288,7 @@
     {
       "id": "faq-cancel",
       "q": "Can I cancel a chimney contract I signed at my door in Kentucky?",
-      "a": "STATE LAW: the Kentucky Consumer Protection Act, KRS 367.170, bars \"unfair, false, misleading, or deceptive acts or practices in the conduct of any trade or commerce,\" with AG enforcement and a private right of action (KRS 367.220) (not re-fetched this pass). Door-to-door work is governed by the Home Solicitation Sales provisions, KRS 367.410 et seq.; KRS 367.420 (\"Buyer's right to cancel home solicitation sale -- Method of cancellation\") lets the buyer \"cancel a home solicitation sale until midnight of the third business day after the day on which the buyer signs an agreement,\" by written notice to the seller's stated address (mail notice effective on deposit); where the buyer requests emergency goods/services and the seller has substantially performed before notice, the right does not apply. That is the exact mechanic against chimney scare-sales. Complaints: KY AG Office of Consumer Protection.",
+      "a": "STATE LAW: the Kentucky Consumer Protection Act, KRS 367.170, bars \"unfair, false, misleading, or deceptive acts or practices in the conduct of any trade or commerce,\" with AG enforcement and a private right of action (KRS 367.220) (not re-fetched this pass). Door-to-door work is governed by the Home Solicitation Sales provisions, KRS 367.410 et seq.; KRS 367.420 (\"Buyer's right to cancel home solicitation sale -- Method of cancellation\") lets the buyer \"cancel a home solicitation sale until midnight of the third business day after the day on which the buyer signs an agreement,\" by written notice to the seller's stated address (mail notice effective on deposit); where the buyer requests emergency goods/services and the seller has substantially performed before notice, the right does not apply. That is the exact mechanic against chimney scare-sales. New in 2026 — insurance-funded repair work: SB 153 (2026 Ky.",
       "expanded": false,
       "derivedFrom": "§4 text"
     }

@@ -6,13 +6,13 @@
   "researched": "2026-07-06",
   "lawsCitedAs": "Sep 2026",
   "headerNote": null,
-  "verified": "2026-09-15",
+  "verified": "2026-09-25",
   "publishVerdict": "READY WITH CAVEATS",
-  "publishVerdictNote": "REALTORS form chimney line unverified — keep \"not a named line\" framed as unconfirmed; no named AG enforcement action; CO rule cited via LII mirror",
+  "publishVerdictNote": "(1) REALTORS form chimney line unverified — keep \"not a named line\" framed as unconfirmed; (2) no named AG enforcement action; (3) content of the July 1, 2026 amendment to 24.1-06-01-40 not identified (current text verified).",
   "verification": {
-    "heading": "Verification pass — September 2026",
-    "checked": "2026-09-15",
-    "markdown": "Checked 2026-09-15 by verification agent. Laws cited as of Sep 2026.\n- Ch. 43-07 exam vs bond-only: CORRECTED — neither. § 43-07-04 requires a sworn statement of experience and qualifications, a certificate of liability insurance, and a WSI coverage statement; \"examination\" appears nowhere in the chapter; § 43-07-11 (contractor's bond) repealed by S.L. 1995, ch. 397, § 9; no financial statement required by § 43-07-04. Old text claimed a financial statement + $2,000–$10,000 surety bond. — https://ndlegis.gov/cencode/t43c07.pdf ; https://www.sos.nd.gov/business/licensing-registration/contractors — GOV\n- Bond subsections 43-07-11/-12: CORRECTED — § 43-07-11 is repealed; § 43-07-12 is \"Bids to show license,\" not a bond section. — https://ndlegis.gov/cencode/t43c07.pdf — GOV\n- License threshold/classes (load-bearing a): CORRECTED — trigger is a job that \"exceeds\" $4,000 (old: \"$4,000 or more\"); Class D cap is $100,000 (old: $200,000); C $300,000, B $500,000, A unlimited (§ 43-07-07); unlicensed work = class A misdemeanor (§ 43-07-02); renewal before March 2 per § 43-07-10, SOS says on or before March 1. — https://ndlegis.gov/cencode/t43c07.pdf ; SOS contractors page — GOV\n- Seller disclosure § 47-10-02.1 (load-bearing b): RESOLVED in part — statute applies when a broker/broker associate/salesperson represents or assists a party, 1–4-unit residential, disclosure before the parties sign final acceptance; lists latent defects, general condition, environmental, structural and mechanical categories; no chimney/fireplace item named in the statute. REALTORS form line wording STILL OPEN. — https://ndlegis.gov/cencode/t47c10.pdf — GOV\n- Ch. 51-15 remedies: RESOLVED — § 51-15-09: up to 3x actual damages if knowing, mandatory costs + reasonable attorney's fees; § 51-15-11: civil penalty up to $5,000 per violation (also for ch. 51-18). — https://ndlegis.gov/cencode/t51c15.pdf — GOV\n- Ch. 51-18 cancel right: RESOLVED — § 51-18-02(1): 3rd business day; buyers 65+ on purchases over $50: 15th business day. — https://ndlegis.gov/cencode/t51c18.pdf — GOV\n- CO law (load-bearing c): RESOLVED — N.D.A.C. 24.1-06-01-40 requires CO alarms in dwelling units with fuel-fired appliances or attached garages (outside sleeping areas, every habitable level, interconnected); no point-of-sale requirement. No standalone Century Code CO statute located. — https://www.law.cornell.edu/regulations/north-dakota/N-D-A-C-24.1-06-01-40 — REF mirror of admin code (not re-read on ndlegis.gov)\n- 2026 changes / code adoption: CORRECTED — 2024 IBC/IRC/IMC/IFGC (+2024 IECC/IEBC) adopted Sept 11, 2025; new ND State Building Code effective Jan 1, 2026 (old: 2021 IRC eff. Jan 1, 2023). No 2025 session change to ch. 43-07 found (SB 2395 created a separate universal-licensure chapter). — https://www.commerce.nd.gov/community-services/building-codes ; https://ndlegis.gov/assembly/69-2025/regular/bill-overview/bo2395.html — GOV\n- ND AG chimney enforcement: STILL OPEN — attorneygeneral.nd.gov \"unlicensed contractors banned\" news URL returned 404; only REF trade-press coverage of a 2020 roofer ban. — REF\n- Template-leakage sweep: clean — no other-state statute strings found."
+    "heading": "Verification pass — September 25, 2026",
+    "checked": "2026-09-25",
+    "markdown": "Checked 2026-09-25 by verification agent (sweep #2, G7). Laws cited as of Sep 2026 (load-bearing claims re-read this pass).\n- 2026 law-change sweep: **done by primary-host fetch, not web search** (session search budget exhausted). Sources: current N.D.C.C. chapter PDFs on ndlegis.gov (43-07, 47-10, 51-15, 51-18), the N.D.A.C. 24.1-06-01 PDF with history lines, the Commerce building-codes page, SB 2395 overview, SOS contractor page, AG news page. Findings: (1) **N.D.A.C. 24.1-06-01-40 was amended effective July 1, 2026** (history: eff. Apr 1, 2017; amended Oct 1, 2020; Jul 1, 2024; Jul 1, 2026); the current CO text (fuel-fired appliances or attached garage; outside each sleeping area, every habitable level, any bedroom/attached bath with a fuel-fired appliance; interconnected if more than one) matches what the file says; the pass could not see what the 2026 amendment changed — GOV — https://www.ndlegis.gov/information/acdata/pdf/24.1-06-01.pdf. (2) ND State Building Code on the 2024 I-codes (IBC/IRC/IMC/IFGC + 2024 IECC/IEBC), approved Sep 11, 2025, effective Jan 1, 2026 — re-confirmed; 2026 code book published — GOV — https://www.commerce.nd.gov/community-services/building-codes. (3) Ch. 43-07, § 47-10-02.1, ch. 51-15, ch. 51-18 current text re-read — no change from the Sep 15 findings. SB 2395 (2025) re-confirmed as a separate universal-licensure chapter (signed Apr 3, 2025). SOS contractor page: no 2025–26 changes announced. **Limit:** the 69th-Assembly bill index and session-laws pages returned 403, so 2025 enactments could only be checked through the current statute text, not an enactment list.\n- Mirror spot-check: n/a (not a flagged state). CO rule now read on the official ndlegis.gov host (previously LII only).\n- Licensing (load-bearing a): RESOLVED — § 43-07-02 \"exceeds the sum of four thousand dollars\"; § 43-07-07 D $100,000 / C $300,000 / B $500,000 / A no limit; § 43-07-04 experience statement + liability insurance certificate + WSI statement; § 43-07-10 \"before March second\"; § 43-07-11 \"Repealed by S.L. 1995, ch. 397, § 9\"; \"examination\" absent — GOV. SOS: fees $100–$450 initial, renewal by March 1, no exam or bond listed — GOV.\n- Seller disclosure (load-bearing b): RESOLVED — § 47-10-02.1(2) verbatim: \"Except as otherwise provided in an offer to purchase agreement, before the parties sign the final acceptance of the purchase agreement … the seller … shall prepare a written disclosure form\"; broker/salesperson trigger; subsection 7 exemptions; no chimney/fireplace named — GOV — https://ndlegis.gov/cencode/t47c10.pdf. REALTORS form line: STILL OPEN (members-only).\n- CO law (load-bearing c): RESOLVED + CORRECTED attribution — see (1); issued under N.D.C.C. 43-09 (electricians; general authority 43-09-05, law implemented 43-09-21, -22), not a State Fire Marshal rule.\n- Remedies: § 51-15-09 up to 3x actual damages if knowing + mandatory costs/fees; § 51-15-11 up to $5,000 per violation (incl. ch. 51-18); § 51-18-02(1) third business day / fifteenth business day for 65+ over $50 — GOV.\n- Dead links: none — all 8 URLs loaded (firststop.sos.nd.gov/search/contractor renders only a JS shell titled \"Secretary of State\" but resolves). Added the official ndlegis.gov URL for the CO rule beside the LII mirror.\n- Corrections made this pass: CO rule attributed to the electrical wiring standards (State Electrical Board title), not the State Fire Marshal, with its July 1, 2026 amendment noted; § 47-10-02.1 modifier quoted exactly (\"an offer to purchase agreement\") and placed at subsection 2; subsection 7 exemptions added.\n- Template-leakage sweep: clean."
   },
   "sections": [
     {
@@ -53,7 +53,7 @@
         "GOV"
       ],
       "confidenceNote": "medium-high; broker-triggered, chimney not a named line",
-      "markdown": "North Dakota's seller disclosure lives in **N.D.C.C. § 47-10-02.1** but is **narrower than most: the mandatory-form duty is triggered when a real estate broker/salesperson represents or assists a party** to the sale of a 1–4-unit residential dwelling — a true **FSBO with no agent can fall outside the form requirement** (STATE LAW). The seller must disclose known material defects across structural, mechanical, heating, and environmental systems on an **actual-knowledge, good-faith** basis; **fireplace/heating condition is captured in the mechanical/heating items, but \"chimney\" is not called out as its own named line** on the standard ND Realtors form (confirm the exact wording before publish). Disclosure is also **before final acceptance and \"except as otherwise provided in the offer to purchase\"** — so it can be modified by agreement. No inspection is mandated at transfer; NFPA 211 Level 2 stays a NATIONAL STANDARD."
+      "markdown": "North Dakota's seller disclosure lives in **N.D.C.C. § 47-10-02.1** but is **narrower than most: the mandatory-form duty is triggered when a real estate broker/salesperson represents or assists a party** to the sale of a 1–4-unit residential dwelling — a true **FSBO with no agent can fall outside the form requirement** (STATE LAW). The seller must disclose known material defects across structural, mechanical, heating, and environmental systems on an **actual-knowledge, good-faith** basis; **fireplace/heating condition is captured in the mechanical/heating items, but \"chimney\" is not called out as its own named line** on the standard ND Realtors form (confirm the exact wording before publish). Disclosure is also **before final acceptance and \"Except as otherwise provided in an offer to purchase agreement\"** (§ 47-10-02.1(2)) — so it can be modified by agreement. Subsection 7 exempts court-ordered and foreclosure-related sales, fiduciary (estate/guardianship/trust) sales, transfers between co-owners or to immediate family, government transfers, and never-occupied new construction. No inspection is mandated at transfer; NFPA 211 Level 2 stays a NATIONAL STANDARD."
     },
     {
       "number": "4",
@@ -95,7 +95,7 @@
         "GOV"
       ],
       "confidenceNote": "medium-high; code-based, not a standalone statute",
-      "markdown": "North Dakota's CO-alarm requirement is **code-based, not a freestanding statute** — it flows from the **adopted IRC (2024 edition from Jan 1, 2026) and the State Fire Marshal rule N.D.A.C. 24.1-06-01-40**, which requires CO alarms in dwelling units with **fuel-fired appliances or an attached garage** — outside each sleeping area, on every habitable level, and in any bedroom containing a fuel-fired appliance, interconnected where more than one is required (STATE RULE + NATIONAL STANDARD via code adoption). There is **no statewide mandatory pre-sale CO certificate.** A permitted chimney or stove job is the natural moment to verify alarms."
+      "markdown": "North Dakota's CO-alarm requirement is **code-based, not a freestanding statute** — it flows from the **adopted IRC (2024 edition from Jan 1, 2026) and the N.D.A.C. 24.1-06-01-40** — a rule in the **Electrical Wiring Standards (Title 24.1, the State Electrical Board's title; general authority N.D.C.C. 43-09-05), not a State Fire Marshal rule** — headed \"Smoke alarms, heat alarms, fire alarm systems, and carbon monoxide alarm requirements for evacuation and life safety\" and **last amended effective July 1, 2026** (official text: ndlegis.gov/information/acdata/pdf/24.1-06-01.pdf, read Sep 25, 2026). It requires CO alarms in dwelling units with **fuel-fired appliances or an attached garage** — outside each sleeping area, on every habitable level, and in any bedroom containing a fuel-fired appliance, interconnected where more than one is required (STATE RULE + NATIONAL STANDARD via code adoption). There is **no statewide mandatory pre-sale CO certificate.** A permitted chimney or stove job is the natural moment to verify alarms."
     },
     {
       "number": "7",
@@ -157,7 +157,7 @@
       "title": "/rights table row (internal)",
       "evidence": [],
       "confidenceNote": null,
-      "markdown": "License: **YES — state contractor license by dollar class (N.D.C.C. ch. 43-07), required when a job exceeds $4,000; jobs of $4,000 or less unlicensed; no exam, no bond** · Registration: **SoS contractor license (liability insurance + WSI coverage + sworn experience statement; Classes A–D)** · Disclosure law: **YES but broker-triggered (§ 47-10-02.1), fireplace within mechanical/heating, \"chimney\" not a named line** · 3-day cancel: **YES (ch. 51-18; 15 days for 65+)** · CO law: **code/rule-based (2024 IRC eff. Jan 1, 2026 / N.D.A.C. 24.1-06-01-40); no pre-sale certificate** · Lookup: firststop.sos.nd.gov/search/contractor"
+      "markdown": "License: **YES — state contractor license by dollar class (N.D.C.C. ch. 43-07), required when a job exceeds $4,000; jobs of $4,000 or less unlicensed; no exam, no bond** · Registration: **SoS contractor license (liability insurance + WSI coverage + sworn experience statement; Classes A–D)** · Disclosure law: **YES but broker-triggered (§ 47-10-02.1), fireplace within mechanical/heating, \"chimney\" not a named line** · 3-day cancel: **YES (ch. 51-18; 15 days for 65+)** · CO law: **code/rule-based (2024 IRC eff. Jan 1, 2026 / N.D.A.C. 24.1-06-01-40, electrical-wiring-standards rule amended eff. Jul 1, 2026); no pre-sale certificate** · Lookup: firststop.sos.nd.gov/search/contractor"
     }
   ],
   "story": {
@@ -171,9 +171,9 @@
     "disclosure_law": "YES but broker-triggered (N.D.C.C. 47-10-02.1); statute names no chimney item",
     "chimney_item_on_form": "UNVERIFIED — statute names none; REALTORS form not checked",
     "three_day_cancel": "YES (N.D.C.C. 51-18-02; 15 business days for 65+ over $50)",
-    "co_law": "rule/code-based (N.D.A.C. 24.1-06-01-40; 2024 IRC eff. Jan 1 2026); no pre-sale certificate",
+    "co_law": "rule/code-based (N.D.A.C. 24.1-06-01-40, electrical-wiring-standards rule amended eff. Jul 1 2026; 2024 IRC eff. Jan 1 2026); no pre-sale certificate",
     "lookup_url": "firststop.sos.nd.gov/search/contractor",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -183,11 +183,11 @@
     "disclosure_law": "YES but broker-triggered (§ 47-10-02.1), fireplace within mechanical/heating, \"chimney\" not a named line",
     "chimney_item_on_form": "",
     "three_day_cancel": "YES (ch. 51-18; 15 days for 65+)",
-    "co_law": "code/rule-based (2024 IRC eff. Jan 1, 2026 / N.D.A.C. 24.1-06-01-40); no pre-sale certificate",
+    "co_law": "code/rule-based (2024 IRC eff. Jan 1, 2026 / N.D.A.C. 24.1-06-01-40, electrical-wiring-standards rule amended eff. Jul 1, 2026); no pre-sale certificate",
     "lookup_url": "firststop.sos.nd.gov/search/contractor"
   },
   "tableRowStale": false,
-  "lastVerified": "2026-09-15",
+  "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [
     {
@@ -233,10 +233,10 @@
     {
       "id": "verdict-co",
       "label": "CO alarm required in your home?",
-      "answer": "SEE SECTION",
-      "note": "Flagged in the verification caveats — read the section",
+      "answer": "LIMITED",
+      "note": "code/rule-based (2024 IRC eff. Jan 1, 2026 / N.D.A.C. 24.1-06-01-40…",
       "anchor": "co-law",
-      "rule": "co:limited→caveat-downgrade",
+      "rule": "co:limited",
       "derivedFrom": "§11: co_law",
       "evidence": null
     },
@@ -276,14 +276,14 @@
     {
       "id": "faq-what-to-do",
       "q": "What should I check before hiring a chimney company in North Dakota?",
-      "a": "State licensing: YES — state contractor license by dollar class (N.D.C.C. ch. 43-07), required when a job exceeds $4,000; jobs of $4,000 or less unlicensed; no exam, no bond. Registration or credential: SoS contractor license (liability insurance + WSI coverage + sworn experience statement; Classes A–D). Seller disclosure at sale: YES but broker-triggered (§ 47-10-02.1), fireplace within mechanical/heating, \"chimney\" not a named line. Right to cancel a sale made at your home: YES (ch. 51-18; 15 days for 65+). Carbon monoxide alarm law: code/rule-based (2024 IRC eff. Jan 1, 2026 / N.D.A.C. 24.1-06-01-40); no pre-sale certificate. Where to check a contractor: firststop.sos.nd.gov/search/contractor. Then ask the eight questions below, get the inspection findings in writing with photos, and never sign for \"emergency\" work on the day of a door-knock.",
+      "a": "State licensing: YES — state contractor license by dollar class (N.D.C.C. ch. 43-07), required when a job exceeds $4,000; jobs of $4,000 or less unlicensed; no exam, no bond. Registration or credential: SoS contractor license (liability insurance + WSI coverage + sworn experience statement; Classes A–D). Seller disclosure at sale: YES but broker-triggered (§ 47-10-02.1), fireplace within mechanical/heating, \"chimney\" not a named line. Right to cancel a sale made at your home: YES (ch. 51-18; 15 days for 65+). Carbon monoxide alarm law: code/rule-based (2024 IRC eff. Jan 1, 2026 / N.D.A.C. 24.1-06-01-40, electrical-wiring-standards rule amended eff. Jul 1, 2026); no pre-sale certificate. Where to check a contractor: firststop.sos.nd.gov/search/contractor. Then ask the eight questions below, get the inspection findings in writing with photos, and never sign for \"emergency\" work on the day of a door-knock.",
       "expanded": true,
       "derivedFrom": "verified summary row (§11)"
     },
     {
       "id": "faq-home-sale",
       "q": "Is a chimney inspection required when a home sells in North Dakota?",
-      "a": "North Dakota's seller disclosure lives in N.D.C.C. § 47-10-02.1 but is narrower than most: the mandatory-form duty is triggered when a real estate broker/salesperson represents or assists a party to the sale of a 1–4-unit residential dwelling — a true FSBO with no agent can fall outside the form requirement (STATE LAW). The seller must disclose known material defects across structural, mechanical, heating, and environmental systems on an actual-knowledge, good-faith basis; fireplace/heating condition is captured in the mechanical/heating items, but \"chimney\" is not called out as its own named line on the standard ND Realtors form (confirm the exact wording before publish). Disclosure is also before final acceptance and \"except as otherwise provided in the offer to purchase\" — so it can be modified by agreement.",
+      "a": "North Dakota's seller disclosure lives in N.D.C.C. § 47-10-02.1 but is narrower than most: the mandatory-form duty is triggered when a real estate broker/salesperson represents or assists a party to the sale of a 1–4-unit residential dwelling — a true FSBO with no agent can fall outside the form requirement (STATE LAW). The seller must disclose known material defects across structural, mechanical, heating, and environmental systems on an actual-knowledge, good-faith basis; fireplace/heating condition is captured in the mechanical/heating items, but \"chimney\" is not called out as its own named line on the standard ND Realtors form (confirm the exact wording before publish). Disclosure is also before final acceptance and \"Except as otherwise provided in an offer to purchase agreement\" (§ 47-10-02.1(2)) — so it can be modified by agreement.",
       "expanded": false,
       "derivedFrom": "§3 text"
     },

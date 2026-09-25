@@ -6,13 +6,13 @@
   "researched": "2026-07-06",
   "lawsCitedAs": "Sep 2026",
   "headerNote": null,
-  "verified": "2026-09-15",
+  "verified": "2026-09-25",
   "publishVerdict": "READY WITH CAVEATS",
-  "publishVerdictNote": "2026 CSBC effective date pending; § 20-327c/§ 29-453 text verified via Justia mirror, section titles via cga.ct.gov",
+  "publishVerdictNote": "(1) 2026 CSBC effective date still pending RRC approval; (2) cite § 20-327b by section + DCP form question numbers, not subdivision letters; (3) P.A. 23-164 effective date is REF-sourced.",
   "verification": {
-    "heading": "Verification pass — September 2026",
-    "checked": "2026-09-15",
-    "markdown": "Checked 2026-09-15 by verification agent. Laws cited as of Sep 2026.\n- HIC threshold: RESOLVED — § 20-419(5) \"total price … exceeds two hundred dollars\"; § 20-419(4)(B) excludes persons whose contracts total ≤ $1,000 in 12 consecutive months; fee $120 (§ 20-421); 2026 Supplement — https://www.cga.ct.gov/current/pub/chap_400.htm — GOV\n- Guaranty Fund cap: RESOLVED — $25,000 per claim (§ 20-432(l)); registered-contractor requirement — https://portal.ct.gov/dcp/knowledge-base/articles/consumer-topics/home-improvement/home-improvement-guaranty-fund — GOV\n- § 20-327b disclosure + chimney item: RESOLVED — \"Chimney, Fireplace, Wood or Coal Stove problems?\" (d)(2)(H)(xi) — https://law.justia.com/codes/connecticut/title-20/chapter-392/section-20-327b/ — REF mirror (2024 code); section title confirmed on cga.ct.gov chap_392 (GOV)\n- § 20-327c credit: RESOLVED (still in force) — $500 credit at closing if report not furnished; history P.A. 12-122, 19-192, 23-84; cga.ct.gov 2026 Supplement TOC still lists \"Credit due purchaser at closing if report not furnished\" — https://law.justia.com/codes/connecticut/title-20/chapter-392/section-20-327c/ — GOV (title) + REF (text)\n- CO affidavit § 29-453: RESOLVED — mandatory affidavit at closing, no credit alternative in current text, P.A. 23-164 — https://law.justia.com/codes/connecticut/title-29/chapter-541a/section-29-453/ — REF mirror (cga.ct.gov fetch failed)\n- Building code: RESOLVED — 2026 CSBC (2024 IRC) delayed from July 1, 2026 pending RRC; 2022 CSBC continues — https://portal.ct.gov/das/office-of-state-building-inspector/building-and-fire-code-adoption-process — GOV\n- Enforcement: RESOLVED as patterns — DCP alerts 2023-10-30 and 2025-11-03 (48 chimney complaints since fall 2024) — https://portal.ct.gov/dcp/news-releases-from-the-department-of-consumer-protection/2025-news-releases/get-your-chimney-cleaned-but-be-cautious-of-chimney-sweep-and-repair-scams — GOV\n- Template-leakage sweep: clean (NY/PA/NJ/MI/OH/Maryland only as labeled comparisons)."
+    "heading": "Verification pass — September 25, 2026",
+    "checked": "2026-09-25",
+    "markdown": "Checked 2026-09-25 by verification agent (sweep #2).\n- 2026 law-change sweep: 7 searches + DCP 2026 news-release list + OLR \"2026 Acts Affecting Housing and Real Estate\". Findings: (1) **No 2026 public act amends Chapter 400 (Home Improvement Act), § 20-327b/c, or § 29-453/§ 29-292** per the OLR 2026 housing/real-estate acts summary — https://www.cga.ct.gov/olr/Documents/year/AA/2026AA-0090_2026%20Acts%20Affecting%20Housing%20and%20Real%20Estate.pdf — GOV. (2) **P.A. 26-58** (eff. Oct 1, 2026): code-update window after model-code publication goes from 18 months to 2 years; **P.A. 26-110** (eff. Oct 1, 2026): accessibility/variation procedure changes — neither chimney-specific (same OLR source). (3) **2026 CSBC still not in effect** — DAS: \"expected to take effect on July 1, 2026, but at this time, we await approval of the next codes by the Legislative Regulation Review Committee\" — https://portal.ct.gov/das/office-of-state-building-inspector/building-and-fire-code-adoption-process — GOV. (4) DCP May 12, 2026 remodeling alert restates HIC registration, 3-day cancel (Saturday counts), $20,000 liability insurance, Guaranty Fund paid $3M restitution in 2025 — https://portal.ct.gov/dcp/news-releases-from-the-department-of-consumer-protection/2026-news-releases/consumer-protection-warns-homeowners-planning-remodeling-projects — GOV. (5) Residential Property Condition Report revised 07/2025 (effective July 1, 2025) — chimney item now Q47. (6) Raised bills HB 5126 and HB 5275 (2026) surfaced in search but their cga.ct.gov pages could not be fetched (robots/SSL); OLR's 2026 acts summary shows no resulting change to the sections above. No 2026 chimney/fireplace/wood-stove bill found.\n- Load-bearing (a) HIC registration: RESOLVED (re-read) — § 20-419(5) \"exceeds two hundred dollars\"; § 20-419(4)(B) ≤ $1,000/12 months excluded; § 20-421 fee $120; **§ 20-421(a)(3) $20,000 general-liability proof (P.A. 21-197, eff. July 1, 2022) — ADDED to file**; § 20-432(l) $25,000 per claim; § 20-429 chapter-740 cancel notice; 2026 Supplement (rev. to Jan 1, 2026) — https://www.cga.ct.gov/current/pub/chap_400.htm — GOV\n- Load-bearing (b) disclosure + chimney item: RESOLVED on official DOC — DCP Residential Property Condition Report rev. 07/2025: Q47 \"Chimney, fireplace, wood or coal stove problems? If yes, explain:\"; Q16 heating; Q25 CO/smoke detectors; \"$500 at closing if the seller fails to furnish this report\" — https://portal.ct.gov/-/media/dcp/forms/residential-property-condition-report.pdf — DOC (linked from https://portal.ct.gov/dcp/common-elements/consumer-facts-and-contacts/real-estate — GOV). Statute subdivision designations removed from §3 copy pending official read (see blocker 2).\n- Load-bearing (c) CO affidavit § 29-453: RESOLVED on official host — cga.ct.gov 2024 Supplement: transferor \"shall present to the transferee an affidavit\" of compliant smoke and CO equipment or no CO risk (no fuel-burning appliance, fireplace or attached garage); no credit alternative; history \"P.A. 23-164, S. 1\" — https://www.cga.ct.gov/2024/sup/chap_541a.htm — GOV. Effective date Oct 1, 2023 — REF only (https://www.crameranderson.com/new-connecticut-smoke-carbon-monoxide-detector-affidavit/).\n- Guaranty Fund page: RESOLVED — \"up to $25,000\"; contractor registered at contract signing, within two years of it, or at judgment — https://portal.ct.gov/dcp/knowledge-base/articles/consumer-topics/home-improvement/home-improvement-guaranty-fund — GOV\n- Chimney scam alert 2025-11-03: re-read — 48 chimney complaints since fall 2024; repairs need HIC, cleaning does not — GOV\n- Mirror spot-check: n/a (not a flagged state); the Sep 15 Justia-only items (§ 20-327b chimney item, § 20-327c credit, § 29-453) are now backed by the official DCP form and cga.ct.gov 2024 Supplement.\n- Dead links: none — chap_400, DCP Guaranty Fund KB, DCP 2025 chimney alert, DAS code-adoption page, elicense.ct.gov, Justia § 20-327b/§ 20-327c all resolve. (Justia § 29-453 link superseded by the official cga.ct.gov 2024 Supplement link.)\n- Corrections made this pass: added § 20-421(a)(3) $20,000 liability-insurance requirement (omission); disclosure citation moved to the 07/2025 form (Q47/Q16/Q25) and unverified subdivision designations dropped; CO-affidavit effective date labeled as REF-sourced; added P.A. 26-58 note and DCP Saturday-counts note.\n- Template-leakage sweep: clean (NY/PA/NJ/MI/OH/Maryland appear only as labeled comparisons)."
   },
   "sections": [
     {
@@ -27,7 +27,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence",
-      "markdown": "Connecticut has **no chimney license and no contractor exam — it runs mandatory STATE REGISTRATION with a rare consumer backstop.** The **Home Improvement Act (Conn. Gen. Stat. Chapter 400, § 20-418 et seq.)** requires Home Improvement Contractor registration with the **Dept. of Consumer Protection (DCP)** (§ 20-420). \"Home improvement\" covers residential repair/remodeling work where **the total price agreed or offered exceeds $200** (§ 20-419(5)), and a person whose home improvement contracts with all customers **total no more than $1,000 in any 12 consecutive months** is excluded from the definition of \"contractor\" (§ 20-419(4)(B)). Application fee $120 (§ 20-421). Registration is identity + fee, **no competency exam**. DCP says chimney *repairs* (liners, caps, mortar work) require HIC registration, while cleaning-only services do not. The standout: registered contractors fund the **Home Improvement Guaranty Fund (§ 20-432)** — a homeowner who hired a *registered* contractor can recover **up to $25,000 per claim** on an unpaid judgment (§ 20-432; DCP). Public lookup: **elicense.ct.gov** (DCP verify). Using an unregistered contractor forfeits Guaranty Fund access."
+      "markdown": "Connecticut has **no chimney license and no contractor exam — it runs mandatory STATE REGISTRATION with a rare consumer backstop.** The **Home Improvement Act (Conn. Gen. Stat. Chapter 400, § 20-418 et seq.)** requires Home Improvement Contractor registration with the **Dept. of Consumer Protection (DCP)** (§ 20-420). \"Home improvement\" covers residential repair/remodeling work where **the total price agreed or offered exceeds $200** (§ 20-419(5)), and a person whose home improvement contracts with all customers **total no more than $1,000 in any 12 consecutive months** is excluded from the definition of \"contractor\" (§ 20-419(4)(B)). Application fee $120 (§ 20-421). Applicants must also show **proof of general liability insurance of not less than $20,000** (policy number and provider) — § 20-421(a)(3), added by P.A. 21-197 (effective July 1, 2022). Registration is identity + fee + insurance proof, **no competency exam**. DCP says chimney *repairs* (liners, caps, mortar work) require HIC registration, while cleaning-only services do not. The standout: registered contractors fund the **Home Improvement Guaranty Fund (§ 20-432)** — a homeowner who hired a *registered* contractor can recover **up to $25,000 per claim** on an unpaid judgment (§ 20-432; DCP). Public lookup: **elicense.ct.gov** (DCP verify). Using an unregistered contractor forfeits Guaranty Fund access."
     },
     {
       "number": "2",
@@ -39,7 +39,7 @@
       "title": "What the credential does not test",
       "evidence": [],
       "confidenceNote": null,
-      "markdown": "Registration attests to Guaranty-Fund participation and identity — **not skill, and nothing chimney-specific.** A registered contractor may never have inspected a flue. Individual certs (CSIA CCS, C-DET; NCSG CCP/CCR) remain the competence signal; the Guaranty Fund covers your *money*, not your *masonry*."
+      "markdown": "Registration attests to Guaranty-Fund participation, identity, and a $20,000 general-liability policy — **not skill, and nothing chimney-specific.** A registered contractor may never have inspected a flue. Individual certs (CSIA CCS, C-DET; NCSG CCP/CCR) remain the competence signal; the Guaranty Fund covers your *money*, not your *masonry*."
     },
     {
       "number": "3",
@@ -53,7 +53,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence; still has the opt-out",
-      "markdown": "**Uniform Property Condition Disclosure Act (§ 20-327b)** requires the seller of 1–4 unit residential property to deliver the DCP **Residential Property Condition Report** before any binder/contract. The statutory report items include **\"Chimney, Fireplace, Wood or Coal Stove problems? If YES, explain\"** (§ 20-327b(d)(2)(H)(xi)) and **\"Heating system problems?\"** (§ 20-327b(d)(2)(D)(i)) — actual-knowledge standard. **But the disclosure is functionally optional:** under **§ 20-327c a seller who simply doesn't furnish the report owes the buyer a $500 credit at closing** — and many pay it to reveal nothing. So Connecticut still has the escape hatch New York just deleted. No inspection is mandated at transfer; NFPA 211 Level 2 stays a NATIONAL STANDARD, not CT law."
+      "markdown": "**Uniform Property Condition Disclosure Act (§ 20-327b)** requires the seller of 1–4 unit residential property to deliver the DCP **Residential Property Condition Report** before any binder/contract. The current DCP form (**Residential Property Condition Report, rev. 07/2025**) asks **Q47 \"Chimney, fireplace, wood or coal stove problems? If yes, explain\"**, **Q16 \"Fuel types? … Are you aware of any heating system problems?\"**, and **Q25 \"Are there carbon monoxide or smoke detectors located in the dwelling on the property?\"** — the chimney item is a statutory report item under § 20-327b; actual-knowledge standard. **But the disclosure is functionally optional:** under **§ 20-327c a seller who simply doesn't furnish the report owes the buyer a $500 credit at closing** — and many pay it to reveal nothing. So Connecticut still has the escape hatch New York just deleted. No inspection is mandated at transfer; NFPA 211 Level 2 stays a NATIONAL STANDARD, not CT law."
     },
     {
       "number": "4",
@@ -67,7 +67,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence",
-      "markdown": "Connecticut's real strength. **A Home Improvement Act violation is a per se violation of the Connecticut Unfair Trade Practices Act — CUTPA (§ 42-110a et seq.)** — which carries **punitive damages and attorney's fees.** Under **§ 20-429**, a home-improvement contract must be written, signed by both parties, and contain the contractor's registration number, start/completion dates, and the cancellation notice; a **non-compliant contract is generally unenforceable by the contractor**, subject to a limited equitable-recovery exception in § 20-429(f) (a powerful homeowner shield). § 20-427(b) makes any chapter violation an unfair or deceptive trade practice. Home-improvement contracts are treated as **home-solicitation sales** with a **3-business-day right to cancel** (§ 42-134a et seq.; notice per § 42-135a). DCP and the AG both enforce."
+      "markdown": "Connecticut's real strength. **A Home Improvement Act violation is a per se violation of the Connecticut Unfair Trade Practices Act — CUTPA (§ 42-110a et seq.)** — which carries **punitive damages and attorney's fees.** Under **§ 20-429**, a home-improvement contract must be written, signed by both parties, and contain the contractor's registration number, start/completion dates, and the cancellation notice; a **non-compliant contract is generally unenforceable by the contractor**, subject to a limited equitable-recovery exception in § 20-429(f) (a powerful homeowner shield). § 20-427(b) makes any chapter violation an unfair or deceptive trade practice. Home-improvement contracts are treated as **home-solicitation sales** with a **3-business-day right to cancel** (§ 42-134a et seq., chapter 740; notice per § 42-135a; § 20-429 requires the contract to carry the chapter 740 cancellation notice \"regardless of\" where the sale took place). DCP's May 12, 2026 consumer alert notes the three days **include Saturday, a legal business day**, and that work may not begin during the window unless the homeowner waives it in a genuine emergency. DCP and the AG both enforce."
     },
     {
       "number": "5",
@@ -81,7 +81,7 @@
         "GOV"
       ],
       "confidenceNote": "medium-high; confirm cycle",
-      "markdown": "Statewide **Connecticut State Building Code** (IRC-based; administered by local building officials). The **2022 CSBC (2021 I-Codes) remains in force**; the **2026 CSBC (2024 IRC base) was scheduled for July 1, 2026 but is delayed** pending Legislative Regulation Review Committee approval per DAS — check status at publish. Chapter 10-type chimney/fireplace provisions apply. Relines, rebuilds, and solid-fuel appliance installs are generally permit work; routine sweeps and like-for-like caps generally are not. Local administration means local variation — say so."
+      "markdown": "Statewide **Connecticut State Building Code** (IRC-based; administered by local building officials). The **2022 CSBC (2021 I-Codes) remains in force**; the **2026 CSBC (2024 IRC base) was scheduled for July 1, 2026 but is delayed** pending Legislative Regulation Review Committee approval per DAS (still pending as of Sep 25, 2026) — check status at publish. **P.A. 26-58 (effective Oct 1, 2026)** lengthens the statutory window for updating the State Building, Fire Prevention, and Fire Safety Codes from 18 months to 2 years after a model code's first publication (per OLR summary). Chapter 10-type chimney/fireplace provisions apply. Relines, rebuilds, and solid-fuel appliance installs are generally permit work; routine sweeps and like-for-like caps generally are not. Local administration means local variation — say so."
     },
     {
       "number": "6",
@@ -95,7 +95,7 @@
         "GOV"
       ],
       "confidenceNote": "high confidence; pre-sale affidavit now mandatory",
-      "markdown": "Two layers. **§ 29-292** requires CO detection in new 1–2 family dwellings (building permits on/after Oct 1 2005; CO/occupancy certification for permits on/after Jan 1 2012). At transfer, **§ 29-453** requires the seller to hand the buyer at closing an **affidavit** that the home has compliant smoke/CO equipment (or that it poses no CO risk — no fuel-burning appliance, fireplace, or attached garage). **Public Act 23-164 (effective Oct 1, 2023) rewrote the section; the current text contains no credit alternative — the affidavit is mandatory** (exemptions for co-owner, family, court-ordered and foreclosure transfers). Note the split: CT killed the *CO* credit but kept the *disclosure* credit."
+      "markdown": "Two layers. **§ 29-292** requires CO detection in new 1–2 family dwellings (building permits on/after Oct 1 2005; CO/occupancy certification for permits on/after Jan 1 2012). At transfer, **§ 29-453** requires the seller to hand the buyer at closing an **affidavit** that the home has compliant smoke/CO equipment (or that it poses no CO risk — no fuel-burning appliance, fireplace, or attached garage). **Public Act 23-164 rewrote the section (effective Oct 1, 2023 per practitioner sources; the official statute text, read on cga.ct.gov's 2024 Supplement, contains no credit alternative — the affidavit is mandatory)**; the affidavit states the home has compliant smoke and CO equipment \"or does not pose a risk of carbon monoxide poisoning because such residential building or unit does not contain a fuel-burning appliance, fireplace or attached garage\" (exemptions for co-owner, family, court-ordered and foreclosure transfers). Note the split: CT killed the *CO* credit but kept the *disclosure* credit."
     },
     {
       "number": "7",
@@ -166,14 +166,14 @@
   },
   "faqSeeds": null,
   "table": {
-    "license_regime": "no license — mandatory HIC registration (>$200 job; <=$1,000/12mo excluded) + Guaranty Fund ($25k/claim)",
+    "license_regime": "no license — mandatory HIC registration (>$200 job; <=$1,000/12mo excluded; proof of $20k general liability insurance, 20-421(a)(3)) + Guaranty Fund ($25k/claim)",
     "registration_name": "Home Improvement Contractor (Home Improvement Act, Conn. Gen. Stat. 20-418)",
     "disclosure_law": "Yes but $500-credit opt-out (20-327b/c)",
-    "chimney_item_on_form": "Yes (Chimney, Fireplace, Wood or Coal Stove problems)",
+    "chimney_item_on_form": "Yes (DCP form rev. 07/2025 Q47: Chimney, fireplace, wood or coal stove problems)",
     "three_day_cancel": "Yes",
     "co_law": "Strong (mandatory pre-sale affidavit 29-453, no credit)",
     "lookup_url": "elicense.ct.gov",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -187,7 +187,7 @@
     "lookup_url": "elicense.ct.gov (DCP)"
   },
   "tableRowStale": false,
-  "lastVerified": "2026-09-15",
+  "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [
     {
@@ -283,7 +283,7 @@
     {
       "id": "faq-home-sale",
       "q": "Is a chimney inspection required when a home sells in Connecticut?",
-      "a": "Uniform Property Condition Disclosure Act (§ 20-327b) requires the seller of 1–4 unit residential property to deliver the DCP Residential Property Condition Report before any binder/contract. The statutory report items include \"Chimney, Fireplace, Wood or Coal Stove problems? If YES, explain\" (§ 20-327b(d)(2)(H)(xi)) and \"Heating system problems?\" (§ 20-327b(d)(2)(D)(i)) — actual-knowledge standard. But the disclosure is functionally optional: under § 20-327c a seller who simply doesn't furnish the report owes the buyer a $500 credit at closing — and many pay it to reveal nothing.",
+      "a": "Uniform Property Condition Disclosure Act (§ 20-327b) requires the seller of 1–4 unit residential property to deliver the DCP Residential Property Condition Report before any binder/contract. The current DCP form (Residential Property Condition Report, rev. 07/2025) asks Q47 \"Chimney, fireplace, wood or coal stove problems? If yes, explain\", Q16 \"Fuel types? … Are you aware of any heating system problems?\", and Q25 \"Are there carbon monoxide or smoke detectors located in the dwelling on the property?\" — the chimney item is a statutory report item under § 20-327b; actual-knowledge standard.",
       "expanded": false,
       "derivedFrom": "§3 text"
     },
