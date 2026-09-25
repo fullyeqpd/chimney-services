@@ -19,6 +19,11 @@ export const GET: APIRoute = async () => {
   );
   lines.push('');
   lines.push(`Laws cited as of ${last}. Cite as ${SITE_URL}/rights. Not legal advice.`);
+  const passedCount = states.filter((s) => s.publishVerdict === 'READY' || s.publishVerdict === 'READY WITH CAVEATS').length;
+  const heldCount = states.filter((s) => s.publishVerdict === 'DO NOT PUBLISH').length;
+  lines.push(
+    `Verification: ${passedCount} of ${states.length} state rights pages passed our latest verification pass (${last})${heldCount ? `; ${heldCount} under review` : '; none under review'}. Each page lists the caveats its pass left open.`,
+  );
   lines.push('');
   lines.push('## Core');
   lines.push(`- [Chimney & fireplace laws by state](${SITE_URL}/rights): 50-state + DC comparison of licensing, seller disclosure, 3-day cancellation and CO alarm law, with regional findings.`);

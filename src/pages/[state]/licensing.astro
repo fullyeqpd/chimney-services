@@ -3,10 +3,10 @@ import Base from '../../layouts/Base.astro';
 import Chip from '../../components/Chip.astro';
 import WhatToAsk from '../../components/WhatToAsk.astro';
 import BeforeYouRely from '../../components/BeforeYouRely.astro';
-import { getLicensing, type LicensingState } from '../../lib/content';
+import { getLicensing, getStates, type LicensingState } from '../../lib/content';
 import { fixCertOrder as fx } from '../../lib/markdown';
 import { CATEGORY_LABEL, CATEGORY_ORDER, splitUrls, urlLabel, srcClass } from '../../lib/licensing';
-import { ORG_NAME, SITE_URL, abs, monthYear, LICENSING_CSV } from '../../lib/site';
+import { ORG_NAME, SITE_URL, abs, monthYear, latest, LICENSING_CSV } from '../../lib/site';
 
 export function getStaticPaths() {
   return getLicensing().states.map((st) => ({ params: { state: st.slug }, props: { st } }));
@@ -19,6 +19,18 @@ const description = `${st.name} chimney and hearth licensing: what sweeping, sto
 const citedAs = monthYear(st.lastChecked);
 const rows = [...st.rows].sort((a, b) => CATEGORY_ORDER.indexOf(a.category_slug) - CATEGORY_ORDER.indexOf(b.category_slug));
 const ins = st.insurance;
+// The per-row checked_date drives the date text; nothing here is hardcoded.
+const rowDates = rows.map((r) => r.checked_date).filter((d): d is string => Boolean(d));
+const newestRow = latest(rowDates);
+const olderRowCount = rowDates.filter((d) => d !== newestRow).length;
+const oldestRowLabel = monthYear([...rowDates].sort()[0]);
+const rowsLabel = !newestRow
+  ? 'Check dates not recorded'
+  : olderRowCount === 0
+    ? `${rows.length === 1 ? 'Record' : `All ${rows.length} records`} checked ${monthYear(newestRow)}`
+    : `${rows.length - olderRowCount} of ${rows.length} records checked ${monthYear(newestRow)}; ${olderRowCount} still dated ${oldestRowLabel}`;
+const rightsPage = (await getStates()).find((x) => x.slug === st.slug);
+const rightsVerified = monthYear(rightsPage?.verified);
 const jsonLd = [
   {
     '@context': 'https://schema.org',
@@ -44,10 +56,10 @@ const jsonLd = [
 <Base title={title} description={description} path={path} jsonLd={jsonLd} modified={st.lastChecked} citedAs={citedAs} section="licensing">
   <nav class="crumb" aria-label="Breadcrumb"><a href="/licensing">{st.name.toUpperCase()}</a> / LICENSING BY TRADE</nav>
   <h1>{st.name}: who needs a license to work on your chimney or fireplace?</h1>
-  <p class="badge-date">Checked {citedAs ?? 'date not recorded'}<span class="dot">·</span>Laws as cited<span class="dot">·</span>Not in the Sep 2026 verification pass</p>
+  <p class="badge-date">Checked {citedAs ?? 'date not recorded'}<span class="dot">·</span>Laws as cited<span class="dot">·</span>{rowsLabel}</p>
   <p class="chips"><Chip kind="muted">Public record</Chip><Chip kind="state" abbr={st.abbr} /></p>
   {st.hasRightsPage && (
-    <p>For consumer remedies, home-sale rules and carbon monoxide law, see <a href={`/${st.slug}/rights`}>{st.name} chimney & fireplace laws — know your rights</a>. That page was verified more recently than this matrix.</p>
+    <p>For consumer remedies, home-sale rules and carbon monoxide law, see <a href={`/${st.slug}/rights`}>{st.name} chimney & fireplace laws — know your rights</a>. {rightsVerified ? `That page was verified ${rightsVerified}.` : ''}</p>
   )}
 
   <nav class="jump" aria-label="Jump to trade">

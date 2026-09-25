@@ -14,6 +14,28 @@ const title = `Chimney & Hearth Contractor Licensing by State — Trade-by-Trade
 const description = 'Chimney and hearth licensing by state and trade: sweeping, stove installs, flashing and gas work, with insurance rules and statute sources.';
 const lastChecked = latest(lic.states.map((s) => s.lastChecked));
 const citedAs = monthYear(lastChecked);
+const allRows = lic.states.flatMap((st) => st.rows.map((r) => ({ ...r, stateName: st.name })));
+const newestDate = latest(allRows.map((r) => r.checked_date));
+const newestCount = allRows.filter((r) => r.checked_date === newestDate).length;
+const olderRows = allRows.filter((r) => r.checked_date !== newestDate);
+const olderMonths = [...new Set(olderRows.map((r) => monthYear(r.checked_date)).filter(Boolean))].join(' and ');
+const newestLong = newestDate
+  ? new Date(`${newestDate}T00:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })
+  : null;
+const olderList = olderRows.map((r) => `${r.stateName} ${(CATEGORY_LABEL[r.category_slug] ?? r.category_slug).toLowerCase()}`);
+const joinList = (xs: string[]) => (xs.length < 2 ? xs.join('') : `${xs.slice(0, -1).join(', ')} and ${xs.at(-1)}`);
+const insuranceDates = lic.states.map((st) => st.insurance?.date).filter((d): d is string => Boolean(d));
+const insuranceMonth = monthYear(latest(insuranceDates));
+const NUM_WORDS = ['No', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
+const countWord = (n: number) => NUM_WORDS[n] ?? String(n);
+const readText = [
+  `This matrix comes from our July 2026 licensing research${newestLong ? `, re-verified on ${newestLong}: ${newestCount} of ${lic.rowCount} records carry that date` : ''}.`,
+  olderRows.length > 0
+    ? `${countWord(olderRows.length)} ${olderRows.length === 1 ? 'record' : 'records'} — ${joinList(olderList)} — still ${olderRows.length === 1 ? 'carries its' : 'carry their'} ${olderMonths} check date.`
+    : '',
+  insuranceMonth ? `The insurance notes on each state page were not part of that pass and keep their ${insuranceMonth} dates.` : '',
+  'Confidence and check date are shown on every record.',
+].filter(Boolean).join(' ');
 const sortRows = <T extends { category_slug: string }>(rows: T[]) =>
   [...rows].sort((a, b) => CATEGORY_ORDER.indexOf(a.category_slug) - CATEGORY_ORDER.indexOf(b.category_slug));
 
@@ -59,7 +81,7 @@ const jsonLd = [
   <p class="chips"><Chip kind="muted">Public record</Chip><Chip kind="national" /></p>
   <div class="band">
     <p class="band__title">How to read this</p>
-    <p>This matrix comes from our July 2026 licensing research. It has not been through the September verification pass that the state rights pages have — where a rights page and this table disagree, the rights page is newer. Confidence and check date are shown on every record.</p>
+    <p>{readText}</p>
   </div>
 
   <section aria-labelledby="findings" id="headline-findings">
@@ -67,25 +89,25 @@ const jsonLd = [
 
     <div class="read" id="gas-vs-chimney">
       <h3>Gas work is often licensed harder than chimney work</h3>
-      <p class="read__meta"><a class="anchor-mark" href="#gas-vs-chimney">#gas-vs-chimney</a><span>CHECKED JUL 2026</span></p>
+      <p class="read__meta"><a class="anchor-mark" href="#gas-vs-chimney">#gas-vs-chimney</a><span>CHECKED SEP 2026</span></p>
       <div class="prose">
-        <p>In every Southern state we researched, the gas side of hearth work is licensed more tightly than the chimney side. Texas licenses gas work through its plumbing and propane regulators while chimney work needs no state credential at any price, and North Carolina has no dollar threshold for gas licensure but a $40,000 threshold for its general contractor license. Most Northeastern and Midwestern states show the same mismatch, while Maryland and Michigan license both sides and Indiana neither. On the Plains the pattern inverts: Missouri, Kansas, South Dakota and Nebraska have no statewide license on either side, so "licensed" there is usually a city fact. In the West, Washington and Montana show no mismatch, for opposite reasons. The corollary holds nationally: sweeping requires no state credential in 50 of 51 jurisdictions, with Vermont's sweep certificate as the exception.</p>
+        <p>In every Southern state we researched, the gas side of hearth work is licensed more tightly than the chimney side. Texas licenses gas work through its plumbing and propane regulators while chimney work needs no state credential at any price, and North Carolina has no dollar threshold for gas licensure but a $40,000 threshold for its general contractor license. Most Northeastern and Midwestern states show the same mismatch, while Maryland and Michigan license both sides and Indiana neither. On the Plains the pattern inverts: Missouri, Kansas, South Dakota and Nebraska have no statewide license on either side, so "licensed" there is usually a city fact. In the West, Washington and Montana show no mismatch, for opposite reasons. The corollary holds nationally: in 50 of 51 jurisdictions no state credential is written for chimney sweeping. Vermont's sweep certificate is the exception, and on our reading of its rules it is required for work in public buildings, rentals included, not in an owner-occupied single-family home.</p>
       </div>
     </div>
 
     <div class="read" id="certifications-in-law">
       <h3>Where private certifications are written into law</h3>
-      <p class="read__meta"><a class="anchor-mark" href="#certifications-in-law">#certifications-in-law</a><span>CHECKED JUL 2026</span></p>
+      <p class="read__meta"><a class="anchor-mark" href="#certifications-in-law">#certifications-in-law</a><span>CHECKED SEP 2026</span></p>
       <div class="prose">
-        <p>In a handful of jurisdictions an industry certification is part of the state credential itself. Rhode Island's Decorative Heating Appliances Limited II license requires a current certification from the National Chimney Sweep Guild (NCSG) or the National Fireplace Institute (NFI). New Jersey's Master Hearth Specialist license requires NFI Master Hearth Professional certification plus five years of experience. Connecticut uses an NFI hearth course as an eligibility requirement for a gas license, and Iowa's Hearth Systems Specialty License lets NFI certification stand in for the state exam. Oklahoma goes furthest: for its Fueled Hearth Product Work license, the NFI exam is the licensing exam. Vermont's sweep certificate requires a private chimney certification such as CSIA. In these states a certification badge is the engine of the license, not an extra.</p>
+        <p>In a handful of jurisdictions an industry certification is part of the state credential itself. Rhode Island's Decorative Heating Appliances Limited II license requires a current certification from the National Chimney Sweep Guild (NCSG) or the National Fireplace Institute (NFI). New Jersey's Master Hearth Specialist license requires NFI Master Hearth Professional certification plus five years of experience. Connecticut uses an NFI hearth course as an eligibility requirement for a gas license, and Iowa's Hearth Systems Specialty License requires NFI certification in place of a state trade exam. Oklahoma goes furthest: for its Fueled Hearth Product Work license, the NFI exam is the licensing exam. Vermont's sweep certificate requires a current CSIA, Certified Chimney Professionals or NCSG certification. In these states a certification badge is the engine of the license, not an extra.</p>
       </div>
     </div>
 
     <div class="read" id="named-credentials">
       <h3>Credentials that name the chimney are rarely the rigorous ones</h3>
-      <p class="read__meta"><a class="anchor-mark" href="#named-credentials">#named-credentials</a><span>CHECKED JUL 2026</span></p>
+      <p class="read__meta"><a class="anchor-mark" href="#named-credentials">#named-credentials</a><span>CHECKED SEP 2026</span></p>
       <div class="prose">
-        <p>Eight jurisdictions name chimney or hearth work in a credential. Nevada splits masonry chimneys (C-18) from metal and prefab chimneys (C-13). Washington has a "Wood/pellet and gas stove" specialty registration, and its masonry specialty expressly includes chimney cleaning and repair — both without an exam. Arkansas has a named "Chimneys, Fireplaces" home-improvement classification, and Hawaii's C-44 and C-25 classes name free-standing fireplaces, chimneys and prefabricated steel chimneys. Utah names chimney sweepers only to exempt them. The pattern: the credentials that name the trade are registration-grade or built on outside certifications, while exam-grade licenses tend to be generic trades that never mention flues.</p>
+        <p>Beyond Vermont's sweep certificate and the hearth licenses above, few jurisdictions name chimney or hearth work in a credential at all. Nevada splits masonry chimneys (C-18) from metal and prefab chimneys (C-13). Washington has a "Wood/pellet and gas stove" specialty registration, and its masonry specialty expressly includes chimney cleaning and repair — both without an exam. Arkansas has a named "Chimneys, Fireplaces" home-improvement classification, and Hawaii's C-44 and C-25 classes name free-standing fireplaces, chimneys and prefabricated steel chimneys. Utah names chimney sweepers only to exempt them. The pattern: most of the credentials that name the trade are registration-grade or built on outside certifications — Nevada's and Hawaii's exam-based classes are the exceptions — while exam-grade licenses tend to be generic trades that never mention flues.</p>
       </div>
     </div>
 
@@ -93,23 +115,23 @@ const jsonLd = [
       <h3>"Licensed and insured" usually means less than it sounds</h3>
       <p class="read__meta"><a class="anchor-mark" href="#licensed-and-insured">#licensed-and-insured</a><span>CHECKED JUL 2026</span></p>
       <div class="prose">
-        <p>In roughly 30 of 51 jurisdictions, no state rule gives "insured" any legal content for chimney-scope work — including states with real exam licenses such as Massachusetts, Virginia, Michigan, Arizona and Nevada. Where a minimum exists it is sometimes only attested: Pennsylvania and Connecticut take the contractor's word on the application, and Florida's contractor insurance minimums are proven by signed affidavit with no certificate on file. Hawaii is the strictest: a lapse in liability or workers' compensation coverage forfeits the license automatically. Workers' compensation is the one instrument that can be checked online in every jurisdiction. That is why the "What to ask" list asks for a dated certificate of insurance rather than a promise.</p>
+        <p>In roughly 30 of 51 jurisdictions, no state rule gives "insured" any legal content for chimney-scope work — including states with real exam licenses such as Massachusetts, Virginia, Michigan, Arizona and Nevada. Where a minimum exists it is sometimes only attested: Pennsylvania and Connecticut take the contractor's word on the application, and Florida's contractor insurance minimums are proven by signed affidavit with no certificate on file. Hawaii is the strictest: a lapse in liability or workers' compensation coverage forfeits the license automatically. Workers' compensation is the instrument most often checkable: our research found a public online coverage lookup in most jurisdictions, though not confirmed in every one. That is why the "What to ask" list asks for a dated certificate of insurance rather than a promise.</p>
       </div>
     </div>
 
     <div class="read" id="three-countries">
       <h3>Each region regulates a different thing</h3>
-      <p class="read__meta"><a class="anchor-mark" href="#three-countries">#three-countries</a><span>CHECKED JUL 2026</span></p>
+      <p class="read__meta"><a class="anchor-mark" href="#three-countries">#three-countries</a><span>CHECKED SEP 2026</span></p>
       <div class="prose">
-        <p>The East tends to regulate the installer, through trade credentials. The South tends to regulate the price of the job, through a ladder of dollar thresholds that runs from Arkansas at $2,000 to North Carolina at $40,000, with Texas and Georgia never licensing chimney work at all. The West tends to regulate the device: which wood stoves may be sold, installed or left in place when a home changes hands. For a homeowner, that means the right first question depends on where you live — who the person is, how big the job is, or what is being installed.</p>
+        <p>The East tends to regulate the installer, through trade credentials. The South tends to regulate the price of the job, through a ladder of dollar thresholds that runs from Arkansas at $2,000 to North Carolina at $40,000, with Texas never licensing chimney work at all and Georgia's licensing board exempting masonry and fireplace specialists by a policy it says is subject to change. The West tends to regulate the device: which wood stoves may be sold, installed or left in place when a home changes hands. For a homeowner, that means the right first question depends on where you live — who the person is, how big the job is, or what is being installed.</p>
       </div>
     </div>
 
     <div class="read" id="codes-not-national">
       <h3>The building code is not national either</h3>
-      <p class="read__meta"><a class="anchor-mark" href="#codes-not-national">#codes-not-national</a><span>CHECKED JUL 2026</span></p>
+      <p class="read__meta"><a class="anchor-mark" href="#codes-not-national">#codes-not-national</a><span>CHECKED SEP 2026</span></p>
       <div class="prose">
-        <p>It is common to say that manufacturer's installation instructions are law everywhere through the International Residential Code. That premise fails or changes in a long list of places. Missouri has no statewide building code at all, and Wyoming has no statewide baseline. Vermont has no residential code for owner-occupied single-family homes, Wisconsin uses its own Uniform Dwelling Code, and New Mexico's mechanical side follows the Uniform Mechanical Code. Several states also sit on older code editions than their neighbors, so the edition that applies has to be pinned state by state — and sometimes county by county.</p>
+        <p>It is common to say that manufacturer's installation instructions are law everywhere through the International Residential Code. That premise fails or changes in a long list of places. Missouri has no statewide residential building code, and neither does Wyoming for private homes. Vermont has no residential code for owner-occupied single-family homes, Wisconsin uses its own Uniform Dwelling Code, and New Mexico's mechanical side follows the Uniform Mechanical Code. Several states also sit on older code editions than their neighbors, so the edition that applies has to be pinned state by state — and sometimes county by county.</p>
       </div>
     </div>
   </section>

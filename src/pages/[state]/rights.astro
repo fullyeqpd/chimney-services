@@ -183,7 +183,7 @@ const verdictClass = (a: string) => (a === 'SEE SECTION' ? 'verdict__answer verd
             <p class="spine-label">The story</p>
             <h2 id="the-story">What makes {s.name} different?</h2>
             <div class="read" id="story">
-              <p class="read__meta"><a class="anchor-mark" href="#story">#story</a><span>{researchedLabel?.toUpperCase()}</span><Chip kind="muted">{s.provenance}</Chip></p>
+              <p class="read__meta"><a class="anchor-mark" href="#story">#story</a><span>{(verifiedLabel ? `VERIFIED ${verifiedLabel}` : `RESEARCHED ${researchedLabel ?? ''}`).toUpperCase()}</span><Chip kind="muted">{s.provenance}</Chip></p>
               <div class="prose" set:html={renderMd(s.story.markdown)} />
             </div>
           </div>

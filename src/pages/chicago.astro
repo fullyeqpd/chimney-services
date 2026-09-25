@@ -65,7 +65,7 @@ const breadcrumbLd = {
 const faqs = [
   {
     q: `Is ${c.name} licensed in ${c.address.regionName}?`,
-    a: `${c.address.regionName} issues no state licence that covers chimney sweeping, inspection or relining, so there is no state licence for this or any other chimney company to hold, and no state exam stands between a homeowner and whoever shows up. Parts of hearth work — gas, electrical, roofing, structural masonry — do carry credential requirements, and the City of Chicago runs its own contractor and permit rules on top of the state's. The "Know your rights in Illinois" section above links both the statutes and the licensing breakdown by trade.`,
+    a: `${c.address.regionName} issues no state licence that covers chimney sweeping, inspection or relining, so there is no state licence for this or any other chimney company to hold, and no state exam stands between a homeowner and whoever shows up. Parts of hearth work do carry credential requirements — roofing and flashing through a state roofing license, and most masonry in Chicago through the city's Mason Contractor license — and the City of Chicago runs its own contractor and permit rules on top of the state's. The "Know your rights in Illinois" section above links both the statutes and the licensing breakdown by trade.`,
   },
   {
     q: 'Is this page an endorsement of this company?',
@@ -412,12 +412,14 @@ const jsonLd = [breadcrumbLd, businessLd, faqLd];
       <p>
         Illinois issues no state licence that covers chimney sweeping, inspection or relining, so no state exam stands
         between a homeowner and whoever shows up — which makes the questions you ask, and the paperwork you keep, the
-        whole of your protection. What the state does give you is a home-repair regime with teeth: written contracts,
-        a consumer-rights pamphlet, and a three-day right to cancel on work sold at your door. The City of Chicago runs
+        whole of your protection. What the state does give you is paperwork with teeth: a written contract for home
+        repair over $1,000, the state's consumer-rights pamphlet, and three business days to cancel a sale of $25 or
+        more made at your home. The City of Chicago runs
         its own contractor and permit rules on top of the state's, and they are not the same rules as the suburbs
         this company serves. Read <a href={c.statePath}>Illinois: know your rights</a> for the statutes, the disclosure
         rules and the cancellation window, and <a href={c.licensingPath}>Illinois licensing by trade</a> for which parts
-        of hearth work — gas, electrical, roofing, structural masonry — do carry a credential requirement and who issues it.
+        of hearth work — roofing and flashing statewide, masonry in Chicago — do carry a credential
+        requirement and who issues it.
       </p>
       <p class="chips">
         <Chip kind="state" abbr="IL" />
