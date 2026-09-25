@@ -174,7 +174,7 @@
     "three_day_cancel": "Yes (Tenn. Code 47-18-704)",
     "co_law": "Narrow - statute covers pre-2016 hotels only (68-120-112); no existing-home/rental/at-sale CO rule; new construction via 2018 IRC where not opted out",
     "lookup_url": "https://search.cloud.commerce.tn.gov/",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -187,7 +187,7 @@
     "co_law": "NARROW — statute covers pre-2016 hotels only (§ 68-120-112); no existing-home, rental, or at-sale CO requirement; new construction via 2018 IRC where not opted out",
     "lookup_url": "search.cloud.commerce.tn.gov (Board for Licensing Contractors)"
   },
-  "tableRowStale": true,
+  "tableRowStale": false,
   "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [

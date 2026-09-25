@@ -176,7 +176,7 @@
     "three_day_cancel": "YES (home solicitation over $25, W.S. 40-12-104; clock does not start without written notice)",
     "co_law": "none statewide (2009 HB0187 failed) — local IRC R315 only where a code exists",
     "lookup_url": "none statewide — cheyennewy.portal.opengov.com (Cheyenne) / wyelectrician.imagetrendlicense.com (electrical only)",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -189,7 +189,7 @@
     "co_law": "none statewide — local IRC R315 only where a code exists",
     "lookup_url": "none statewide — cheyennewy.portal.opengov.com (Cheyenne) / wyelectrician.imagetrendlicense.com (electrical only)"
   },
-  "tableRowStale": true,
+  "tableRowStale": false,
   "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [

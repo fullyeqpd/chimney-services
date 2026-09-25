@@ -173,7 +173,7 @@
     "three_day_cancel": "Yes - Home Solicitation Sales Act, Neb. Rev. Stat. 69-1603",
     "co_law": "Yes - Carbon Monoxide Safety Act 76-601 to 76-607 (LB 34, 2015): new construction, sale/transfer, and permitted interior alteration/appliance replacement since Jan 1 2017; fireplace/fuel appliance/attached garage trigger",
     "lookup_url": "https://dol.nebraska.gov/conreg/Search",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -186,7 +186,7 @@
     "co_law": "YES — Carbon Monoxide Safety Act §§ 76-601–76-607 (LB 34, 2015): new construction, sale/transfer, and permitted interior alteration/appliance replacement since Jan 1 2017; fireplace, fuel appliance or attached garage trigger",
     "lookup_url": "dol.nebraska.gov/conreg/Search"
   },
-  "tableRowStale": true,
+  "tableRowStale": false,
   "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [

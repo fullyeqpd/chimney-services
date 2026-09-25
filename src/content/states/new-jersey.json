@@ -173,7 +173,7 @@
     "three_day_cancel": "Yes (N.J.S.A. 56:8-151)",
     "co_law": "Strong (pre-sale CSACMAPFEC certificate, N.J.A.C. 5:70-2.3)",
     "lookup_url": "njconsumeraffairs.gov",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -186,7 +186,7 @@
     "co_law": "strong — pre-sale compliance certificate (N.J.A.C. 5:70-2.3)",
     "lookup_url": "njconsumeraffairs.gov (HIC search)"
   },
-  "tableRowStale": true,
+  "tableRowStale": false,
   "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [

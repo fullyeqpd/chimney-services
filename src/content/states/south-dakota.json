@@ -173,7 +173,7 @@
     "three_day_cancel": "YES (SDCL 37-24-5.1 to 5.7, $25+ door-to-door)",
     "co_law": "none by statute — only locally adopted IRC R315 (SDCL 11-10-12 permits 2024 IRC); no pre-sale certificate",
     "lookup_url": "consumer.sd.gov + city building departments",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -186,7 +186,7 @@
     "co_law": "none by statute — only locally adopted IRC R315 (SDCL 11-10-12 permits 2024 IRC); no pre-sale certificate",
     "lookup_url": "consumer.sd.gov + city building departments"
   },
-  "tableRowStale": true,
+  "tableRowStale": false,
   "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [

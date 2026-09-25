@@ -180,7 +180,7 @@
     "three_day_cancel": "YES (door-to-door, HRS 481C, sales ≥$5/$25; violation = UDAP → treble under 480-13)",
     "co_law": "NONE statewide — code-only (2018 IRC R315, new construction/permits)",
     "lookup_url": "mypvl.dcca.hawaii.gov/public-license-search/",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -193,7 +193,7 @@
     "co_law": "NONE statewide — code-only (2018 IRC R315, new construction/permits)",
     "lookup_url": "mypvl.dcca.hawaii.gov/public-license-search/ (also businesscheck.hawaii.gov)"
   },
-  "tableRowStale": true,
+  "tableRowStale": false,
   "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [

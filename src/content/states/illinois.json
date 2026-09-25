@@ -173,7 +173,7 @@
     "three_day_cancel": "Yes (815 ILCS 505/2B)",
     "co_law": "Broad (430 ILCS 135, within 15 ft of sleeping rooms)",
     "lookup_url": "Chicago licensed-contractor search + IDFPR (roofing) + IL AG",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -186,7 +186,7 @@
     "co_law": "broad (430 ILCS 135, within 15 ft of sleeping rooms)",
     "lookup_url": "Chicago licensed-contractor search + IDFPR (roofing) + IL AG complaints"
   },
-  "tableRowStale": true,
+  "tableRowStale": false,
   "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [

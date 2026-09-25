@@ -68,12 +68,12 @@
       "three_day_cancel": "YES (§ 4-89-107) + unlicensed can't sue (§ 17-25-515)",
       "co_law": "no statute located (§ 20-7-138 repealed 2013); code-only IRC R315 new construction",
       "lookup_url": "http://aclb2.arkansas.gov/clbsearch.php",
-      "researched_date": "2026-09-15",
+      "researched_date": "2026-09-25",
       "slug": "arkansas",
       "abbr": "AR",
       "hasPage": true,
       "stateVerified": "2026-09-25",
-      "rowStale": true
+      "rowStale": false
     },
     {
       "state": "California",
@@ -84,12 +84,12 @@
       "three_day_cancel": "Yes (3 business days; 5 for seniors, Civ. Code § 1689.6)",
       "co_law": "Broad (all existing dwellings with fossil-fuel appliance/fireplace/attached garage, H&S § 17926)",
       "lookup_url": "cslb.ca.gov",
-      "researched_date": "2026-09-15",
+      "researched_date": "2026-09-25",
       "slug": "california",
       "abbr": "CA",
       "hasPage": true,
       "stateVerified": "2026-09-25",
-      "rowStale": true
+      "rowStale": false
     },
     {
       "state": "Colorado",
@@ -100,12 +100,12 @@
       "three_day_cancel": "PARTIAL — state law for credit sales only (C.R.S. 5-3-401 to -405); cash door-to-door via federal FTC Cooling-Off Rule (16 CFR 429)",
       "co_law": "strong — sale trigger + multi-family + rentals (C.R.S. 38-45-102/103/104, HB 09-1091)",
       "lookup_url": "denvergov.org + pprbd.org + coag.gov",
-      "researched_date": "2026-09-15",
+      "researched_date": "2026-09-25",
       "slug": "colorado",
       "abbr": "CO",
       "hasPage": true,
       "stateVerified": "2026-09-25",
-      "rowStale": true
+      "rowStale": false
     },
     {
       "state": "Connecticut",
@@ -196,12 +196,12 @@
       "three_day_cancel": "YES (door-to-door, HRS 481C, sales ≥$5/$25; violation = UDAP → treble under 480-13)",
       "co_law": "NONE statewide — code-only (2018 IRC R315, new construction/permits)",
       "lookup_url": "mypvl.dcca.hawaii.gov/public-license-search/",
-      "researched_date": "2026-09-15",
+      "researched_date": "2026-09-25",
       "slug": "hawaii",
       "abbr": "HI",
       "hasPage": true,
       "stateVerified": "2026-09-25",
-      "rowStale": true
+      "rowStale": false
     },
     {
       "state": "Idaho",
@@ -212,12 +212,12 @@
       "three_day_cancel": "YES (door-to-door ≥$25, IDAPA 04.02.01 Subch. Q)",
       "co_law": "code-only — 2018 IRC R315 as amended by IDAPA 24.39.30; no standalone, rental or at-sale statute",
       "lookup_url": "edopl.idaho.gov/OnlineServices/?link=PubSearch",
-      "researched_date": "2026-09-15",
+      "researched_date": "2026-09-25",
       "slug": "idaho",
       "abbr": "ID",
       "hasPage": true,
       "stateVerified": "2026-09-25",
-      "rowStale": true
+      "rowStale": false
     },
     {
       "state": "Illinois",
@@ -228,12 +228,12 @@
       "three_day_cancel": "Yes (815 ILCS 505/2B)",
       "co_law": "Broad (430 ILCS 135, within 15 ft of sleeping rooms)",
       "lookup_url": "Chicago licensed-contractor search + IDFPR (roofing) + IL AG",
-      "researched_date": "2026-09-15",
+      "researched_date": "2026-09-25",
       "slug": "illinois",
       "abbr": "IL",
       "hasPage": true,
       "stateVerified": "2026-09-25",
-      "rowStale": true
+      "rowStale": false
     },
     {
       "state": "Indiana",
@@ -324,12 +324,12 @@
       "three_day_cancel": "Yes (32 M.R.S. 4664, 3 full business days)",
       "co_law": "Strong - detectors near bedrooms; purchaser certifies at closing to install within 30 days; landlords each occupancy (25 M.R.S. 2468)",
       "lookup_url": "https://www.maine.gov/pfr/professionallicensing/professions/maine-fuel-board",
-      "researched_date": "2026-09-15",
+      "researched_date": "2026-09-25",
       "slug": "maine",
       "abbr": "ME",
       "hasPage": true,
       "stateVerified": "2026-09-25",
-      "rowStale": true
+      "rowStale": false
     },
     {
       "state": "Maryland",
@@ -404,12 +404,12 @@
       "three_day_cancel": "Yes (§ 75-66-3; lost if buyer requests emergency work and seller substantially begins)",
       "co_law": "None statewide (smoke or CO) — local IRC/IFC only",
       "lookup_url": "https://www.msboc.us",
-      "researched_date": "2026-09-15",
+      "researched_date": "2026-09-25",
       "slug": "mississippi",
       "abbr": "MS",
       "hasPage": true,
       "stateVerified": "2026-09-25",
-      "rowStale": true
+      "rowStale": false
     },
     {
       "state": "Missouri",
@@ -420,12 +420,12 @@
       "three_day_cancel": "Partial - RSMo 407.705 covers consumer-credit home solicitation sales only; cash door-to-door sales covered by federal FTC Cooling-Off Rule (16 CFR 429)",
       "co_law": "None statewide (local codes only; no pre-sale certificate)",
       "lookup_url": "https://www.kcmo.gov/city-hall/departments/city-planning-development/contractor-licensing",
-      "researched_date": "2026-09-15",
+      "researched_date": "2026-09-25",
       "slug": "missouri",
       "abbr": "MO",
       "hasPage": true,
       "stateVerified": "2026-09-25",
-      "rowStale": true
+      "rowStale": false
     },
     {
       "state": "Montana",
@@ -452,12 +452,12 @@
       "three_day_cancel": "Yes - Home Solicitation Sales Act, Neb. Rev. Stat. 69-1603",
       "co_law": "Yes - Carbon Monoxide Safety Act 76-601 to 76-607 (LB 34, 2015): new construction, sale/transfer, and permitted interior alteration/appliance replacement since Jan 1 2017; fireplace/fuel appliance/attached garage trigger",
       "lookup_url": "https://dol.nebraska.gov/conreg/Search",
-      "researched_date": "2026-09-15",
+      "researched_date": "2026-09-25",
       "slug": "nebraska",
       "abbr": "NE",
       "hasPage": true,
       "stateVerified": "2026-09-25",
-      "rowStale": true
+      "rowStale": false
     },
     {
       "state": "Nevada",
@@ -468,12 +468,12 @@
       "three_day_cancel": "Yes (door-to-door $25+, NRS 598.230)",
       "co_law": "Limited (new construction via local code; no statewide statute confirmed)",
       "lookup_url": "nvcontractorsboard.com",
-      "researched_date": "2026-09-15",
+      "researched_date": "2026-09-25",
       "slug": "nevada",
       "abbr": "NV",
       "hasPage": true,
       "stateVerified": "2026-09-25",
-      "rowStale": true
+      "rowStale": false
     },
     {
       "state": "New Hampshire",
@@ -500,12 +500,12 @@
       "three_day_cancel": "Yes (N.J.S.A. 56:8-151)",
       "co_law": "Strong (pre-sale CSACMAPFEC certificate, N.J.A.C. 5:70-2.3)",
       "lookup_url": "njconsumeraffairs.gov",
-      "researched_date": "2026-09-15",
+      "researched_date": "2026-09-25",
       "slug": "new-jersey",
       "abbr": "NJ",
       "hasPage": true,
       "stateVerified": "2026-09-25",
-      "rowStale": true
+      "rowStale": false
     },
     {
       "state": "New Mexico",
@@ -548,12 +548,12 @@
       "three_day_cancel": "PARTIAL — state 25A-39 covers consumer-credit home solicitation only; cash sales via federal FTC Cooling-Off Rule",
       "co_law": "strong — landlord CO statute 42-42(a)(7) ($250 infraction 42-44) + new-construction code",
       "lookup_url": "nclbgc.org",
-      "researched_date": "2026-09-15",
+      "researched_date": "2026-09-25",
       "slug": "north-carolina",
       "abbr": "NC",
       "hasPage": true,
       "stateVerified": "2026-09-25",
-      "rowStale": true
+      "rowStale": false
     },
     {
       "state": "North Dakota",
@@ -580,12 +580,12 @@
       "three_day_cancel": "Yes (R.C. 1345.22)",
       "co_law": "Unclear — code-based new construction; existing-home coverage unconfirmed",
       "lookup_url": "city registries + ohioattorneygeneral.gov",
-      "researched_date": "2026-09-15",
+      "researched_date": "2026-09-25",
       "slug": "ohio",
       "abbr": "OH",
       "hasPage": true,
       "stateVerified": "2026-09-25",
-      "rowStale": true
+      "rowStale": false
     },
     {
       "state": "Oklahoma",
@@ -612,12 +612,12 @@
       "three_day_cancel": "Yes (Home Solicitation Sales, ORS 83.720)",
       "co_law": "Broad + point of sale (ORS 105.838)",
       "lookup_url": "oregon.gov/ccb",
-      "researched_date": "2026-09-15",
+      "researched_date": "2026-09-25",
       "slug": "oregon",
       "abbr": "OR",
       "hasPage": true,
       "stateVerified": "2026-09-25",
-      "rowStale": true
+      "rowStale": false
     },
     {
       "state": "Pennsylvania",
@@ -660,12 +660,12 @@
       "three_day_cancel": "PARTIAL — 37-2-502 covers consumer-credit home solicitation only; cash sales via federal FTC Cooling-Off Rule",
       "co_law": "WEAK — code/new-construction only; no rental or pre-sale CO statute located",
       "lookup_url": "llr.sc.gov/res",
-      "researched_date": "2026-09-15",
+      "researched_date": "2026-09-25",
       "slug": "south-carolina",
       "abbr": "SC",
       "hasPage": true,
       "stateVerified": "2026-09-25",
-      "rowStale": true
+      "rowStale": false
     },
     {
       "state": "South Dakota",
@@ -676,12 +676,12 @@
       "three_day_cancel": "YES (SDCL 37-24-5.1 to 5.7, $25+ door-to-door)",
       "co_law": "none by statute — only locally adopted IRC R315 (SDCL 11-10-12 permits 2024 IRC); no pre-sale certificate",
       "lookup_url": "consumer.sd.gov + city building departments",
-      "researched_date": "2026-09-15",
+      "researched_date": "2026-09-25",
       "slug": "south-dakota",
       "abbr": "SD",
       "hasPage": true,
       "stateVerified": "2026-09-25",
-      "rowStale": true
+      "rowStale": false
     },
     {
       "state": "Tennessee",
@@ -692,12 +692,12 @@
       "three_day_cancel": "Yes (Tenn. Code 47-18-704)",
       "co_law": "Narrow - statute covers pre-2016 hotels only (68-120-112); no existing-home/rental/at-sale CO rule; new construction via 2018 IRC where not opted out",
       "lookup_url": "https://search.cloud.commerce.tn.gov/",
-      "researched_date": "2026-09-15",
+      "researched_date": "2026-09-25",
       "slug": "tennessee",
       "abbr": "TN",
       "hasPage": true,
       "stateVerified": "2026-09-25",
-      "rowStale": true
+      "rowStale": false
     },
     {
       "state": "Texas",
@@ -820,12 +820,12 @@
       "three_day_cancel": "YES (home solicitation over $25, W.S. 40-12-104; clock does not start without written notice)",
       "co_law": "none statewide (2009 HB0187 failed) — local IRC R315 only where a code exists",
       "lookup_url": "none statewide — cheyennewy.portal.opengov.com (Cheyenne) / wyelectrician.imagetrendlicense.com (electrical only)",
-      "researched_date": "2026-09-15",
+      "researched_date": "2026-09-25",
       "slug": "wyoming",
       "abbr": "WY",
       "hasPage": true,
       "stateVerified": "2026-09-25",
-      "rowStale": true
+      "rowStale": false
     }
   ],
   "csvRowCount": 51,

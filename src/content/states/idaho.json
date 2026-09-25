@@ -173,7 +173,7 @@
     "three_day_cancel": "YES (door-to-door ≥$25, IDAPA 04.02.01 Subch. Q)",
     "co_law": "code-only — 2018 IRC R315 as amended by IDAPA 24.39.30; no standalone, rental or at-sale statute",
     "lookup_url": "edopl.idaho.gov/OnlineServices/?link=PubSearch",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -186,7 +186,7 @@
     "co_law": "code-only — IRC R315, new construction; no rental/at-sale statute",
     "lookup_url": "edopl.idaho.gov/OnlineServices/?link=PubSearch"
   },
-  "tableRowStale": true,
+  "tableRowStale": false,
   "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [

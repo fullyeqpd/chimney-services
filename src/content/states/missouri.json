@@ -173,7 +173,7 @@
     "three_day_cancel": "Partial - RSMo 407.705 covers consumer-credit home solicitation sales only; cash door-to-door sales covered by federal FTC Cooling-Off Rule (16 CFR 429)",
     "co_law": "None statewide (local codes only; no pre-sale certificate)",
     "lookup_url": "https://www.kcmo.gov/city-hall/departments/city-planning-development/contractor-licensing",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -186,7 +186,7 @@
     "co_law": "NONE statewide (local only; no pre-sale certificate)",
     "lookup_url": "kcmo.gov contractor licensing + ago.mo.gov complaints"
   },
-  "tableRowStale": true,
+  "tableRowStale": false,
   "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [

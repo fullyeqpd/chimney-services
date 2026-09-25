@@ -173,7 +173,7 @@
     "three_day_cancel": "PARTIAL — state 25A-39 covers consumer-credit home solicitation only; cash sales via federal FTC Cooling-Off Rule",
     "co_law": "strong — landlord CO statute 42-42(a)(7) ($250 infraction 42-44) + new-construction code",
     "lookup_url": "nclbgc.org",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -186,7 +186,7 @@
     "co_law": "strong — landlord statute (§ 42-42(a)(7), $250 infraction § 42-44) + new-construction code",
     "lookup_url": "nclbgc.org"
   },
-  "tableRowStale": true,
+  "tableRowStale": false,
   "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [

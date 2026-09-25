@@ -174,7 +174,7 @@
     "three_day_cancel": "YES (§ 4-89-107) + unlicensed can't sue (§ 17-25-515)",
     "co_law": "no statute located (§ 20-7-138 repealed 2013); code-only IRC R315 new construction",
     "lookup_url": "http://aclb2.arkansas.gov/clbsearch.php",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -187,7 +187,7 @@
     "co_law": "no statute located (§ 20-7-138 repealed 2013); code-only IRC R315 for new construction",
     "lookup_url": "http://aclb2.arkansas.gov/clbsearch.php"
   },
-  "tableRowStale": true,
+  "tableRowStale": false,
   "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [

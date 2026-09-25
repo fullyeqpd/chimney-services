@@ -157,7 +157,7 @@
     "three_day_cancel": "Yes (R.C. 1345.22)",
     "co_law": "Unclear — code-based new construction; existing-home coverage unconfirmed",
     "lookup_url": "city registries + ohioattorneygeneral.gov",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -170,7 +170,7 @@
     "co_law": "code-based, new construction; existing homes unclear",
     "lookup_url": "city registries + Ohio AG"
   },
-  "tableRowStale": true,
+  "tableRowStale": false,
   "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [

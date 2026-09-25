@@ -173,7 +173,7 @@
     "three_day_cancel": "PARTIAL — 37-2-502 covers consumer-credit home solicitation only; cash sales via federal FTC Cooling-Off Rule",
     "co_law": "WEAK — code/new-construction only; no rental or pre-sale CO statute located",
     "lookup_url": "llr.sc.gov/res",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -186,7 +186,7 @@
     "co_law": "WEAK — code/new-construction only; no rental or pre-sale statute located",
     "lookup_url": "llr.sc.gov/res/"
   },
-  "tableRowStale": true,
+  "tableRowStale": false,
   "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [

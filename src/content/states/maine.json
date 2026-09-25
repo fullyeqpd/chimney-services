@@ -176,7 +176,7 @@
     "three_day_cancel": "Yes (32 M.R.S. 4664, 3 full business days)",
     "co_law": "Strong - detectors near bedrooms; purchaser certifies at closing to install within 30 days; landlords each occupancy (25 M.R.S. 2468)",
     "lookup_url": "https://www.maine.gov/pfr/professionallicensing/professions/maine-fuel-board",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -189,7 +189,7 @@
     "co_law": "STRONG — detectors required near bedrooms; purchaser certifies at closing to install within 30 days (25 M.R.S. § 2468)",
     "lookup_url": "Maine OPOR license search (Fuel Board) + maine.gov/ag consumer complaints"
   },
-  "tableRowStale": true,
+  "tableRowStale": false,
   "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [

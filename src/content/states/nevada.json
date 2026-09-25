@@ -176,7 +176,7 @@
     "three_day_cancel": "Yes (door-to-door $25+, NRS 598.230)",
     "co_law": "Limited (new construction via local code; no statewide statute confirmed)",
     "lookup_url": "nvcontractorsboard.com",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -189,7 +189,7 @@
     "co_law": "limited — new construction via local code; no all-rental/pre-sale statute confirmed",
     "lookup_url": "nvcontractorsboard.com"
   },
-  "tableRowStale": true,
+  "tableRowStale": false,
   "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [

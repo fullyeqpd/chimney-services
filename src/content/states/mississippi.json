@@ -174,7 +174,7 @@
     "three_day_cancel": "Yes (§ 75-66-3; lost if buyer requests emergency work and seller substantially begins)",
     "co_law": "None statewide (smoke or CO) — local IRC/IFC only",
     "lookup_url": "https://www.msboc.us",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -187,7 +187,7 @@
     "co_law": "None statewide (smoke or CO) — local IRC/IFC only",
     "lookup_url": "https://www.msboc.us"
   },
-  "tableRowStale": true,
+  "tableRowStale": false,
   "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [

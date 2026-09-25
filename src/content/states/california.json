@@ -179,7 +179,7 @@
     "three_day_cancel": "Yes (3 business days; 5 for seniors, Civ. Code § 1689.6)",
     "co_law": "Broad (all existing dwellings with fossil-fuel appliance/fireplace/attached garage, H&S § 17926)",
     "lookup_url": "cslb.ca.gov",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -192,7 +192,7 @@
     "co_law": "existing homes + resale (H&S § 17926)",
     "lookup_url": "cslb.ca.gov"
   },
-  "tableRowStale": true,
+  "tableRowStale": false,
   "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [

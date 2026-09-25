@@ -177,7 +177,7 @@
     "three_day_cancel": "PARTIAL — state law for credit sales only (C.R.S. 5-3-401 to -405); cash door-to-door via federal FTC Cooling-Off Rule (16 CFR 429)",
     "co_law": "strong — sale trigger + multi-family + rentals (C.R.S. 38-45-102/103/104, HB 09-1091)",
     "lookup_url": "denvergov.org + pprbd.org + coag.gov",
-    "researched_date": "2026-09-15"
+    "researched_date": "2026-09-25"
   },
   "tableStatus": "IN TABLE",
   "summary": {
@@ -190,7 +190,7 @@
     "co_law": "strong — sale trigger + rentals (C.R.S. 38-45-102/103/104)",
     "lookup_url": "denvergov.org + pprbd.org + coag.gov (Stop Fraud)"
   },
-  "tableRowStale": true,
+  "tableRowStale": false,
   "lastVerified": "2026-09-25",
   "provenance": "PUBLIC RECORD",
   "verdictGrid": [
