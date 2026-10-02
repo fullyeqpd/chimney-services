@@ -792,6 +792,106 @@ table.data td.mono {
   color: var(--muted);
 }
 
+/* ---------- /rights: at-a-glance table ---------- */
+table.data--glance {
+  min-width: 760px;
+}
+table.data--glance thead th:first-child,
+table.data--glance tbody th {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background: var(--paper);
+  box-shadow: 1px 0 0 var(--ink);
+}
+table.data--glance thead th:first-child {
+  z-index: 2;
+  background: var(--panel);
+}
+table.data--glance thead th {
+  white-space: normal;
+  min-width: 96px;
+}
+table.data--glance thead th:first-child,
+table.data--glance tbody th {
+  width: 118px;
+  max-width: 118px;
+}
+table.data--glance tbody th {
+  white-space: normal;
+  font-size: 0.95rem;
+  line-height: 1.2;
+}
+table.data--glance td.glance-cell {
+  vertical-align: middle;
+  padding: 6px 8px;
+}
+.glance {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.25;
+  padding: 3px 7px;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  background: var(--paper);
+  text-decoration: none;
+}
+.glance--yes {
+  background: var(--ink);
+  color: var(--paper);
+}
+.glance--partial {
+  background: var(--panel);
+}
+.glance--see {
+  border-style: dashed;
+  border-color: var(--muted);
+  color: var(--muted);
+  font-weight: 500;
+}
+.glance:hover,
+.glance:focus-visible {
+  outline: 2px solid var(--ember);
+  outline-offset: 1px;
+}
+
+/* The full research table folds away behind a summary line. */
+.full-table {
+  margin: 20px 0 8px;
+  border-top: 1px solid var(--ink);
+}
+.full-table summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 14px;
+  padding: 12px 0;
+}
+.full-table summary::-webkit-details-marker {
+  display: none;
+}
+.full-table__title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.12rem;
+}
+.full-table__title::before {
+  content: '+ ';
+  font-family: var(--font-mono);
+  color: var(--muted);
+}
+.full-table[open] .full-table__title::before {
+  content: '− ';
+}
+.full-table summary:focus-visible {
+  outline: 2px solid var(--ember);
+}
+
 /* ---------- Buttons + forms ---------- */
 .button {
   display: inline-flex;

@@ -43,6 +43,14 @@ const lookupHref = (v: string) => {
   return null;
 };
 
+// The six short answers every state page shows, side by side. Same derivation,
+// same wording, same anchors — the national table adds nothing of its own.
+const byName = [...states].sort((a, b) => a.name.localeCompare(b.name));
+const glanceCols = (byName[0]?.verdictGrid ?? []).map((c) => ({ id: c.id, label: c.label }));
+const glanceRank = (a: string) => (a === 'YES' ? 0 : a === 'SEE SECTION' ? 3 : /^NO\b/.test(a) ? 2 : 1);
+const glanceClass = (a: string) =>
+  `glance ${a === 'YES' ? 'glance--yes' : a === 'SEE SECTION' ? 'glance--see' : /^NO\b/.test(a) ? 'glance--no' : 'glance--partial'}`;
+
 const faq = [
   {
     id: 'faq-sweep-license',
@@ -129,8 +137,50 @@ const jsonLd = [
       <a class="button" href={RIGHTS_CSV} download><Glyph name="download" /> Download the table (CSV)</a>
       <span class="fineprint">{table.csvRowCount} researched rows · cite as {SITE_URL}/rights · select a column heading to sort</span>
     </p>
+
+    <h3 id="glance-h">At a glance</h3>
+    <p class="fineprint">The six short answers from every state page, side by side. Each answer links to the section of the state page it was read from.</p>
+    <div class="table-wrap table-wrap--glance">
+      <table class="data data--glance" id="glance-table" data-sortable aria-labelledby="glance-h">
+        <caption class="skip">Short answers by state</caption>
+        <thead>
+          <tr>
+            <th scope="col" aria-sort="ascending"><button type="button">State</button></th>
+            {glanceCols.map((c) => <th scope="col"><button type="button">{c.label}</button></th>)}
+          </tr>
+        </thead>
+        <tbody>
+          {byName.map((s) => {
+            const grid = new Map(s.verdictGrid.map((c) => [c.id, c]));
+            return (
+              <tr>
+                <th scope="row" data-sort={s.name}><a href={`/${s.slug}/rights`}>{s.name}</a></th>
+                {glanceCols.map((col) => {
+                  const c = grid.get(col.id);
+                  if (!c) return <td class="glance-cell" data-sort="4">—</td>;
+                  return (
+                    <td class="glance-cell" data-sort={`${glanceRank(c.answer)} ${c.answer}`}>
+                      <a class={glanceClass(c.answer)} href={`/${s.slug}/rights#${c.anchor}`} title={c.note ?? undefined}>{c.answer}</a>
+                    </td>
+                  );
+                })}
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </div>
+    <p class="fineprint">
+      Short answers are derived mechanically from each state's verified summary row and section text. Where the text doesn't support a one-word answer, the cell says SEE SECTION and links to the section instead of guessing.
+    </p>
+
+    <details class="full-table" id="full-table">
+      <summary>
+        <span class="full-table__title">Show the full research table</span>
+        <span class="fineprint">{table.csvRowCount} rows · license regime · registration · disclosure law · chimney item on form · 3-day cancel · CO law · lookup · researched</span>
+      </summary>
     <div class="table-wrap">
-      <table class="data" id="rights-table">
+      <table class="data" id="rights-table" data-sortable>
         <caption class="skip">Chimney and fireplace laws by state</caption>
         <thead>
           <tr>
@@ -169,6 +219,7 @@ const jsonLd = [
     <p class="fineprint">
       {anyNotInTable && 'Rows marked NOT YET IN TABLE have a researched state page but no summary row in the table yet. '}Where a row is dated before its state page's verification, the verification may have corrected it — the state page is the source of record, and its short answers use the verified summary.
     </p>
+    </details>
   </section>
 
   <section aria-labelledby="regions-h" id="regions">
@@ -242,8 +293,7 @@ const jsonLd = [
 
   <script is:inline>
     (function () {
-      var table = document.getElementById('rights-table');
-      if (!table) return;
+      Array.prototype.forEach.call(document.querySelectorAll('table.data[data-sortable]'), function (table) {
       var tbody = table.tBodies[0];
       var heads = table.tHead.rows[0].cells;
       Array.prototype.forEach.call(heads, function (th, idx) {
@@ -261,6 +311,7 @@ const jsonLd = [
           });
           rows.forEach(function (r) { tbody.appendChild(r); });
         });
+      });
       });
     })();
   </script>
